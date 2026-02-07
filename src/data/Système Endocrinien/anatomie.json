@@ -1,2 +1,30 @@
 [
+  {
+    "id": 1,
+    "text": "Ghazal?",
+    "module": "Cardiology",
+    "difficulty": "medium",
+    "options": [
+      { "id": 1, "text": "Coronary artery" },
+      { "id": 2, "text": "Carotid artery" },
+      { "id": 3, "text": "Pulmonary artery" },
+      { "id": 4, "text": "Aorta" }
+    ],
+    "correctOptionId": 1,
+    "explanation": "The coronary arteries supply oxygenated blood to the heart muscle (myocardium). They branch off from the aorta just above the aortic valve."
+  },
+  {
+    "id": 2,
+    "text": "Ghazal?",
+    "module": "Cardiology",
+    "difficulty": "medium",
+    "options": [
+      { "id": 1, "text": "Coronary artery" },
+      { "id": 2, "text": "Carotid artery" },
+      { "id": 3, "text": "Pulmonary artery" },
+      { "id": 4, "text": "Aorta" }
+    ],
+    "correctOptionId": 1,
+    "explanation": "The coronary arteries supply oxygenated blood to the heart muscle (myocardium). They branch off from the aorta just above the aortic valve."
+  }
 ]
