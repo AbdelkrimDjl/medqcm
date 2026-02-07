@@ -72,11 +72,11 @@ const Quiz: React.FC = () => {
 
 
   const handleSelectOption = (optionId: number): void => {
-    // Only allow selection if answer hasn't been confirmed yet
-    if (!confirmedAnswers.has(currentQuestion.id)) {
-      setAnswers({ ...answers, [currentQuestion.id]: optionId });
-    }
-  };
+  if (!confirmedAnswers.has(currentQuestion.id)) {
+    // Force the value to a Number to prevent string/number mismatches
+    setAnswers({ ...answers, [currentQuestion.id]: Number(optionId) });
+  }
+};
 
   const handleFlag = () => {
     const newFlagged = new Set(flaggedQuestions);
@@ -112,11 +112,17 @@ const Quiz: React.FC = () => {
   };
 
   const calculateScore = () => {
-    let correct = 0;
-    filteredQuestions.forEach((q) => {
-      if ((q.correctOptionIds || []).includes(answers[q.id])) correct++;
-    });
-    return {
+  let correct = 0;
+  filteredQuestions.forEach((q) => {
+    const userAnswer = answers[q.id];
+    // Cast both sides to Number and use a safety array
+    const isCorrect = (q.correctOptionIds || [])
+      .map(id => Number(id))
+      .includes(Number(userAnswer));
+      
+    if (isCorrect) correct++;
+  });
+  return {
       correct,
       total: totalQuestions,
       percentage: totalQuestions > 0 ? (correct / totalQuestions) * 100 : 0,
@@ -355,26 +361,33 @@ const Quiz: React.FC = () => {
 
           <div className="space-y-3 mb-8">
             {currentQuestion.options.map((option) => {
-              const isSelected = answers[currentQuestion.id] === option.id;
-              // Use optional chaining or a fallback array
-              const isCorrect = (currentQuestion.correctOptionIds || []).includes(option.id);
-              const isConfirmed = confirmedAnswers.has(currentQuestion.id);
-              const showCorrectAnswer = showExplanation && isConfirmed;
+            const userAnswer = answers[currentQuestion.id];
+  
+            // 1. Force everything to Number for the comparison
+            const isSelected = Number(userAnswer) === Number(option.id);
+  
+            // 2. Safely check if this specific option is in the correct IDs array
+            const isCorrect = (currentQuestion.correctOptionIds || [])
+            .map(id => Number(id))
+            .includes(Number(option.id));
+  
+            const isConfirmed = confirmedAnswers.has(currentQuestion.id);
+            const showCorrectAnswer = showExplanation && isConfirmed;
 
-              return (
+            return (
                 <button
                   key={option.id}
                   onClick={() => handleSelectOption(option.id)}
                   className={`w-full text-left p-4 rounded-xl border-2 transition-all ${
-                    showCorrectAnswer && isCorrect
-                      ? "border-green-500 bg-green-50"
-                      : showCorrectAnswer && isSelected && !isCorrect
-                        ? "border-red-500 bg-red-50"
-                        : isSelected
-                          ? "border-purple-500 bg-purple-50"
-                          : "border-gray-200 hover:border-purple-300 hover:bg-gray-50"
-                  }`}
-                  disabled={confirmedAnswers.has(currentQuestion.id)}
+                  showCorrectAnswer && isCorrect
+                  ? "border-green-500 bg-green-50" // Correct answer turns green
+                  : showCorrectAnswer && isSelected && !isCorrect
+                  ? "border-red-500 bg-red-50" // Wrong choice turns red
+                  : isSelected
+                  ? "border-purple-500 bg-purple-50" // Selected (before confirm)
+                  : "border-gray-200 hover:border-purple-300 hover:bg-gray-50"
+      }`}
+      disabled={isConfirmed}
                 >
                   <div className="flex items-center justify-between">
                     <span className="text-lg text-gray-800">{option.text}</span>
@@ -496,6 +509,7 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
 
