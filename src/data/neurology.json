@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "text": "Which neurotransmitter is primarily affected in Parkinson's disease?",
+    "module": "Neurology",
+    "difficulty": "medium",
+    "options": [
+      { "id": 1, "text": "Serotonin" },
+      { "id": 2, "text": "Dopamine" },
+      { "id": 3, "text": "Acetylcholine" },
+      { "id": 4, "text": "GABA" }
+    ],
+    "correctOptionId": 2,
+    "explanation": "Parkinson's disease is characterized by the degeneration of dopamine-producing neurons in the substantia nigra, leading to motor symptoms."
+  },
+  {
+    "id": 2,
+    "text": "What is the Glasgow Coma Scale maximum score?",
+    "module": "Neurology",
+    "difficulty": "easy",
+    "options": [
+      { "id": 1, "text": "10" },
+      { "id": 2, "text": "12" },
+      { "id": 3, "text": "15" },
+      { "id": 4, "text": "20" }
+    ],
+    "correctOptionId": 3,
+    "explanation": "The Glasgow Coma Scale has a maximum score of 15, indicating full consciousness (Eye opening: 4, Verbal response: 5, Motor response: 6)."
+  },
+  {
+    "id": 3,
+    "text": "Which type of stroke is most common?",
+    "module": "Neurology",
+    "difficulty": "easy",
+    "options": [
+      { "id": 1, "text": "Ischemic stroke" },
+      { "id": 2, "text": "Hemorrhagic stroke" },
+      { "id": 3, "text": "Embolic stroke" },
+      { "id": 4, "text": "Lacunar stroke" }
+    ],
+    "correctOptionId": 1,
+    "explanation": "Ischemic strokes account for approximately 87% of all strokes, caused by blockage of blood flow to the brain."
+  },
+  {
+    "id": 4,
+    "text": "Which cranial nerve is responsible for vision?",
+    "module": "Neurology",
+    "difficulty": "easy",
+    "options": [
+      { "id": 1, "text": "Cranial nerve I" },
+      { "id": 2, "text": "Cranial nerve II" },
+      { "id": 3, "text": "Cranial nerve III" },
+      { "id": 4, "text": "Cranial nerve IV" }
+    ],
+    "correctOptionId": 2,
+    "explanation": "Cranial nerve II (optic nerve) is responsible for vision. It transmits visual information from the retina to the brain."
+  },
+  {
+    "id": 5,
+    "text": "What is the hallmark sign of meningitis on physical examination?",
+    "module": "Neurology",
+    "difficulty": "medium",
+    "options": [
+      { "id": 1, "text": "Kernig's sign" },
+      { "id": 2, "text": "Babinski sign" },
+      { "id": 3, "text": "Romberg sign" },
+      { "id": 4, "text": "Trendelenburg sign" }
+    ],
+    "correctOptionId": 1,
+    "explanation": "Kernig's sign (along with Brudzinski's sign) is a classic finding in meningitis, indicating meningeal irritation."
+  }
+]

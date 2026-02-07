@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "text": "Which artery supplies oxygenated blood to the heart muscle?",
+    "module": "Cardiology",
+    "difficulty": "medium",
+    "options": [
+      { "id": 1, "text": "Coronary artery" },
+      { "id": 2, "text": "Carotid artery" },
+      { "id": 3, "text": "Pulmonary artery" },
+      { "id": 4, "text": "Aorta" }
+    ],
+    "correctOptionId": 1,
+    "explanation": "The coronary arteries supply oxygenated blood to the heart muscle (myocardium). They branch off from the aorta just above the aortic valve."
+  },
+  {
+    "id": 2,
+    "text": "What is the most common cause of heart failure?",
+    "module": "Cardiology",
+    "difficulty": "medium",
+    "options": [
+      { "id": 1, "text": "Coronary artery disease" },
+      { "id": 2, "text": "Hypertension" },
+      { "id": 3, "text": "Valvular disease" },
+      { "id": 4, "text": "Cardiomyopathy" }
+    ],
+    "correctOptionId": 1,
+    "explanation": "Coronary artery disease is the leading cause of heart failure, followed by hypertension. It reduces blood flow to the heart muscle."
+  },
+  {
+    "id": 3,
+    "text": "What is the normal ejection fraction of the left ventricle?",
+    "module": "Cardiology",
+    "difficulty": "medium",
+    "options": [
+      { "id": 1, "text": "30-40%" },
+      { "id": 2, "text": "50-70%" },
+      { "id": 3, "text": "75-85%" },
+      { "id": 4, "text": "85-95%" }
+    ],
+    "correctOptionId": 2,
+    "explanation": "The normal left ventricular ejection fraction is 50-70%. Values below 40% indicate systolic dysfunction."
+  },
+  {
+    "id": 4,
+    "text": "What does the P wave represent on an ECG?",
+    "module": "Cardiology",
+    "difficulty": "easy",
+    "options": [
+      { "id": 1, "text": "Atrial depolarization" },
+      { "id": 2, "text": "Ventricular depolarization" },
+      { "id": 3, "text": "Atrial repolarization" },
+      { "id": 4, "text": "Ventricular repolarization" }
+    ],
+    "correctOptionId": 1,
+    "explanation": "The P wave represents atrial depolarization, which occurs when the atria contract to push blood into the ventricles."
+  },
+  {
+    "id": 5,
+    "text": "What is the first-line treatment for stable angina?",
+    "module": "Cardiology",
+    "difficulty": "medium",
+    "options": [
+      { "id": 1, "text": "Beta-blockers" },
+      { "id": 2, "text": "Calcium channel blockers" },
+      { "id": 3, "text": "Nitrates" },
+      { "id": 4, "text": "ACE inhibitors" }
+    ],
+    "correctOptionId": 1,
+    "explanation": "Beta-blockers are the first-line treatment for stable angina as they reduce heart rate and myocardial oxygen demand."
+  }
+]
