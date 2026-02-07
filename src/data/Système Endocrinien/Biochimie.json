@@ -296,7 +296,7 @@
       { "id": 4, "text": "D- Est utilisée dans le test à la TSH" },
       { "id": 5, "text": "E- Aucune proposition exacte" }
     ],
-    "correctOptionIds": [3]
+    "correctOptionIds": [4]
   },
   {
     "id": 24,
@@ -309,7 +309,7 @@
       { "id": 4, "text": "D- 4,5" },
       { "id": 5, "text": "E- 1,5" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [3]
   },
   {
     "id": 25,
@@ -400,7 +400,7 @@
       { "id": 4, "text": "D- Elle agit sur les cellules de la Granulosa pour stimuler la sécrétion des œstrogènes" },
       { "id": 5, "text": "E- Elle agit sur les cellules de la thèque interne pour stimuler la synthèse des androgènes ovariens" }
     ],
-    "correctOptionIds": [3, 4]
+    "correctOptionIds": [3]
   },
   {
     "id": 32,
@@ -595,7 +595,7 @@
       { "id": 4, "text": "D- elle stimule la sécrétion de GH hypophysaire" },
       { "id": 5, "text": "E- la leptine régule sa sécrétion" }
     ],
-    "correctOptionIds": [1, 2, 3, 5]
+    "correctOptionIds": [2, 3, 5]
   },
   {
     "id": 47,
@@ -686,7 +686,7 @@
       { "id": 4, "text": "D- L'inhibine B est élevée" },
       { "id": 5, "text": "E- FSH et LH bas" }
     ],
-    "correctOptionIds": [1]
+    "correctOptionIds": [1, 2]
   },
   {
     "id": 54,
@@ -712,7 +712,7 @@
       { "id": 4, "text": "D- Une acidose métabolique" },
       { "id": 5, "text": "E- Une hyponatrémie" }
     ],
-    "correctOptionIds": [1, 2, 5]
+    "correctOptionIds": [1, 5]
   },
   {
     "id": 56,
@@ -725,7 +725,7 @@
       { "id": 4, "text": "D- Son taux plasmatique est nul en cas d'Athyréose" },
       { "id": 5, "text": "E- Son taux plasmatique est élevé en cas de thyroïdite d'Hashimoto" }
     ],
-    "correctOptionIds": [1]
+    "correctOptionIds": [1, 5]
   },
   {
     "id": 57,
@@ -738,7 +738,7 @@
       { "id": 4, "text": "D- Fermet l'activation des iodures plasmatiques" },
       { "id": 5, "text": "E- Active la libération de T3, T4 dans le plasma" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [2, 4]
   },
   {
     "id": 58,
@@ -764,7 +764,7 @@
       { "id": 4, "text": "D- Elles permettent l'activation de la glycogène phosphorylase" },
       { "id": 5, "text": "E- Elles sont désactivées par la phosphodiesterase" }
     ],
-    "correctOptionIds": [1, 2, 4, 5]
+    "correctOptionIds": [1, 3, 4, 5]
   },
   {
     "id": 60,
@@ -794,16 +794,16 @@
   },
   {
     "id": 62,
-    "text": "Quelles sont les propositions exactes parmi les suivantes?\n1. La MAO est une enzyme d'inactivation de l'adrénaline\n2. Les inhibiteurs de la MAO sont employés comme des antidépresseurs\n3. Le HVA est obtenu après l'action de la MAO puis la COMT sur la dopamine\n4. L'effet lipolytique de l'adrénaline est du à l'activation des récepteurs ẞ2 adrénergiques\n5. Les catécholamines favorisent la sécrétion d'insuline",
+    "text": "Quelles sont les propositions exactes parmi les suivantes?",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A (1,2)" },
-      { "id": 2, "text": "B (2,3)" },
-      { "id": 3, "text": "C (1,3)" },
-      { "id": 4, "text": "D (1,2,3)" },
-      { "id": 5, "text": "E (3,4,5)" }
+      { "id": 1, "text": "A- La MAO est une enzyme d'inactivation de l'adrénaline." },
+      { "id": 2, "text": "B- Les inhibiteurs de la MAO sont employés comme des antidépresseurs." },
+      { "id": 3, "text": "C- Le HVA est obtenu après l'action de la MAO puis la COMT sur la dopamine." },
+      { "id": 4, "text": "D- L'effet lipolytique de l'adrénaline est du à l'activation des récepteurs ẞ2 adrénergiques." },
+      { "id": 5, "text": "E- Les catécholamines favorisent la sécrétion d'insuline." }
     ],
-    "correctOptionIds": [1]
+    "correctOptionIds": [1, 2, 3]
   },
   {
     "id": 63,
