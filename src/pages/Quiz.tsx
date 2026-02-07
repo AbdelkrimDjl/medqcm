@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import {
-  Clock,
   Flag,
   ChevronLeft,
   ChevronRight,
@@ -45,7 +44,6 @@ const Quiz: React.FC = () => {
   const navigate = useNavigate();
   const config = location.state as QuizConfig;
 
-  const [quizMode] = useState<"test" | "practice">("test");
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [flaggedQuestions, setFlaggedQuestions] = useState<Set<number>>(
@@ -509,6 +507,7 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
 
