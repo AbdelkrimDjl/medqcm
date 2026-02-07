@@ -17,44 +17,58 @@ const Home: React.FC = () => {
   const navigate = useNavigate();
   const [units, setUnits] = useState<string[]>([]);
   const [modules, setModules] = useState<string[]>([]);
-  const [selectedUnit, setselectedUnit] = useState<string>("");
-  const [selectedModule, setselectedModule] = useState<string>("");
   const [questionCount, setQuestionCount] = useState<number>(10);
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
 
+export default function Home(): JSX.Element {
+  const [units, setUnits] = useState<string[]>([]);
+  // mapping: unitName -> array of module names (without .json)
+  const [modulesByUnit, setModulesByUnit] = useState<Record<string, string[]>>({});
+  const [allQuestions, setAllQuestions] = useState<Question[]>([]);
+
+  const [selectedUnit, setSelectedUnit] = useState<string>("");
+  const [selectedModule, setSelectedModule] = useState<string>("");
+
+
   // Load all JSON files
   useEffect(() => {
-  const importModules = async () => {
-    // grab all json files anywhere under ../data (including subfolders)
-    const context = import.meta.glob("../data/**/*.json", { eager: true }) as Record<string, any>;
+    const importModules = async () => {
+      // eager import of all json files in ../data and any nested folders
+      const context = import.meta.glob("../data/**/*.json", { eager: true }) as Record<string, any>;
 
-    const questions: Question[] = [];
-    const unitSet = new Set<string>();
-    const moduleList: { unit: string; name: string; path: string }[] = [];
+      const questionAcc: Question[] = [];
+      const moduleMap: Record<string, string[]> = {};
 
-    Object.entries(context).forEach(([path, mod]) => {
-      // path example: "../data/UnitName/moduleName.json"
-      const segments = path.split("/");
-      const fileName = segments.pop()!.replace(".json", ""); // "moduleName"
-      const unitName = segments.pop() ?? "root"; // "UnitName" (or "root" fallback)
+      Object.entries(context).forEach(([path, mod]) => {
+        // path example: "../data/UnitName/moduleName.json"
+        const parts = path.split("/").filter(Boolean);
+        // take last segment as filename
+        const filename = parts[parts.length - 1] ?? "";
+        const fileNameNoExt = filename.replace(/\.json$/i, "");
 
-      unitSet.add(unitName);
-      moduleList.push({ unit: unitName, name: fileName, path });
+        // attempt to get the folder name directly above the file (unit)
+        // parts: ["..", "data", "UnitName", "moduleName.json"] OR ["..", "data", "UnitName", "SubUnit", "module.json"]
+        // We'll treat the immediate parent folder as the unit name:
+        const unitName = parts.length >= 2 ? parts[parts.length - 2] : "root";
 
-      // content may be in `default` (because of eager import)
-      const content = mod?.default ?? mod;
+        if (!moduleMap[unitName]) {
+          moduleMap[unitName] = [];
+        }
+        moduleMap[unitName].push(fileNameNoExt);
 
-      // support two common JSON shapes:
-      // 1) the file exports an array: [ {..question..}, ... ]
-      // 2) the file exports an object with a `questions` array: { questions: [...] }
-      if (Array.isArray(content)) {
-        questions.push(...(content as Question[]));
-      } else if (content && Array.isArray((content as any).questions)) {
-        questions.push(...(content as any).questions);
-      } else {
-        console.warn(`Unexpected JSON format in ${path}`, content);
-      }
-    });
+        // content may be in default (eager import returns module object)
+        const content = mod?.default ?? mod;
+
+        // support JSON that exports an array directly or an object with `questions` array
+        if (Array.isArray(content)) {
+          questionAcc.push(...(content as Question[]));
+        } else if (content && Array.isArray((content as any).questions)) {
+          questionAcc.push(...(content as any).questions);
+        } else {
+          // if the JSON file has another shape, you can adapt here
+          // console.warn(`Unexpected JSON shape in ${path}`, content);
+        }
+      });
 
     // set state
     setUnits(Array.from(unitSet)); // ["UnitNameA", "UnitNameB", ...]
@@ -69,6 +83,84 @@ const Home: React.FC = () => {
 
   importModules();
 }, []);
+
+  useEffect(() => {
+    if (!selectedUnit) return;
+    const mods = modulesByUnit[selectedUnit] ?? [];
+    if (mods.length > 0 && !mods.includes(selectedModule)) {
+      setSelectedModule(mods[0]);
+    } else if (mods.length === 0) {
+      setSelectedModule("");
+    }
+  }, [selectedUnit, modulesByUnit]);
+
+  const handleUnitChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    setSelectedUnit(e.target.value);
+  };
+
+  const handleModuleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    setSelectedModule(e.target.value);
+  };
+
+  // Example: if you want questions belonging to a module and your JSON files include
+  // metadata about module/unit in each question, filter here. Otherwise allQuestions
+  // is the flat list of all imported questions.
+  // const filteredQuestions = allQuestions.filter(q => q.unit === selectedUnit && q.module === selectedModule);
+
+  return (
+    <div style={{ padding: 20 }}>
+      <h1>ExamGen — Home</h1>
+
+      <div style={{ marginBottom: 12 }}>
+        <label htmlFor="unit-select">Unit:&nbsp;</label>
+        <select id="unit-select" value={selectedUnit} onChange={handleUnitChange}>
+          <option value="" disabled>
+            -- select a unit --
+          </option>
+          {units.map((u) => (
+            <option key={u} value={u}>
+              {u}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      <div style={{ marginBottom: 12 }}>
+        <label htmlFor="module-select">Module:&nbsp;</label>
+        <select
+          id="module-select"
+          value={selectedModule}
+          onChange={handleModuleChange}
+          disabled={!selectedUnit || (modulesByUnit[selectedUnit] ?? []).length === 0}
+        >
+          <option value="" disabled>
+            -- select a module --
+          </option>
+          {(modulesByUnit[selectedUnit] ?? []).map((m) => (
+            <option key={m} value={m}>
+              {m}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <strong>Selected unit:</strong> {selectedUnit || "—"}
+        <br />
+        <strong>Selected module:</strong> {selectedModule || "—"}
+        <br />
+        <strong>Total imported questions:</strong> {allQuestions.length}
+      </div>
+    </div>
+  );
+}
+
+  const unitsArr = Object.keys(moduleMap).sort();
+
+      setUnits(unitsArr);
+      setModulesByUnit(moduleMap);
+      setAllQuestions(questionAcc);
+
 
   const handleStartQuiz = () => {
     if (selectedUnit && selectedModule && questionCount > 0) {
@@ -220,6 +312,7 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
 
 
 
