@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "text": "10. Le lobe postérieur de l'hypophyse contient les structures histologiques suivantes :",
+    "text": "Le lobe postérieur de l'hypophyse contient les structures histologiques suivantes :",
     "module": "Histologie",
     "options": [
       { "id": 1, "text": "A. Les fibres nerveuses du tractus supra-optico-hypophysaire" },
@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "text": "11. Les vaisseaux portes du complexe hypothalamo-hypophysaire possèdent le rôle suivant :",
+    "text": "Les vaisseaux portes du complexe hypothalamo-hypophysaire possèdent le rôle suivant :",
     "module": "Histologie",
     "options": [
       { "id": 1, "text": "A. Véhiculent l'ADH et l'ocytocine vers le lobe postérieur" },
@@ -27,7 +27,7 @@
   },
   {
     "id": 3,
-    "text": "12. Concernant le développement embryologique de l'hypophyse quelles sont les propositions justes:",
+    "text": "Concernant le développement embryologique de l'hypophyse quelles sont les propositions justes:",
     "module": "Histologie",
     "options": [
       { "id": 1, "text": "A. Le processus infundibulaire est une invagination neurectoblastique au niveau du plancher du diencéphale" },
@@ -40,7 +40,7 @@
   },
   {
     "id": 4,
-    "text": "13. Concernant la glande surrénale: (cochez les RJ)",
+    "text": "Concernant la glande surrénale: (cochez les RJ)",
     "module": "Histologie",
     "options": [
       { "id": 1, "text": "A. Les cellules de la zone glomérulée élaborent l'aldostérone" },
@@ -53,7 +53,7 @@
   },
   {
     "id": 5,
-    "text": "14. La glande interstitielle du testicule: (cochez les RJ)",
+    "text": "La glande interstitielle du testicule: (cochez les RJ)",
     "module": "Histologie",
     "options": [
       { "id": 1, "text": "A. Est formée par l'ensemble des cellules de Sertoli" },
@@ -66,7 +66,7 @@
   },
   {
     "id": 6,
-    "text": "15. Concernant la corticosurrénale, cocher les propositions justes:",
+    "text": "Concernant la corticosurrénale, cocher les propositions justes:",
     "module": "Histologie",
     "options": [
       { "id": 1, "text": "A. Est une glande endocrine d'origine neuro ectoblastique" },
@@ -79,7 +79,7 @@
   },
   {
     "id": 7,
-    "text": "16. Le système endocrinien diffus SED: (cochez les RJ)",
+    "text": "Le système endocrinien diffus SED: (cochez les RJ)",
     "module": "Histologie",
     "options": [
       { "id": 1, "text": "A. Est un amas de cellules endocrines localisé à l'intérieur des gonades" },
@@ -92,7 +92,7 @@
   },
   {
     "id": 8,
-    "text": "17. Le pancréas endocrine: (cochez la RJ)",
+    "text": "Le pancréas endocrine: (cochez la RJ)",
     "module": "Histologie",
     "options": [
       { "id": 1, "text": "A. Est une véritable glande endocrine" },
@@ -105,7 +105,7 @@
   },
   {
     "id": 9,
-    "text": "18. Les glandes annexes aux voies génitales mâles: cochez la RJ",
+    "text": "Les glandes annexes aux voies génitales mâles: cochez la RJ",
     "module": "Histologie",
     "options": [
       { "id": 1, "text": "A. Sont oestrogéno-dépendantes" },
@@ -118,7 +118,7 @@
   },
   {
     "id": 10,
-    "text": "19. Les vésicules séminales: cochez les RJ",
+    "text": "Les vésicules séminales: cochez les RJ",
     "module": "Histologie",
     "options": [
       { "id": 1, "text": "A. Sont 02 glandes paires sacculaires" },
@@ -131,7 +131,7 @@
   },
   {
     "id": 11,
-    "text": "20. La prostate: cochez les RJ",
+    "text": "La prostate: cochez les RJ",
     "module": "Histologie",
     "options": [
       { "id": 1, "text": "A. Organe musculo-glandulaire, impair" },
@@ -144,7 +144,7 @@
   },
   {
     "id": 12,
-    "text": "21. La prostate: cochez la RF",
+    "text": "La prostate: cochez la RF",
     "module": "Histologie",
     "options": [
       { "id": 1, "text": "A. Est entourée d'une capsule fibro-élastique" },
@@ -157,7 +157,7 @@
   },
   {
     "id": 13,
-    "text": "22. La prostate: cochez les RF",
+    "text": "La prostate: cochez les RF",
     "module": "Histologie",
     "options": [
       { "id": 1, "text": "A. Est une glande hormono-dépendante" },
@@ -170,7 +170,7 @@
   },
   {
     "id": 14,
-    "text": "23. Les glandes bulbo-urétrales: cochez les RJ",
+    "text": "Les glandes bulbo-urétrales: cochez les RJ",
     "module": "Histologie",
     "options": [
       { "id": 1, "text": "A. Sont enfouies dans le corps spongieux" },
@@ -183,7 +183,7 @@
   },
   {
     "id": 15,
-    "text": "24. La glande thyroïde: cochez les RJ",
+    "text": "La glande thyroïde: cochez les RJ",
     "module": "Histologie",
     "options": [
       { "id": 1, "text": "A. Est la plus volumineuse des glandes endocrines pures" },
