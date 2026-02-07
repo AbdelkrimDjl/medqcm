@@ -545,7 +545,7 @@ const Quiz: React.FC = () => {
               </div>
               {/* Scroll hint for mobile */}
               <div className="text-xs text-gray-500 text-center mt-2 sm:hidden">
-                ← Swipe to see more questions →
+                ← Glisser pour en voir plus →
               </div>
             </div>
           </div>
@@ -619,6 +619,7 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
 
