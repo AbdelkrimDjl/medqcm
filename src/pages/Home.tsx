@@ -1,23 +1,63 @@
-import React, { useState } from "react";
+// Home.tsx
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { BookOpen, Calendar, Hash, ArrowRight } from "lucide-react";
 
+interface Question {
+  id: number;
+  text: string;
+  module: string;
+  difficulty: "easy" | "medium" | "hard";
+  options: { id: number; text: string }[];
+  correctOptionId: number;
+  explanation: string;
+}
+
 const Home: React.FC = () => {
   const navigate = useNavigate();
+  const [modules, setModules] = useState<string[]>([]);
   const [selectedModule, setSelectedModule] = useState<string>("");
   const [selectedYear, setSelectedYear] = useState<string>("");
   const [questionCount, setQuestionCount] = useState<number>(10);
+  const [allQuestions, setAllQuestions] = useState<Question[]>([]);
 
-  const modules = ["Cardiology", "Neurology"];
   const years = ["2023", "2025"];
 
+  // Load all JSON files
+  useEffect(() => {
+    const importModules = async () => {
+      const context = import.meta.glob("../data/*.json", { eager: true });
+      const questions: Question[] = [];
+      const moduleNames: string[] = [];
+
+      Object.entries(context).forEach(([path, module]) => {
+        const fileName = path.split("/").pop()!.replace(".json", "");
+        moduleNames.push(fileName);
+
+        // @ts-ignore
+        questions.push(...module.default); // each JSON file should export an array
+      });
+
+      setModules(moduleNames);
+      setAllQuestions(questions);
+    };
+
+    importModules();
+  }, []);
+
   const handleStartQuiz = () => {
-    if (selectedModule && selectedYear) {
+    if (selectedModule && selectedYear && questionCount > 0) {
+      // Filter questions by selected module
+      const filteredQuestions = allQuestions
+        .filter((q) => q.module.toLowerCase() === selectedModule.toLowerCase())
+        .slice(0, questionCount);
+
       navigate("/quiz", {
         state: {
           module: selectedModule,
           year: selectedYear,
-          questionCount: questionCount,
+          questionCount,
+          questions: filteredQuestions,
         },
       });
     }
@@ -47,6 +87,7 @@ const Home: React.FC = () => {
           </h2>
 
           <div className="space-y-6">
+            {/* Module Select */}
             <div>
               <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
                 <BookOpen className="w-5 h-5 text-purple-600" />
@@ -60,12 +101,13 @@ const Home: React.FC = () => {
                 <option value="">Choose a module...</option>
                 {modules.map((module) => (
                   <option key={module} value={module}>
-                    {module}
+                    {module.charAt(0).toUpperCase() + module.slice(1)}
                   </option>
                 ))}
               </select>
             </div>
 
+            {/* Year Select */}
             <div>
               <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
                 <Calendar className="w-5 h-5 text-purple-600" />
@@ -85,6 +127,7 @@ const Home: React.FC = () => {
               </select>
             </div>
 
+            {/* Question Count */}
             <div>
               <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
                 <Hash className="w-5 h-5 text-purple-600" />
@@ -92,8 +135,8 @@ const Home: React.FC = () => {
               </label>
               <input
                 type="number"
-                min="1"
-                max="50"
+                min={1}
+                max={50}
                 value={questionCount}
                 onChange={(e) =>
                   setQuestionCount(parseInt(e.target.value) || 1)
