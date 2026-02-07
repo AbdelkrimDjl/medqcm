@@ -172,7 +172,7 @@ const Quiz: React.FC = () => {
                   <span className="font-semibold">Module:</span> {config.module}
                 </p>
                 <p>
-                  <span className="font-semibold">Year:</span> {config.year}
+                  <span className="font-semibold">Année:</span> {config.year}
                 </p>
               </div>
             </div>
@@ -495,6 +495,7 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
 
