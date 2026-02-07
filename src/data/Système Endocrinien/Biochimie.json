@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "text": "25- le récepteur d'EGF (facteur de croissance épidermique)",
+    "text": "le récepteur d'EGF (facteur de croissance épidermique)",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A. Est une protéine ancrée dans la membrane par deux acides gras (protéine membranaire intrinsèque)" },
@@ -27,7 +27,7 @@
   },
   {
     "id": 3,
-    "text": "27- La transduction d'un signal extracellulaire mettant en jeu l'adényl cyclase se déroule en faisant intervenir plusieurs étapes :\n1) hydrolyse du GTP en GDP par les protéines G\n2) Fixation du médiateur chimique (ligand) sur son récepteur spécifique et changement de conformation du récepteur\n3) Hydrolyse de l'ATP et cyclisation de l'AMP par l'adénylyl cyclase\n4) Remplacement du GDP par du GTP sur la protéine G (échange)\n5) Formation du complexe protéine G-adénylyl cyclase\n6) Activation d'une cascade de phosphorylation\nDans quel ordre chronologique se déroule les différentes étapes ?",
+    "text": "La transduction d'un signal extracellulaire mettant en jeu l'adényl cyclase se déroule en faisant intervenir plusieurs étapes :\n1) hydrolyse du GTP en GDP par les protéines G\n2) Fixation du médiateur chimique (ligand) sur son récepteur spécifique et changement de conformation du récepteur\n3) Hydrolyse de l'ATP et cyclisation de l'AMP par l'adénylyl cyclase\n4) Remplacement du GDP par du GTP sur la protéine G (échange)\n5) Formation du complexe protéine G-adénylyl cyclase\n6) Activation d'une cascade de phosphorylation\nDans quel ordre chronologique se déroule les différentes étapes ?",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A- 1,2,5,3,6,4" },
@@ -40,7 +40,7 @@
   },
   {
     "id": 4,
-    "text": "28- Laquelle de ces hormones régule la fonction des gènes et interagit avec les récepteurs à l'intérieur des cellules ?",
+    "text": "Laquelle de ces hormones régule la fonction des gènes et interagit avec les récepteurs à l'intérieur des cellules ?",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A- hormone anti diurèse" },
@@ -53,7 +53,7 @@
   },
   {
     "id": 5,
-    "text": "29- Indiquez la (ou les) proposition(s) exacte(s).",
+    "text": "Indiquez la (ou les) proposition(s) exacte(s).",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A- Une glande endocrine peut synthétiser plusieurs hormones différentes." },
@@ -66,7 +66,7 @@
   },
   {
     "id": 6,
-    "text": "30- Parmi les propositions suivantes concernant les hormones thyroïdiennes, indiquer celle(s) qui est (sont) exacte(s) ?",
+    "text": "Parmi les propositions suivantes concernant les hormones thyroïdiennes, indiquer celle(s) qui est (sont) exacte(s) ?",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A- T3 est plus active que T4" },
@@ -79,7 +79,7 @@
   },
   {
     "id": 7,
-    "text": "31- Chez un animal hypophysectomisé, l'injection de TSH produit en quelques minutes au niveau de la glande thyroïde l'apparition de tous les phénomènes suivants sauf un lequel,",
+    "text": "Chez un animal hypophysectomisé, l'injection de TSH produit en quelques minutes au niveau de la glande thyroïde l'apparition de tous les phénomènes suivants sauf un lequel,",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A. Augmentation de la capture de l'iode" },
@@ -92,7 +92,7 @@
   },
   {
     "id": 8,
-    "text": "32- En réponse à une privation d'eau: cocher la ou les propositions exactes",
+    "text": "En réponse à une privation d'eau: cocher la ou les propositions exactes",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A. L'osmolarité du plasma diminue." },
@@ -105,7 +105,7 @@
   },
   {
     "id": 9,
-    "text": "33- cocher la ou les propositions exactes:",
+    "text": "Cocher la ou les propositions exactes:",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A- Le récepteur des cellules gonadotropes de la GnRH est couplé à la protéine G" },
@@ -118,7 +118,7 @@
   },
   {
     "id": 10,
-    "text": "34- Cocher la ou les propositions fausses concernant la prolactine:",
+    "text": "Cocher la ou les propositions fausses concernant la prolactine:",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A. elle est sécrétée par les cellules lactotropes de l'antéhypophyse" },
@@ -131,7 +131,7 @@
   },
   {
     "id": 11,
-    "text": "35- Parmi les caractéristiques physiologiques et hormonales suivantes, lesquelles caractérisent la phase de ménopause:",
+    "text": "Parmi les caractéristiques physiologiques et hormonales suivantes, lesquelles caractérisent la phase de ménopause:",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A- Une augmentation de la testostérone" },
@@ -144,7 +144,7 @@
   },
   {
     "id": 12,
-    "text": "36- Parmi les causes suivantes, lesquelles peuvent être à l'origine d'une aménorrhée secondaire:",
+    "text": "Parmi les causes suivantes, lesquelles peuvent être à l'origine d'une aménorrhée secondaire:",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A- Retard de croissance" },
@@ -157,7 +157,7 @@
   },
   {
     "id": 13,
-    "text": "37- Une tumeur testiculaire peut être à l'origine de quelle pathologie parmi les suivantes:",
+    "text": "Une tumeur testiculaire peut être à l'origine de quelle pathologie parmi les suivantes:",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A- Gynécomastie" },
@@ -170,7 +170,7 @@
   },
   {
     "id": 14,
-    "text": "38- Le stroma ovarien est le lieu de synthèse de (CRJ)",
+    "text": "Le stroma ovarien est le lieu de synthèse de (CRJ)",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A- Oestrogènes" },
@@ -183,7 +183,7 @@
   },
   {
     "id": 15,
-    "text": "39- L'examen clinique d'un enfant de 5 ans de sexe masculin, montre à la palpation, l'absence de testicule droit au niveau du scrotum, dans le but de poser un diagnostic différentiel entre cryptorchidie et anorchidie, quel (s) test (s) proposeriez-vous?",
+    "text": "L'examen clinique d'un enfant de 5 ans de sexe masculin, montre à la palpation, l'absence de testicule droit au niveau du scrotum, dans le but de poser un diagnostic différentiel entre cryptorchidie et anorchidie, quel (s) test (s) proposeriez-vous?",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A- Un dosage statique de la testostérone," },
@@ -196,7 +196,7 @@
   },
   {
     "id": 16,
-    "text": "40- La sécrétion d'Aldostérone est augmentée lors: cocher la ou les propositions exactes",
+    "text": "La sécrétion d'Aldostérone est augmentée lors: cocher la ou les propositions exactes",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A. d'une augmentation de la kaliémie" },
@@ -209,7 +209,7 @@
   },
   {
     "id": 17,
-    "text": "41- La déficience en prolactine est responsable: cocher la ou les propositions fausses",
+    "text": "La déficience en prolactine est responsable: cocher la ou les propositions fausses",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A. Le plus souvent d'une naissance prématurée." },
@@ -222,7 +222,7 @@
   },
   {
     "id": 18,
-    "text": "42- dans un syndrome de Conn, on retrouve un ou plusieurs des éléments suivants, lequel ou lesquels :",
+    "text": "Dans un syndrome de Conn, on retrouve un ou plusieurs des éléments suivants, lequel ou lesquels :",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A. Une diminution de la réabsorption du sodium" },
@@ -235,7 +235,7 @@
   },
   {
     "id": 19,
-    "text": "43- Quelles sont les propositions vraies à propos du système rénine / angiotensine / aldostérone?",
+    "text": "Quelles sont les propositions vraies à propos du système rénine / angiotensine / aldostérone?",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A. La rénine est une enzyme" },
@@ -248,7 +248,7 @@
   },
   {
     "id": 20,
-    "text": "44- À propos de la biosynthèse des androgènes, relevez-la (ou les) proposition(s) exacte(s).",
+    "text": "À propos de la biosynthèse des androgènes, relevez-la (ou les) proposition(s) exacte(s).",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A- La DHEA est exclusivement synthétisé par les surrénales." },
@@ -261,7 +261,7 @@
   },
   {
     "id": 21,
-    "text": "45- l'hypogonadisme hypogonadotrope, cocher la ou les propositions fausses",
+    "text": "L'hypogonadisme hypogonadotrope, cocher la ou les propositions fausses",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A- Il est caracterisé par une diminution du taux plasmatique de testostérone" },
@@ -274,7 +274,7 @@
   },
   {
     "id": 22,
-    "text": "46- en ce qui concerne les catécholamines, cocher la ou les propositions exactes:\nA- Elles augmentent la sécrétion de rénine\nB- Par l'intermédiaire de leurs récepteurs α-1, elles inhibent la libération de l'insuline\nC- Elles stimulent la lipolyse par l'intermédiaire de leurs récepteurs β-1\nD- Les VMA sont les produits de dégradation finale de toutes les catécholamines\nE- La metanephrine est le produit d'action de l'enzyme MAO sur l'adrénaline",
+    "text": "En ce qui concerne les catécholamines, cocher la ou les propositions exactes:\nA- Elles augmentent la sécrétion de rénine\nB- Par l'intermédiaire de leurs récepteurs α-1, elles inhibent la libération de l'insuline\nC- Elles stimulent la lipolyse par l'intermédiaire de leurs récepteurs β-1\nD- Les VMA sont les produits de dégradation finale de toutes les catécholamines\nE- La metanephrine est le produit d'action de l'enzyme MAO sur l'adrénaline",
     "module": "Biochimie",
     "options": [
       { "id": 1, "text": "A" },
