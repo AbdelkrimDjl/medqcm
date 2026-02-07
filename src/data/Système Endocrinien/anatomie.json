@@ -1,30 +1,54 @@
 [
   {
     "id": 1,
-    "text": "Ghazal?",
-    "module": "Cardiology",
-    "difficulty": "medium",
+    "text": "Q1/ A propos la glande mammaire :\n1. C'est une glande mobile par rapport à la paroi thoracique\n2. Le tissus adipeux pré-glandulaire est absent en regard du mamelon\n3. Les ligaments de Cooper relient la graisse rétro-mamelonnaire à la paroi thoracique\n4. Le sillon infra-mammaire se projette en regard du 5ème espace intercostal chez la femme\n5. Le fascia rétro-mammaire est un fascia mal individualisable",
+    "module": "Anatomie",
     "options": [
-      { "id": 1, "text": "Coronary artery" },
-      { "id": 2, "text": "Carotid artery" },
-      { "id": 3, "text": "Pulmonary artery" },
-      { "id": 4, "text": "Aorta" }
+      { "id": 1, "text": "A (1, 4)" },
+      { "id": 2, "text": "B (3, 5)" },
+      { "id": 3, "text": "C (2, 3)" },
+      { "id": 4, "text": "D (4, 5)" },
+      { "id": 5, "text": "E (1, 2)" }
     ],
-    "correctOptionId": 1,
-    "explanation": "The coronary arteries supply oxygenated blood to the heart muscle (myocardium). They branch off from the aorta just above the aortic valve."
+    "correctOptionId": 5
   },
   {
     "id": 2,
-    "text": "Ghazal?",
-    "module": "Cardiology",
-    "difficulty": "medium",
+    "text": "Q2/ A propos de la glande thyroïde :\n1. Sa surface est lisse\n2. Se projette sur le rachis s'étendant de la C4 jusqu'à la C7\n3. Son isthme peut être absent\n4. La face postérieure de son lobe latéral répond à l'artère carotide interne\n5. La face postérieure de son lobe latéral répond à l'artère carotide commune",
+    "module": "Anatomie",
     "options": [
-      { "id": 1, "text": "Coronary artery" },
-      { "id": 2, "text": "Carotid artery" },
-      { "id": 3, "text": "Pulmonary artery" },
-      { "id": 4, "text": "Aorta" }
+      { "id": 1, "text": "A (1, 4)" },
+      { "id": 2, "text": "B (3, 5)" },
+      { "id": 3, "text": "C (2, 3)" },
+      { "id": 4, "text": "D (1, 5)" },
+      { "id": 5, "text": "E (1, 3)" }
     ],
-    "correctOptionId": 1,
-    "explanation": "The coronary arteries supply oxygenated blood to the heart muscle (myocardium). They branch off from the aorta just above the aortic valve."
+    "correctOptionId": B
+  },
+  {
+    "id": 3,
+    "text": "Q3/ A propos du périnée :\n1. Le muscle sphincter externe de l'anus appartient au plan moyen du périnée\n2. Le plan superficiel est appelé diaphragme pelvien\n3. Le plan superficiel recouvre uniquement le périnée uro-génital\n4. Le plan moyen recouvre uniquement le périnée uro-génital\n5. Les muscles transverses assurent l'immobilisation du centre tendineux",
+    "module": "Anatomie",
+    "options": [
+      { "id": 1, "text": "A (1, 4)" },
+      { "id": 2, "text": "B (3, 5)" },
+      { "id": 3, "text": "C (2, 3)" },
+      { "id": 4, "text": "D (4, 5)" },
+      { "id": 5, "text": "E (1, 3)" }
+    ],
+    "correctOptionId": D
+  },
+  {
+    "id": 4,
+    "text": "Q4/ L'appareil génital féminin :\n1. L'isthme de la trompe est un segment souple\n2. Le mésovarium unit l'ovaire au feuillet antérieur du ligament large\n3. Le fundus représente l'extrémité supérieure du vagin\n4. L'artère cervico-vaginale est une collatérale de l'artère utérine\n5. Le mont du pubis est situé devant la symphyse pubienne",
+    "module": "Anatomie",
+    "options": [
+      { "id": 1, "text": "A (3, 4)" },
+      { "id": 2, "text": "B (1, 5)" },
+      { "id": 3, "text": "C (1, 4)" },
+      { "id": 4, "text": "D (4, 5)" },
+      { "id": 5, "text": "E (2, 5)" }
+    ],
+    "correctOptionId": D
   }
 ]
