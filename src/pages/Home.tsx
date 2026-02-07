@@ -8,7 +8,7 @@ interface Question {
   text: string;
   module: string;
   options: { id: number; text: string }[];
-  correctOptionId: number;
+  correctOptionIds: number[];
   explanation: string;
 }
 
@@ -247,3 +247,4 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
