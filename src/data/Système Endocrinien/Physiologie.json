@@ -350,4 +350,184 @@
     ],
     "correctOptionIds": [2]
   }
+  {
+    "id": 27,
+    "text": "L'hyperfonctionnement endocrinien au cours d'une atteinte primaire, répond aux propositions suivantes :\n1/ le taux de l'hormone effectrice est bas\n2/ le taux de la stimuline est bas\n3/ le taux de la RH est bas\n4/ le test à l'anti hormone est positif",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ 1, 2, 3" },
+      { "id": 2, "text": "B/ 2, 3, 4" },
+      { "id": 3, "text": "C/ 2,4,5" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 28,
+    "text": "L'hypofonctionnement endocrinien au cours d'une atteinte secondaire, répond aux propositions suivantes :\n1/ le taux de l'hormone effectrice est élevé\n2/ le taux de la stimuline est bas\n3/ le test à la RH est positif\n4/ le test à la stimuline est négatif\n5/ le taux de la RH est élevé",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ 1, 2, 3" },
+      { "id": 2, "text": "B/ 2, 3" },
+      { "id": 3, "text": "C/ 2,3,5" },
+      { "id": 4, "text": "D/ 2,5" },
+      { "id": 5, "text": "E/ 2, 4, 5" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 29,
+    "text": "La synthèse des hormones thyroïdiennes nécessite la réunion des critères suivants\n1/ un transporteur d'iode au pôle basolatéral nommé la pendrine\n2/ la présence d'une protéine extra-thyroïdienne la thyroglobuline\n3/ la présence d'un équipement enzymatique la thyropéroxidase\n4/ la disponibilité de la TSH",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ 1,2" },
+      { "id": 2, "text": "B/ 2" },
+      { "id": 3, "text": "C/ 2,4" },
+      { "id": 4, "text": "D/ 1,3" },
+      { "id": 5, "text": "E/ 3,4" }
+    ],
+    "correctOptionIds": [5]
+  },
+  {
+    "id": 30,
+    "text": "Toutes les glandes suivantes dépendent du système hypothalamo-hypophysaire sauf une laquelle ?",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ la fasciculée du cortex surrénalien" },
+      { "id": 2, "text": "B/ le pancréas endocrine" },
+      { "id": 3, "text": "C/ la thyroïde sécrétant la T3 et la T4" },
+      { "id": 4, "text": "D/ l'ovaire" },
+      { "id": 5, "text": "E/ la réticulée surrénalienne" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 31,
+    "text": "L'hormone antidiurétique (ADH):",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ est synthétisée par l'hypophyse postérieure" },
+      { "id": 2, "text": "B/ est sécrétée en réponse à l'hypovolémie" },
+      { "id": 3, "text": "C/ agit au niveau proximal du néphron" },
+      { "id": 4, "text": "D/ est une hormone hydrophobe" },
+      { "id": 5, "text": "E/ est sécrétée en réponse à l'hypo-osmolarité plasmatique" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 32,
+    "text": "A propos de l'hormone de croissance (GH):\n1/ a un effet direct sur la croissance du cartilage\n2/ elle est hypoglycémiante et lipolytique\n3/ elle a un effet directe sur les métabolismes glucidiques et lipidique\n4/ c'est une hormone anabolisante",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ 1, 2,4" },
+      { "id": 2, "text": "B/ 3,4" },
+      { "id": 3, "text": "C/ 2,3" },
+      { "id": 4, "text": "D/ 1, 3, 4" },
+      { "id": 5, "text": "E/ 1,3" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 33,
+    "text": "Le déficit en hormone de croissance, a comme conséquences:\n1/ une hyperglycémie\n2/ un gigantisme chez l'enfant\n3/ une asthénie avec hypoglycémie chez l'adulte\n4/ un catabolisme protéique",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ 1,2" },
+      { "id": 2, "text": "B/ 2, 3" },
+      { "id": 3, "text": "C/ 2, 3, 4" },
+      { "id": 4, "text": "D/ 3,4" },
+      { "id": 5, "text": "E/ 2, 4" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 34,
+    "text": "Les androgènes surrénaliens:\n1/ sont des pro-hormones inactives\n2/ ont un rôle négligeable chez l'homme adulte\n3/ sont libérés par la réticulée de la corticosurrénale\n4/ exercent un rétro contrôle sur la sécrétion de l'ACTH hypophysaire",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ 1,2" },
+      { "id": 2, "text": "B/ 3,4" },
+      { "id": 3, "text": "C/ 2,4" },
+      { "id": 4, "text": "D/ 1,3,4" },
+      { "id": 5, "text": "E/ 1,2,3" }
+    ],
+    "correctOptionIds": [5]
+  },
+  {
+    "id": 35,
+    "text": "Une destruction du cortex surrénalien s'accompagne de tous les symptômes suivant sauf un lequel",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ une prise de poids" },
+      { "id": 2, "text": "B/ une hypoglycémie" },
+      { "id": 3, "text": "C/ une asthénie" },
+      { "id": 4, "text": "D/ une hypotension artérielle" },
+      { "id": 5, "text": "E/ une acidose métabolique" }
+    ],
+    "correctOptionIds": [1]
+  },
+  {
+    "id": 36,
+    "text": "La progestérone est une hormone :\n1/ produite par les cellules de la granulosa\n2/ de la phase post- ovulatoire\n3/ stéroïdienne, sédative\n4/ de la gestation\n5/ préparant l'organisme pour la fécondation",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ 1,4" },
+      { "id": 2, "text": "B/ 2, 5" },
+      { "id": 3, "text": "C/ 2, 3, 4" },
+      { "id": 4, "text": "D/ 1,3" },
+      { "id": 5, "text": "E/ 1,5" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 37,
+    "text": "Le profil glycémique d'un adulte est présenté ci-après, indiquez la proposition juste parmi les suivantes :\n1/ sa glycémie post prandiale du petit déjeuner = 1,60 g/l\n2/ sa glycémie à jeun = 5,5 mmol/l\n3/ sa glycémie post prandiale du diner est normale\n4/ son HbA1c = 7,7%",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ 1+3" },
+      { "id": 2, "text": "B/ 2+4" },
+      { "id": 3, "text": "C/ 1+2+3" },
+      { "id": 4, "text": "D/ 1+3+4" },
+      { "id": 5, "text": "E/ 2+3+4" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 38,
+    "text": "Sur le plan métabolique, cette personne présente :",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ une glycogénolyse inhibée" },
+      { "id": 2, "text": "B/ une néoglucogenèse activée" },
+      { "id": 3, "text": "C/ une mobilisation des triglycérides" },
+      { "id": 4, "text": "D/ un anabolisme musculaire" },
+      { "id": 5, "text": "E/ les propositions B et C sont justes" }
+    ],
+    "correctOptionIds": [5]
+  },
+  {
+    "id": 39,
+    "text": "Pour équilibrer sa glycémie, on doit lui prescrire en première intention:",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ une insuline rapide" },
+      { "id": 2, "text": "B/ un répaglinide" },
+      { "id": 3, "text": "C/ un biguanide" },
+      { "id": 4, "text": "D/ un acarbose" },
+      { "id": 5, "text": "E/ un inhibiteur des SGLT2" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 40,
+    "text": "L'exploration métabolique a montré une insuffisance rénale, le retentissement sur les paramètres phosphocalciques est:",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ une hypocalcitriolémie" },
+      { "id": 2, "text": "B/ une hypocalcémie" },
+      { "id": 3, "text": "C/ une diminution de la PTH sanguine" },
+      { "id": 4, "text": "D/ les propositions A et B sont justes" },
+      { "id": 5, "text": "E/ toutes les propositions sont justes" }
+    ],
+    "correctOptionIds": [4]
+  }
 ]
