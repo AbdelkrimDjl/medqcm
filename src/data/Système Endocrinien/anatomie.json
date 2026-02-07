@@ -75,7 +75,7 @@
       { "id": 4, "text": "D (2, 3)" },
       { "id": 5, "text": "E (2, 4)" }
     ],
-    "correctOptionId": 2 | 3
+    "correctOptionId": [2,3]
   },
   {
     "id": 7,
