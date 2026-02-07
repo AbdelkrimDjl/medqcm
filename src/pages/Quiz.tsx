@@ -51,7 +51,7 @@ const Quiz: React.FC = () => {
   const [flaggedQuestions, setFlaggedQuestions] = useState<Set<number>>(
     new Set(),
   );
-  const [timeRemaining, setTimeRemaining] = useState<number>(3600);
+
   const [showResults, setShowResults] = useState<boolean>(false);
   const [showExplanation, setShowExplanation] = useState<boolean>(false);
   const [filteredQuestions, setFilteredQuestions] = useState<Question[]>([]);
@@ -73,27 +73,6 @@ const Quiz: React.FC = () => {
   const progress =
     totalQuestions > 0 ? (answeredCount / totalQuestions) * 100 : 0;
 
-  // Timer
-  useEffect(() => {
-    if (quizMode === "test" && !showResults && timeRemaining > 0) {
-      const timer = setInterval(() => {
-        setTimeRemaining((prev) => {
-          if (prev <= 1) {
-            handleSubmit();
-            return 0;
-          }
-          return prev - 1;
-        });
-      }, 1000);
-      return () => clearInterval(timer);
-    }
-  }, [quizMode, showResults, timeRemaining]);
-
-  const formatTime = (seconds: number) => {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${mins}:${secs.toString().padStart(2, "0")}`;
-  };
 
   const handleSelectOption = (optionId: number): void => {
     // Only allow selection if answer hasn't been confirmed yet
@@ -531,6 +510,7 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
 
