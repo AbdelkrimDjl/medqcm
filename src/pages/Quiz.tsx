@@ -690,7 +690,7 @@ const Quiz: React.FC = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style >{`
         @keyframes fadeIn {
           from {
             opacity: 0;
@@ -711,3 +711,4 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
