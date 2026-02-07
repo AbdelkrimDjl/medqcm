@@ -193,5 +193,187 @@
       { "id": 5, "text": "E. Le follicule est bordé par un épithélium simple" }
     ],
     "correctOptionIds": [1, 4, 5]
+  },
+  {
+    "id": 16,
+    "text": "Quelle est l'origine embryologique de la neurohypophyse ?",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- Ectoblaste stomodéal" },
+      { "id": 2, "text": "B- Entoblaste Intestinal" },
+      { "id": 3, "text": "C- Neurectoblastique diencéphalique" },
+      { "id": 4, "text": "D- Mésoblaste somitique" },
+      { "id": 5, "text": "E- Ectoderme cutané" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 17,
+    "text": "Quel est le rôle principal des pituicytes ?",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- Synthèse de l'ACTH" },
+      { "id": 2, "text": "B- Transport de la TSH" },
+      { "id": 3, "text": "C- Sécrétion de FSH" },
+      { "id": 4, "text": "D- Production d'insuline" },
+      { "id": 5, "text": "E- Support des fibres nerveuses hypothalamiques" }
+    ],
+    "correctOptionIds": [5]
+  },
+  {
+    "id": 18,
+    "text": "Le réseau capillaire dense de l'éminence médiane est en contact avec :",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- Les neurones des noyaux parvo-cellulaires" },
+      { "id": 2, "text": "B- Les capillaires du lobe postérieur" },
+      { "id": 3, "text": "C- Les veines efférentes de la dure mère" },
+      { "id": 4, "text": "D- Les axones neurosécréteurs magno-cellulaires" },
+      { "id": 5, "text": "E- Les cellules de Leydig" }
+    ],
+    "correctOptionIds": [1]
+  },
+  {
+    "id": 19,
+    "text": "Le tractus supra-optico-hypophysaire transporte principalement :",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- TSH" },
+      { "id": 2, "text": "B- Vasopressine et ocytocine" },
+      { "id": 3, "text": "C- GH et ACTH" },
+      { "id": 4, "text": "D- LH et FSH" },
+      { "id": 5, "text": "E- CRH et TRH" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 20,
+    "text": "Les glandes surrénales sont formées de :",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- Deux tissus d'origine mésoblastique" },
+      { "id": 2, "text": "B- Deux tissus d'origine ectoblastique" },
+      { "id": 3, "text": "C- Une corticosurrénale mésoblastique et une médullosurrénale neuroectoblastique" },
+      { "id": 4, "text": "D- Une corticosurrénale ectoblastique et une médullosurrénale mésoblastique" },
+      { "id": 5, "text": "E- Un tissu exclusivement neuroectoblastique" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 21,
+    "text": "La transformation des cellules de la granulosa en cellules lutéiniques survient :",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- Lors du développement du follicule secondaire" },
+      { "id": 2, "text": "B- Juste avant l'ovulation" },
+      { "id": 3, "text": "C- Durant la phase de prolifération endométriale" },
+      { "id": 4, "text": "D- Immédiatement après l'ovulation" },
+      { "id": 5, "text": "E- À la dégradation du corps Jaune" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 22,
+    "text": "Quel est l'aspect microscopique caractéristique des glandes endométriales en phase sécrétoire ?",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- Aspect rectiligne avec lumière étroite" },
+      { "id": 2, "text": "B- Glandes longues et minces" },
+      { "id": 3, "text": "C- Épithélium aplati sans sécrétion" },
+      { "id": 4, "text": "D- Accumulation de cellules basales" },
+      { "id": 5, "text": "E- Glandes en \"dent de scie\" avec sécrétion glycogénique" }
+    ],
+    "correctOptionIds": [5]
+  },
+  {
+    "id": 23,
+    "text": "Quelle est l'une des fonctions spécifiques des cellules de Sertoli ?",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a) Produire la majorité de la testostérone testiculaire" },
+      { "id": 2, "text": "b) Former la barrière hémato-testiculaire" },
+      { "id": 3, "text": "c) Sécréter le fructose, principale source d'énergie des spermatozoïdes" },
+      { "id": 4, "text": "d) Se contracter pour aider à propulser les spermatozoïdes" },
+      { "id": 5, "text": "e) Assurer la maturation finale des spermatozoïdes avant leur passage dans l'épididyme" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 24,
+    "text": "Quelle hormone est produite par les cellules de Leydig ?",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a) Inhibine" },
+      { "id": 2, "text": "b) FSH" },
+      { "id": 3, "text": "c) Testostérone" },
+      { "id": 4, "text": "d) Prostaglandines" },
+      { "id": 5, "text": "e) Citrate" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 25,
+    "text": "Quelle structure rencontrent les spermatozoïdes immédiatement après le rete testis ?",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a) Les tubes droits" },
+      { "id": 2, "text": "b) Le canal déférent" },
+      { "id": 3, "text": "c) Les canalicules efférents" },
+      { "id": 4, "text": "d) La tête de l'épididyme" },
+      { "id": 5, "text": "e) Le canal éjaculateur" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 26,
+    "text": "Quelle est la fonction principale de l'épididyme ?",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a) Produire le liquide séminal riche en enzymes" },
+      { "id": 2, "text": "b) Initier le processus de la méiose des spermatocytes" },
+      { "id": 3, "text": "c) Assurer la maturation fonctionnelle et le stockage des spermatozoïdes" },
+      { "id": 4, "text": "d) Sécréter les hormones régulant la spermatogenèse (comme l'Inhibine)" },
+      { "id": 5, "text": "e) Connecter directement les tubes séminifères au canal déférent" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 27,
+    "text": "Quel type d'épithélium caractérise la paroi du canal déférent ?",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a) Épithélium pavimenteux stratifié non kératinisé" },
+      { "id": 2, "text": "b) Épithélium cubique simple avec microvillosités" },
+      { "id": 3, "text": "c) Épithélium transitionnel (urothélium)" },
+      { "id": 4, "text": "d) Épithélium pseudostratifié cylindrique avec des stéréocils" },
+      { "id": 5, "text": "e) Épithélium cylindrique simple cilié" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 28,
+    "text": "Lequel est principalement trouvé dans la sécrétion des vésicules séminales ?",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a) L'antigène spécifique de la prostate (PSA)" },
+      { "id": 2, "text": "b) Le mucus alcalin lubrifiant" },
+      { "id": 3, "text": "c) Le citrate" },
+      { "id": 4, "text": "d) Le fructose et les prostaglandines" },
+      { "id": 5, "text": "e) Le zinc aux propriétés antibactériennes" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 29,
+    "text": "Quel composant du liquide prostatique aide à fluidifier le sperme après l'éjaculation ?",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a) Fructose" },
+      { "id": 2, "text": "b) Inhibine" },
+      { "id": 3, "text": "c) PSA (Prostate-Specific Antigen)" },
+      { "id": 4, "text": "d) Prostaglandines" },
+      { "id": 5, "text": "e) Mucus alcalin" }
+    ],
+    "correctOptionIds": [3]
   }
 ]
