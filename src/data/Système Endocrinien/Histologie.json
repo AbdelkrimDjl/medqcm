@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "text": "10. Le lobe postérieur de l'hypophyse contient les structures histologiques suivantes :",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A. Les fibres nerveuses du tractus supra-optico-hypophysaire" },
+      { "id": 2, "text": "B. Les pituicytes" },
+      { "id": 3, "text": "C. Les vaisseaux sanguins" },
+      { "id": 4, "text": "D. Les cellules glandulaires regroupées en travées non orientées" },
+      { "id": 5, "text": "E. Les cellules nerveuses" }
+    ],
+    "correctOptionIds": [1, 2, 3]
+  },
+  {
+    "id": 2,
+    "text": "11. Les vaisseaux portes du complexe hypothalamo-hypophysaire possèdent le rôle suivant :",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A. Véhiculent l'ADH et l'ocytocine vers le lobe postérieur" },
+      { "id": 2, "text": "B. Véhiculent les releasing hormones vers l'adénohypophyse" },
+      { "id": 3, "text": "C. Véhiculent les releasing hormones vers le lobe postérieur" },
+      { "id": 4, "text": "D. Véhiculent les hormones hypophysaires vers les cellules cibles" },
+      { "id": 5, "text": "E. Véhiculent les hormones hypophysaires vers le plexus porte primaire de l'éminence médiane" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 3,
+    "text": "12. Concernant le développement embryologique de l'hypophyse quelles sont les propositions justes:",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A. Le processus infundibulaire est une invagination neurectoblastique au niveau du plancher du diencéphale" },
+      { "id": 2, "text": "B. Le diverticule de Rathke est une invagination ectoblastique au niveau du plafond du stomodéum" },
+      { "id": 3, "text": "C. La partie distale de l'infundibulum va former la post-hypophyse" },
+      { "id": 4, "text": "D. La poche de Rathke forme l'adénohypophyse" },
+      { "id": 5, "text": "E. L'antéhypophyse se colonise par les axones des noyaux hypothalamiques" }
+    ],
+    "correctOptionIds": [3, 4]
+  },
+  {
+    "id": 4,
+    "text": "13. Concernant la glande surrénale: (cochez les RJ)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A. Les cellules de la zone glomérulée élaborent l'aldostérone" },
+      { "id": 2, "text": "B. La zone fasciculée est formée de cordons cellulaires parallèles entre eux et perpendiculaires à la surface de la glande" },
+      { "id": 3, "text": "C. Les cordons cellulaires sont séparés par d'épaisses travées conjonctives denses" },
+      { "id": 4, "text": "D. La zone réticulée est la couche la plus profonde de la corticosurrénale" },
+      { "id": 5, "text": "E. La médullosurrénale est formée de cordons cellulaires orientés" }
+    ],
+    "correctOptionIds": [1, 2, 4]
+  },
+  {
+    "id": 5,
+    "text": "14. La glande interstitielle du testicule: (cochez les RJ)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A. Est formée par l'ensemble des cellules de Sertoli" },
+      { "id": 2, "text": "B. Est formée par l'ensemble des cellules de Leydig" },
+      { "id": 3, "text": "C. Regroupe l'ensemble des cellules glandulaires du tissu interstitiel du lobe testiculaire" },
+      { "id": 4, "text": "D. Est sous contrôle hypophysaire" },
+      { "id": 5, "text": "E. Est formée par l'ensemble des cellules endocrines dans les tubes séminifères" }
+    ],
+    "correctOptionIds": [2, 3, 4]
+  },
+  {
+    "id": 6,
+    "text": "15. Concernant la corticosurrénale, cocher les propositions justes:",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A. Est une glande endocrine d'origine neuro ectoblastique" },
+      { "id": 2, "text": "B. Sa couche moyenne possède une architecture trabéculaire orientée" },
+      { "id": 3, "text": "C. Elle est indispensable à la vie" },
+      { "id": 4, "text": "D. L'ébauche cortico surrénalienne se développe à partir de l'épithélium ectoblastique" },
+      { "id": 5, "text": "E. La réticulée est formée de cordons cellulaires parallèles" }
+    ],
+    "correctOptionIds": [2, 3]
+  },
+  {
+    "id": 7,
+    "text": "16. Le système endocrinien diffus SED: (cochez les RJ)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A. Est un amas de cellules endocrines localisé à l'intérieur des gonades" },
+      { "id": 2, "text": "B. Son origine embryologique est entoblastique" },
+      { "id": 3, "text": "C. Libère des substances dans la lumière du tube digestif" },
+      { "id": 4, "text": "D. Est constitué par l'ensemble de cellules isolées dispersées parmi les cellules épithéliales des muqueuses digestive et respiratoire" },
+      { "id": 5, "text": "E. Est constitué de cellules endocrines d'origine neuro ectoblastique" }
+    ],
+    "correctOptionIds": [4, 5]
+  },
+  {
+    "id": 8,
+    "text": "17. Le pancréas endocrine: (cochez la RJ)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A. Est une véritable glande endocrine" },
+      { "id": 2, "text": "B. Est une glande de type trabéculaire orientée" },
+      { "id": 3, "text": "C. Est constitué de cordons cellulaires anastomosés, et d'un riche réseau de capillaires" },
+      { "id": 4, "text": "D. Est constitué par un seul type cellulaire qui élabore l'insuline et le glucagon" },
+      { "id": 5, "text": "E. Son origine embryologique est mésoblastique" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 9,
+    "text": "18. Les glandes annexes aux voies génitales mâles: cochez la RJ",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A. Sont oestrogéno-dépendantes" },
+      { "id": 2, "text": "B. Sont les vésicules séminales, la prostate et les glandes de Bartholin" },
+      { "id": 3, "text": "C. Sécrètent le liquide séminal" },
+      { "id": 4, "text": "D. Assurent une petite partie de l'éjaculat" },
+      { "id": 5, "text": "E. Déversent dans l'épididyme" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 10,
+    "text": "19. Les vésicules séminales: cochez les RJ",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A. Sont 02 glandes paires sacculaires" },
+      { "id": 2, "text": "B. Chaque vésicule séminale est constituée de 2 à 3 tubes" },
+      { "id": 3, "text": "C. Sont hormono-dépendantes" },
+      { "id": 4, "text": "D. S'atrophient après castration" },
+      { "id": 5, "text": "E. Leurs sécrétions constituent 70 à 80% de l'éjaculat" }
+    ],
+    "correctOptionIds": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 11,
+    "text": "20. La prostate: cochez les RJ",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A. Organe musculo-glandulaire, impair" },
+      { "id": 2, "text": "B. Adhère à la face supérieure de la vessie" },
+      { "id": 3, "text": "C. Entoure le col vésical et la portion initiale de l'urètre" },
+      { "id": 4, "text": "D. Le sphincter strié de l'urètre est l'agent de l'occlusion vésicale volontaire" },
+      { "id": 5, "text": "E. Est associée à 2 appareils sphinctériens" }
+    ],
+    "correctOptionIds": [1, 3, 4, 5]
+  },
+  {
+    "id": 12,
+    "text": "21. La prostate: cochez la RF",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A. Est entourée d'une capsule fibro-élastique" },
+      { "id": 2, "text": "B. Est pauvre en cellules musculaires lisses" },
+      { "id": 3, "text": "C. Comporte un stroma conjonctivo musculaire riche en vaisseaux" },
+      { "id": 4, "text": "D. Constituée d'une cinquantaine de glandes tubulo-alvéolaires" },
+      { "id": 5, "text": "E. Ses glandes sont disposées en 03 plans autour de l'urètre prostatique" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 13,
+    "text": "22. La prostate: cochez les RF",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A. Est une glande hormono-dépendante" },
+      { "id": 2, "text": "B. Joue un rôle peu important dans la reproduction" },
+      { "id": 3, "text": "C. Le liquide prostatique se mélange au sperme avant l'éjaculation" },
+      { "id": 4, "text": "D. Le liquide prostatique est immunosuppresseur" },
+      { "id": 5, "text": "E. Les cellules glandulaires sont androgéno-dépendantes" }
+    ],
+    "correctOptionIds": [2, 3]
+  },
+  {
+    "id": 14,
+    "text": "23. Les glandes bulbo-urétrales: cochez les RJ",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A. Sont enfouies dans le corps spongieux" },
+      { "id": 2, "text": "B. S'abouchent à l'urètre membraneux" },
+      { "id": 3, "text": "C. Leur sécrétion participe à la coagulation du sperme" },
+      { "id": 4, "text": "D. Participent aux mécanismes de défense du tractus génital" },
+      { "id": 5, "text": "E. Sont tubulo-alvéolées" }
+    ],
+    "correctOptionIds": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 15,
+    "text": "24. La glande thyroïde: cochez les RJ",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A. Est la plus volumineuse des glandes endocrines pures" },
+      { "id": 2, "text": "B. Est très peu vascularisée" },
+      { "id": 3, "text": "C. Comporte un seul type cellulaire qui sécrète des hormones différentes" },
+      { "id": 4, "text": "D. Très riche en vésicules de taille variable" },
+      { "id": 5, "text": "E. Le follicule est bordé par un épithélium simple" }
+    ],
+    "correctOptionIds": [1, 4, 5]
+  }
+]
