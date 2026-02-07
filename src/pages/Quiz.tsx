@@ -148,7 +148,7 @@ const Quiz: React.FC = () => {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-600 to-indigo-600">
         <div className="text-white text-center">
-          <p className="text-xl mb-4">Loading quiz...</p>
+          <p className="text-xl mb-4">Un moment...</p>
         </div>
       </div>
     );
@@ -509,6 +509,7 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
 
