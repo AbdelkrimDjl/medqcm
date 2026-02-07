@@ -141,7 +141,7 @@ const Home: React.FC = () => {
     >
       <div className="w-full max-w-2xl">
         <div className="text-center mb-8">
-          <h1 className="text-5xl font-bold text-white mb-4">QCMs Blida</h1>
+          <h1 className="text-5xl font-bold text-white mb-4">MedQCM — Blida</h1>
           <p className="text-xl text-purple-100">
             2ème Année Médecine
           </p>
@@ -280,4 +280,5 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
 
