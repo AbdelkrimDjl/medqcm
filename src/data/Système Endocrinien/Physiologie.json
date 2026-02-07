@@ -192,7 +192,7 @@
       { "id": 4, "text": "D/ 2,3" },
       { "id": 5, "text": "E/ 2, 4" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [3]
   },
   {
     "id": 15,
@@ -205,7 +205,7 @@
       { "id": 4, "text": "D/ 4, 5" },
       { "id": 5, "text": "E/ 2, 5" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [5]
   },
   {
     "id": 16,
@@ -218,7 +218,7 @@
       { "id": 4, "text": "D/ 1,3, 4" },
       { "id": 5, "text": "E/ 1,4,5" }
     ],
-    "correctOptionIds": [3]
+    "correctOptionIds": [5]
   },
   {
     "id": 17,
@@ -270,7 +270,7 @@
       { "id": 4, "text": "D/ 2, 4, 5" },
       { "id": 5, "text": "E/ 3, 4, 5" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [3]
   },
   {
     "id": 21,
@@ -296,7 +296,7 @@
       { "id": 4, "text": "D/ 3+4" },
       { "id": 5, "text": "E/ 1+3+4" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [2]
   },
   {
     "id": 23,
