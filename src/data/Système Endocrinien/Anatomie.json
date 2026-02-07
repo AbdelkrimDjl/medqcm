@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "text": "Q1/ A propos la glande mammaire :\n1. C'est une glande mobile par rapport à la paroi thoracique\n2. Le tissus adipeux pré-glandulaire est absent en regard du mamelon\n3. Les ligaments de Cooper relient la graisse rétro-mamelonnaire à la paroi thoracique\n4. Le sillon infra-mammaire se projette en regard du 5ème espace intercostal chez la femme\n5. Le fascia rétro-mammaire est un fascia mal individualisable",
+    "text": "A propos la glande mammaire :\n1. C'est une glande mobile par rapport à la paroi thoracique\n2. Le tissus adipeux pré-glandulaire est absent en regard du mamelon\n3. Les ligaments de Cooper relient la graisse rétro-mamelonnaire à la paroi thoracique\n4. Le sillon infra-mammaire se projette en regard du 5ème espace intercostal chez la femme\n5. Le fascia rétro-mammaire est un fascia mal individualisable",
     "module": "Anatomie",
     "options": [
       { "id": 1, "text": "A (1, 4)" },
@@ -10,11 +10,12 @@
       { "id": 4, "text": "D (4, 5)" },
       { "id": 5, "text": "E (1, 2)" }
     ],
-    "correctOptionIds": [5]
+    "correctOptionIds": [5],
+    "Date":"24 Février 2024"
   },
   {
     "id": 2,
-    "text": "Q2/ A propos de la glande thyroïde :\n1. Sa surface est lisse\n2. Se projette sur le rachis s'étendant de la C4 jusqu'à la C7\n3. Son isthme peut être absent\n4. La face postérieure de son lobe latéral répond à l'artère carotide interne\n5. La face postérieure de son lobe latéral répond à l'artère carotide commune",
+    "text": "A propos de la glande thyroïde :\n1. Sa surface est lisse\n2. Se projette sur le rachis s'étendant de la C4 jusqu'à la C7\n3. Son isthme peut être absent\n4. La face postérieure de son lobe latéral répond à l'artère carotide interne\n5. La face postérieure de son lobe latéral répond à l'artère carotide commune",
     "module": "Anatomie",
     "options": [
       { "id": 1, "text": "A (1, 4)" },
@@ -23,11 +24,12 @@
       { "id": 4, "text": "D (1, 5)" },
       { "id": 5, "text": "E (1, 3)" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [2],
+    "Date":"24 Février 2024"
   },
   {
     "id": 3,
-    "text": "Q3/ A propos du périnée :\n1. Le muscle sphincter externe de l'anus appartient au plan moyen du périnée\n2. Le plan superficiel est appelé diaphragme pelvien\n3. Le plan superficiel recouvre uniquement le périnée uro-génital\n4. Le plan moyen recouvre uniquement le périnée uro-génital\n5. Les muscles transverses assurent l'immobilisation du centre tendineux",
+    "text": "A propos du périnée :\n1. Le muscle sphincter externe de l'anus appartient au plan moyen du périnée\n2. Le plan superficiel est appelé diaphragme pelvien\n3. Le plan superficiel recouvre uniquement le périnée uro-génital\n4. Le plan moyen recouvre uniquement le périnée uro-génital\n5. Les muscles transverses assurent l'immobilisation du centre tendineux",
     "module": "Anatomie",
     "options": [
       { "id": 1, "text": "A (1, 4)" },
@@ -36,11 +38,12 @@
       { "id": 4, "text": "D (4, 5)" },
       { "id": 5, "text": "E (1, 3)" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"24 Février 2024"
   },
   {
     "id": 4,
-    "text": "Q4/ L'appareil génital féminin :\n1. L'isthme de la trompe est un segment souple\n2. Le mésovarium unit l'ovaire au feuillet antérieur du ligament large\n3. Le fundus représente l'extrémité supérieure du vagin\n4. L'artère cervico-vaginale est une collatérale de l'artère utérine\n5. Le mont du pubis est situé devant la symphyse pubienne",
+    "text": "L'appareil génital féminin :\n1. L'isthme de la trompe est un segment souple\n2. Le mésovarium unit l'ovaire au feuillet antérieur du ligament large\n3. Le fundus représente l'extrémité supérieure du vagin\n4. L'artère cervico-vaginale est une collatérale de l'artère utérine\n5. Le mont du pubis est situé devant la symphyse pubienne",
     "module": "Anatomie",
     "options": [
       { "id": 1, "text": "A (3, 4)" },
@@ -49,11 +52,12 @@
       { "id": 4, "text": "D (4, 5)" },
       { "id": 5, "text": "E (2, 5)" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"24 Février 2024"
   },
   {
     "id": 5,
-    "text": "Q5/ L'utérus :\n1. La portion intra-vaginale du col est percée par l'orifice interne du col\n2. La face ventrale de la portion supra-vaginale du col n'est pas péritonisée.\n3. L'artère utérine effectue sa crosse dans son segment paramétrial.\n4. Le groupe lymphatique principal aboutit aux nœuds iliaques externes.",
+    "text": "L'utérus :\n1. La portion intra-vaginale du col est percée par l'orifice interne du col\n2. La face ventrale de la portion supra-vaginale du col n'est pas péritonisée.\n3. L'artère utérine effectue sa crosse dans son segment paramétrial.\n4. Le groupe lymphatique principal aboutit aux nœuds iliaques externes.",
     "module": "Anatomie",
     "options": [
       { "id": 1, "text": "A (1, 2)" },
@@ -62,11 +66,12 @@
       { "id": 4, "text": "D (1, 3)" },
       { "id": 5, "text": "E (3, 4)" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [2],
+    "Date":"24 Février 2024"
   },
   {
     "id": 6,
-    "text": "Q6/ L'hypophyse est située :\n1. Au-dessous du chiasma optique.\n2. Au-dessous le losange opto-pédonculaire\n3. En arrière du rebord antérieur de la selle turcique.\n4. En avant de la protubérance annulaire.",
+    "text": "L'hypophyse est située :\n1. Au-dessous du chiasma optique.\n2. Au-dessous le losange opto-pédonculaire\n3. En arrière du rebord antérieur de la selle turcique.\n4. En avant de la protubérance annulaire.",
     "module": "Anatomie",
     "options": [
       { "id": 1, "text": "A (1, 2)" },
@@ -75,11 +80,12 @@
       { "id": 4, "text": "D (2, 3)" },
       { "id": 5, "text": "E (2, 4)" }
     ],
-    "correctOptionIds": [2,3]
+    "correctOptionIds": [2,3],
+    "Date":"24 Février 2024"
   },
   {
     "id": 7,
-    "text": "Q7/ Concernant la glande surrénale :\n1. Est située de part et d'autre de la D10\n2. La surrénale gauche répond en avant à l'estomac.\n3. L'artère surrénale supérieure provient de l'artère phrénique inférieure.\n4. La veine surrénale moyenne se draine dans la veine rénale à droite",
+    "text": "Concernant la glande surrénale :\n1. Est située de part et d'autre de la D10\n2. La surrénale gauche répond en avant à l'estomac.\n3. L'artère surrénale supérieure provient de l'artère phrénique inférieure.\n4. La veine surrénale moyenne se draine dans la veine rénale à droite",
     "module": "Anatomie",
     "options": [
       { "id": 1, "text": "A (1, 2)" },
@@ -88,11 +94,12 @@
       { "id": 4, "text": "D (2, 3)" },
       { "id": 5, "text": "E (2, 4)" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"24 Février 2024"
   },
   {
     "id": 8,
-    "text": "Q8/ Les rapports de la prostate :\n1. La prostate contient l'urètre prostatique qui est entouré du sphincter strié\n2. En crânial et dorsal, les uretères, les vésicules séminales et les conduits déférents\n3. En latéral, les pédicules vasculaires génito-vésicaux.\n4. En ventral, la région rétro pubienne qui contient d'importantes artères.",
+    "text": "Les rapports de la prostate :\n1. La prostate contient l'urètre prostatique qui est entouré du sphincter strié\n2. En crânial et dorsal, les uretères, les vésicules séminales et les conduits déférents\n3. En latéral, les pédicules vasculaires génito-vésicaux.\n4. En ventral, la région rétro pubienne qui contient d'importantes artères.",
     "module": "Anatomie",
     "options": [
       { "id": 1, "text": "A (1, 2)" },
@@ -101,11 +108,12 @@
       { "id": 4, "text": "D (2, 4)" },
       { "id": 5, "text": "E (2, 3)" }
     ],
-    "correctOptionIds": [5]
+    "correctOptionIds": [5],
+    "Date":"24 Février 2024"
   },
   {
     "id": 9,
-    "text": "Q9/\n1. Le sinus épididymaire est un cul de sac situé entre la queue de l'épididyme et le testicule.\n2. La face médiale du testicule est dépourvue de vaginale.\n3. Le bord postérieur du testicule est en rapport avec l'épididyme.\n4. Le muscle crémaster provient du muscle transverse.",
+    "text": "1. Le sinus épididymaire est un cul de sac situé entre la queue de l'épididyme et le testicule.\n2. La face médiale du testicule est dépourvue de vaginale.\n3. Le bord postérieur du testicule est en rapport avec l'épididyme.\n4. Le muscle crémaster provient du muscle transverse.",
     "module": "Anatomie",
     "options": [
       { "id": 1, "text": "A (1, 2)" },
@@ -114,7 +122,8 @@
       { "id": 4, "text": "D (2, 3)" },
       { "id": 5, "text": "E (2, 4)" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"24 Février 2024"
   },
   {
     "id": 10,
@@ -127,7 +136,8 @@
       { "id": 4, "text": "D(2,3)" },
       { "id": 5, "text": "E(3,4)" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [2],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 11,
@@ -140,7 +150,8 @@
       { "id": 4, "text": "D(1,3,4)" },
       { "id": 5, "text": "E(1,4,5)" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 12,
@@ -153,7 +164,8 @@
       { "id": 4, "text": "D(2,3,4)" },
       { "id": 5, "text": "E(1,2,4)" }
     ],
-    "correctOptionIds": [3]
+    "correctOptionIds": [3],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 13,
@@ -166,7 +178,8 @@
       { "id": 4, "text": "D. Le crémaster spermatique est l'une des enveloppes testiculaires" },
       { "id": 5, "text": "E. Toutes les repenses sont fausses" }
     ],
-    "correctOptionIds": [5]
+    "correctOptionIds": [5],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 14,
@@ -179,7 +192,8 @@
       { "id": 4, "text": "D(2-3)" },
       { "id": 5, "text": "E(2-4)" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 15,
@@ -192,7 +206,8 @@
       { "id": 4, "text": "D(1,4)" },
       { "id": 5, "text": "E(3,4)" }
     ],
-    "correctOptionIds": [1]
+    "correctOptionIds": [1],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 16,
@@ -205,7 +220,8 @@
       { "id": 4, "text": "D. Les moyens de fixation du sein sont peu développés" },
       { "id": 5, "text": "E. Le groupe mammaire interne des lymphatiques du sein part du plexus lymphatiques péri-aréolaire." }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 17,
@@ -218,7 +234,8 @@
       { "id": 4, "text": "D (5)" },
       { "id": 5, "text": "E (1)" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 18,
@@ -231,7 +248,8 @@
       { "id": 4, "text": "D. Le muscle compresseur de l'urètre est tendu transversalement en arrière du muscle urétro-prostatique/urétro-vaginal." },
       { "id": 5, "text": "E. Toutes les réponses sont fausses." }
     ],
-    "correctOptionIds": [3]
+    "correctOptionIds": [3],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 19,
@@ -244,7 +262,8 @@
       { "id": 4, "text": "D. L'ovaire est irrigué par le rameau ovarique médial de l'artère ovarique" },
       { "id": 5, "text": "E. Les glandes vulvaires comprennent les glandes para-urétrales" }
     ],
-    "correctOptionIds": [5]
+    "correctOptionIds": [5],
+    "Date":"05 Mars 2023"
   },
   {
     "id": 20,
@@ -257,7 +276,8 @@
       { "id": 4, "text": "D. La verge est constituée par deux corps spongieux et un corps caverneux" },
       { "id": 5, "text": "E. la veine dorsale profonde du pénis chemine sur la gouttière supérieure" }
     ],
-    "correctOptionIds": [1, 3, 5]
+    "correctOptionIds": [1, 3, 5],
+    "Date":"05 Mars 2023"
   },
   {
     "id": 21,
@@ -270,7 +290,8 @@
       { "id": 4, "text": "D. Les vésicules séminales sont deux réservoirs lisses" },
       { "id": 5, "text": "E. Les glandes de Cowper sont allongées" }
     ],
-    "correctOptionIds": [2, 3]
+    "correctOptionIds": [2, 3],
+    "Date":"05 Mars 2023"
   },
   {
     "id": 22,
@@ -283,7 +304,8 @@
       { "id": 4, "text": "D. La neurohypophyse est vascularisée par les artères hypophysaires supérieures" },
       { "id": 5, "text": "E. Le système porte hypothalamo-hypophysaire permet le passage des hormones" }
     ],
-    "correctOptionIds": [2, 5]
+    "correctOptionIds": [2, 5],
+    "Date":"05 Mars 2023"
   },
   {
     "id": 23,
@@ -296,7 +318,8 @@
       { "id": 4, "text": "D. Segment utérin de la trompe" },
       { "id": 5, "text": "E. Ligament large" }
     ],
-    "correctOptionIds": [2, 3, 5]
+    "correctOptionIds": [2, 3, 5],
+    "Date":"05 Mars 2023"
   },
   {
     "id": 24,
@@ -309,7 +332,8 @@
       { "id": 4, "text": "D (2,5)" },
       { "id": 5, "text": "E (2,4)" }
     ],
-    "correctOptionIds": [3]
+    "correctOptionIds": [3],
+    "Date":"05 Mars 2023"
   },
   {
     "id": 25,
@@ -322,7 +346,8 @@
       { "id": 4, "text": "D (2,5)" },
       { "id": 5, "text": "E (2,4)" }
     ],
-    "correctOptionIds": [3]
+    "correctOptionIds": [3],
+    "Date":"05 Mars 2023"
   },
   {
     "id": 26,
@@ -335,7 +360,8 @@
       { "id": 4, "text": "D (2,5)" },
       { "id": 5, "text": "E (2,4)" }
     ],
-    "correctOptionIds": [5]
+    "correctOptionIds": [5],
+    "Date":"05 Mars 2023"
   },
   {
     "id": 27,
@@ -348,7 +374,8 @@
       { "id": 4, "text": "D (2,5)" },
       { "id": 5, "text": "E (2,4)" }
     ],
-    "correctOptionIds": [1]
+    "correctOptionIds": [1],
+    "Date":"05 Mars 2023"
   },
   {
     "id": 28,
