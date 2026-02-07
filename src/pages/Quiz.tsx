@@ -309,7 +309,7 @@ const Quiz: React.FC = () => {
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-gray-800">ExamGen Quiz</h1>
+              <h1 className="text-2xl font-bold text-gray-800">QCM Blida 2ème Année Médecine</h1>
               <p className="text-sm text-gray-600">
                 {config.module} - {config.year}
               </p>
@@ -322,24 +322,6 @@ const Quiz: React.FC = () => {
                 <HomeIcon className="w-4 h-4" />
                 Home
               </button>
-              <div className="text-right">
-                <div className="text-sm text-gray-600">Mode</div>
-                <div className="font-semibold text-gray-800 capitalize">
-                  {quizMode}
-                </div>
-              </div>
-              {quizMode === "test" && (
-                <div className="flex items-center gap-2 bg-purple-100 px-4 py-2 rounded-lg">
-                  <Clock
-                    className={`w-5 h-5 ${timeRemaining < 300 ? "text-red-600" : "text-purple-600"}`}
-                  />
-                  <span
-                    className={`font-mono font-semibold ${timeRemaining < 300 ? "text-red-600" : "text-purple-600"}`}
-                  >
-                    {formatTime(timeRemaining)}
-                  </span>
-                </div>
-              )}
             </div>
           </div>
 
@@ -549,5 +531,6 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
