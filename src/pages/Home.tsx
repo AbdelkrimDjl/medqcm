@@ -141,7 +141,7 @@ const Home: React.FC = () => {
     >
       <div className="w-full max-w-2xl">
         <div className="text-center mb-8">
-          <h1 className="text-5xl font-bold text-white mb-4">QCM Blida</h1>
+          <h1 className="text-5xl font-bold text-white mb-4">QCMs Blida</h1>
           <p className="text-xl text-purple-100">
             2ème Année Médecine
           </p>
@@ -149,7 +149,7 @@ const Home: React.FC = () => {
 
         <div className="bg-white rounded-2xl shadow-2xl p-8">
           <h2 className="text-2xl font-bold text-gray-800 mb-6">
-            Configure Votre Simulation
+            Configurer Votre Simulation
           </h2>
 
           <div className="space-y-6">
@@ -188,7 +188,7 @@ const Home: React.FC = () => {
                 <option value="">
                   {selectedUnit
                     ? "Choisissez un Module"
-                    : "Sélectionnez d'abord une unité"}
+                    : "Sélectionnez d'abord une Unité"}
                 </option>
                 {availableModules.map((module) => (
                   <option key={module} value={module}>
@@ -280,3 +280,4 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
