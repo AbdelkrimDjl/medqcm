@@ -1,0 +1,288 @@
+[
+  {
+    "id": 1,
+    "text": "25- le récepteur d'EGF (facteur de croissance épidermique)",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A. Est une protéine ancrée dans la membrane par deux acides gras (protéine membranaire intrinsèque)" },
+      { "id": 2, "text": "B. Est un canal ionique" },
+      { "id": 3, "text": "C. Est une protéine transmembranaire qui porte une activité kinasique, type tyrosine kinase, dans son segment intracellulaire" },
+      { "id": 4, "text": "D. Est un récepteur nucléaire (car l'EGF est hydrophobe et traverse la membrane plasmique)" },
+      { "id": 5, "text": "E. Est parfois surexprimé dans certains cancers" }
+    ],
+    "correctOptionIds": [3, 5]
+  },
+  {
+    "id": 2,
+    "text": "26- Les récepteurs de la membrane plasmique, cocher la ou les propositions exactes",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A. S'associent à des ligands extracellulaires de manière irréversible." },
+      { "id": 2, "text": "B. Génèrent des signaux intracellulaires faisant intervenir des \"seconds messagers\"." },
+      { "id": 3, "text": "C. Sont uniquement associés à des protéines G." },
+      { "id": 4, "text": "D. Sont responsables de la transduction d'une information." },
+      { "id": 5, "text": "E. Peuvent être des enzymes." }
+    ],
+    "correctOptionIds": [2, 4, 5]
+  },
+  {
+    "id": 3,
+    "text": "27- La transduction d'un signal extracellulaire mettant en jeu l'adényl cyclase se déroule en faisant intervenir plusieurs étapes :\n1) hydrolyse du GTP en GDP par les protéines G\n2) Fixation du médiateur chimique (ligand) sur son récepteur spécifique et changement de conformation du récepteur\n3) Hydrolyse de l'ATP et cyclisation de l'AMP par l'adénylyl cyclase\n4) Remplacement du GDP par du GTP sur la protéine G (échange)\n5) Formation du complexe protéine G-adénylyl cyclase\n6) Activation d'une cascade de phosphorylation\nDans quel ordre chronologique se déroule les différentes étapes ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- 1,2,5,3,6,4" },
+      { "id": 2, "text": "B- 2,1,5,3,6,4" },
+      { "id": 3, "text": "C- 2,1,5,3,4,6" },
+      { "id": 4, "text": "D- 2,4,6,3,1,5" },
+      { "id": 5, "text": "E- 2,4,5,3,6,1" }
+    ],
+    "correctOptionIds": [5]
+  },
+  {
+    "id": 4,
+    "text": "28- Laquelle de ces hormones régule la fonction des gènes et interagit avec les récepteurs à l'intérieur des cellules ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- hormone anti diurèse" },
+      { "id": 2, "text": "B- hormones thyroïdiennes" },
+      { "id": 3, "text": "C- hormone de croissance" },
+      { "id": 4, "text": "D- thyrotrophine" },
+      { "id": 5, "text": "E- aucune hormone" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 5,
+    "text": "29- Indiquez la (ou les) proposition(s) exacte(s).",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Une glande endocrine peut synthétiser plusieurs hormones différentes." },
+      { "id": 2, "text": "B- Une hormone ne peut être produite que par un seul organe." },
+      { "id": 3, "text": "C- Un tissu n'est soumis qu'à l'influence d'une et une seule hormone." },
+      { "id": 4, "text": "D- Une hormone donnée n'agit que sur un seul tissu." },
+      { "id": 5, "text": "E- Une hormone agit toujours à distance de son lieu de synthèse." }
+    ],
+    "correctOptionIds": [1, 5]
+  },
+  {
+    "id": 6,
+    "text": "30- Parmi les propositions suivantes concernant les hormones thyroïdiennes, indiquer celle(s) qui est (sont) exacte(s) ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- T3 est plus active que T4" },
+      { "id": 2, "text": "B- Une carence en iode inhibe la fonction thyroïdienne" },
+      { "id": 3, "text": "C- Une peroxydase est nécessaire au couplage des iodotyrosines" },
+      { "id": 4, "text": "D- T4 est transportée dans le sang par la thyroglobuline" },
+      { "id": 5, "text": "E- la tétraïodothyrosine circulante est d'origine exclusivement thyroïdienne" }
+    ],
+    "correctOptionIds": [1, 2, 3]
+  },
+  {
+    "id": 7,
+    "text": "31- Chez un animal hypophysectomisé, l'injection de TSH produit en quelques minutes au niveau de la glande thyroïde l'apparition de tous les phénomènes suivants sauf un lequel,",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A. Augmentation de la capture de l'iode" },
+      { "id": 2, "text": "B. Sécrétion de thyroglobuline dans la substance colloïde." },
+      { "id": 3, "text": "C. Synthèse de T3, T4 et des iodotyrosines." },
+      { "id": 4, "text": "D. Diminution du débit sanguin thyroïdien." },
+      { "id": 5, "text": "E. Endocytose de la colloïde." }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 8,
+    "text": "32- En réponse à une privation d'eau: cocher la ou les propositions exactes",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A. L'osmolarité du plasma diminue." },
+      { "id": 2, "text": "B. La sécrétion d'ADH augmente." },
+      { "id": 3, "text": "C. La réabsorption d'eau au niveau du tube collecteur augmente." },
+      { "id": 4, "text": "D. L'osmolarité de l'urine augmente." },
+      { "id": 5, "text": "E. Le volume de l'urine augmente" }
+    ],
+    "correctOptionIds": [2, 3, 4]
+  },
+  {
+    "id": 9,
+    "text": "33- cocher la ou les propositions exactes:",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Le récepteur des cellules gonadotropes de la GnRH est couplé à la protéine G" },
+      { "id": 2, "text": "B- L'impuberisme peut être du à un hypergonadisme hypogonadotrope d'origine génétique" },
+      { "id": 3, "text": "C- La leptine module la sécrétion de GnRH" },
+      { "id": 4, "text": "D- L'inhibine B contrôle négativement la spermatogenèse" },
+      { "id": 5, "text": "E- L'ABP, hormone secrétée par les cellules de Sertoli stimule la synthèse de FSH" }
+    ],
+    "correctOptionIds": [1, 3, 4]
+  },
+  {
+    "id": 10,
+    "text": "34- Cocher la ou les propositions fausses concernant la prolactine:",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A. elle est sécrétée par les cellules lactotropes de l'antéhypophyse" },
+      { "id": 2, "text": "B. freine sa propre sécrétion" },
+      { "id": 3, "text": "C. sa sécrétion est stimulée par la dopamine" },
+      { "id": 4, "text": "D. sa sécrétion est freinée par les estrogènes" },
+      { "id": 5, "text": "E. est responsable de l'éjection du lait au niveau de la glande mammaire" }
+    ],
+    "correctOptionIds": [3, 4, 5]
+  },
+  {
+    "id": 11,
+    "text": "35- Parmi les caractéristiques physiologiques et hormonales suivantes, lesquelles caractérisent la phase de ménopause:",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Une augmentation de la testostérone" },
+      { "id": 2, "text": "B- Une augmentation des œstrogènes" },
+      { "id": 3, "text": "C- Une augmentation des FSH, LH" },
+      { "id": 4, "text": "D- Un épuisement du capital folliculaire" },
+      { "id": 5, "text": "E- Une diminution des androgènes" }
+    ],
+    "correctOptionIds": [3, 4]
+  },
+  {
+    "id": 12,
+    "text": "36- Parmi les causes suivantes, lesquelles peuvent être à l'origine d'une aménorrhée secondaire:",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Retard de croissance" },
+      { "id": 2, "text": "B- Grossesse" },
+      { "id": 3, "text": "C- Hypothyroïdie" },
+      { "id": 4, "text": "D- Syndrome de Turner" },
+      { "id": 5, "text": "E- Syndrome de Klinefelter" }
+    ],
+    "correctOptionIds": [2, 3]
+  },
+  {
+    "id": 13,
+    "text": "37- Une tumeur testiculaire peut être à l'origine de quelle pathologie parmi les suivantes:",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Gynécomastie" },
+      { "id": 2, "text": "B- Puberté précoce vrai" },
+      { "id": 3, "text": "C- Puberté précoce fausse" },
+      { "id": 4, "text": "D- Retard pubertaire" },
+      { "id": 5, "text": "E- Un état intersexué" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 14,
+    "text": "38- Le stroma ovarien est le lieu de synthèse de (CRJ)",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Oestrogènes" },
+      { "id": 2, "text": "B- Progestérone" },
+      { "id": 3, "text": "C- Oestrogènes et progesterogènes" },
+      { "id": 4, "text": "D- Androgènes" },
+      { "id": 5, "text": "E- Inhibines A" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 15,
+    "text": "39- L'examen clinique d'un enfant de 5 ans de sexe masculin, montre à la palpation, l'absence de testicule droit au niveau du scrotum, dans le but de poser un diagnostic différentiel entre cryptorchidie et anorchidie, quel (s) test (s) proposeriez-vous?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Un dosage statique de la testostérone," },
+      { "id": 2, "text": "B- Un test de stimulation à la BHCG," },
+      { "id": 3, "text": "C- Un spermogramme," },
+      { "id": 4, "text": "D- Un dosage de la FSH, LH," },
+      { "id": 5, "text": "E- Un test de stimulation au Tamoxifène." }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 16,
+    "text": "40- La sécrétion d'Aldostérone est augmentée lors: cocher la ou les propositions exactes",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A. d'une augmentation de la kaliémie" },
+      { "id": 2, "text": "B. d'une déplétion sodée" },
+      { "id": 3, "text": "C. d'une hypovolémie" },
+      { "id": 4, "text": "D. du passage de la position debout à la position couchée" },
+      { "id": 5, "text": "E. d'un traitement par le captopril" }
+    ],
+    "correctOptionIds": [1, 2, 3]
+  },
+  {
+    "id": 17,
+    "text": "41- La déficience en prolactine est responsable: cocher la ou les propositions fausses",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A. Le plus souvent d'une naissance prématurée." },
+      { "id": 2, "text": "B. De l'absence de production de lait." },
+      { "id": 3, "text": "C. D'une absence d'ovulation." },
+      { "id": 4, "text": "D. D'une augmentation de la production de lait" },
+      { "id": 5, "text": "E. D'une galactorrhée" }
+    ],
+    "correctOptionIds": [1, 3, 4, 5]
+  },
+  {
+    "id": 18,
+    "text": "42- dans un syndrome de Conn, on retrouve un ou plusieurs des éléments suivants, lequel ou lesquels :",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A. Une diminution de la réabsorption du sodium" },
+      { "id": 2, "text": "B. Une augmentation de la réabsorption du potassium" },
+      { "id": 3, "text": "C. Une hypertension artérielle" },
+      { "id": 4, "text": "D. Une hyperkaliémie" },
+      { "id": 5, "text": "E. Une diminution de la volémie" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 19,
+    "text": "43- Quelles sont les propositions vraies à propos du système rénine / angiotensine / aldostérone?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A. La rénine est une enzyme" },
+      { "id": 2, "text": "B. L'angiotensine Il est une enzyme" },
+      { "id": 3, "text": "C. L'angiotensine Il a un effet vasoconstricteur" },
+      { "id": 4, "text": "D. L'angiotensine I stimule la production d'aldostérone" },
+      { "id": 5, "text": "E. L'activité Rénine représente la quantité d'Angiotensine II libéré en une heure par 1ml de plasma riche en Angiotensinogene" }
+    ],
+    "correctOptionIds": [1, 3]
+  },
+  {
+    "id": 20,
+    "text": "44- À propos de la biosynthèse des androgènes, relevez-la (ou les) proposition(s) exacte(s).",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- La DHEA est exclusivement synthétisé par les surrénales." },
+      { "id": 2, "text": "B- l'hirsutisme est du à une hyper androgénie chez la femme" },
+      { "id": 3, "text": "C- La DHT est un androgène plus actif que la testostérone" },
+      { "id": 4, "text": "D- La voie Δ4 permet la synthèse d'androstène-dione à partir d'un précurseur : la progestérone" },
+      { "id": 5, "text": "E- Chez l'homme la plupart des androgènes circulants proviennent des testicules" }
+    ],
+    "correctOptionIds": [2, 3, 4]
+  },
+  {
+    "id": 21,
+    "text": "45- l'hypogonadisme hypogonadotrope, cocher la ou les propositions fausses",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Il est caracterisé par une diminution du taux plasmatique de testostérone" },
+      { "id": 2, "text": "B- Il peut être du a une agénésie testiculaire" },
+      { "id": 3, "text": "C- Il est d'origine hypothalamo-hypophysaire" },
+      { "id": 4, "text": "D- il est du à un déficit en gonadoliberines" },
+      { "id": 5, "text": "E- il est responsable d'infertilité" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 22,
+    "text": "46- en ce qui concerne les catécholamines, cocher la ou les propositions exactes:\nA- Elles augmentent la sécrétion de rénine\nB- Par l'intermédiaire de leurs récepteurs α-1, elles inhibent la libération de l'insuline\nC- Elles stimulent la lipolyse par l'intermédiaire de leurs récepteurs β-1\nD- Les VMA sont les produits de dégradation finale de toutes les catécholamines\nE- La metanephrine est le produit d'action de l'enzyme MAO sur l'adrénaline",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A" },
+      { "id": 2, "text": "B" },
+      { "id": 3, "text": "C" },
+      { "id": 4, "text": "D" },
+      { "id": 5, "text": "E" }
+    ],
+    "correctOptionIds": [1, 3]
+  }
+]
