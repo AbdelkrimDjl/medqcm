@@ -59,7 +59,11 @@ const Home: React.FC = () => {
     // set state
     setUnits(Array.from(unitSet)); // ["UnitNameA", "UnitNameB", ...]
     // for modules we store "UnitName/moduleName" strings — change the format to your taste
-    setModules(moduleList.map((m) => `${m.unit}/${m.name}`));
+    const grouped = Array.from(unitSet).map((u) => ({
+    unit: u,
+    modules: moduleList.filter(m => m.unit === u).map(m => m.name)
+    }));
+    setModules(grouped);
     setAllQuestions(questions);
   };
 
@@ -216,6 +220,7 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
 
 
 
