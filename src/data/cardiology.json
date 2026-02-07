@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "text": "Which artery supplies oxygenated blood to the heart muscle?",
+    "text": "Ghazal?",
     "module": "Cardiology",
     "difficulty": "medium",
     "options": [
@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "text": "What is the most common cause of heart failure?",
+    "text": "Ghazal?",
     "module": "Cardiology",
     "difficulty": "medium",
     "options": [
@@ -29,7 +29,7 @@
   },
   {
     "id": 3,
-    "text": "What is the normal ejection fraction of the left ventricle?",
+    "text": "Ghazal?",
     "module": "Cardiology",
     "difficulty": "medium",
     "options": [
@@ -43,7 +43,7 @@
   },
   {
     "id": 4,
-    "text": "What does the P wave represent on an ECG?",
+    "text": "Ghazal?",
     "module": "Cardiology",
     "difficulty": "easy",
     "options": [
@@ -57,7 +57,7 @@
   },
   {
     "id": 5,
-    "text": "What is the first-line treatment for stable angina?",
+    "text": "Ghazal?",
     "module": "Cardiology",
     "difficulty": "medium",
     "options": [
@@ -70,3 +70,4 @@
     "explanation": "Beta-blockers are the first-line treatment for stable angina as they reduce heart rate and myocardial oxygen demand."
   }
 ]
+
