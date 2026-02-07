@@ -118,119 +118,119 @@
   },
   {
     "id": 10,
-    "text": "Q1/ A propos la glande mammaire:\n1. C'est une glande mobile par rapport à la paroi thoracique\n2. Le tissus adipeux pré-glandulaire est absent en regard du mamelon\n3. Les ligaments de Cooper relient la graisse rétro-mamelonnaire à la paroi thoracique\n4. Le sillon infra-mammaire se projette en regard du 5ème espace intercostal chez la femme\n5. Le fascia rétro-mammaire est un fascia mal individualisable",
+    "text": "Concernant l'appareil génital féminin :\n1. Le segment utérin de la trompe s'ouvre par l'ostium abdominal de la trompe\n2. Le mésosalpinx représente la partie supérieure du ligament large\n3. Le bord mésovarique est le bord postérieur de l'ovaire\n4. Les artères vésico-vaginales sont des collatérales de l'artère utérine",
     "module": "Anatomie",
     "options": [
-      { "id": 1, "text": "A (1, 4)" },
-      { "id": 2, "text": "B (3, 5)" },
-      { "id": 3, "text": "C (2, 3)" },
-      { "id": 4, "text": "D (4, 5)" },
-      { "id": 5, "text": "E (1, 2)" }
-    ],
-    "correctOptionIds": [5]
-  },
-  {
-    "id": 11,
-    "text": "Q2/ A propos de la glande thyroïde:\n1. Sa surface est lisse\n2. Se projette sur le rachis s'étendant de la C4 jusqu'à la C7\n3. Son isthme peut être absent\n4. La face postérieure de son lobe latéral répond à l'artère carotide interne\n5. La face postérieure de son lobe latéral répond à l'artère carotide commune",
-    "module": "Anatomie",
-    "options": [
-      { "id": 1, "text": "A (1, 4)" },
-      { "id": 2, "text": "B (3, 5)" },
-      { "id": 3, "text": "C (2, 3)" },
-      { "id": 4, "text": "D (1, 5)" },
-      { "id": 5, "text": "E (1, 3)" }
+      { "id": 1, "text": "A(1,4)" },
+      { "id": 2, "text": "B(2,4)" },
+      { "id": 3, "text": "C(1,2)" },
+      { "id": 4, "text": "D(2,3)" },
+      { "id": 5, "text": "E(3,4)" }
     ],
     "correctOptionIds": [2]
   },
   {
-    "id": 12,
-    "text": "Q3/ A propos du périnée :\n1. Le muscle sphincter externe de l'anus appartient au plan moyen du périnée\n2. Le plan superficiel est appelé diaphragme pelvien\n3. Le plan superficiel recouvre uniquement le périnée uro-génital\n4. Le plan moyen recouvre uniquement le périnée uro-génital\n5. Les muscles transverses assurent l'immobilisation du centre tendineux",
+    "id": 11,
+    "text": "Concernant l'utérus :\n1. L'utérus est piriforme\n2. L'utérus est incliné d'avant en arrière\n3. Le ligament large unit le bord latéral du corps utérin à la paroi latérale du petit bassin\n4. Le ligament funiculaire traverse le canal inguinal\n5. L'artère utérine se termine au niveau de la corne de l'utérus en 2 artères",
     "module": "Anatomie",
     "options": [
-      { "id": 1, "text": "A (1, 4)" },
-      { "id": 2, "text": "B (3, 5)" },
-      { "id": 3, "text": "C (2, 3)" },
-      { "id": 4, "text": "D (4, 5)" },
-      { "id": 5, "text": "E (1, 3)" }
+      { "id": 1, "text": "A(1,3,5)" },
+      { "id": 2, "text": "B(3,4,5)" },
+      { "id": 3, "text": "C(2,3,4)" },
+      { "id": 4, "text": "D(1,3,4)" },
+      { "id": 5, "text": "E(1,4,5)" }
     ],
     "correctOptionIds": [4]
   },
   {
-    "id": 13,
-    "text": "Q4/ L'appareil génital féminin:\n1. L'isthme de la trompe est un segment souple.\n2. Le mésovarium unit l'ovaire au feuillet antérieur du ligament large.\n3. Le fundus représente l'extrémité supérieure du vagin.\n4. L'artère cervico-vaginale est une collatérale de l'artère utérine.\n5. Le mont du pubis est situé devant la symphyse pubienne",
+    "id": 12,
+    "text": "Concernant l'appareil génital masculin :\n1. Le conduit déférent a des parties intra-pelviennes et extra-pelviennes\n2. Le testicule est enveloppé par une membrane résistante appelée albuginé\n3. Le conduit épididymaire est l'une des voies spermatiques, il reçoit les canalicules efférents des testicules\n4. Les glandes bulbo-urétrales sont situées au dessus de la prostate, prés des vésicules séminales\n5. Les testicules sont intra-pelviennes",
     "module": "Anatomie",
     "options": [
-      { "id": 1, "text": "A (3, 4)" },
-      { "id": 2, "text": "B (1, 5)" },
-      { "id": 3, "text": "C (1, 4)" },
-      { "id": 4, "text": "D (4, 5)" },
-      { "id": 5, "text": "E (2, 5)" }
+      { "id": 1, "text": "A(1,3,4)" },
+      { "id": 2, "text": "B(2,3,5)" },
+      { "id": 3, "text": "C(1,2,3)" },
+      { "id": 4, "text": "D(2,3,4)" },
+      { "id": 5, "text": "E(1,2,4)" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 13,
+    "text": "Concernant la prostate :",
+    "module": "Anatomie",
+    "options": [
+      { "id": 1, "text": "A. Est une glande endocrine située au dessous de la vessie" },
+      { "id": 2, "text": "B. Est vascularisée par l'artère prostatique issue de l'artère iliaque externe" },
+      { "id": 3, "text": "C. Le segment funiculaire du conduit déférent est prés des vésicules séminales" },
+      { "id": 4, "text": "D. Le crémaster spermatique est l'une des enveloppes testiculaires" },
+      { "id": 5, "text": "E. Toutes les repenses sont fausses" }
     ],
     "correctOptionIds": [4]
   },
   {
     "id": 14,
-    "text": "Q5/ L'utérus:\n1. La portion intra-vaginale du col est percée par l'orifice interne du col\n2. La face ventrale de la portion supra-vaginale du col n'est pas péritonisée.\n3. L'artère utérine effectue sa crosse dans son segment paramétrial.\n4. Le groupe lymphatique principal aboutit aux nœuds iliaques externes.",
+    "text": "Concernant les glandes surrénales:\n1. Elles sont situées de part et d'autre de D10\n2. La surrénale gauche répond en avant à l'estomac.\n3. L'artère surrénale supérieure provient de l'artère phrénique inférieure.\n4. La veine surrénale moyenne se draine dans la veine rénale à droite",
     "module": "Anatomie",
     "options": [
-      { "id": 1, "text": "A (1, 2)" },
-      { "id": 2, "text": "B (2, 3)" },
-      { "id": 3, "text": "C (2, 4)" },
-      { "id": 4, "text": "D (1, 3)" },
-      { "id": 5, "text": "E (3, 4)" }
+      { "id": 1, "text": "A(1-2)" },
+      { "id": 2, "text": "B(1-3)" },
+      { "id": 3, "text": "C(1-4)" },
+      { "id": 4, "text": "D(2-3)" },
+      { "id": 5, "text": "E(2-4)" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 15,
+    "text": "Concernant l'hypophyse:\n1. Au-dessous de l'hypophyse les rapports se font avec le chiasma optique.\n2. Le lobe postérieur est plus petit que le lobe antérieur.\n3. Le lobe antérieur formé de tissu nerveux et prend le nom d'adénohypophyse.\n4. Les artères proviennent toutes de la carotide interne, elles sont au nombre de 3",
+    "module": "Anatomie",
+    "options": [
+      { "id": 1, "text": "A(2,4)" },
+      { "id": 2, "text": "B(2,3)" },
+      { "id": 3, "text": "C(1,2)" },
+      { "id": 4, "text": "D(1,4)" },
+      { "id": 5, "text": "E(3,4)" }
+    ],
+    "correctOptionIds": [1]
+  },
+  {
+    "id": 16,
+    "text": "Concernant la glande mammaire :",
+    "module": "Anatomie",
+    "options": [
+      { "id": 1, "text": "A. La glande mammaire est une glande, endocrine tubulo-alvéolaire" },
+      { "id": 2, "text": "B. A la 6ème semaine il y a apparition de la crête mammaire chez l'embryon" },
+      { "id": 3, "text": "C. La vascularisation de la glande mammaire est assurée par une seule artère : artère axillaire" },
+      { "id": 4, "text": "D. Les moyens de fixation du sein sont peu développés" },
+      { "id": 5, "text": "E. Le groupe mammaire interne des lymphatiques du sein part du plexus lymphatiques péri-aréolaire." }
     ],
     "correctOptionIds": [2]
   },
   {
-    "id": 15,
-    "text": "Q6/ L'hypophyse est située :\n1. Au-dessous du chiasma optique.\n2. Au-dessous le losange opto-pédonculaire\n3. En arrière du rebord antérieur de la selle turcique.\n4. En avant de la protubérance annulaire.",
+    "id": 17,
+    "text": "Concernant la thyroïde :\n1. Glande endocrine située dans la région supra-hyoïdienne entre les régions carotidiennes.\n2. Les ligaments de Gruber latéraux, médian et le tissu conjonctif entourant les veines thyroïdiennes inférieures représentent les seuls moyens de fixité de la glande.\n3. L'arcade artérielle sous isthmique est issue de l'anastomose des branches terminales des artères thyroïdiennes supérieure et moyenne.\n4. Le drainage veineux de l'artère thyroïdienne moyenne se fait vers le tronc veineux brachio-céphalique gauche.\n5. Aucune réponse n'est juste.",
     "module": "Anatomie",
     "options": [
-      { "id": 1, "text": "A (1, 2)" },
-      { "id": 2, "text": "B (1, 4)" },
-      { "id": 3, "text": "C (1, 3)" },
-      { "id": 4, "text": "D (2, 3)" },
-      { "id": 5, "text": "E (2, 4)" }
-    ],
-    "correctOptionIds": [2, 3]
-  },
-  {
-    "id": 16,
-    "text": "Q7/ Concernant la glande surrénale:\n1. Est située de part et d'autre de la D10\n2. La surrénale gauche répond en avant à l'estomac.\n3. L'artère surrénale supérieure provient de l'artère phrénique inférieure.\n4. La veine surrénale moyenne se draine dans la veine rénale à droite",
-    "module": "Anatomie",
-    "options": [
-      { "id": 1, "text": "A (1, 2)" },
-      { "id": 2, "text": "B (1, 3)" },
-      { "id": 3, "text": "C (1, 4)" },
-      { "id": 4, "text": "D (2, 3)" },
-      { "id": 5, "text": "E (2, 4)" }
+      { "id": 1, "text": "A(1-2)" },
+      { "id": 2, "text": "B(1-3)" },
+      { "id": 3, "text": "C (2-4)" },
+      { "id": 4, "text": "D (5)" },
+      { "id": 5, "text": "E (1)" }
     ],
     "correctOptionIds": [4]
-  },
-  {
-    "id": 17,
-    "text": "Q8/ Les rapports de la prostate:\n1. La prostate contient l'urètre prostatique qui est entouré du sphincter strié\n2. En crânial et dorsal, les uretères, les vésicules séminales et les conduits déférents\n3. En latéral, les pédicules vasculaires génito-vésicaux.\n4. En ventral, la région rétro pubienne qui contient d'importantes artères.",
-    "module": "Anatomie",
-    "options": [
-      { "id": 1, "text": "A (1, 2)" },
-      { "id": 2, "text": "B (1, 3)" },
-      { "id": 3, "text": "C (1, 4)" },
-      { "id": 4, "text": "D (2, 4)" },
-      { "id": 5, "text": "E (2, 3)" }
-    ],
-    "correctOptionIds": [5]
   },
   {
     "id": 18,
-    "text": "Q9/ \n1. Le sinus épididymaire est un cul de sac situé entre la queue de l'épididyme et le testicule,\n2. La face médicale du testicule est dépourvue de vaginale.\n3. Le bord postérieur du testicule est en rapport avec l'épididyme.\n4. Le muscle crémaster: provient du muscle transverse.",
+    "text": "Concernant le périnée:",
     "module": "Anatomie",
     "options": [
-      { "id": 1, "text": "A (1, 2)" },
-      { "id": 2, "text": "B (1, 3)" },
-      { "id": 3, "text": "C (1, 4)" },
-      { "id": 4, "text": "D (2, 3)" },
-      { "id": 5, "text": "E (2, 4)" }
+      { "id": 1, "text": "A. Il est fait de 04 plans fermant l'excavation pelvienne en haut." },
+      { "id": 2, "text": "B. Les muscles iliococcygien et pubococcygien appartiennent au plan moyen." },
+      { "id": 3, "text": "C. Le plan moyen est séparé du plan superficiel par le fascia inférieur du diaphragme urogénital." },
+      { "id": 4, "text": "D. Le muscle compresseur de l'urètre est tendu transversalement en arrière du muscle urétro-prostatique/urétro-vaginal." },
+      { "id": 5, "text": "E. Toutes les réponses sont fausses." }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [3]
   }
 ]
