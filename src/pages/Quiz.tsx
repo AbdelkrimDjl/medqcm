@@ -404,8 +404,6 @@ const Quiz: React.FC = () => {
             <h2 className="text-2xl font-semibold text-gray-800 leading-relaxed">
               {currentQuestion.text}
             </h2>
-            {!confirmedAnswers.has(currentQuestion.id) && (
-            )}
           </div>
 
           {/* Options */}
@@ -628,5 +626,6 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
