@@ -114,7 +114,7 @@ const Quiz: React.FC = () => {
   const calculateScore = () => {
     let correct = 0;
     filteredQuestions.forEach((q) => {
-      if (q.correctOptionIds.includes(answers[q.id])) correct++;
+      if ((q.correctOptionIds || []).includes(answers[q.id])) correct++;
     });
     return {
       correct,
@@ -129,7 +129,7 @@ const Quiz: React.FC = () => {
       if (!moduleStats[q.module])
         moduleStats[q.module] = { total: 0, correct: 0 };
       moduleStats[q.module].total++;
-      if (q.correctOptionIds.includes(answers[q.id])) moduleStats[q.module].correct++;
+      if ((q.correctOptionIds || []).includes(answers[q.id])) moduleStats[q.module].correct++;
     });
     return Object.entries(moduleStats).map(([module, stats]) => ({
       module,
@@ -356,7 +356,8 @@ const Quiz: React.FC = () => {
           <div className="space-y-3 mb-8">
             {currentQuestion.options.map((option) => {
               const isSelected = answers[currentQuestion.id] === option.id;
-              const isCorrect = currentQuestion.correctOptionIds.includes(option.id);
+              // Use optional chaining or a fallback array
+              const isCorrect = (currentQuestion.correctOptionIds || []).includes(option.id);
               const isConfirmed = confirmedAnswers.has(currentQuestion.id);
               const showCorrectAnswer = showExplanation && isConfirmed;
 
@@ -495,6 +496,7 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
 
