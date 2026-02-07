@@ -33,7 +33,7 @@ interface ModuleStat {
 
 interface QuizConfig {
   module: string;
-  year: string;
+  unit: string;
   questionCount: number;
   questions: Question[]; // pass questions from Home
 }
@@ -172,7 +172,7 @@ const Quiz: React.FC = () => {
                   <span className="font-semibold">Module:</span> {config.module}
                 </p>
                 <p>
-                  <span className="font-semibold">Année:</span> {config.year}
+                  <span className="font-semibold">Unité:</span> {config.unit}
                 </p>
               </div>
             </div>
@@ -286,7 +286,7 @@ const Quiz: React.FC = () => {
             <div>
               <h1 className="text-2xl font-bold text-gray-800">QCM Blida 2ème Année Médecine</h1>
               <p className="text-sm text-gray-600">
-                {config.module} - {config.year}
+                {config.module} - {config.unit}
               </p>
             </div>
             <div className="flex items-center gap-6">
