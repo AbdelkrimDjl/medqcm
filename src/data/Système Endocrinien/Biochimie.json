@@ -286,19 +286,6 @@
     "correctOptionIds": [1, 3]
   },
   {
-    "id": 22,
-    "text": "Quel type de récepteurs active la voie des Map-kinase ?",
-    "module": "Biochimie",
-    "options": [
-      { "id": 1, "text": "A- RCPG" },
-      { "id": 2, "text": "B- Récepteurs nucléaires" },
-      { "id": 3, "text": "C- Récepteurs a activité catalytique quelconque" },
-      { "id": 4, "text": "D- Récepteurs tyrosine kinase" },
-      { "id": 5, "text": "E- Récepteurs couplés aux canaux ioniques" }
-    ],
-    "correctOptionIds": [4]
-  },
-  {
     "id": 23,
     "text": "La Protiréline est : cocher la proposition exacte :",
     "module": "Biochimie",
@@ -572,7 +559,20 @@
     "correctOptionIds": [4]
   },
   {
-    "id": 100,
+    "id": 44,
+    "text": "Quel type de récepteurs active la voie des Map-kinase ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- RCPG" },
+      { "id": 2, "text": "B- Récepteurs nucléaires" },
+      { "id": 3, "text": "C- Récepteurs a activité catalytique quelconque" },
+      { "id": 4, "text": "D- Récepteurs tyrosine kinase" },
+      { "id": 5, "text": "E- Récepteurs couplés aux canaux ioniques" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 45,
     "text": "Laquelle des propositions suivantes est inexacte ?",
     "module": "Biochimie",
     "options": [
