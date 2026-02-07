@@ -284,5 +284,317 @@
       { "id": 5, "text": "E" }
     ],
     "correctOptionIds": [1, 3]
+  },
+  {
+    "id": 22,
+    "text": "Quel type de récepteurs active la voie des Map-kinase ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- RCPG" },
+      { "id": 2, "text": "B- Récepteurs nucléaires" },
+      { "id": 3, "text": "C- Récepteurs a activité catalytique quelconque" },
+      { "id": 4, "text": "D- Récepteurs tyrosine kinase" },
+      { "id": 5, "text": "E- Récepteurs couplés aux canaux ioniques" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 23,
+    "text": "La Protiréline est : cocher la proposition exacte :",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Synthétisée par l'hypothalamus" },
+      { "id": 2, "text": "B- A le même effet que la prolactine" },
+      { "id": 3, "text": "C- Est un analogue structural de la TRH" },
+      { "id": 4, "text": "D- Est utilisée dans le test à la TSH" },
+      { "id": 5, "text": "E- Aucune proposition exacte" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 24,
+    "text": "Les conséquences d'une hyperprolactinémie : cocher la combinaison exacte\n1. Une augmentation de la sécrétion de GnRH\n2. une sécrétion importante de dopamine\n3. une diminution de la sécrétion de Prolactine\n4. une infertilité\n5. une hyperstimulation ovarienne",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- 1,2" },
+      { "id": 2, "text": "B- 2,3" },
+      { "id": 3, "text": "C- 3,4" },
+      { "id": 4, "text": "D- 4,5" },
+      { "id": 5, "text": "E- 1,5" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 25,
+    "text": "Quelle proposition est inexacte parmi les suivantes :\n1. Le nombre de sites récepteurs d'une hormone diminue si la synthèse de l'hormone diminue\n2. Il y a une augmentation de l'activité hormonale si l'hormone n'est pas liée à son transporteur\n3. Les récepteurs hormonaux sont des protéines\n4. Les récepteurs des facteurs de croissance sont activés par la voie Ras/Map kinase\n5. Le récepteur GABA est un canal ionique perméable au K+",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- 1,2" },
+      { "id": 2, "text": "B- 1,3" },
+      { "id": 3, "text": "C- 1,5" },
+      { "id": 4, "text": "D- 2,4" },
+      { "id": 5, "text": "E- 3,5" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 26,
+    "text": "Une mutation activatrice de Ras peut conduire à la cancérogenèse par quel mécanisme ? Cocher la proposition exacte",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Elle inhibe définitivement la division cellulaire" },
+      { "id": 2, "text": "B- Elle maintient Ras dans une forme inactive" },
+      { "id": 3, "text": "C- Elle rend Ras constitutivement actif, stimulant la prolifération cellulaire en continu" },
+      { "id": 4, "text": "D- Elle bloque complètement la voie MAPK" },
+      { "id": 5, "text": "E- elle favorise l'hydrolyse du GTP lié à Ras" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 27,
+    "text": "A propos des hormones thyroïdiennes, cocher la combinaison inexacte\n1. Elles favorisent la sécrétion de STH au cours de l'enfance\n2. Elles favorisent la thermogenèse grâce à l'effet découpleur de la T4\n3. Elles favorisent la formation osseuse chez l'adulte\n4. Elles diminuent le LDL-C\n5. En cas de leur déficit chez l'enfant, il s'installe un nanisme harmonieux",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- 1,2" },
+      { "id": 2, "text": "B- 2,3" },
+      { "id": 3, "text": "C- 3,4" },
+      { "id": 4, "text": "D- 4,5" },
+      { "id": 5, "text": "E- 3,5" }
+    ],
+    "correctOptionIds": [5]
+  },
+  {
+    "id": 28,
+    "text": "Parmi les signes biologiques suivants, lesquels sont ceux qui peuvent confirmer la maladie de Basedow ?\n1- TSH élevée\n2- T3 libre élevée\n3- Anticorps anti R-TSH élevés\n4- calcitonine élevée",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- 1,2" },
+      { "id": 2, "text": "B- 2,3" },
+      { "id": 3, "text": "C- 3,4" },
+      { "id": 4, "text": "D- 1,3" },
+      { "id": 5, "text": "E- 2,4" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 29,
+    "text": "En ce qui concerne l'adrénaline, quelle est la proposition inexacte ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Ses récepteurs β activent l'adénylcyclase" },
+      { "id": 2, "text": "B- Elle stimule la sécrétion de rénine" },
+      { "id": 3, "text": "C- Son catabolisme aboutit au VMA après l'action de MAO puis de COMT" },
+      { "id": 4, "text": "D- Son dosage se fait sur un prélèvement sanguin en position couchée après un repos de 20mn" },
+      { "id": 5, "text": "E- Elle est co-sécrétée avec la chromogranine A" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 30,
+    "text": "Parmi les résultats des dosages hormonaux suivants, cochez la réponse fausse qui n'est pas compatible avec la présence des ovaires polykystiques ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Dosage des œstrogènes effondré par dysfonctionnement folliculaire" },
+      { "id": 2, "text": "B- Dosage de progestérone bas par dysfonctionnent du corps jaune" },
+      { "id": 3, "text": "C- Dosage de LH montre une valeur très élevée avec FSH normal" },
+      { "id": 4, "text": "D- Test LH-RH donne une réponse explosive pour la LH" },
+      { "id": 5, "text": "E- Toutes ces réponses sont fausses (annulée)" }
+    ],
+    "correctOptionIds": [1]
+  },
+  {
+    "id": 31,
+    "text": "Un bilan hormonal donne les résultats suivants : œstrogène bas, progestérone bas, FSH élevé, LH élevé : ce bilan est caractéristique de quelle condition ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Premier trimestre de la grossesse" },
+      { "id": 2, "text": "B- Ménopause" },
+      { "id": 3, "text": "C- Infertilité féminine" },
+      { "id": 4, "text": "D- Puberté retardée" },
+      { "id": 5, "text": "E- Hirsutisme" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 32,
+    "text": "Parmi les propositions suivantes sur l'action de la FSH chez l'homme et la femme, cochez la réponse correcte :",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Elle agit sur les cellules Leydig" },
+      { "id": 2, "text": "B- Elle agit sur le stroma ovarien" },
+      { "id": 3, "text": "C- Elle agit sur les cellules de Sertoli" },
+      { "id": 4, "text": "D- Elle agit sur les cellules de la Granulosa pour stimuler la sécrétion des œstrogènes" },
+      { "id": 5, "text": "E- Elle agit sur les cellules de la thèque interne pour stimuler la synthèse des androgènes ovariens" }
+    ],
+    "correctOptionIds": [3, 4]
+  },
+  {
+    "id": 33,
+    "text": "Parmi les hormones suivantes, lequel est indiqué dans l'azoospermie pour le diagnostic différentiel entre les causes obstructives et l'insuffisance testiculaire ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Testostérone" },
+      { "id": 2, "text": "B- Dihydrotestostérone" },
+      { "id": 3, "text": "C- FSH et LH" },
+      { "id": 4, "text": "D- Inhibine A" },
+      { "id": 5, "text": "E- Inhibine B" }
+    ],
+    "correctOptionIds": [5]
+  },
+  {
+    "id": 34,
+    "text": "Parmi les molécules suivantes, laquelle est indiquée dans le cancer des testicules ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Testostérone" },
+      { "id": 2, "text": "B- AMH" },
+      { "id": 3, "text": "C- Inhibines A" },
+      { "id": 4, "text": "D- Beta-HCG" },
+      { "id": 5, "text": "E- LH" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 35,
+    "text": "Parmi les propositions suivantes concernant l'ACTH, quelle est la proposition exacte ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Sa concentration sanguine est augmentée dans le cas d'un adénome de la corticosurrénale" },
+      { "id": 2, "text": "B- Sa concentration sanguine est augmentée dans le cas d'une maladie de Cushing" },
+      { "id": 3, "text": "C- Sa concentration sanguine est diminuée dans le cas d'une maladie d'Addison" },
+      { "id": 4, "text": "D- L'ACTH est physiologiquement sécrétée par la post-hypophyse" },
+      { "id": 5, "text": "E- Sa concentration sanguine est constante au cours de la journée" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 36,
+    "text": "Tout excès d'aldostérone entraine : cocher la proposition exacte\n1. Hyperkaliémie\n2. une acidose métabolique\n3. une hypertension artérielle\n4. une hyposécrétion de rénine\n5. une réabsorption excessive d'eau libre",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- 1,2" },
+      { "id": 2, "text": "B- 1,3" },
+      { "id": 3, "text": "C- 2,4" },
+      { "id": 4, "text": "D- 3,4" },
+      { "id": 5, "text": "E- 3,5" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 37,
+    "text": "Parmi les hormones stéroïdes : laquelle est inexacte ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- La testostérone provient de la progestérone" },
+      { "id": 2, "text": "B- Les œstrogènes proviennent de la DHEA" },
+      { "id": 3, "text": "C- L'aldostérone provient de la progestérone" },
+      { "id": 4, "text": "D- Le cortisol provient de la testostérone" },
+      { "id": 5, "text": "E- L'action de l'Aromatase sur les androgènes donne les œstrogènes" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 38,
+    "text": "A propos du test au synacthène, cocher la proposition inexacte",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A - il n'est pas utile en cas d'hypercorticisme" },
+      { "id": 2, "text": "B- il évalue la capacité des surrénales à produire du cortisol" },
+      { "id": 3, "text": "C- c'est une injection d'ACTH synthétique" },
+      { "id": 4, "text": "D- il ne répond pas en cas de maladie d'Addison" },
+      { "id": 5, "text": "E- en cas d'insuffisance hypophysaire, le taux de cortisol ne varie pas" }
+    ],
+    "correctOptionIds": [5]
+  },
+  {
+    "id": 39,
+    "text": "l'hormone antidiurétique (ADH) : cocher la proposition inexacte",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Déclenche la soif" },
+      { "id": 2, "text": "B- Augmente l'osmolarité urinaire" },
+      { "id": 3, "text": "C- Est une hormone post-hypophysaire" },
+      { "id": 4, "text": "D- Augmente la pression artérielle" },
+      { "id": 5, "text": "E- elle est formée de 9 acides aminés" }
+    ],
+    "correctOptionIds": [1]
+  },
+  {
+    "id": 40,
+    "text": "L'ocytocine provoque : cocher la proposition inexacte",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- La contraction du myomètre" },
+      { "id": 2, "text": "B- La lactogenèse" },
+      { "id": 3, "text": "C - L'éjection du lait" },
+      { "id": 4, "text": "D - L'expulsion du placenta après l'accouchement" },
+      { "id": 5, "text": "E - permet l'excrétion des spermatozoïdes hors des tubes séminifères chez l'homme" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 41,
+    "text": "le diabète insipide se caractérise par, cocher la proposition exacte :\n1- un excès de production d'ADH\n2- une polydipsie\n3- une polyurie\n4- un risque de déshydratation\n5- une hyperosmolarité plasmatique",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- 1,2,3" },
+      { "id": 2, "text": "B- 2,3,4" },
+      { "id": 3, "text": "C- 2,3,4,5" },
+      { "id": 4, "text": "D- 3,4,5" },
+      { "id": 5, "text": "E- 1,4,5" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 42,
+    "text": "La principale anomalie en cas d'hypothyroïdie congénitale est : cocher la proposition exacte",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- un défaut de fixation de l'iode par la thyroïde" },
+      { "id": 2, "text": "B- une insensibilité aux hormones thyroïdiennes" },
+      { "id": 3, "text": "C- Absence ou malformation de la thyroïde" },
+      { "id": 4, "text": "D- un hyperfonctionnement hypothalamique" },
+      { "id": 5, "text": "E- aucune proposition exacte" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 43,
+    "text": "Le dépistage systématique de l'hypothyroïdie congénitale repose sur : cocher la proposition exacte",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- le dosage de T3 et T4 a la naissance" },
+      { "id": 2, "text": "B- le dosage de la TSH à la naissance" },
+      { "id": 3, "text": "C- le dosage de la TSH entre le 3eme et le 7eme jour après la naissance" },
+      { "id": 4, "text": "D- une scintigraphie thyroïdienne le 3 eme jour de la naissance" },
+      { "id": 5, "text": "E- les propositions C et D" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 44,
+    "text": "A propos de la TSH, cocher la combinaison exacte :\n1- Elle inhibe l'organification de l'iode\n2- Elle a des récepteurs (RCPG) activant l'adénylcyclase au niveau de la thyroïde\n3- Elle stimule la synthèse de la thyroglobuline\n4- sa sécrétion est stimulée par la dopamine\n5- elle a un effet trophique sur la thyroïde",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- 1,2,3" },
+      { "id": 2, "text": "B- 1,3,4" },
+      { "id": 3, "text": "C- 2,3,4" },
+      { "id": 4, "text": "D- 2,3,5" },
+      { "id": 5, "text": "E- 3,4,5" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 45,
+    "text": "Laquelle des propositions suivantes est inexacte ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- un déficit en phénylalanine hydroxylase ne permet pas la synthèse des cathécolamines" },
+      { "id": 2, "text": "B- L'ACTH stimule la synthèse de l'aldostérone" },
+      { "id": 3, "text": "C- un goitre est spécifique d'une hyperthyroïdie" },
+      { "id": 4, "text": "D- la somatostatine inhibe la sécrétion de GH-RH" },
+      { "id": 5, "text": "E- la valeur normale de la TSH est de 0,3-4,0 Mu/L" }
+    ],
+    "correctOptionIds": [3]
   }
 ]
