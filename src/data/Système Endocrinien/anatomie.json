@@ -166,7 +166,7 @@
       { "id": 4, "text": "D. Le crémaster spermatique est l'une des enveloppes testiculaires" },
       { "id": 5, "text": "E. Toutes les repenses sont fausses" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [5]
   },
   {
     "id": 14,
@@ -205,7 +205,7 @@
       { "id": 4, "text": "D. Les moyens de fixation du sein sont peu développés" },
       { "id": 5, "text": "E. Le groupe mammaire interne des lymphatiques du sein part du plexus lymphatiques péri-aréolaire." }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [4]
   },
   {
     "id": 17,
@@ -244,7 +244,7 @@
       { "id": 4, "text": "D. L'ovaire est irrigué par le rameau ovarique médial de l'artère ovarique" },
       { "id": 5, "text": "E. Les glandes vulvaires comprennent les glandes para-urétrales" }
     ],
-    "correctOptionIds": [1]
+    "correctOptionIds": [5]
   },
   {
     "id": 20,
@@ -257,7 +257,7 @@
       { "id": 4, "text": "D. La verge est constituée par deux corps spongieux et un corps caverneux" },
       { "id": 5, "text": "E. la veine dorsale profonde du pénis chemine sur la gouttière supérieure" }
     ],
-    "correctOptionIds": [3, 5]
+    "correctOptionIds": [1, 3, 5]
   },
   {
     "id": 21,
@@ -309,7 +309,7 @@
       { "id": 4, "text": "D (2,5)" },
       { "id": 5, "text": "E (2,4)" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [3]
   },
   {
     "id": 25,
