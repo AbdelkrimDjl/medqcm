@@ -211,9 +211,9 @@ const Quiz: React.FC = () => {
           <div className="bg-white rounded-2xl shadow-2xl p-4 sm:p-8 mb-6 animate-fadeIn">
             <div className="text-center mb-6 sm:mb-8">
               <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-2">
-                Quiz Complete! 🎉
+                Simulation Completée
               </h1>
-              <p className="text-sm sm:text-base text-gray-600">Here's how you performed</p>
+              <p className="text-sm sm:text-base text-gray-600">Voici votre performance</p>
               <div className="mt-4 space-y-1 text-xs sm:text-sm text-gray-600">
                 <p>
                   <span className="font-semibold">Module:</span> {config.module}
@@ -238,21 +238,14 @@ const Quiz: React.FC = () => {
                   {Math.round(score.percentage)}%
                 </div>
                 <div className="text-xl sm:text-2xl text-gray-700 mb-4">
-                  {score.correct} out of {score.total} correct
-                </div>
-                <div
-                  className={`inline-block px-4 sm:px-6 py-2 rounded-full text-white text-base sm:text-lg font-semibold ${
-                    score.percentage >= 70 ? "bg-green-500" : "bg-orange-500"
-                  }`}
-                >
-                  {score.percentage >= 70 ? "✓ Pass" : "✗ Needs Improvement"}
+                  {score.correct} sur {score.total} correctes
                 </div>
               </div>
             </div>
 
             <div>
               <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-4">
-                Performance by Module
+                Performance par Module
               </h2>
               <div className="space-y-4">
                 {moduleBreakdown.map((module, idx) => (
@@ -299,7 +292,7 @@ const Quiz: React.FC = () => {
                 className="flex-1 bg-gray-200 text-gray-700 font-semibold py-3 sm:py-4 rounded-lg hover:bg-gray-300 transition-all flex items-center justify-center gap-2 text-sm sm:text-base"
               >
                 <HomeIcon className="w-4 h-4 sm:w-5 sm:h-5" />
-                Back to Home
+                Retour à l'Accueil
               </button>
               <button
                 onClick={() => {
@@ -311,7 +304,7 @@ const Quiz: React.FC = () => {
                 }}
                 className="flex-1 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-semibold py-3 sm:py-4 rounded-lg hover:shadow-lg transition-all text-sm sm:text-base"
               >
-                Retry Quiz
+                Refaire la Simulation
               </button>
             </div>
           </div>
@@ -626,6 +619,7 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
 
