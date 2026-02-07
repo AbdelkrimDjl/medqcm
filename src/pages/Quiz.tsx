@@ -263,7 +263,6 @@ const Quiz: React.FC = () => {
                   setCurrentQuestionIndex(0);
                   setAnswers({});
                   setFlaggedQuestions(new Set());
-                  setTimeRemaining(3600);
                 }}
                 className="flex-1 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-semibold py-4 rounded-lg hover:shadow-lg transition-all"
               >
@@ -510,6 +509,7 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
 
