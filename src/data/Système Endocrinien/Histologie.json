@@ -569,5 +569,415 @@
       { "id": 5, "text": "E- Les cellules C sont situées à la partie basale des thyréocytes" }
     ],
     "correctOptionIds": [3]
+  },
+  {
+    "id": 45,
+    "text": "les cellules principales des vésicules thyroidiennes: (cochez la RJ)\na. Elaborent et sécrètent la calcitonine\nb. Peuvent convertir les iodures en iode\nc. Peuvent catalyser la thyroglobuline pour sécréter la calcitonine\nd. Sont contrôler par la TSH hypothalamique\ne. sont d'origine ectoblastique",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a" },
+      { "id": 2, "text": "b" },
+      { "id": 3, "text": "c" },
+      { "id": 4, "text": "d" },
+      { "id": 5, "text": "e" }
+    ],
+    "correctOptionIds": [2],
+    "Date": "15 Mars 2022"
+  },
+  {
+    "id": 46,
+    "text": "Les glandes parathyroïdes: (cochez la RJ)\na. sont toujours au nombre de 2\nb. sécrètent la parathormone en réponse à une hypercalcémie\nc. contiennent des cellules principales qui sécrètent l'hormone principale\nd. contiennent une grande quantité de tissu adipeux\ne. sont d'origine mésoblastique",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a" },
+      { "id": 2, "text": "b" },
+      { "id": 3, "text": "c" },
+      { "id": 4, "text": "d" },
+      { "id": 5, "text": "e" }
+    ],
+    "correctOptionIds": [3],
+    "Date": "15 Mars 2022"
+  },
+  {
+    "id": 47,
+    "text": "Associer les constituants de la surrénale avec leurs sécrétion principale: (cochez la RJ)\n1- zone réticulée (c. androgène)\n2- zone médullaire (d. Noradrénaline)\n3- zone fasciculée (a. cortisone)\n4- zone glomérulée (b. Aldostérone)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A-(la, 2c, 3b, 4d)" },
+      { "id": 2, "text": "B-(1c, 2d, 3b, 4а)" },
+      { "id": 3, "text": "C-(1d, 2c, 3a, 4b)" },
+      { "id": 4, "text": "D-(1c, 2d, 3a, 4b)" }
+    ],
+    "correctOptionIds": [4],
+    "Date": "15 Mars 2022"
+  },
+  {
+    "id": 48,
+    "text": "L'hypophyse: (cochez la RJ)\na. présente une partie antérieure (neurohypophyse) et une partie postérieure (posthypophyse)\nb. est relié à l'hypothalamus par des vaisseaux sanguins uniquement\nc. sécrète l'ADH dans l'adénohypophyse\nd. est située dans la selle turcique\ne. son origine embryologique est entoblastique",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a" },
+      { "id": 2, "text": "b" },
+      { "id": 3, "text": "c" },
+      { "id": 4, "text": "d" },
+      { "id": 5, "text": "e" }
+    ],
+    "correctOptionIds": [4],
+    "Date": "15 Mars 2022"
+  },
+  {
+    "id": 49,
+    "text": "Le complexe hypothalamo-hypophysaire: (cochez la RF)\na. l'hypothalamus possède une texture nerveuse\nb. l'adénohypophyse possède une architecture trabéculaire\nc. la post hypophyse possède une texture nerveuse\nd. l'adénohypophyse est en continuité avec les noyaux hypothalamiques\ne. les neurones hypothalamiques possèdent une fonction endocrine",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a" },
+      { "id": 2, "text": "b" },
+      { "id": 3, "text": "c" },
+      { "id": 4, "text": "d" },
+      { "id": 5, "text": "e" }
+    ],
+    "correctOptionIds": [4],
+    "Date": "15 Mars 2022"
+  },
+  {
+    "id": 50,
+    "text": "L'hypothalamus: (cochez la RF)\na. le système magnocellulaire est en relation avec la neurohypophyse\nb. le système parvocellulaire est en relation avec l'adénohypophyse\nc. le système parvocellulaire produit l'ocytocine et l'ADH\nd. les neurones du système parvocellulaire se terminent à proximité du réseau vasculaire de l'éminence médiane.\ne. Possède une substance grise centrale péri épendymaire",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a" },
+      { "id": 2, "text": "b" },
+      { "id": 3, "text": "c" },
+      { "id": 4, "text": "d" },
+      { "id": 5, "text": "e" }
+    ],
+    "correctOptionIds": [3],
+    "Date": "15 Mars 2022"
+  },
+  {
+    "id": 51,
+    "text": "Concernant le développement embryologique de l'hypophyse toutes ces propositions sont justes sauf:\na. Le processus infundibulaire est une évagination neurectoblastique au niveau du plancher du diencéphale\nb. Le diverticule de Rathke est une évagination ectoblastique au niveau du plafond du stomodéum\nc. La partie distale de l'infundibulum va former la posthypophyse\nd. La poche de Rathke forme l'adénohypophyse\ne. L'antéhypophyse se colonise par les axones des noyaux hypothalamiques",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a" },
+      { "id": 2, "text": "b" },
+      { "id": 3, "text": "c" },
+      { "id": 4, "text": "d" },
+      { "id": 5, "text": "e" }
+    ],
+    "correctOptionIds": [5],
+    "Date": "15 Mars 2022"
+  },
+  {
+    "id": 52,
+    "text": "La thyroïde: (cochez la RF)\na. Est une glande de type vésiculaire\nb. Produit des hormones thyroidiennes uniquement\nc. Ses produits de sécrétion sont assurés par 02 types cellulaires distincts\nd. Possède des éléments d'origine neuroectoblastique\ne. Est la plus volumineuse des glandes endocrines pures",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a" },
+      { "id": 2, "text": "b" },
+      { "id": 3, "text": "c" },
+      { "id": 4, "text": "d" },
+      { "id": 5, "text": "e" }
+    ],
+    "correctOptionIds": [2],
+    "Date": "15 Mars 2022"
+  },
+  {
+    "id": 53,
+    "text": "Les parathyroïdes: (cochez la RF)\na. Sont indispensables à la vie\nb. Possède une architecture trabéculaire non orientée\nc. Le plafond de la 4ème poche entoblastique donne les parathyroïdes supérieures\nd. Le plancher de la 3ème poche entoblastique donne les parathyroïdes inférieures\ne. Renferme des cellules principales sombres, des cellules principales claires, et des cellules oxyphiles",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a" },
+      { "id": 2, "text": "b" },
+      { "id": 3, "text": "c" },
+      { "id": 4, "text": "d" },
+      { "id": 5, "text": "e" }
+    ],
+    "correctOptionIds": [4],
+    "Date": "15 Mars 2022"
+  },
+  {
+    "id": 54,
+    "text": "Concernant la corticosurrénale, toutes ces propositions sont justes sauf:\na. Est une glande endocrine d'origine mésoblastique\nb. Possède une architecture trabéculaire orientée\nc. Elle est indispensable à la vie\nd. L'ébauche corticosurrénalienne se développe à partir de l'épithélium cœlomique\ne. La réticulée est formée de cordons cellulaires parallèles",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a" },
+      { "id": 2, "text": "b" },
+      { "id": 3, "text": "c" },
+      { "id": 4, "text": "d" },
+      { "id": 5, "text": "e" }
+    ],
+    "correctOptionIds": [5],
+    "Date": "15 Mars 2022"
+  },
+  {
+    "id": 55,
+    "text": "La vésicule séminale: (cochez la RF)\na. est constituée de 2 à 3 tubes pelotonnés de 5 à 12 cm de long\nb. Elle s'ouvre à l'union des canaux déférent et éjaculateur\nc. Est une glande hormono-dépendante\nd. Possède une lumière régulière\ne. La paroi des tubes comporte une muqueuse, une musculeuse, et une adventice",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a" },
+      { "id": 2, "text": "b" },
+      { "id": 3, "text": "c" },
+      { "id": 4, "text": "d" },
+      { "id": 5, "text": "e" }
+    ],
+    "correctOptionIds": [4],
+    "Date": "15 Mars 2022"
+  },
+  {
+    "id": 56,
+    "text": "La paroi des tubes des vésicules séminales apparait constituée de : (RF)\na. Un épithélium prismatique simple sécrétoire.\nb. Un chorion conjonctif lâche riche en fibres élastiques\nc. Une musculeuse strié mince et irrégulière\nd. Une adventice faite d'un tissu conjonctif lâche\ne. L'adventice réunit les différents tubes entre eux",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a" },
+      { "id": 2, "text": "b" },
+      { "id": 3, "text": "c" },
+      { "id": 4, "text": "d" },
+      { "id": 5, "text": "e" }
+    ],
+    "correctOptionIds": [3],
+    "Date": "15 Mars 2022"
+  },
+  {
+    "id": 57,
+    "text": "La prostate : (cochez la RF)\na. C'est un organe musculo-glandulaire\nb. Le sphincter lisse de l'urètre s'oppose à l'écoulement de l'urine en dehors de la miction\nc. Le sphincter strié de l'urètre fait obstacle à une éjaculation rétrograde\nd. Son parenchyme est constitué d'une cinquantaine de glandes tubulo-alvéolaires",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a" },
+      { "id": 2, "text": "b" },
+      { "id": 3, "text": "c" },
+      { "id": 4, "text": "d" }
+    ],
+    "correctOptionIds": [3],
+    "Date": "15 Mars 2022"
+  },
+  {
+    "id": 58,
+    "text": "Sur une coupe histologique, la prostate apparait constituée de : (cochez la RF)\na. Une capsule fibro-élastique, riche en cellules musculaires lisses\nb. Plusieurs alvéoles glandulaires avec une lumière large.\nc. un tissu conjonctif lâche inter alvéolaire riche en vaisseaux et en fibres musculaires lisses isolées\nd. L'épithélium des alvéoles glandulaires est cubique à prismatique simple\ne. Chaque alvéole est entouré d'une tunique musculaire lisse",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a" },
+      { "id": 2, "text": "b" },
+      { "id": 3, "text": "c" },
+      { "id": 4, "text": "d" },
+      { "id": 5, "text": "e" }
+    ],
+    "correctOptionIds": [5],
+    "Date": "15 Mars 2022"
+  },
+  {
+    "id": 59,
+    "text": "Parmi les glandes suivantes laquelle possède une architecture nerveuse?\na. L'adénohypophyse\nb. La post hypophyse\nc. la thyroïde\nd. les parathyroïdes\ne. la surrénale",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "a" },
+      { "id": 2, "text": "b" },
+      { "id": 3, "text": "c" },
+      { "id": 4, "text": "d" },
+      { "id": 5, "text": "e" }
+    ],
+    "correctOptionIds": [2],
+    "Date": "15 Mars 2022"
+  },
+  {
+    "id": 60,
+    "text": "Les vaisseaux portes du plexus hypothalamo-hypophysaire se caractérisent par : (RJ)\na- Leurs origines : le plexus porte primaire supérieur et inférieur\nb- Leurs origines : l'hypothalamus\nc- Leurs rôles : véhiculent l'ADH et l'ocytocine\nd- Leurs rôles : véhiculent les releasing hormones\ne- Assurent uniquement la nutrition de l'hypophyse",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- (a,b)" },
+      { "id": 2, "text": "B- (b,c)" },
+      { "id": 3, "text": "C- (a,c)" },
+      { "id": 4, "text": "D- (c,e)" },
+      { "id": 5, "text": "E- (a,d)" }
+    ],
+    "correctOptionIds": [5],
+    "Date": "16 Mai 2021"
+  },
+  {
+    "id": 61,
+    "text": "La médullosurrénale se caractérise par : (RJ)\na- Son origine embryologique est l'épithélium cœlomique\nb- La synthèse des catécholamines\nc- Son origine embryologique est neuro-ectoblastique à partir des crêtes neurales\nd- Son type histologique est trabéculaire non orientée\ne- Son type histologique est trabéculaire orientée",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- (a,b,c)" },
+      { "id": 2, "text": "B- (a,c,d)" },
+      { "id": 3, "text": "C- (a,c)" },
+      { "id": 4, "text": "D- (b,c,d)" },
+      { "id": 5, "text": "E- (c,d,e)" }
+    ],
+    "correctOptionIds": [4],
+    "Date": "16 Mai 2021"
+  },
+  {
+    "id": 62,
+    "text": "La fasciculée de la corticosurrénale : (RJ)\na- Son origine embryologique est l'épithélium cœlomique\nb- Son type histologique est trabéculaire orientée\nc- Elle synthétise le cortisol\nd- Elle synthétise l'aldostérone\ne- Elle synthétise la testostérone",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- (a,e)" },
+      { "id": 2, "text": "B- (a,b,c)" },
+      { "id": 3, "text": "C- (b,d)" },
+      { "id": 4, "text": "D- (b,c,d)" },
+      { "id": 5, "text": "E- (d,e)" }
+    ],
+    "correctOptionIds": [2],
+    "Date": "16 Mai 2021"
+  },
+  {
+    "id": 63,
+    "text": "La thyroïde est une glande endocrine qui se caractérise par : (RJ)\na- son type histologique : vésiculaire\nb- son origine embryologique ectoblastique\nc- son origine embryologique à partir du plancher de l'intestin pharyngien\nd- son rôle : la synthèse des hormones thyroïdiennes et la parathormone\ne- son origine : 5ème poche ectoblastique",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- (a,c)" },
+      { "id": 2, "text": "B- (c,e)" },
+      { "id": 3, "text": "C- (a,d)" },
+      { "id": 4, "text": "D- (a,b)" },
+      { "id": 5, "text": "E- (a,c)" }
+    ],
+    "correctOptionIds": [1],
+    "Date": "16 Mai 2021"
+  },
+  {
+    "id": 64,
+    "text": "Le lobe postérieur de l'hypophyse contient les structures histologiques suivantes : (RF)\na- Les fibres nerveuses du tractus supra optico hypophysaire\nb- Les pituicytes\nc- Les vaisseaux sanguins\nd- Les corps de Hering\ne- Des cellules glandulaires groupées en travées non orientées",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A" },
+      { "id": 2, "text": "B" },
+      { "id": 3, "text": "C" },
+      { "id": 4, "text": "D" },
+      { "id": 5, "text": "E" }
+    ],
+    "correctOptionIds": [5],
+    "Date": "16 Mai 2021"
+  },
+  {
+    "id": 65,
+    "text": "Le tractus tubéro-hypophysaire possède les rôles suivants : (RJ)\na- Véhicule l'ADH et l'ocytocine\nb- Véhicule les releasing hormones à destination du lobe postérieur de l'hypophyse\nc- Véhicule les hormones hypophysaires à destination des organes cibles\nd- Véhicule les releasing hormones à destination de l'adénohypophyse",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A" },
+      { "id": 2, "text": "B" },
+      { "id": 3, "text": "C" },
+      { "id": 4, "text": "D" }
+    ],
+    "correctOptionIds": [4],
+    "Date": "16 Mai 2021"
+  },
+  {
+    "id": 66,
+    "text": "Les cellules parathyroïdiennes élaborent l'hormone suivante : (RJ)\na- La calcitonine qui est une hormone hypocalcémiante\nb- La calcitonine qui est une hormone hypercalcémiante\nc- La parathormone qui est une hormone hypocalcémiante\nd- La parathormone qui est une hormone hypercalcémiante\ne- La T3 et la T4",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A" },
+      { "id": 2, "text": "B" },
+      { "id": 3, "text": "C" },
+      { "id": 4, "text": "D" },
+      { "id": 5, "text": "E" }
+    ],
+    "correctOptionIds": [4],
+    "Date": "16 Mai 2021"
+  },
+  {
+    "id": 67,
+    "text": "Concernant les glandes surrénales : (RF)\na- Elles sont formées par l'association de 2 glandes endocrines distinctes\nb- Elles sont formées par l'association de 2 glandes endocrines d'origines embryologiques différentes\nc- La corticosurrénale est périphérique, d'origine mésoblastique\nd- La médullosurrénale est centrale, d'origine neuroectoblastique\ne- Toutes ces propositions sont fausses",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A" },
+      { "id": 2, "text": "B" },
+      { "id": 3, "text": "C" },
+      { "id": 4, "text": "D" },
+      { "id": 5, "text": "E" }
+    ],
+    "correctOptionIds": [5],
+    "Date": "16 Mai 2021"
+  },
+  {
+    "id": 68,
+    "text": "La zone glomérulée de la corticosurrénale : (RF)\na- Constitue la couche la plus externe\nb- Elle est faite de cordons cellulaires parallèles à disposition radiaire\nc- Sécrète les minéralo-corticoïdes\nd- Est contrôlée par le système rénine-angiotensine",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A" },
+      { "id": 2, "text": "B" },
+      { "id": 3, "text": "C" },
+      { "id": 4, "text": "D" }
+    ],
+    "correctOptionIds": [2],
+    "Date": "16 Mai 2021"
+  },
+  {
+    "id": 69,
+    "text": "Concernant les formations glandulaires de la glande thyroïde : (RF)\na- Les vésicules thyroïdiennes sont faites de cellules glandulaires\nb- Les cellules inter-folliculaires de Webber sont des cellules glandulaires isolées\nc- Les ilots interstitiels de Wolfler sont faits de thyréocytes\nd- Les thyréocytes sont d'origine entoblastique",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A" },
+      { "id": 2, "text": "B" },
+      { "id": 3, "text": "C" },
+      { "id": 4, "text": "D" }
+    ],
+    "correctOptionIds": [3],
+    "Date": "16 Mai 2021"
+  },
+  {
+    "id": 70,
+    "text": "Les cellules parafolliculaires de la glande thyroïde : (RF)\na- Sont appelées cellules C de la thyroïde\nb- Ce sont des éléments globuleux insérés entre la lame basale et les thyréocytes\nc- Elles sont en contact du contenu de la vésicule thyroïdienne\nd- Elles élaborent une hormone hypocalcémiante : la calcitonine",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A" },
+      { "id": 2, "text": "B" },
+      { "id": 3, "text": "C" },
+      { "id": 4, "text": "D" }
+    ],
+    "correctOptionIds": [3],
+    "Date": "16 Mai 2021"
+  },
+  {
+    "id": 71,
+    "text": "Concernant la vésicule séminale : (RF)\na- Elle est constituée de 2 à 3 tubes pelotonnés\nb- La paroi des tubes comporte une muqueuse, une musculeuse et une adventice\nc- L'épithélium est de type prismatique simple\nd- Le chorion de la muqueuse est conjonctivo-glandulaire\ne- La musculeuse est faite de cellules musculaires lisses",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A" },
+      { "id": 2, "text": "B" },
+      { "id": 3, "text": "C" },
+      { "id": 4, "text": "D" },
+      { "id": 5, "text": "E" }
+    ],
+    "correctOptionIds": [4],
+    "Date": "16 Mai 2021"
+  },
+  {
+    "id": 72,
+    "text": "Concernant la prostate : (RF)\na- Le parenchyme glandulaire est constitué d'une cinquantaine de glandes acineuses.\nb- L'épithélium glandulaire est de type cubique à prismatique simple\nc- Le conjonctif du parenchyme prostatique est lâche contenant des fibres musculaires lisses et des vaisseaux sanguins\nd- La capsule est de type fibro-élastique riche en cellules musculaires lisses",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A" },
+      { "id": 2, "text": "B" },
+      { "id": 3, "text": "C" },
+      { "id": 4, "text": "D" }
+    ],
+    "correctOptionIds": [1],
+    "Date": "16 Mai 2021"
+  },
+  {
+    "id": 73,
+    "text": "Les principaux groupes individualisés de cellules endocrines de notre organisme sont : (RF)\na- Les Ilots de Langerhans du pancréas endocrine ;\nb- La glande interstitielle du testicule ;\nc- La glande interstitielle de l'ovaire ;\nd- Les cellules endocrines du lobe antérieur de l'hypophyse\ne- Les cellules endocrines des noyaux hypothalamiques",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A" },
+      { "id": 2, "text": "B" },
+      { "id": 3, "text": "C" },
+      { "id": 4, "text": "D" },
+      { "id": 5, "text": "E" }
+    ],
+    "correctOptionIds": [4],
+    "Date": "16 Mai 2021"
+  },
+  {
+    "id": 74,
+    "text": "Le système endocrinien diffus SED est un ensemble de cellules isolées dispersées parmi les cellules de différents parenchymes, surtout au niveau des appareils digestif et respiratoire\na- Vrai\nb- Faux",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- Vrai" },
+      { "id": 2, "text": "B- Faux" }
+    ],
+    "correctOptionIds": [1],
+    "Date": "16 Mai 2021"
   }
 ]
