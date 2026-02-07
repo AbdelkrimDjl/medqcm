@@ -16,7 +16,7 @@ interface Question {
 const Home: React.FC = () => {
   const navigate = useNavigate();
   const [modules, setModules] = useState<string[]>([]);
-  const [selectedUnit, setSelectedUnit] = useState<string>("");
+  const [selectedUnit, setselectedUnit] = useState<string>("");
   const [selectedModule, setselectedModule] = useState<string>("");
   const [questionCount, setQuestionCount] = useState<number>(10);
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
@@ -193,6 +193,7 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
 
 
 
