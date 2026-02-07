@@ -19,7 +19,6 @@ export interface Question {
   id: number;
   text: string;
   module: string;
-  difficulty: "easy" | "medium" | "hard";
   options: Option[];
   correctOptionId: number;
   explanation: string;
@@ -328,17 +327,6 @@ const Quiz: React.FC = () => {
               <div className="text-sm text-gray-600 bg-gray-100 px-3 py-1 rounded-full">
                 {currentQuestion.module}
               </div>
-              <div
-                className={`text-sm px-3 py-1 rounded-full ${
-                  currentQuestion.difficulty === "easy"
-                    ? "bg-green-100 text-green-700"
-                    : currentQuestion.difficulty === "medium"
-                      ? "bg-yellow-100 text-yellow-700"
-                      : "bg-red-100 text-red-700"
-                }`}
-              >
-                {currentQuestion.difficulty}
-              </div>
             </div>
             <button
               onClick={handleFlag}
@@ -507,6 +495,7 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
 
