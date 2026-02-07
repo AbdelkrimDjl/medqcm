@@ -391,19 +391,6 @@
   },
   {
     "id": 30,
-    "text": "Parmi les résultats des dosages hormonaux suivants, cochez la réponse fausse qui n'est pas compatible avec la présence des ovaires polykystiques ?",
-    "module": "Biochimie",
-    "options": [
-      { "id": 1, "text": "A- Dosage des œstrogènes effondré par dysfonctionnement folliculaire" },
-      { "id": 2, "text": "B- Dosage de progestérone bas par dysfonctionnent du corps jaune" },
-      { "id": 3, "text": "C- Dosage de LH montre une valeur très élevée avec FSH normal" },
-      { "id": 4, "text": "D- Test LH-RH donne une réponse explosive pour la LH" },
-      { "id": 5, "text": "E- Toutes ces réponses sont fausses (annulée)" }
-    ],
-    "correctOptionIds": [1]
-  },
-  {
-    "id": 31,
     "text": "Un bilan hormonal donne les résultats suivants : œstrogène bas, progestérone bas, FSH élevé, LH élevé : ce bilan est caractéristique de quelle condition ?",
     "module": "Biochimie",
     "options": [
@@ -416,7 +403,7 @@
     "correctOptionIds": [2]
   },
   {
-    "id": 32,
+    "id": 31,
     "text": "Parmi les propositions suivantes sur l'action de la FSH chez l'homme et la femme, cochez la réponse correcte :",
     "module": "Biochimie",
     "options": [
@@ -429,7 +416,7 @@
     "correctOptionIds": [3, 4]
   },
   {
-    "id": 33,
+    "id": 32,
     "text": "Parmi les hormones suivantes, lequel est indiqué dans l'azoospermie pour le diagnostic différentiel entre les causes obstructives et l'insuffisance testiculaire ?",
     "module": "Biochimie",
     "options": [
@@ -442,7 +429,7 @@
     "correctOptionIds": [5]
   },
   {
-    "id": 34,
+    "id": 33,
     "text": "Parmi les molécules suivantes, laquelle est indiquée dans le cancer des testicules ?",
     "module": "Biochimie",
     "options": [
@@ -455,7 +442,7 @@
     "correctOptionIds": [4]
   },
   {
-    "id": 35,
+    "id": 34,
     "text": "Parmi les propositions suivantes concernant l'ACTH, quelle est la proposition exacte ?",
     "module": "Biochimie",
     "options": [
@@ -468,7 +455,7 @@
     "correctOptionIds": [2]
   },
   {
-    "id": 36,
+    "id": 35,
     "text": "Tout excès d'aldostérone entraine : cocher la proposition exacte\n1. Hyperkaliémie\n2. une acidose métabolique\n3. une hypertension artérielle\n4. une hyposécrétion de rénine\n5. une réabsorption excessive d'eau libre",
     "module": "Biochimie",
     "options": [
@@ -481,7 +468,7 @@
     "correctOptionIds": [4]
   },
   {
-    "id": 37,
+    "id": 36,
     "text": "Parmi les hormones stéroïdes : laquelle est inexacte ?",
     "module": "Biochimie",
     "options": [
@@ -494,7 +481,7 @@
     "correctOptionIds": [4]
   },
   {
-    "id": 38,
+    "id": 37,
     "text": "A propos du test au synacthène, cocher la proposition inexacte",
     "module": "Biochimie",
     "options": [
@@ -507,7 +494,7 @@
     "correctOptionIds": [5]
   },
   {
-    "id": 39,
+    "id": 38,
     "text": "l'hormone antidiurétique (ADH) : cocher la proposition inexacte",
     "module": "Biochimie",
     "options": [
@@ -520,7 +507,7 @@
     "correctOptionIds": [1]
   },
   {
-    "id": 40,
+    "id": 39,
     "text": "L'ocytocine provoque : cocher la proposition inexacte",
     "module": "Biochimie",
     "options": [
@@ -533,7 +520,7 @@
     "correctOptionIds": [2]
   },
   {
-    "id": 41,
+    "id": 40,
     "text": "le diabète insipide se caractérise par, cocher la proposition exacte :\n1- un excès de production d'ADH\n2- une polydipsie\n3- une polyurie\n4- un risque de déshydratation\n5- une hyperosmolarité plasmatique",
     "module": "Biochimie",
     "options": [
@@ -546,7 +533,7 @@
     "correctOptionIds": [3]
   },
   {
-    "id": 42,
+    "id": 41,
     "text": "La principale anomalie en cas d'hypothyroïdie congénitale est : cocher la proposition exacte",
     "module": "Biochimie",
     "options": [
@@ -559,7 +546,7 @@
     "correctOptionIds": [3]
   },
   {
-    "id": 43,
+    "id": 42,
     "text": "Le dépistage systématique de l'hypothyroïdie congénitale repose sur : cocher la proposition exacte",
     "module": "Biochimie",
     "options": [
@@ -572,7 +559,7 @@
     "correctOptionIds": [3]
   },
   {
-    "id": 44,
+    "id": 43,
     "text": "A propos de la TSH, cocher la combinaison exacte :\n1- Elle inhibe l'organification de l'iode\n2- Elle a des récepteurs (RCPG) activant l'adénylcyclase au niveau de la thyroïde\n3- Elle stimule la synthèse de la thyroglobuline\n4- sa sécrétion est stimulée par la dopamine\n5- elle a un effet trophique sur la thyroïde",
     "module": "Biochimie",
     "options": [
