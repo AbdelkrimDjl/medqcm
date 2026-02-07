@@ -44,7 +44,7 @@ const Quiz: React.FC = () => {
   const config = location.state as QuizConfig;
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
-  const [answers, setAnswers] = useState<Record<number, number>>({});
+  const [answers, setAnswers] = useState<Record<number, number[]>>({});
   const [flaggedQuestions, setFlaggedQuestions] = useState<Set<number>>(
     new Set(),
   );
@@ -72,11 +72,22 @@ const Quiz: React.FC = () => {
 
 
   const handleSelectOption = (optionId: number): void => {
-  if (!confirmedAnswers.has(currentQuestion.id)) {
-    // Force the value to a Number to prevent string/number mismatches
-    setAnswers({ ...answers, [currentQuestion.id]: Number(optionId) });
-  }
-};
+    if (!confirmedAnswers.has(currentQuestion.id)) {
+      const currentSelections = answers[currentQuestion.id] || [];
+      const optionIdNum = Number(optionId);
+      
+      let newSelections: number[];
+      if (currentSelections.includes(optionIdNum)) {
+        // Remove if already selected
+        newSelections = currentSelections.filter(id => id !== optionIdNum);
+      } else {
+        // Add to selections
+        newSelections = [...currentSelections, optionIdNum];
+      }
+      
+      setAnswers({ ...answers, [currentQuestion.id]: newSelections });
+    }
+  };
 
   const handleFlag = () => {
     const newFlagged = new Set(flaggedQuestions);
@@ -111,31 +122,44 @@ const Quiz: React.FC = () => {
     setShowResults(true);
   };
 
+  const arraysEqual = (arr1: number[], arr2: number[]): boolean => {
+    if (arr1.length !== arr2.length) return false;
+    const sorted1 = [...arr1].map(Number).sort((a, b) => a - b);
+    const sorted2 = [...arr2].map(Number).sort((a, b) => a - b);
+    return sorted1.every((val, idx) => val === sorted2[idx]);
+  };
+  
   const calculateScore = () => {
-  let correct = 0;
-  filteredQuestions.forEach((q) => {
-    const userAnswer = answers[q.id];
-    // Cast both sides to Number and use a safety array
-    const isCorrect = (q.correctOptionIds || [])
-      .map(id => Number(id))
-      .includes(Number(userAnswer));
+    let correct = 0;
+    filteredQuestions.forEach((q) => {
+      const userAnswers = answers[q.id] || [];
+      const correctAnswers = (q.correctOptionIds || []).map(Number);
       
-    if (isCorrect) correct++;
-  });
-  return {
+      // Check if user's answers match the correct answers exactly
+      if (arraysEqual(userAnswers, correctAnswers)) {
+        correct++;
+      }
+    });
+    return {
       correct,
       total: totalQuestions,
       percentage: totalQuestions > 0 ? (correct / totalQuestions) * 100 : 0,
     };
   };
 
-  const getModuleBreakdown = (): ModuleStat[] => {
+    const getModuleBreakdown = (): ModuleStat[] => {
     const moduleStats: Record<string, { total: number; correct: number }> = {};
     filteredQuestions.forEach((q) => {
       if (!moduleStats[q.module])
         moduleStats[q.module] = { total: 0, correct: 0 };
       moduleStats[q.module].total++;
-      if ((q.correctOptionIds || []).includes(answers[q.id])) moduleStats[q.module].correct++;
+      
+      const userAnswers = answers[q.id] || [];
+      const correctAnswers = (q.correctOptionIds || []).map(Number);
+      
+      if (arraysEqual(userAnswers, correctAnswers)) {
+        moduleStats[q.module].correct++;
+      }
     });
     return Object.entries(moduleStats).map(([module, stats]) => ({
       module,
@@ -361,15 +385,15 @@ const Quiz: React.FC = () => {
 
           <div className="space-y-3 mb-8">
             {currentQuestion.options.map((option) => {
-            const userAnswer = answers[currentQuestion.id];
-  
-            // 1. Force everything to Number for the comparison
-            const isSelected = Number(userAnswer) === Number(option.id);
-  
-            // 2. Safely check if this specific option is in the correct IDs array
-            const isCorrect = (currentQuestion.correctOptionIds || [])
-            .map(id => Number(id))
-            .includes(Number(option.id));
+            const userAnswers = answers[currentQuestion.id] || [];
+              
+              // Check if this option is selected by the user
+              const isSelected = userAnswers.map(Number).includes(Number(option.id));
+              
+              // Check if this option is actually correct
+             const isCorrect = (currentQuestion.correctOptionIds || [])
+              .map(Number)
+              .includes(Number(option.id));
   
             const isConfirmed = confirmedAnswers.has(currentQuestion.id);
             const showCorrectAnswer = showExplanation && isConfirmed;
@@ -439,7 +463,7 @@ const Quiz: React.FC = () => {
                   className={`w-10 h-10 rounded-lg font-semibold transition-all ${
                     idx === currentQuestionIndex
                       ? "bg-purple-600 text-white"
-                      : answers[q.id]
+                      : answers[q.id] && answers[q.id].length > 0
                         ? "bg-green-100 text-green-700"
                         : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                   } ${flaggedQuestions.has(q.id) ? "ring-2 ring-yellow-400" : ""}`}
@@ -452,7 +476,7 @@ const Quiz: React.FC = () => {
             {!confirmedAnswers.has(currentQuestion.id) ? (
               <button
                 onClick={handleConfirmAnswer}
-                disabled={!answers[currentQuestion.id]}
+                disabled={!answers[currentQuestion.id] || answers[currentQuestion.id].length === 0}
                 className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 Confirm Answer
@@ -509,6 +533,7 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
 
