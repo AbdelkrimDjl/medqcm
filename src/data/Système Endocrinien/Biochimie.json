@@ -584,4 +584,290 @@
     ],
     "correctOptionIds": [3]
   }
+  {
+    "id": 46,
+    "text": "A propos de la GnRH, cocher la ou les réponses exactes:",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Le GAP fait partie de la molécule de GnRH" },
+      { "id": 2, "text": "B- La GnRH régule sa propre synthèse" },
+      { "id": 3, "text": "C- une mutation du gène GnRH est à l'origine d'un impuberisme" },
+      { "id": 4, "text": "D- elle stimule la sécrétion de GH hypophysaire" },
+      { "id": 5, "text": "E- la leptine régule sa sécrétion" }
+    ],
+    "correctOptionIds": [1, 2, 3, 5]
+  },
+  {
+    "id": 47,
+    "text": "A propos de l'insuline, cocher la ou les réponse (s) inexacte(s):",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Ses récepteurs cytosoliques ont une activité tyrosine kinase" },
+      { "id": 2, "text": "B- Elle est synthétisée sous forme de préprohormone" },
+      { "id": 3, "text": "C- Son transport plasmatique est représenté surtout par l'albumine" },
+      { "id": 4, "text": "D- Elle est stockée dans des granules cytoplasmiques et secrétée par exocytose" },
+      { "id": 5, "text": "E- Elle se lie à son récepteur d'une façon covalente" }
+    ],
+    "correctOptionIds": [1, 3, 5]
+  },
+  {
+    "id": 48,
+    "text": "Chez une femme de 40 ans porteuse d'un Pan hypopituitarisme, l'un de ces signes n'est jamais retrouvé, lequel ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Discrète infiltration du visage" },
+      { "id": 2, "text": "B- sècheresse cutanée" },
+      { "id": 3, "text": "C- Pigmentation diffuse" },
+      { "id": 4, "text": "D- Dépilation axillaire et pubienne" },
+      { "id": 5, "text": "E- Ralentissement de l'activité physique et psychique" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 49,
+    "text": "La TSH plasmatique s'élève après stimulation par la TRH dans la ou les situations suivantes:",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Syndrome de sheean" },
+      { "id": 2, "text": "B- Adénome thyroïdien toxique" },
+      { "id": 3, "text": "C- Maladie de Basedow" },
+      { "id": 4, "text": "D- Insuffisance thyroïdienne périphérique" },
+      { "id": 5, "text": "E- Aucune de ces pathologies" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 50,
+    "text": "Quand on suspecte cliniquement une insuffisance antéhypophysaire chez une femme de plus de 60 ans, quel est l'examen le plus utile au diagnostic?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Glycémie" },
+      { "id": 2, "text": "B- TSH" },
+      { "id": 3, "text": "C- ACTH" },
+      { "id": 4, "text": "D- FSH-LH" },
+      { "id": 5, "text": "E- Prolactine" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 51,
+    "text": "Parmi les tests suivants, lequel est le plus approprié pour le diagnostic de l'insuffisance thyroïdienne primitive:",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- dosage de la T4 libre" },
+      { "id": 2, "text": "B- dosage de la T3" },
+      { "id": 3, "text": "C- dosage de la TSH" },
+      { "id": 4, "text": "D- dosage du cholestérol" },
+      { "id": 5, "text": "E- Formule numération sanguine" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 52,
+    "text": "Parmi les tests suivants, lequel permet de poser le diagnostic différentiel entre une anorchidie et une cryptorchidie chez l'enfant :",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Dosage de la 5a-di-hydro-testostérone" },
+      { "id": 2, "text": "B- Dosage de la testostérone" },
+      { "id": 3, "text": "C- Le test de stimulation à la HCG" },
+      { "id": 4, "text": "D- Dosage de la FSH et de la LH" },
+      { "id": 5, "text": "E- Dosage de l'estradiol" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 53,
+    "text": "Dans l'azoospermie obstructive, on retrouve (Cochez les réponses exactes):",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- L'AMH séminal est effondrée" },
+      { "id": 2, "text": "B- L'inhibine B est effondrée" },
+      { "id": 3, "text": "C- La testostérone est effondrée" },
+      { "id": 4, "text": "D- L'inhibine B est élevée" },
+      { "id": 5, "text": "E- FSH et LH bas" }
+    ],
+    "correctOptionIds": [1]
+  },
+  {
+    "id": 54,
+    "text": "Quel est parmi les signes suivants celui en faveur d'un adénome hypophysaire à prolactine plutôt que d'une hyper-prolactinémie fonctionnelle ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- taux de prolactine élevé" },
+      { "id": 2, "text": "B- une prolactine non stimulable par la TRH" },
+      { "id": 3, "text": "C- la normalité de la FSH" },
+      { "id": 4, "text": "D- la normalité de la LH" },
+      { "id": 5, "text": "E- l'abaissement de la progestérone" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 55,
+    "text": "Lors de la sécrétion inopinée d'hormone anti diurèse, on observe (cocher la ou les réponses exactes):",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Une élévation de l'osmolalité urinaire" },
+      { "id": 2, "text": "B- Une hyponatrémie" },
+      { "id": 3, "text": "C- Une hyperkaliémie" },
+      { "id": 4, "text": "D- Une acidose métabolique" },
+      { "id": 5, "text": "E- Une hyponatrémie" }
+    ],
+    "correctOptionIds": [1, 2, 5]
+  },
+  {
+    "id": 56,
+    "text": "La thyroglobuline, cocher la ou les propositions inexactes:",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Permet le transport plasmatique de T3 et T4" },
+      { "id": 2, "text": "B- Est une protéine iodée" },
+      { "id": 3, "text": "C- Sa synthèse est stimulée par la TSH" },
+      { "id": 4, "text": "D- Son taux plasmatique est nul en cas d'Athyréose" },
+      { "id": 5, "text": "E- Son taux plasmatique est élevé en cas de thyroïdite d'Hashimoto" }
+    ],
+    "correctOptionIds": [1]
+  },
+  {
+    "id": 57,
+    "text": "A propos de la thyroperoxydase (TPO), cocher la ou les propositions exactes:",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- C'est le support de la synthèse des hormones thyroïdiennes" },
+      { "id": 2, "text": "B- Elle est inhibée par le Carbimazole" },
+      { "id": 3, "text": "C- Elle est activée par thyroglobuline" },
+      { "id": 4, "text": "D- Fermet l'activation des iodures plasmatiques" },
+      { "id": 5, "text": "E- Active la libération de T3, T4 dans le plasma" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 58,
+    "text": "A propos des récepteurs hormonaux intracellulaires, lesquelles sont exactes ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Ils reconnaissent et fixent l'hormone" },
+      { "id": 2, "text": "B- Ils servent de réserve en hormone circulante" },
+      { "id": 3, "text": "C- Leur déficit est à l'origine des syndromes d'insensibilité aux hormones" },
+      { "id": 4, "text": "D- Leur affinité pour leur hormone est faible" },
+      { "id": 5, "text": "E- Ils peuvent être localisés dans le noyau" }
+    ],
+    "correctOptionIds": [1, 3, 5]
+  },
+  {
+    "id": 59,
+    "text": "A propos des protéines kinase A, quelles sont les propositions exactes ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Elles sont activées au niveau hépatique par le glucagon" },
+      { "id": 2, "text": "B- Elles fixent le produit d'action de l'adényl-cyclase sur l'ATP" },
+      { "id": 3, "text": "C- Leurs composantes catalytiques sont libres à l'état active et inactivé" },
+      { "id": 4, "text": "D- Elles permettent l'activation de la glycogène phosphorylase" },
+      { "id": 5, "text": "E- Elles sont désactivées par la phosphodiesterase" }
+    ],
+    "correctOptionIds": [1, 2, 4, 5]
+  },
+  {
+    "id": 60,
+    "text": "Les récepteurs de NT-ProBNP, cocher la ou les propositions fausses :",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Ce sont des récepteurs membranaires" },
+      { "id": 2, "text": "B- Leur activation permet de diminuer la tension artérielle" },
+      { "id": 3, "text": "C- Ils sont doués d'une activité guanyl-cyclase intrinsèque" },
+      { "id": 4, "text": "D- Leur activation se fait par l'intermédiaire de la protéine Gs" },
+      { "id": 5, "text": "E- Ils sont également activés par le NO (monoxyde d'azote)" }
+    ],
+    "correctOptionIds": [4, 5]
+  },
+  {
+    "id": 61,
+    "text": "En ce qui concerne les catécholamines, laquelle est fausse ?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- La tyrosine hydroxylase est activée grâce aux PKA" },
+      { "id": 2, "text": "B- La dopamine inhibe la synthèse de la tyrosine hydroxylase" },
+      { "id": 3, "text": "C- Le cortisol contrôle l'activité de la derrière étape de synthèse de l'adrénaline" },
+      { "id": 4, "text": "D- L'adrénaline plasmatique est plus élevée que la Noradrénaline" },
+      { "id": 5, "text": "E- Le froid et le stress favorisent la sécrétion des catécholamines" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 62,
+    "text": "Quelles sont les propositions exactes parmi les suivantes?\n1. La MAO est une enzyme d'inactivation de l'adrénaline\n2. Les inhibiteurs de la MAO sont employés comme des antidépresseurs\n3. Le HVA est obtenu après l'action de la MAO puis la COMT sur la dopamine\n4. L'effet lipolytique de l'adrénaline est du à l'activation des récepteurs ẞ2 adrénergiques\n5. Les catécholamines favorisent la sécrétion d'insuline",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A (1,2)" },
+      { "id": 2, "text": "B (2,3)" },
+      { "id": 3, "text": "C (1,3)" },
+      { "id": 4, "text": "D (1,2,3)" },
+      { "id": 5, "text": "E (3,4,5)" }
+    ],
+    "correctOptionIds": [1]
+  },
+  {
+    "id": 63,
+    "text": "Parmi les propositions suivantes, cochez celle ou celles qui correspond (ent) aux stimulateurs de la prolactine",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- les œstrogènes" },
+      { "id": 2, "text": "B- LH RH" },
+      { "id": 3, "text": "C- Cortisone" },
+      { "id": 4, "text": "D- Dopamine" },
+      { "id": 5, "text": "E- Thyroxine" }
+    ],
+    "correctOptionIds": [1]
+  },
+  {
+    "id": 64,
+    "text": "Les indications du dosage de la prolactinémie sont :",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Aménorrhée" },
+      { "id": 2, "text": "B- galactorrhée" },
+      { "id": 3, "text": "C- polyurie" },
+      { "id": 4, "text": "D- stérilité" },
+      { "id": 5, "text": "E- hypertension" }
+    ],
+    "correctOptionIds": [1, 2, 4]
+  },
+  {
+    "id": 65,
+    "text": "Les causes d'hypogonadisme hypergonadotropes chez l'enfant sont représentées par les situations suivantes :",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Ectopie testiculaire" },
+      { "id": 2, "text": "B- Syndrome de Klinefelter" },
+      { "id": 3, "text": "C- Syndrome de Kallman" },
+      { "id": 4, "text": "D- Agénésie testiculaire" },
+      { "id": 5, "text": "E- Tumeur hypothalamique hypersecretante" }
+    ],
+    "correctOptionIds": [1, 2, 4]
+  },
+  {
+    "id": 66,
+    "text": "Cocher la proposition exacte parmi les suivantes concernant les causes d'hirsutisme?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- le syndrome des ovaires polykystiques" },
+      { "id": 2, "text": "B- déficit en 21-Hydroxylase" },
+      { "id": 3, "text": "C- tumeur virilisante de l'ovaire" },
+      { "id": 4, "text": "D- hyperplasie congénitale des surrénales" },
+      { "id": 5, "text": "E- toutes ces propositions sont exactes" }
+    ],
+    "correctOptionIds": [5]
+  },
+  {
+    "id": 67,
+    "text": "quelle(s) etiologie(s) des syndromes de Cushing s'accompagne(ent) généralement d'une hyperplasier des surrénales?",
+    "module": "Biochimie",
+    "options": [
+      { "id": 1, "text": "A- Maladie de Cushing" },
+      { "id": 2, "text": "B- corticosurrénalome malin" },
+      { "id": 3, "text": "C- le syndrome de cushing paranéoplasique" },
+      { "id": 4, "text": "D- l 'adénome corticosurrénalien" },
+      { "id": 5, "text": "E- syndrome de cushing secondaire au traitement par les corticoides" }
+    ],
+    "correctOptionIds": [1, 3]
+  }
 ]
