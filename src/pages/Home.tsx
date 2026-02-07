@@ -7,7 +7,6 @@ interface Question {
   id: number;
   text: string;
   module: string;
-  difficulty: "easy" | "medium" | "hard";
   options: { id: number; text: string }[];
   correctOptionId: number;
   explanation: string;
@@ -179,7 +178,7 @@ const Home: React.FC = () => {
                 : "bg-gray-200 text-gray-400 cursor-not-allowed"
             }`}
           >
-            Start Quiz
+            Démarrer
             <ArrowRight className="w-5 h-5" />
           </button>
         </div>
@@ -195,4 +194,5 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
 
