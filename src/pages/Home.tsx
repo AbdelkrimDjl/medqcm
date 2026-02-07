@@ -75,15 +75,15 @@ const Home: React.FC = () => {
     >
       <div className="w-full max-w-2xl">
         <div className="text-center mb-8">
-          <h1 className="text-5xl font-bold text-white mb-4">ExamGen Quiz</h1>
+          <h1 className="text-5xl font-bold text-white mb-4">QCM Blida</h1>
           <p className="text-xl text-purple-100">
-            Medical Licensing Exam Preparation
+            2ème Année Médecine
           </p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-2xl p-8">
           <h2 className="text-2xl font-bold text-gray-800 mb-6">
-            Configure Your Quiz
+            Configure Votre Simulation
           </h2>
 
           <div className="space-y-6">
@@ -91,14 +91,14 @@ const Home: React.FC = () => {
             <div>
               <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
                 <BookOpen className="w-5 h-5 text-purple-600" />
-                Select Module
+                Sélectionner le Module
               </label>
               <select
                 value={selectedModule}
                 onChange={(e) => setSelectedModule(e.target.value)}
                 className="w-full p-4 border-2 border-gray-200 rounded-lg font-semibold text-gray-700 focus:border-purple-600 focus:outline-none transition-all bg-white"
               >
-                <option value="">Choose a module...</option>
+                <option value="">Choisissez un Module</option>
                 {modules.map((module) => (
                   <option key={module} value={module}>
                     {module.charAt(0).toUpperCase() + module.slice(1)}
@@ -111,14 +111,14 @@ const Home: React.FC = () => {
             <div>
               <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
                 <Calendar className="w-5 h-5 text-purple-600" />
-                Select Year
+                Sélectionnez l'Année
               </label>
               <select
                 value={selectedYear}
                 onChange={(e) => setSelectedYear(e.target.value)}
                 className="w-full p-4 border-2 border-gray-200 rounded-lg font-semibold text-gray-700 focus:border-purple-600 focus:outline-none transition-all bg-white"
               >
-                <option value="">Choose a year...</option>
+                <option value="">Sélectionnez l'année...</option>
                 {years.map((year) => (
                   <option key={year} value={year}>
                     {year}
@@ -131,7 +131,7 @@ const Home: React.FC = () => {
             <div>
               <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
                 <Hash className="w-5 h-5 text-purple-600" />
-                Number of Questions
+                Nombre de Questions
               </label>
               <input
                 type="number"
@@ -144,7 +144,7 @@ const Home: React.FC = () => {
                 className="w-full p-4 border-2 border-gray-200 rounded-lg font-semibold text-gray-700 focus:border-purple-600 focus:outline-none transition-all"
               />
               <p className="text-sm text-gray-500 mt-2">
-                Choose between 1 and 50 questions
+                Choisissez entre 1 et 50 questions
               </p>
             </div>
           </div>
@@ -152,7 +152,7 @@ const Home: React.FC = () => {
           {selectedModule && selectedYear && (
             <div className="mt-6 p-4 bg-purple-50 rounded-lg border border-purple-200">
               <h3 className="font-semibold text-purple-900 mb-2">
-                Quiz Configuration
+                Configuration de Simulation
               </h3>
               <div className="space-y-1 text-sm text-purple-700">
                 <p>
@@ -160,7 +160,7 @@ const Home: React.FC = () => {
                   {selectedModule}
                 </p>
                 <p>
-                  <span className="font-semibold">Year:</span> {selectedYear}
+                  <span className="font-semibold">L'Année</span> {selectedYear}
                 </p>
                 <p>
                   <span className="font-semibold">Questions:</span>{" "}
@@ -186,7 +186,7 @@ const Home: React.FC = () => {
 
         <div className="mt-6 text-center text-purple-100 text-sm">
           <p>
-            Select your preferences above to begin your medical exam practice
+            Sélectionnez vos préférences ci-dessus pour commencer votre entraînement à l'examen médical.
           </p>
         </div>
       </div>
@@ -195,3 +195,4 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
