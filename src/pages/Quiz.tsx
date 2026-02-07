@@ -400,17 +400,6 @@ const Quiz: React.FC = () => {
             </button>
           </div>
 
-          {/* Question Text */}
-          <div className="mb-6 sm:mb-8">
-            <h2 className="text-lg sm:text-2xl font-semibold text-gray-800 leading-relaxed">
-              {currentQuestion.text}
-            </h2>
-            {!isCurrentConfirmed && (
-              <p className="text-xs sm:text-sm text-purple-600 mt-2 font-medium">
-                💡 Vous pouvez sélectionner plusieurs réponses
-              </p>
-            )}
-          </div>
 
           {/* Options */}
           <div className="space-y-2 sm:space-y-3 mb-6 sm:mb-8">
@@ -632,4 +621,5 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
