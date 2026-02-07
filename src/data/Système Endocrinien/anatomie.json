@@ -233,4 +233,121 @@
     ],
     "correctOptionIds": [3]
   }
+  {
+    "id": 19,
+    "text": "L'appareil génital féminin : cocher la réponse juste",
+    "module": "Anatomie",
+    "options": [
+      { "id": 1, "text": "A. Le péritoine se réfléchit au niveau du col utérin en avant et forme le cul de sac vesico-utérin" },
+      { "id": 2, "text": "B. L'artère utérine effectue sa crosse au niveau du segment mésométrial du ligament large" },
+      { "id": 3, "text": "C. Le paramètre représente la partie supérieure du ligament large" },
+      { "id": 4, "text": "D. L'ovaire est irrigué par le rameau ovarique médial de l'artère ovarique" },
+      { "id": 5, "text": "E. Les glandes vulvaires comprennent les glandes para-urétrales" }
+    ],
+    "correctOptionIds": [1]
+  },
+  {
+    "id": 20,
+    "text": "L'appareil génital masculin : cocher les réponses justes",
+    "module": "Anatomie",
+    "options": [
+      { "id": 1, "text": "A. La vaginale est l'enveloppe la plus profonde du testicule" },
+      { "id": 2, "text": "B. La tête de l'épididyme se continue par le canal déférent" },
+      { "id": 3, "text": "C. La 2ème portion du canal déférent est appelée portion funiculaire" },
+      { "id": 4, "text": "D. La verge est constituée par deux corps spongieux et un corps caverneux" },
+      { "id": 5, "text": "E. la veine dorsale profonde du pénis chemine sur la gouttière supérieure" }
+    ],
+    "correctOptionIds": [3, 5]
+  },
+  {
+    "id": 21,
+    "text": "Les glandes génitales: cocher les réponses justes",
+    "module": "Anatomie",
+    "options": [
+      { "id": 1, "text": "A. La prostate est une glande exocrine paire" },
+      { "id": 2, "text": "B. l'utricule prostatique s'ouvre au centre du veru montanum" },
+      { "id": 3, "text": "C. La prostate répond au plexus veineux vésical en avant" },
+      { "id": 4, "text": "D. Les vésicules séminales sont deux réservoirs lisses" },
+      { "id": 5, "text": "E. Les glandes de Cowper sont allongées" }
+    ],
+    "correctOptionIds": [2, 3]
+  },
+  {
+    "id": 22,
+    "text": "L'axe hypothalamo-hypophysaire : cocher les réponses justes",
+    "module": "Anatomie",
+    "options": [
+      { "id": 1, "text": "A. L'hypothalamus est situé au niveau du teif du 3ème ventricule" },
+      { "id": 2, "text": "B. L'hypophyse répond au sinus caverneux" },
+      { "id": 3, "text": "C. L'adénohypophyse est formée de deux lobes" },
+      { "id": 4, "text": "D. La neurohypophyse est vascularisée par les artères hypophysaires supérieures" },
+      { "id": 5, "text": "E. Le système porte hypothalamo-hypophysaire permet le passage des hormones" }
+    ],
+    "correctOptionIds": [2, 5]
+  },
+  {
+    "id": 23,
+    "text": "Le schéma ci-joint (Appareil génital féminin) :\ncocher les réponses justes",
+    "module": "Anatomie",
+    "options": [
+      { "id": 1, "text": "A. Ligament tubo-ovarien" },
+      { "id": 2, "text": "B. Pavillon de la trompe" },
+      { "id": 3, "text": "C. Ligament utéro-ovarien" },
+      { "id": 4, "text": "D. Segment utérin de la trompe" },
+      { "id": 5, "text": "E. Ligament large" }
+    ],
+    "correctOptionIds": [2, 3, 5]
+  },
+  {
+    "id": 24,
+    "text": "A propos du muscle élévateur de l'anus: cocher la réponse juste\n1. Il appartient au plan moyen du périnée\n2. Sa partie latérale correspond au muscle pubo-coccygien\n3. Sa partie médiale correspond au muscle pubo-coccygien\n4. Le muscle ilio-coccygien a une action sphinctérienne\n5. Le muscle ilio-coccygien a une action élévatrice",
+    "module": "Anatomie",
+    "options": [
+      { "id": 1, "text": "A (1,3)" },
+      { "id": 2, "text": "B (3,5)" },
+      { "id": 3, "text": "C (3,4)" },
+      { "id": 4, "text": "D (2,5)" },
+      { "id": 5, "text": "E (2,4)" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 25,
+    "text": "La glande thyroïde: cocher la réponse juste\n1. Se projette sur la partie supérieure du rachis cervical\n2. Est fixée à l'œsophage par les ligaments de Gruber\n3. Est fixée à la trachée par les ligaments de Gruber\n4. Répond à la veine jugulaire antérieure contenue dans le fascia cervical superficiel\n5. Répond à la veine jugulaire interne contenue dans le fascia cervical superficiel",
+    "module": "Anatomie",
+    "options": [
+      { "id": 1, "text": "A (1,3)" },
+      { "id": 2, "text": "B (1.5)" },
+      { "id": 3, "text": "C (3,4)" },
+      { "id": 4, "text": "D (2,5)" },
+      { "id": 5, "text": "E (2,4)" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 26,
+    "text": "A propos de la glande surrénale: cocher la réponse juste\n1. La surrénale droite descend plus bas que la surrénale gauche\n2. La surrénale gauche descend plus bas que la surrénale droite\n3. L'artère surrénalienne supérieure dérive de l'artère phrénique supérieure\n4. L'artère surrénalienne supérieure dérive de l'artère phrénique inférieure\n5. L'artère surrénalienne inférieure dérive de l'aorte",
+    "module": "Anatomie",
+    "options": [
+      { "id": 1, "text": "A (1.3)" },
+      { "id": 2, "text": "B (1,5)" },
+      { "id": 3, "text": "C (3,2)" },
+      { "id": 4, "text": "D (2,5)" },
+      { "id": 5, "text": "E (2,4)" }
+    ],
+    "correctOptionIds": [5]
+  },
+  {
+    "id": 27,
+    "text": "A propos de la glande mammaire: cocher la réponse juste\n1. Le fascia rétro-mammaire est un fascia bien individualisé\n2. Le fascia pré-mammaire est un fascia bien individualisé\n3. Le fascia superficialis constitue le ligament suspenseur de la glande\n4. L'irrigation dépend uniquement de l'artère thoracique interne\n5. Le drainage lymphatique se fait uniquement vers les nœuds axillaires",
+    "module": "Anatomie",
+    "options": [
+      { "id": 1, "text": "A (1,5)" },
+      { "id": 2, "text": "B (3,2)" },
+      { "id": 3, "text": "C (1,3)" },
+      { "id": 4, "text": "D (2,5)" },
+      { "id": 5, "text": "E (2,4)" }
+    ],
+    "correctOptionIds": [1]
+  }
 ]
