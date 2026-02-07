@@ -180,5 +180,174 @@
       { "id": 5, "text": "E/ la lipase hépatique (LH)" }
     ],
     "correctOptionIds": [1]
+  },
+  {
+    "id": 14,
+    "text": "Lors de l'exploration fonctionnelle endocrinienne, les épreuves dynamiques :\n1/ permettent la confirmation de la pathologie\n2/ se pratiquent toujours de bas en haut\n3/ sont des épreuves de freination en cas d'hyperfonctionnement\n4/ sont des épreuves de stimulation en cas d'hypofonctionnement",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ 1,2,3" },
+      { "id": 2, "text": "B/ 1,2,4" },
+      { "id": 3, "text": "C/ 2,3,4" },
+      { "id": 4, "text": "D/ 2,3" },
+      { "id": 5, "text": "E/ 2, 4" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 15,
+    "text": "L'hypofonctionnement endocrinien au cours d'une atteinte secondaire, répond aux propositions suivantes :\n1/ le taux de l'hormone effectrice est élevé\n2/ le taux de la stimuline est bas\n3/ le test à la RH est positif\n4/ le test à la stimuline est négatif\n5/ le taux de la RH est élevé",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ 2,3" },
+      { "id": 2, "text": "B/ 2, 3,5" },
+      { "id": 3, "text": "C/ 1, 3, 5" },
+      { "id": 4, "text": "D/ 4, 5" },
+      { "id": 5, "text": "E/ 2, 5" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 16,
+    "text": "A propos de l'hormone antidiurétique :\n1/ est une hormone protéique\n2/ est synthétisée par la post-hypophyse\n3/ a des effets vasculaires via des récepteurs V2\n4/ est régulée essentiellement par l'osmolarité plasmatique\n5/ a des effets vasculaires à forte dose",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ 1,2,3" },
+      { "id": 2, "text": "B/ 2,3,4" },
+      { "id": 3, "text": "C/ 4,5" },
+      { "id": 4, "text": "D/ 1,3, 4" },
+      { "id": 5, "text": "E/ 1,4,5" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 17,
+    "text": "A propos de l'hormone de croissance (GH) :",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ c'est une hormone protéique produite par l'hypothalamus." },
+      { "id": 2, "text": "B/ elle a un effet hypoglycémiant." },
+      { "id": 3, "text": "C/ elle agit sur le métabolisme glucidique via l'IGF-1." },
+      { "id": 4, "text": "D/ sa sécrétion est inhibée par la somatostatine." },
+      { "id": 5, "text": "E/ sa sécrétion est inhibée par la ghréline." }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 18,
+    "text": "Parmi les affirmations suivantes concernant le fonctionnement de la thyroïde laquelle est fausse ?",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ le transport de l'iode est assuré par le symport NIS situé sur la membrane basolatérale." },
+      { "id": 2, "text": "B/ la thyroperoxydase est une enzyme indispensable à la synthèse des hormones thyroïdiennes." },
+      { "id": 3, "text": "C/ en situation d'hyperthyroïdie basse, la TSH est abaissée." },
+      { "id": 4, "text": "D/ la frilosité est un symptôme classique de l'hypothyroïdie." },
+      { "id": 5, "text": "E/ la thyréoglobuline sert de support à la synthèse des hormones thyroïdiennes." }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 19,
+    "text": "Les androgènes surrénaliens :",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ sont des hormones actives" },
+      { "id": 2, "text": "B/ circulent sous forme libre dans 60% des cas" },
+      { "id": 3, "text": "C/ leur rôle biologique est important chez l'homme adulte" },
+      { "id": 4, "text": "D/ voient leur sécrétion réduite par l'ACTH hypophysaire" },
+      { "id": 5, "text": "E/ n'exercent pas de rétrocontrôle sur l'ACTH hypophysaire" }
+    ],
+    "correctOptionIds": [5]
+  },
+  {
+    "id": 20,
+    "text": "La testostérone est une hormone sexuelle qui :\n1/ n'intervient pas dans la spermatogenèse\n2/ n'a aucun effet sur la croissance osseuse\n3/ suit une sécrétion circadienne\n4/ exerce une rétroaction négative sur la LH\n5/ est sécrétée de la puberté jusqu'à l'âge de 50 ans",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ 1,2,3" },
+      { "id": 2, "text": "B/ 2, 3, 4" },
+      { "id": 3, "text": "C/ 1, 3, 4" },
+      { "id": 4, "text": "D/ 2, 4, 5" },
+      { "id": 5, "text": "E/ 3, 4, 5" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 21,
+    "text": "Concernant la physiologie des métabolismes; La lipoprotéine lipase (LPL) est : (RF)",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ impliquée dans la dégradation des TG exogènes" },
+      { "id": 2, "text": "B/ responsable de l'hydrolyse des TG endogènes" },
+      { "id": 3, "text": "C/ sous contrôle positif de l'insuline" },
+      { "id": 4, "text": "D/ indispensable pour la lipolyse adipocytaire" },
+      { "id": 5, "text": "E/ les propositions B et D" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 22,
+    "text": "À distance des repas (durant la phase post absorptive) : (RJ)\n1/ la sécrétion d'insuline est monophasique continue\n2/ le flux hépatique de glucose est abaissé\n3/ la lipoprotéine lipase (LPL) est inactivée\n4/ la lipolyse participe à l'alimentation du cœur",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ 1+2+3" },
+      { "id": 2, "text": "B/ 1+4" },
+      { "id": 3, "text": "C/ 2+3+4" },
+      { "id": 4, "text": "D/ 3+4" },
+      { "id": 5, "text": "E/ 1+3+4" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 23,
+    "text": "Le transport inverse du cholestérol est assuré par : (RJ)",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ les CM" },
+      { "id": 2, "text": "B/ les VLDL" },
+      { "id": 3, "text": "C/ les LDL" },
+      { "id": 4, "text": "D/ les HDL" },
+      { "id": 5, "text": "E/ les VLDL et les LDL" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 24,
+    "text": "La courbe d'HGPO enregistrée chez une femme à sa 28ème semaine de grossesse montre que : (RJ)\nGlycémie (g/l) : 0.88 (à jeun), 1.9 (1h après), 1.6 (2h après)\n1/ le pic d'insulinémie est précoce\n2/ la glycémie après 1h est normale\n3/ l'épreuve n'est pas concluante\n4/ le diagnostic de diabète gestationnel est retenu",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ 1+2" },
+      { "id": 2, "text": "B/ 1+3" },
+      { "id": 3, "text": "C/ 1+4" },
+      { "id": 4, "text": "D/ 3" },
+      { "id": 5, "text": "E/ 4" }
+    ],
+    "correctOptionIds": [5]
+  },
+  {
+    "id": 25,
+    "text": "À propos de la répartition du calcium dans l'organisme, le calcium ionisé : (RJ)",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ constitue la fraction non diffusible du calcium" },
+      { "id": 2, "text": "B/ représente 0,001% du calcium total du corps" },
+      { "id": 3, "text": "C/ est la seule fraction plasmatique douée d'une activité biologique" },
+      { "id": 4, "text": "D/ est abaissé lors d'une acidose" },
+      { "id": 5, "text": "E/ est augmenté lors d'une hyperalbuminémie" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 26,
+    "text": "L'absorption intestinale transcellulaire du calcium est : (RF)",
+    "module": "Physiologie",
+    "options": [
+      { "id": 1, "text": "A/ active, vitamine D dépendante" },
+      { "id": 2, "text": "B/ proportionnelle aux apports alimentaires" },
+      { "id": 3, "text": "C/ optimale au moment des repas" },
+      { "id": 4, "text": "D/ favorisée par la prise des agrumes" },
+      { "id": 5, "text": "E/ limitée par la consommation du thé" }
+    ],
+    "correctOptionIds": [2]
   }
 ]
