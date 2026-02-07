@@ -426,7 +426,7 @@
       { "id": 4, "text": "D- La partie la plus externe, marquée d'une étoile est la glomérulée et se trouve sous la capsule conjonctive" },
       { "id": 5, "text": "E- C'est une observation de la zone médullaire" }
     ],
-    "correctOptionIds": [1, 2, 4]
+    "correctOptionIds": [2, 4]
   },
   {
     "id": 34,
@@ -465,7 +465,7 @@
       { "id": 4, "text": "D- La parathormone qui est une hormone hypocalcemiante." },
       { "id": 5, "text": "E- La T3, et la T4" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [4]
   },
   {
     "id": 37,
@@ -504,7 +504,7 @@
       { "id": 4, "text": "D- Le conjonctif du parenchyme prostatique est lâche contenant des fibres musculaires lisses et des vaisseaux sanguins" },
       { "id": 5, "text": "E- Elle produit un liquide qui participe à la formation du sperme" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [2]
   },
   {
     "id": 40,
@@ -530,7 +530,7 @@
       { "id": 4, "text": "D- Le chorion de la muqueuse est conjonctivo-glandulaire" },
       { "id": 5, "text": "E- La musculeuse est faite de cellules musculaires lisses" }
     ],
-    "correctOptionIds": [3]
+    "correctOptionIds": [4]
   },
   {
     "id": 42,
