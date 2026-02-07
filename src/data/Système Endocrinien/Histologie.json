@@ -376,4 +376,198 @@
     ],
     "correctOptionIds": [3]
   }
+  {
+    "id": 30,
+    "text": "Concernant l'adénohypophyse: (cochez les réponses justes)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- Les cellules endocrines de la glande hypophysaire sont d'origine ectoblastique" },
+      { "id": 2, "text": "B- Les cellules thyréotropes sont d'origine enteblastique" },
+      { "id": 3, "text": "C- Elle élabore les hormones hypophysiotropes" },
+      { "id": 4, "text": "D- Les cellules gonadotropes contiennent la FSH et LH" },
+      { "id": 5, "text": "E- Elle est vascularisée par un système porte qui amène à l'antéhypophyse les facteurs élaborés par l'hypothalamus" }
+    ],
+    "correctOptionIds": [1, 4, 5]
+  },
+  {
+    "id": 31,
+    "text": "Au niveau de la glande thyroïde: (cochez les réponses justes)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- La synthèse des hormones thyroidiennes se fait en 02 temps, stockage dans la colloïde puis excrétion dans un canal excréteur" },
+      { "id": 2, "text": "B- Sur une coupe histologique on peut observer plusieurs vésicules" },
+      { "id": 3, "text": "C- Les thyréocytes possèdent des récepteurs à TSH non visibles sur les coupes histologiques" },
+      { "id": 4, "text": "D- Les vacuoles de résorption vues au sein d'un follicule actif traduisent une activité cellulaire, et proviennent de l'endocytose de la colloïde par les thyréocytes" },
+      { "id": 5, "text": "E- Les cellules C sont situées à la partie apicale des thyréocytes" }
+    ],
+    "correctOptionIds": [2, 3, 4]
+  },
+  {
+    "id": 32,
+    "text": "Concernant le tissu endocrinien: (cochez les réponses justes)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- Il peut être composé de quelques amas cellulaires dans un organe" },
+      { "id": 2, "text": "B- Un tissu endocrine élabore une substance appelée hormone déversée dans un canal excréteur" },
+      { "id": 3, "text": "C- L'antéhypophyse est une glande endocrine qui agit sur d'autres glandes endocrines" },
+      { "id": 4, "text": "D- Une cellule endocrine est située à proximité d'une structure vasculaire" },
+      { "id": 5, "text": "E- Les hormones agissent sur une cellule cible situées à distance de la source hormonale" }
+    ],
+    "correctOptionIds": [1, 3, 4, 5]
+  },
+  {
+    "id": 33,
+    "text": "Voici une coupe de la glande surrénale: (cochez les réponses justes)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- Sur cette coupe, on peut distinguer les trois parties : glomérulée, fasciculée et réticulée" },
+      { "id": 2, "text": "B- Les cellules observées élaborent l'aldostérone qui est déversé dans les capillaires bien visibles sur cette photographie" },
+      { "id": 3, "text": "C- On peut observer au sein des cellules les granulations contenant les catécholamines" },
+      { "id": 4, "text": "D- La partie la plus externe, marquée d'une étoile est la glomérulée et se trouve sous la capsule conjonctive" },
+      { "id": 5, "text": "E- C'est une observation de la zone médullaire" }
+    ],
+    "correctOptionIds": [1, 2, 4]
+  },
+  {
+    "id": 34,
+    "text": "la médullosurrénale se caractérise par: (cochez la réponse juste)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- Son origine embryologique est l'épithélium cælomique" },
+      { "id": 2, "text": "B- La synthèse des glucocortoides" },
+      { "id": 3, "text": "C- Son origine embryologique est neuro ectoblastique" },
+      { "id": 4, "text": "D- Elles sécrètent des hormones stéroïdes" },
+      { "id": 5, "text": "E- Son type histologique est trabéculaire orientée" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 35,
+    "text": "A propos des hormones: (cochez les réponses justes)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- La synthèse de calcitonine est stimulée par une augmentation du taux plasmatique de calcium" },
+      { "id": 2, "text": "B- L'aldosterone est fabriquée par la zone fasciculée de de la glande surrénale" },
+      { "id": 3, "text": "C- La parathormone, synthétisée par les parathyroïdes, est hypocalcemiante" },
+      { "id": 4, "text": "D- Les hormones thyroidiennes sont stimulées par la TSH" },
+      { "id": 5, "text": "E- L'insuline est synthétisée par les cellules bêta (B) des ilots de Langerhans en réponse à une hypoglycémie" }
+    ],
+    "correctOptionIds": [1, 4]
+  },
+  {
+    "id": 36,
+    "text": "Les cellules parathyroïdiennes élaborent l'hormone suivante : (cochez la RJ)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- La calcitonine qui est une hormone hypocalcémiante." },
+      { "id": 2, "text": "B- La parathormone qui est une hormone Hypercalcémiante." },
+      { "id": 3, "text": "C- La calcitonine qui est une hormone hypercalcémiante." },
+      { "id": 4, "text": "D- La parathormone qui est une hormone hypocalcemiante." },
+      { "id": 5, "text": "E- La T3, et la T4" }
+    ],
+    "correctOptionIds": [2]
+  },
+  {
+    "id": 37,
+    "text": "Les cellules de Leidig: (cochez les réponses justes)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- Elles sont groupées en amas au niveau du tissu interstitiel entre les tubes séminifères" },
+      { "id": 2, "text": "B- Elles ont les caractéristiques d'une glande endocrine" },
+      { "id": 3, "text": "C- Elles élaborent la testostérone sous l'influence de l'hypophyse" },
+      { "id": 4, "text": "D- Elles forment la glande interstitielle de l'ovaire" },
+      { "id": 5, "text": "E- Elles sont indépendantes de l'antéhypophyse" }
+    ],
+    "correctOptionIds": [1, 2, 3]
+  },
+  {
+    "id": 38,
+    "text": "Concernant le corps progestatif: (cochez les réponses justes)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- Les cellules de la granulosa deviennent des cellules lutéales" },
+      { "id": 2, "text": "B- Les cellules de la thèque interne élaborent de la progestérone" },
+      { "id": 3, "text": "C- Les capillaires de la thèque interne envahissent la granulosa" },
+      { "id": 4, "text": "D- Les cellules lutéales élaborent de l'œstrogène" },
+      { "id": 5, "text": "E- Les cellules lutéales élaborent de la progestérone" }
+    ],
+    "correctOptionIds": [1, 3, 5]
+  },
+  {
+    "id": 39,
+    "text": "concernant la prostate: (cochez la réponse fausse)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- La capsule est de type fibro-élastique riche en cellules musculaires lisses" },
+      { "id": 2, "text": "B- Le parenchyme glandulaire est constitué d'une cinquantaine de glandes acineuses" },
+      { "id": 3, "text": "C- L'épithélium glandulaire est de type cubique à prismatique simple" },
+      { "id": 4, "text": "D- Le conjonctif du parenchyme prostatique est lâche contenant des fibres musculaires lisses et des vaisseaux sanguins" },
+      { "id": 5, "text": "E- Elle produit un liquide qui participe à la formation du sperme" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 40,
+    "text": "Le tractus tubéro-hypophysaire se termine au niveau: (cochez la réponse juste)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- Du lobe antérieur de l'hypophyse" },
+      { "id": 2, "text": "B- Du lobe postérieur de l'hypophyse" },
+      { "id": 3, "text": "C- Du plexus porte secondaire" },
+      { "id": 4, "text": "D- Du plexus porte primaire" },
+      { "id": 5, "text": "E- Du plexus porte primaire et secondaire" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 41,
+    "text": "concernant la vésicule séminale: (cochez la réponse fausse)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- Elle est constituée de 2 à 3 tubes pelotonnés" },
+      { "id": 2, "text": "B- La paroi des tubes comporte une muqueuse, une musculeuse et une adventice" },
+      { "id": 3, "text": "C- L'épithélium est de type prismatique simple" },
+      { "id": 4, "text": "D- Le chorion de la muqueuse est conjonctivo-glandulaire" },
+      { "id": 5, "text": "E- La musculeuse est faite de cellules musculaires lisses" }
+    ],
+    "correctOptionIds": [3]
+  },
+  {
+    "id": 42,
+    "text": "Le lobe postérieur de l'hypophyse contient les structures histologiques suivantes: cochez la RF",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- les fibres nerveuses du tractus supra optico hypophysaire" },
+      { "id": 2, "text": "B- les pituicytes" },
+      { "id": 3, "text": "C- les vaisseaux sanguins" },
+      { "id": 4, "text": "D- les corps de Hering" },
+      { "id": 5, "text": "E- Des cellules glandulaires groupées en travées non orientés" }
+    ],
+    "correctOptionIds": [5]
+  },
+  {
+    "id": 43,
+    "text": "Le tractus tubéro-hypophysaire possède les rôles suivant : (cochez la réponse juste)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- véhicule l'ADH et l'ocytocine" },
+      { "id": 2, "text": "B- véhicule les releasing hormones destinées à la post hypophyse" },
+      { "id": 3, "text": "C- véhicule les hormones hypophysaires vers les glandes périphériques" },
+      { "id": 4, "text": "D- véhicule les releasing hormones à destination adénohypophysaire" }
+    ],
+    "correctOptionIds": [4]
+  },
+  {
+    "id": 44,
+    "text": "Concernant les formations glandulaires de la glande thyroïde: (cochez la RF)",
+    "module": "Histologie",
+    "options": [
+      { "id": 1, "text": "A- Les vésicules thyroïdiennes sont faites de cellules glandulaires" },
+      { "id": 2, "text": "B- Les cellules inter folliculaires de Webber sont des cellules glandulaires isolées" },
+      { "id": 3, "text": "C- Les ilots interstitiels de WOLFLER sont faits de thyréocytes" },
+      { "id": 4, "text": "D- Les thyréocytes sont d'origine entoblastique" },
+      { "id": 5, "text": "E- Les cellules C sont situées à la partie basale des thyréocytes" }
+    ],
+    "correctOptionIds": [3]
+  }
 ]
