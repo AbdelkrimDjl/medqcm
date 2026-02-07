@@ -55,6 +55,8 @@ const Quiz: React.FC = () => {
   const [showResults, setShowResults] = useState<boolean>(false);
   const [showExplanation, setShowExplanation] = useState<boolean>(false);
   const [filteredQuestions, setFilteredQuestions] = useState<Question[]>([]);
+  const [confirmedAnswers, setConfirmedAnswers] = useState<Set<number>>(new Set());
+
 
   useEffect(() => {
     if (!config || !config.questions || config.questions.length === 0) {
@@ -93,9 +95,11 @@ const Quiz: React.FC = () => {
     return `${mins}:${secs.toString().padStart(2, "0")}`;
   };
 
-  const handleSelectOption = (optionId: number) => {
-    setAnswers({ ...answers, [currentQuestion.id]: optionId });
-    if (quizMode === "practice") setShowExplanation(true);
+  const handleSelectOption = (optionId: number): void => {
+    // Only allow selection if answer hasn't been confirmed yet
+    if (!confirmedAnswers.has(currentQuestion.id)) {
+      setAnswers({ ...answers, [currentQuestion.id]: optionId });
+    }
   };
 
   const handleFlag = () => {
@@ -106,6 +110,13 @@ const Quiz: React.FC = () => {
     setFlaggedQuestions(newFlagged);
   };
 
+  const handleConfirmAnswer = (): void => {
+    const newConfirmed = new Set(confirmedAnswers);
+    newConfirmed.add(currentQuestion.id);
+    setConfirmedAnswers(newConfirmed);
+    setShowExplanation(true);
+  };
+  
   const handleNext = () => {
     if (currentQuestionIndex < totalQuestions - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
@@ -161,7 +172,7 @@ const Quiz: React.FC = () => {
     );
   }
 
-  if (showResults) {
+    if (showResults) {
     const score = calculateScore();
     const moduleBreakdown = getModuleBreakdown();
 
@@ -207,7 +218,9 @@ const Quiz: React.FC = () => {
                   {score.correct} out of {score.total} correct
                 </div>
                 <div
-                  className={`inline-block px-6 py-2 rounded-full text-white text-lg font-semibold ${score.percentage >= 70 ? "bg-green-500" : "bg-orange-500"}`}
+                  className={`inline-block px-6 py-2 rounded-full text-white text-lg font-semibold ${
+                    score.percentage >= 70 ? "bg-green-500" : "bg-orange-500"
+                  }`}
                 >
                   {score.percentage >= 70 ? "✓ Pass" : "✗ Needs Improvement"}
                 </div>
@@ -226,14 +239,26 @@ const Quiz: React.FC = () => {
                         {module.module}
                       </span>
                       <span
-                        className={`font-bold ${module.accuracy >= 70 ? "text-green-600" : module.accuracy >= 50 ? "text-yellow-600" : "text-red-600"}`}
+                        className={`font-bold ${
+                          module.accuracy >= 70
+                            ? "text-green-600"
+                            : module.accuracy >= 50
+                              ? "text-yellow-600"
+                              : "text-red-600"
+                        }`}
                       >
                         {Math.round(module.accuracy)}%
                       </span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-3">
                       <div
-                        className={`h-3 rounded-full transition-all duration-500 ${module.accuracy >= 70 ? "bg-green-500" : module.accuracy >= 50 ? "bg-yellow-500" : "bg-red-500"}`}
+                        className={`h-3 rounded-full transition-all duration-500 ${
+                          module.accuracy >= 70
+                            ? "bg-green-500"
+                            : module.accuracy >= 50
+                              ? "bg-yellow-500"
+                              : "bg-red-500"
+                        }`}
                         style={{ width: `${module.accuracy}%` }}
                       />
                     </div>
@@ -250,7 +275,8 @@ const Quiz: React.FC = () => {
                 onClick={() => navigate("/")}
                 className="flex-1 bg-gray-200 text-gray-700 font-semibold py-4 rounded-lg hover:bg-gray-300 transition-all flex items-center justify-center gap-2"
               >
-                <HomeIcon className="w-5 h-5" /> Back to Home
+                <HomeIcon className="w-5 h-5" />
+                Back to Home
               </button>
               <button
                 onClick={() => {
@@ -279,64 +305,63 @@ const Quiz: React.FC = () => {
         fontFamily: "'Inter', sans-serif",
       }}
     >
-      {/* Quiz Header */}
       <div className="bg-white shadow-lg">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <div>
-            <h1 className="text-2xl font-bold text-gray-800">ExamGen Quiz</h1>
-            <p className="text-sm text-gray-600">
-              {config.module} - {config.year}
-            </p>
-          </div>
-          <div className="flex items-center gap-6">
-            <button
-              onClick={() => navigate("/")}
-              className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-all"
-            >
-              <HomeIcon className="w-4 h-4" /> Home
-            </button>
-            <div className="text-right">
-              <div className="text-sm text-gray-600">Mode</div>
-              <div className="font-semibold text-gray-800 capitalize">
-                {quizMode}
-              </div>
+        <div className="max-w-6xl mx-auto px-6 py-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-2xl font-bold text-gray-800">ExamGen Quiz</h1>
+              <p className="text-sm text-gray-600">
+                {config.module} - {config.year}
+              </p>
             </div>
-            {quizMode === "test" && (
-              <div className="flex items-center gap-2 bg-purple-100 px-4 py-2 rounded-lg">
-                <Clock
-                  className={`w-5 h-5 ${timeRemaining < 300 ? "text-red-600" : "text-purple-600"}`}
-                />
-                <span
-                  className={`font-mono font-semibold ${timeRemaining < 300 ? "text-red-600" : "text-purple-600"}`}
-                >
-                  {formatTime(timeRemaining)}
-                </span>
+            <div className="flex items-center gap-6">
+              <button
+                onClick={() => navigate("/")}
+                className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-all"
+              >
+                <HomeIcon className="w-4 h-4" />
+                Home
+              </button>
+              <div className="text-right">
+                <div className="text-sm text-gray-600">Mode</div>
+                <div className="font-semibold text-gray-800 capitalize">
+                  {quizMode}
+                </div>
               </div>
-            )}
+              {quizMode === "test" && (
+                <div className="flex items-center gap-2 bg-purple-100 px-4 py-2 rounded-lg">
+                  <Clock
+                    className={`w-5 h-5 ${timeRemaining < 300 ? "text-red-600" : "text-purple-600"}`}
+                  />
+                  <span
+                    className={`font-mono font-semibold ${timeRemaining < 300 ? "text-red-600" : "text-purple-600"}`}
+                  >
+                    {formatTime(timeRemaining)}
+                  </span>
+                </div>
+              )}
+            </div>
           </div>
-        </div>
 
-        {/* Progress */}
-        <div className="max-w-6xl mx-auto px-6 mt-4">
-          <div className="flex justify-between text-sm text-gray-600 mb-2">
-            <span>
-              Progress: {answeredCount} / {totalQuestions}
-            </span>
-            <span>{Math.round(progress)}%</span>
-          </div>
-          <div className="w-full bg-gray-200 rounded-full h-2">
-            <div
-              className="bg-gradient-to-r from-purple-600 to-indigo-600 h-2 rounded-full transition-all duration-300"
-              style={{ width: `${progress}%` }}
-            />
+          <div className="mt-4">
+            <div className="flex justify-between text-sm text-gray-600 mb-2">
+              <span>
+                Progress: {answeredCount} / {totalQuestions}
+              </span>
+              <span>{Math.round(progress)}%</span>
+            </div>
+            <div className="w-full bg-gray-200 rounded-full h-2">
+              <div
+                className="bg-gradient-to-r from-purple-600 to-indigo-600 h-2 rounded-full transition-all duration-300"
+                style={{ width: `${progress}%` }}
+              />
+            </div>
           </div>
         </div>
       </div>
 
-      {/* Questions */}
       <div className="max-w-4xl mx-auto px-6 py-8">
         <div className="bg-white rounded-2xl shadow-2xl p-8">
-          {/* Question Info */}
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center gap-4">
               <div className="bg-purple-100 text-purple-700 px-4 py-2 rounded-lg font-semibold">
@@ -346,14 +371,24 @@ const Quiz: React.FC = () => {
                 {currentQuestion.module}
               </div>
               <div
-                className={`text-sm px-3 py-1 rounded-full ${currentQuestion.difficulty === "easy" ? "bg-green-100 text-green-700" : currentQuestion.difficulty === "medium" ? "bg-yellow-100 text-yellow-700" : "bg-red-100 text-red-700"}`}
+                className={`text-sm px-3 py-1 rounded-full ${
+                  currentQuestion.difficulty === "easy"
+                    ? "bg-green-100 text-green-700"
+                    : currentQuestion.difficulty === "medium"
+                      ? "bg-yellow-100 text-yellow-700"
+                      : "bg-red-100 text-red-700"
+                }`}
               >
                 {currentQuestion.difficulty}
               </div>
             </div>
             <button
               onClick={handleFlag}
-              className={`p-2 rounded-lg transition-all ${flaggedQuestions.has(currentQuestion.id) ? "bg-yellow-100 text-yellow-600" : "bg-gray-100 text-gray-400 hover:text-yellow-600"}`}
+              className={`p-2 rounded-lg transition-all ${
+                flaggedQuestions.has(currentQuestion.id)
+                  ? "bg-yellow-100 text-yellow-600"
+                  : "bg-gray-100 text-gray-400 hover:text-yellow-600"
+              }`}
             >
               <Flag
                 className="w-6 h-6"
@@ -372,20 +407,27 @@ const Quiz: React.FC = () => {
             </h2>
           </div>
 
-          {/* Options */}
           <div className="space-y-3 mb-8">
             {currentQuestion.options.map((option) => {
               const isSelected = answers[currentQuestion.id] === option.id;
               const isCorrect = option.id === currentQuestion.correctOptionId;
-              const showCorrectAnswer =
-                showExplanation && quizMode === "practice";
+              const isConfirmed = confirmedAnswers.has(currentQuestion.id);
+              const showCorrectAnswer = showExplanation && isConfirmed;
 
               return (
                 <button
                   key={option.id}
                   onClick={() => handleSelectOption(option.id)}
-                  className={`w-full text-left p-4 rounded-xl border-2 transition-all ${showCorrectAnswer && isCorrect ? "border-green-500 bg-green-50" : showCorrectAnswer && isSelected && !isCorrect ? "border-red-500 bg-red-50" : isSelected ? "border-purple-500 bg-purple-50" : "border-gray-200 hover:border-purple-300 hover:bg-gray-50"}`}
-                  disabled={showCorrectAnswer}
+                  className={`w-full text-left p-4 rounded-xl border-2 transition-all ${
+                    showCorrectAnswer && isCorrect
+                      ? "border-green-500 bg-green-50"
+                      : showCorrectAnswer && isSelected && !isCorrect
+                        ? "border-red-500 bg-red-50"
+                        : isSelected
+                          ? "border-purple-500 bg-purple-50"
+                          : "border-gray-200 hover:border-purple-300 hover:bg-gray-50"
+                  }`}
+                  disabled={confirmedAnswers.has(currentQuestion.id)}
                 >
                   <div className="flex items-center justify-between">
                     <span className="text-lg text-gray-800">{option.text}</span>
@@ -404,14 +446,26 @@ const Quiz: React.FC = () => {
             })}
           </div>
 
-          {/* Navigation */}
+          {showExplanation && confirmedAnswers.has(currentQuestion.id) && (
+            <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg mb-6 animate-fadeIn">
+              <h3 className="font-semibold text-blue-900 mb-2 flex items-center gap-2">
+                <Check className="w-5 h-5" />
+                Explanation
+              </h3>
+              <p className="text-blue-800 leading-relaxed">
+                {currentQuestion.explanation}
+              </p>
+            </div>
+          )}
+
           <div className="flex items-center justify-between pt-6 border-t border-gray-200">
             <button
               onClick={handlePrevious}
               disabled={currentQuestionIndex === 0}
               className="flex items-center gap-2 px-6 py-3 bg-gray-100 text-gray-700 rounded-lg font-semibold hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed transition-all"
             >
-              <ChevronLeft className="w-5 h-5" /> Previous
+              <ChevronLeft className="w-5 h-5" />
+              Previous
             </button>
 
             <div className="flex gap-2">
@@ -422,33 +476,92 @@ const Quiz: React.FC = () => {
                     setCurrentQuestionIndex(idx);
                     setShowExplanation(false);
                   }}
-                  className={`w-10 h-10 rounded-lg font-semibold transition-all ${idx === currentQuestionIndex ? "bg-purple-600 text-white" : answers[q.id] ? "bg-green-100 text-green-700" : "bg-gray-100 text-gray-600 hover:bg-gray-200"} ${flaggedQuestions.has(q.id) ? "ring-2 ring-yellow-400" : ""}`}
+                  className={`w-10 h-10 rounded-lg font-semibold transition-all ${
+                    idx === currentQuestionIndex
+                      ? "bg-purple-600 text-white"
+                      : answers[q.id]
+                        ? "bg-green-100 text-green-700"
+                        : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                  } ${flaggedQuestions.has(q.id) ? "ring-2 ring-yellow-400" : ""}`}
                 >
                   {idx + 1}
                 </button>
               ))}
             </div>
 
-            {currentQuestionIndex === totalQuestions - 1 ? (
+            {!confirmedAnswers.has(currentQuestion.id) ? (
+              <button
+                onClick={handleConfirmAnswer}
+                disabled={!answers[currentQuestion.id]}
+                className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                Confirm Answer
+                <Check className="w-5 h-5" />
+              </button>
+            ) : currentQuestionIndex === totalQuestions - 1 ? (
               <button
                 onClick={handleSubmit}
                 className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all"
               >
-                Submit Quiz <Check className="w-5 h-5" />
+                Submit Quiz
+                <Check className="w-5 h-5" />
               </button>
             ) : (
               <button
                 onClick={handleNext}
                 className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all"
               >
-                Next <ChevronRight className="w-5 h-5" />
+                Next
+                <ChevronRight className="w-5 h-5" />
               </button>
             )}
           </div>
         </div>
+
+        <div className="bg-white rounded-xl shadow-lg p-6 mt-6">
+          <h3 className="font-semibold text-gray-800 mb-4">Quick Stats</h3>
+          <div className="grid grid-cols-3 gap-4">
+            <div className="text-center p-4 bg-green-50 rounded-lg">
+              <div className="text-2xl font-bold text-green-600">
+                {answeredCount}
+              </div>
+              <div className="text-sm text-green-700">Answered</div>
+            </div>
+            <div className="text-center p-4 bg-gray-50 rounded-lg">
+              <div className="text-2xl font-bold text-gray-600">
+                {totalQuestions - answeredCount}
+              </div>
+              <div className="text-sm text-gray-700">Remaining</div>
+            </div>
+            <div className="text-center p-4 bg-yellow-50 rounded-lg">
+              <div className="text-2xl font-bold text-yellow-600">
+                {flaggedQuestions.size}
+              </div>
+              <div className="text-sm text-yellow-700">Flagged</div>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <style jsx>{`
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+            transform: translateY(20px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+
+        .animate-fadeIn {
+          animation: fadeIn 0.5s ease-out;
+        }
+      `}</style>
     </div>
   );
 };
 
 export default Quiz;
+
