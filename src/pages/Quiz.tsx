@@ -400,6 +400,13 @@ const Quiz: React.FC = () => {
             </button>
           </div>
 
+          <div className="mb-8">
+            <h2 className="text-2xl font-semibold text-gray-800 leading-relaxed">
+              {currentQuestion.text}
+            </h2>
+            {!confirmedAnswers.has(currentQuestion.id) && (
+            )}
+          </div>
 
           {/* Options */}
           <div className="space-y-2 sm:space-y-3 mb-6 sm:mb-8">
