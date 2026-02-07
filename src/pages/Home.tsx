@@ -15,6 +15,7 @@ interface Question {
 
 const Home: React.FC = () => {
   const navigate = useNavigate();
+  const [units, setUnits] = useState<string[]>([]);
   const [modules, setModules] = useState<string[]>([]);
   const [selectedUnit, setselectedUnit] = useState<string>("");
   const [selectedModule, setselectedModule] = useState<string>("");
@@ -23,25 +24,47 @@ const Home: React.FC = () => {
 
   // Load all JSON files
   useEffect(() => {
-    const importModules = async () => {
-      const context = import.meta.glob("../data/*.json", { eager: true });
-      const questions: Question[] = [];
-      const moduleNames: string[] = [];
+  const importModules = async () => {
+    // grab all json files anywhere under ../data (including subfolders)
+    const context = import.meta.glob("../data/**/*.json", { eager: true }) as Record<string, any>;
 
-      Object.entries(context).forEach(([path, module]) => {
-        const fileName = path.split("/").pop()!.replace(".json", "");
-        moduleNames.push(fileName);
+    const questions: Question[] = [];
+    const unitSet = new Set<string>();
+    const moduleList: { unit: string; name: string; path: string }[] = [];
 
-        // @ts-ignore
-        questions.push(...module.default); // each JSON file should export an array
-      });
+    Object.entries(context).forEach(([path, mod]) => {
+      // path example: "../data/UnitName/moduleName.json"
+      const segments = path.split("/");
+      const fileName = segments.pop()!.replace(".json", ""); // "moduleName"
+      const unitName = segments.pop() ?? "root"; // "UnitName" (or "root" fallback)
 
-      setModules(moduleNames);
-      setAllQuestions(questions);
-    };
+      unitSet.add(unitName);
+      moduleList.push({ unit: unitName, name: fileName, path });
 
-    importModules();
-  }, []);
+      // content may be in `default` (because of eager import)
+      const content = mod?.default ?? mod;
+
+      // support two common JSON shapes:
+      // 1) the file exports an array: [ {..question..}, ... ]
+      // 2) the file exports an object with a `questions` array: { questions: [...] }
+      if (Array.isArray(content)) {
+        questions.push(...(content as Question[]));
+      } else if (content && Array.isArray((content as any).questions)) {
+        questions.push(...(content as any).questions);
+      } else {
+        console.warn(`Unexpected JSON format in ${path}`, content);
+      }
+    });
+
+    // set state
+    setUnits(Array.from(unitSet)); // ["UnitNameA", "UnitNameB", ...]
+    // for modules we store "UnitName/moduleName" strings — change the format to your taste
+    setModules(moduleList.map((m) => `${m.unit}/${m.name}`));
+    setAllQuestions(questions);
+  };
+
+  importModules();
+}, []);
 
   const handleStartQuiz = () => {
     if (selectedUnit && selectedModule && questionCount > 0) {
@@ -193,6 +216,7 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
 
 
 
