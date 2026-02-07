@@ -28,6 +28,7 @@ const Home: React.FC = () => {
   const [selectedModule, setSelectedModule] = useState<string>("");
   const [questionCount, setQuestionCount] = useState<number>(10);
   const [allData, setAllData] = useState<UnitData[]>([]);
+  const [availableQuestionCount, setAvailableQuestionCount] = useState<number>(0);
 
   // Load all JSON files from nested folder structure
   useEffect(() => {
@@ -75,12 +76,35 @@ const Home: React.FC = () => {
           .sort();
         setAvailableModules(moduleNames);
         setSelectedModule(""); // Reset module selection when unit changes
+        setAvailableQuestionCount(0); // Reset question count
       }
     } else {
       setAvailableModules([]);
       setSelectedModule("");
+      setAvailableQuestionCount(0);
     }
   }, [selectedUnit, allData]);
+
+  // Update available question count when module is selected
+  useEffect(() => {
+    if (selectedUnit && selectedModule) {
+      const unitData = allData.find((u) => u.unitName === selectedUnit);
+      const moduleData = unitData?.modules.find(
+        (m) => m.moduleName === selectedModule
+      );
+      
+      if (moduleData) {
+        const count = moduleData.questions.length;
+        setAvailableQuestionCount(count);
+        // Adjust question count if it exceeds available questions
+        if (questionCount > count) {
+          setQuestionCount(count);
+        }
+      }
+    } else {
+      setAvailableQuestionCount(0);
+    }
+  }, [selectedUnit, selectedModule, allData]);
 
   const handleStartQuiz = () => {
     if (selectedUnit && selectedModule && questionCount > 0) {
@@ -188,16 +212,25 @@ const Home: React.FC = () => {
               <input
                 type="number"
                 min={1}
-                max={50}
+                max={availableQuestionCount > 0 ? availableQuestionCount : 50}
                 value={questionCount}
-                onChange={(e) =>
-                  setQuestionCount(parseInt(e.target.value) || 1)
-                }
-                className="w-full p-4 border-2 border-gray-200 rounded-lg font-semibold text-gray-700 focus:border-purple-600 focus:outline-none transition-all"
+                onChange={(e) => {
+                  const value = parseInt(e.target.value) || 1;
+                  const maxValue = availableQuestionCount > 0 ? availableQuestionCount : 50;
+                  setQuestionCount(Math.min(value, maxValue));
+                }}
+                disabled={!selectedModule}
+                className="w-full p-4 border-2 border-gray-200 rounded-lg font-semibold text-gray-700 focus:border-purple-600 focus:outline-none transition-all disabled:bg-gray-100 disabled:cursor-not-allowed"
               />
-              <p className="text-sm text-gray-500 mt-2">
-                Choisissez entre 1 et 50 questions
-              </p>
+              {selectedModule && availableQuestionCount > 0 ? (
+                <p className="text-sm text-gray-500 mt-2">
+                  {availableQuestionCount} {availableQuestionCount === 1 ? 'question disponible' : 'questions disponibles'} pour ce module
+                </p>
+              ) : (
+                <p className="text-sm text-gray-500 mt-2">
+                  Sélectionnez un module pour voir les questions disponibles
+                </p>
+              )}
             </div>
           </div>
 
@@ -216,7 +249,7 @@ const Home: React.FC = () => {
                 </p>
                 <p>
                   <span className="font-semibold">Questions:</span>{" "}
-                  {questionCount}
+                  {questionCount} / {availableQuestionCount}
                 </p>
               </div>
             </div>
@@ -247,4 +280,3 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-
