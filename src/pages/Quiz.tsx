@@ -457,7 +457,7 @@ const Quiz: React.FC = () => {
             <div className="bg-blue-50 border-l-4 border-blue-500 p-4 sm:p-6 rounded-lg mb-6 animate-fadeIn">
               <h3 className="text-sm sm:text-base font-semibold text-blue-900 mb-2 flex items-center gap-2">
                 <Check className="w-4 h-4 sm:w-5 sm:h-5" />
-                Explanation
+                Expliquation
               </h3>
               <p className="text-sm sm:text-base text-blue-800 leading-relaxed">
                 {currentQuestion.explanation}
@@ -511,7 +511,7 @@ const Quiz: React.FC = () => {
           {/* Scrollable Pagination */}
           <div className="border-t border-gray-200 pt-4">
             <h4 className="text-xs sm:text-sm font-semibold text-gray-700 mb-2 sm:mb-3">
-              Questions Navigator
+              Navigateur des Questions
             </h4>
             <div className="relative">
               <div
@@ -626,6 +626,7 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
 
