@@ -489,7 +489,7 @@ const Quiz: React.FC = () => {
                 disabled={!answers[currentQuestion.id] || answers[currentQuestion.id].length === 0}
                 className="flex items-center gap-1 sm:gap-2 px-3 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed text-xs sm:text-base"
               >
-                <span className="hidden sm:inline">Confirm Answer</span>
+                <span className="hidden sm:inline">Confirmer</span>
                 <span className="sm:hidden">Confirm</span>
                 <Check className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
@@ -498,7 +498,7 @@ const Quiz: React.FC = () => {
                 onClick={handleSubmit}
                 className="flex items-center gap-1 sm:gap-2 px-3 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all text-xs sm:text-base"
               >
-                <span className="hidden sm:inline">Submit Quiz</span>
+                <span className="hidden sm:inline">Soumettre</span>
                 <span className="sm:hidden">Submit</span>
                 <Check className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
@@ -507,7 +507,7 @@ const Quiz: React.FC = () => {
                 onClick={handleNext}
                 className="flex items-center gap-1 sm:gap-2 px-3 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all text-xs sm:text-base"
               >
-                <span className="hidden sm:inline">Next</span>
+                <span className="hidden sm:inline">Suivant</span>
                 <span className="sm:hidden">Next</span>
                 <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
@@ -567,26 +567,26 @@ const Quiz: React.FC = () => {
         {/* Quick Stats */}
         <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 mt-4 sm:mt-6">
           <h3 className="text-sm sm:text-base font-semibold text-gray-800 mb-3 sm:mb-4">
-            Quick Stats
+            Stats Rapides
           </h3>
           <div className="grid grid-cols-3 gap-2 sm:gap-4">
             <div className="text-center p-3 sm:p-4 bg-green-50 rounded-lg">
               <div className="text-xl sm:text-2xl font-bold text-green-600">
                 {answeredCount}
               </div>
-              <div className="text-xs sm:text-sm text-green-700">Answered</div>
+              <div className="text-xs sm:text-sm text-green-700">Résolues</div>
             </div>
             <div className="text-center p-3 sm:p-4 bg-gray-50 rounded-lg">
               <div className="text-xl sm:text-2xl font-bold text-gray-600">
                 {totalQuestions - answeredCount}
               </div>
-              <div className="text-xs sm:text-sm text-gray-700">Remaining</div>
+              <div className="text-xs sm:text-sm text-gray-700">Restantes</div>
             </div>
             <div className="text-center p-3 sm:p-4 bg-yellow-50 rounded-lg">
               <div className="text-xl sm:text-2xl font-bold text-yellow-600">
                 {flaggedQuestions.size}
               </div>
-              <div className="text-xs sm:text-sm text-yellow-700">Flagged</div>
+              <div className="text-xs sm:text-sm text-yellow-700">Signalé</div>
             </div>
           </div>
         </div>
@@ -632,3 +632,4 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
