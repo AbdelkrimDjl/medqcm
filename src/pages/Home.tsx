@@ -6,6 +6,7 @@ import { BookOpen, Calendar, Hash, ArrowRight } from "lucide-react";
 interface Question {
   id: number;
   text: string;
+  unit: string;
   module: string;
   options: { id: number; text: string }[];
   correctOptionId: number;
@@ -15,12 +16,10 @@ interface Question {
 const Home: React.FC = () => {
   const navigate = useNavigate();
   const [modules, setModules] = useState<string[]>([]);
-  const [selectedModule, setSelectedModule] = useState<string>("");
-  const [selectedYear, setSelectedYear] = useState<string>("");
+  const [selectedUnit, setSelectedUnit] = useState<string>("");
+  const [selectedModule, setselectedModule] = useState<string>("");
   const [questionCount, setQuestionCount] = useState<number>(10);
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
-
-  const years = ["2023", "2025"];
 
   // Load all JSON files
   useEffect(() => {
@@ -45,16 +44,16 @@ const Home: React.FC = () => {
   }, []);
 
   const handleStartQuiz = () => {
-    if (selectedModule && selectedYear && questionCount > 0) {
+    if (selectedUnit && selectedModule && questionCount > 0) {
       // Filter questions by selected module
       const filteredQuestions = allQuestions
-        .filter((q) => q.module.toLowerCase() === selectedModule.toLowerCase())
+        .filter((q) => q.module.toLowerCase() === selectedUnit.toLowerCase())
         .slice(0, questionCount);
 
       navigate("/quiz", {
         state: {
-          module: selectedModule,
-          year: selectedYear,
+          unit: selectedUnit,
+          module: selectedUnit,
           questionCount,
           questions: filteredQuestions,
         },
@@ -62,7 +61,7 @@ const Home: React.FC = () => {
     }
   };
 
-  const isFormValid = selectedModule && selectedYear && questionCount > 0;
+  const isFormValid = selectedUnit && selectedUnit && questionCount > 0;
 
   return (
     <div
@@ -90,11 +89,11 @@ const Home: React.FC = () => {
             <div>
               <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
                 <BookOpen className="w-5 h-5 text-purple-600" />
-                Sélectionner le Module
+                Sélectionnez l'Unité
               </label>
               <select
-                value={selectedModule}
-                onChange={(e) => setSelectedModule(e.target.value)}
+                value={selectedUnit}
+                onChange={(e) => setselectedUnit(e.target.value)}
                 className="w-full p-4 border-2 border-gray-200 rounded-lg font-semibold text-gray-700 focus:border-purple-600 focus:outline-none transition-all bg-white"
               >
                 <option value="">Choisissez un Module</option>
@@ -106,21 +105,21 @@ const Home: React.FC = () => {
               </select>
             </div>
 
-            {/* Year Select */}
+            {/* Module Select */}
             <div>
               <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
                 <Calendar className="w-5 h-5 text-purple-600" />
-                Sélectionnez l'Année
+                Sélectionnez le Module
               </label>
               <select
-                value={selectedYear}
-                onChange={(e) => setSelectedYear(e.target.value)}
+                value={selectedModule}
+                onChange={(e) => setselectedModule(e.target.value)}
                 className="w-full p-4 border-2 border-gray-200 rounded-lg font-semibold text-gray-700 focus:border-purple-600 focus:outline-none transition-all bg-white"
               >
                 <option value="">Sélectionnez l'année...</option>
-                {years.map((year) => (
-                  <option key={year} value={year}>
-                    {year}
+                {modules.map((module) => (
+                  <option key={module} value={module}>
+                    {module}
                   </option>
                 ))}
               </select>
@@ -148,7 +147,7 @@ const Home: React.FC = () => {
             </div>
           </div>
 
-          {selectedModule && selectedYear && (
+          {selectedUnit && selectedModule && (
             <div className="mt-6 p-4 bg-purple-50 rounded-lg border border-purple-200">
               <h3 className="font-semibold text-purple-900 mb-2">
                 Configuration de Simulation
@@ -156,10 +155,10 @@ const Home: React.FC = () => {
               <div className="space-y-1 text-sm text-purple-700">
                 <p>
                   <span className="font-semibold">Module:</span>{" "}
-                  {selectedModule}
+                  {selectedUnit}
                 </p>
                 <p>
-                  <span className="font-semibold">L'Année</span> {selectedYear}
+                  <span className="font-semibold">L'Année</span> {selectedModule}
                 </p>
                 <p>
                   <span className="font-semibold">Questions:</span>{" "}
@@ -194,5 +193,6 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
 
 
