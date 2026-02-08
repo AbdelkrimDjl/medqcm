@@ -102,6 +102,24 @@ const Quiz: React.FC = () => {
     return arraysEqual(userAnswers, correctAnswers);
   };
 
+  // Helper function to format text with newlines
+  const formatTextWithNewlines = (text: string) => {
+    if (!text) return text;
+    return text.split('\\n').map((line, index, array) => (
+      <React.Fragment key={index}>
+        {line}
+        {index < array.length - 1 && <br />}
+      </React.Fragment>
+    ));
+  };
+
+  // Helper function to get document URL based on date
+  const getDocumentUrl = (date: string): string => {
+    // If documentUrl is provided in the question, use that
+    // Otherwise, construct a URL based on the date
+    return currentQuestion.documentUrl || `#document-${date}`;
+  };
+
   const handleSelectOption = (optionId: number): void => {
     if (!confirmedAnswers.has(currentQuestion.id)) {
       const currentSelections = answers[currentQuestion.id] || [];
@@ -198,6 +216,17 @@ const Quiz: React.FC = () => {
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-600 to-indigo-600">
         <div className="text-white text-center">
           <p className="text-xl mb-4">Un moment...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // Guard against undefined currentQuestion
+  if (!currentQuestion) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-600 to-indigo-600">
+        <div className="text-white text-center">
+          <p className="text-xl mb-4">Chargement...</p>
         </div>
       </div>
     );
@@ -385,7 +414,7 @@ const Quiz: React.FC = () => {
               {/* Date/Document Reference Button */}
               {currentQuestion.date && (
                 <a
-                  href={getDocumentUrl(currentQuestion.Date)}
+                  href={getDocumentUrl(currentQuestion.date)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-1 text-xs sm:text-sm bg-blue-100 text-blue-700 px-2 sm:px-3 py-1 rounded-full hover:bg-blue-200 transition-all"
