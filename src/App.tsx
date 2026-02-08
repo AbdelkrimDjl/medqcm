@@ -3,6 +3,8 @@ import { Route, Routes } from "react-router-dom";
 import Quiz from "./pages/Quiz";
 import Home from "./pages/Home";
 import { AppSnackbarProvider } from "./providers/SnackbarProvider";
+import { Analytics } from "@vercel/analytics/react";
+<Analytics />
 
 function App() {
   return (
