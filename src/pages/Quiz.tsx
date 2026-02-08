@@ -409,7 +409,8 @@ const Quiz: React.FC = () => {
           </div>
 
           <div className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-800 leading-relaxed">
+            {/* --- MODIFIED CODE: Added 'whitespace-pre-line' --- */}
+            <h2 className="text-2xl font-semibold text-gray-800 leading-relaxed whitespace-pre-line">
               {currentQuestion.text}
             </h2>
           </div>
@@ -634,3 +635,4 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
