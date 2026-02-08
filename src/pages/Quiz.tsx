@@ -438,6 +438,9 @@ const Quiz: React.FC = () => {
             <h2 className="text-2xl font-semibold text-gray-800 leading-relaxed whitespace-pre-line">
               {currentQuestion.text}
             </h2>
+              <p className="text-xs sm:text-sm text-purple-600 mt-2 font-medium">
+                ❓ Si vous soupçonnez une erreur, vous pouvez consulter la correction et sujet officielles en cliquant sur le bouton correspondant à la date de cette question ci-dessus.
+              </p>
           </div>
 
           {/* Options */}
@@ -660,6 +663,7 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
 
