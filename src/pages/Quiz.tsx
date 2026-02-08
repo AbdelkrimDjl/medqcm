@@ -10,7 +10,6 @@ import {
   Home as HomeIcon,
   Calendar,
   ExternalLink,
-  Image as ImageIcon,
   Maximize2,
   Minimize2,
 } from "lucide-react";
@@ -723,3 +722,4 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
