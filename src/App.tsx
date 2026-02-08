@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import { AppSnackbarProvider } from "./providers/SnackbarProvider";
 import { Analytics } from "@vercel/analytics/react";
 
-
 function App() {
   return (
     <AppSnackbarProvider>

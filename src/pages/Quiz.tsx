@@ -230,7 +230,7 @@ const Quiz: React.FC = () => {
           <div className="bg-white rounded-2xl shadow-2xl p-4 sm:p-8 mb-6 animate-fadeIn">
             <div className="text-center mb-6 sm:mb-8">
               <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-2">
-                Simulation Completée
+                Questionnaire Completée
               </h1>
               <p className="text-sm sm:text-base text-gray-600">Voici votre performance</p>
               <div className="mt-4 space-y-1 text-xs sm:text-sm text-gray-600">
@@ -323,7 +323,7 @@ const Quiz: React.FC = () => {
                 }}
                 className="flex-1 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-semibold py-3 sm:py-4 rounded-lg hover:shadow-lg transition-all text-sm sm:text-base"
               >
-                Refaire la Simulation
+                Refaire la Questionnaire
               </button>
             </div>
           </div>
@@ -663,12 +663,3 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
-
-
-
-
-
-
-
-
-

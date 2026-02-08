@@ -337,7 +337,7 @@
   },
   {
     "id": 25,
-    "text": "La courbe d'HGPO enregistrée chez une femme à sa 28ème semaine de grossesse montre que : (RJ)\nGlycémie (g/l) : 0.88 (à jeun), 1.9 (1h après), 1.6 (2h après)\n1/ le pic d'insulinémie est précoce\n2/ la glycémie après 1h est normale\n3/ l'épreuve n'est pas concluante\n4/ le diagnostic de diabète gestationnel est retenu",
+    "text": "La courbe d'HGPO enregistrée chez une femme à sa 28ème semaine de grossesse montre que : (RJ)\nGlycémie (g/l) : 0.88 (à jeun), 1.6 (1h après), 1.9 (2h après)\nCliquez sur le bouton de date ci-dessus pour voir l'image jointe dans le document officiel.\n1/ le pic d'insulinémie est précoce\n2/ la glycémie après 1h est normale\n3/ l'épreuve n'est pas concluante\n4/ le diagnostic de diabète gestationnel est retenu",
     "module": "Physiologie",
     "options": [
       {"id":1,"text":"A/ 1+2"},
@@ -517,7 +517,7 @@
   },
   {
     "id": 38,
-    "text": "Le profil glycémique d'un adulte est présenté ci-après,\nCliquez sur le bouton de date ci-dessus pour voir l'image jointe dans le document officiel.\nIndiquez la proposition juste parmi les suivantes :\n1/ sa glycémie post prandiale du petit déjeuner = 1,60 g/l\n2/ sa glycémie à jeun = 5,5 mmol/l\n3/ sa glycémie post prandiale du diner est normale\n4/ son HbA1c = 7,7%",
+    "text": "Le profil glycémique d'un adulte est présenté ci-après.\nCliquez sur le bouton de date ci-dessus pour voir l'image jointe dans le document officiel.\nIndiquez la proposition juste parmi les suivantes :\n1/ sa glycémie post prandiale du petit déjeuner = 1,60 g/l\n2/ sa glycémie à jeun = 5,5 mmol/l\n3/ sa glycémie post prandiale du diner est normale\n4/ son HbA1c = 7,7%",
     "module": "Physiologie",
     "options": [
       {"id":1,"text":"A/ 1+3"},
