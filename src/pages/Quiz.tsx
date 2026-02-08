@@ -491,6 +491,7 @@ const Quiz: React.FC = () => {
                         <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-purple-600" />
                       )}
                     </div>
+                    </div>
                 </button>
               );
             })}
@@ -693,4 +694,5 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
