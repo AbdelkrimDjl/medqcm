@@ -410,22 +410,7 @@ const Quiz: React.FC = () => {
               <div className="text-xs sm:text-sm text-gray-600 bg-gray-100 px-2 sm:px-3 py-1 rounded-full">
                 {currentQuestion.module}
               </div>
-              
-              {/* Date/Document Reference Button */}
-              {currentQuestion.date && (
-                <a
-                  href={getDocumentUrl(currentQuestion.date)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-1 text-xs sm:text-sm bg-blue-100 text-blue-700 px-2 sm:px-3 py-1 rounded-full hover:bg-blue-200 transition-all"
-                >
-                  <Calendar className="w-3 h-3 sm:w-4 sm:h-4" />
-                  <span>{currentQuestion.date}</span>
-                  <ExternalLink className="w-3 h-3 sm:w-3 sm:h-3" />
-                </a>
-              )}
             </div>
-            
             <button
               onClick={handleFlag}
               className={`p-1.5 sm:p-2 rounded-lg transition-all flex-shrink-0 ${
@@ -443,6 +428,12 @@ const Quiz: React.FC = () => {
                 }
               />
             </button>
+          </div>
+
+          <div className="mb-8">
+            <h2 className="text-2xl font-semibold text-gray-800 leading-relaxed">
+              {currentQuestion.text}
+            </h2>
           </div>
 
           {/* Attached Photo */}
