@@ -10,6 +10,7 @@ import {
   Home as HomeIcon,
   Calendar,
   ExternalLink,
+  Image as ImageIcon,
   Maximize2,
   Minimize2,
 } from "lucide-react";
