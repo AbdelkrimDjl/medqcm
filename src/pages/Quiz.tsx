@@ -23,7 +23,7 @@ export interface Question {
   options: Option[];
   correctOptionIds: number[];
   explanation: string;
-  date?: string;
+  Date?: string;
 }
 
 interface ModuleStat {
@@ -377,16 +377,16 @@ const Quiz: React.FC = () => {
               </div>
             </div>
             {/* --- NEW CODE START: Date Button --- */}
-             {currentQuestion.date && (
+             {currentQuestion.Date && (
             <a
               // REPLACE THIS URL with your logic (e.g., specific PDF link)
-               href={`https://drive.google.com/drive/folders/YOUR_ID_HERE?q=${currentQuestion.date}`} 
+               href={`https://drive.google.com/drive/folders/YOUR_ID_HERE?q=${currentQuestion.Date}`} 
               target="_blank"
                rel="noopener noreferrer"
               className="flex items-center gap-1.5 px-2 sm:px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-xs sm:text-sm font-medium hover:bg-blue-100 transition-colors border border-blue-100"
                >
              <Calendar className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
-            <span>{currentQuestion.date}</span>
+            <span>{currentQuestion.Date}</span>
             </a>
          )}
             <button
