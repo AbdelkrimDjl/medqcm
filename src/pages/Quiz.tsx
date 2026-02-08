@@ -53,7 +53,7 @@ const Quiz: React.FC = () => {
     new Set(),
   );
 
-  const getDateLink = (dateString: string): string => {
+  const getDateLink = (DateString: string): string => {
   // 1. Define your specific links here
   const links: Record<string, string> = {
     "24 Février 2024": "https://drive.google.com/file/d/1mnn4SFS5PK8EuEr_cX1UDb1sCyYkP1dx/view?usp=sharing",
@@ -64,7 +64,7 @@ const Quiz: React.FC = () => {
   };
 
   // 2. Return the specific link, or a fallback (e.g., a Google search) if not found
-  return links[dateString] || "#"; 
+  return links[DateString] || "#"; 
 };
 
   
@@ -659,5 +659,6 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
