@@ -8,6 +8,7 @@ import {
   Check,
   X,
   Home as HomeIcon,
+  Calendar,
 } from "lucide-react";
 
 interface Option {
@@ -22,6 +23,7 @@ export interface Question {
   options: Option[];
   correctOptionIds: number[];
   explanation: string;
+  date?: string;
 }
 
 interface ModuleStat {
@@ -374,6 +376,19 @@ const Quiz: React.FC = () => {
                 {currentQuestion.module}
               </div>
             </div>
+            {/* --- NEW CODE START: Date Button --- */}
+             {currentQuestion.date && (
+            <a
+              // REPLACE THIS URL with your logic (e.g., specific PDF link)
+               href={`https://drive.google.com/drive/folders/YOUR_ID_HERE?q=${currentQuestion.date}`} 
+              target="_blank"
+               rel="noopener noreferrer"
+              className="flex items-center gap-1.5 px-2 sm:px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-xs sm:text-sm font-medium hover:bg-blue-100 transition-colors border border-blue-100"
+               >
+             <Calendar className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
+            <span>{currentQuestion.date}</span>
+            </a>
+         )}
             <button
               onClick={handleFlag}
               className={`p-1.5 sm:p-2 rounded-lg transition-all flex-shrink-0 ${
