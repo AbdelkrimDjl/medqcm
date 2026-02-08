@@ -149,7 +149,7 @@ const Home: React.FC = () => {
 
         <div className="bg-white rounded-2xl shadow-2xl p-8">
           <h2 className="text-2xl font-bold text-gray-800 mb-6">
-            Configurer Votre Simulation
+            Configurer Votre Questionnaire
           </h2>
 
           <div className="space-y-6">
@@ -237,7 +237,7 @@ const Home: React.FC = () => {
           {selectedUnit && selectedModule && (
             <div className="mt-6 p-4 bg-purple-50 rounded-lg border border-purple-200">
               <h3 className="font-semibold text-purple-900 mb-2">
-                Configuration de Simulation
+                Configuration de Questionnaire
               </h3>
               <div className="space-y-1 text-sm text-purple-700">
                 <p>
@@ -280,6 +280,7 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
 
 
 
