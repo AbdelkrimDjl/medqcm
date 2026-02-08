@@ -54,7 +54,7 @@ const Quiz: React.FC = () => {
   );
 
   const getDateLink = (DateString: string | undefined): string => {
-    if (!dateString) return "#";
+    if (!DateString) return "#";
   // 1. Define your specific links here
   const links: Record<string, string> = {
     "24 Février 2024": "https://drive.google.com/file/d/1mnn4SFS5PK8EuEr_cX1UDb1sCyYkP1dx/view?usp=sharing",
@@ -660,6 +660,7 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
 
