@@ -8,6 +8,11 @@ import {
   Check,
   X,
   Home as HomeIcon,
+  Calendar,
+  ExternalLink,
+  Image as ImageIcon,
+  Maximize2,
+  Minimize2,
 } from "lucide-react";
 
 interface Option {
@@ -22,6 +27,9 @@ export interface Question {
   options: Option[];
   correctOptionIds: number[];
   explanation: string;
+  date?: string; // Optional: Date key for document reference
+  documentUrl?: string; // Optional: Direct URL to document
+  attachedPhoto?: string; // Optional: URL or path to attached image
 }
 
 interface ModuleStat {
@@ -53,6 +61,7 @@ const Quiz: React.FC = () => {
   const [showResults, setShowResults] = useState<boolean>(false);
   const [filteredQuestions, setFilteredQuestions] = useState<Question[]>([]);
   const [confirmedAnswers, setConfirmedAnswers] = useState<Set<number>>(new Set());
+  const [expandedImage, setExpandedImage] = useState<string | null>(null);
 
   useEffect(() => {
     if (!config || !config.questions || config.questions.length === 0) {
@@ -92,6 +101,27 @@ const Quiz: React.FC = () => {
     const correctAnswers = (question.correctOptionIds || []).map(Number);
     
     return arraysEqual(userAnswers, correctAnswers);
+  };
+
+  // Helper function to format text with newlines
+  const formatTextWithNewlines = (text: string) => {
+    return text.split('\\n').map((line, index, array) => (
+      <React.Fragment key={index}>
+        {line}
+        {index < array.length - 1 && <br />}
+      </React.Fragment>
+    ));
+  };
+
+  // Helper function to get document URL based on date
+  const getDocumentUrl = (date: string): string => {
+    // This function maps dates to document URLs
+    // You can customize this mapping based on your needs
+    // Example: return `https://your-domain.com/documents/${date}.pdf`;
+    
+    // For now, if documentUrl is provided in the question, use that
+    // Otherwise, construct a URL based on the date
+    return currentQuestion.documentUrl || `#document-${date}`;
   };
 
   const handleSelectOption = (optionId: number): void => {
@@ -211,9 +241,9 @@ const Quiz: React.FC = () => {
           <div className="bg-white rounded-2xl shadow-2xl p-4 sm:p-8 mb-6 animate-fadeIn">
             <div className="text-center mb-6 sm:mb-8">
               <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-2">
-                Simulation Completée
+                Quiz Complete! 🎉
               </h1>
-              <p className="text-sm sm:text-base text-gray-600">Voici votre performance</p>
+              <p className="text-sm sm:text-base text-gray-600">Here's how you performed</p>
               <div className="mt-4 space-y-1 text-xs sm:text-sm text-gray-600">
                 <p>
                   <span className="font-semibold">Module:</span> {config.module}
@@ -238,14 +268,21 @@ const Quiz: React.FC = () => {
                   {Math.round(score.percentage)}%
                 </div>
                 <div className="text-xl sm:text-2xl text-gray-700 mb-4">
-                  {score.correct} sur {score.total} correctes
+                  {score.correct} out of {score.total} correct
+                </div>
+                <div
+                  className={`inline-block px-4 sm:px-6 py-2 rounded-full text-white text-base sm:text-lg font-semibold ${
+                    score.percentage >= 70 ? "bg-green-500" : "bg-orange-500"
+                  }`}
+                >
+                  {score.percentage >= 70 ? "✓ Pass" : "✗ Needs Improvement"}
                 </div>
               </div>
             </div>
 
             <div>
               <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-4">
-                Performance par Module
+                Performance by Module
               </h2>
               <div className="space-y-4">
                 {moduleBreakdown.map((module, idx) => (
@@ -292,7 +329,7 @@ const Quiz: React.FC = () => {
                 className="flex-1 bg-gray-200 text-gray-700 font-semibold py-3 sm:py-4 rounded-lg hover:bg-gray-300 transition-all flex items-center justify-center gap-2 text-sm sm:text-base"
               >
                 <HomeIcon className="w-4 h-4 sm:w-5 sm:h-5" />
-                Retour à l'Accueil
+                Back to Home
               </button>
               <button
                 onClick={() => {
@@ -304,7 +341,7 @@ const Quiz: React.FC = () => {
                 }}
                 className="flex-1 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-semibold py-3 sm:py-4 rounded-lg hover:shadow-lg transition-all text-sm sm:text-base"
               >
-                Refaire la Simulation
+                Retry Quiz
               </button>
             </div>
           </div>
@@ -373,7 +410,22 @@ const Quiz: React.FC = () => {
               <div className="text-xs sm:text-sm text-gray-600 bg-gray-100 px-2 sm:px-3 py-1 rounded-full">
                 {currentQuestion.module}
               </div>
+              
+              {/* Date/Document Reference Button */}
+              {currentQuestion.date && (
+                <a
+                  href={getDocumentUrl(currentQuestion.date)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 text-xs sm:text-sm bg-blue-100 text-blue-700 px-2 sm:px-3 py-1 rounded-full hover:bg-blue-200 transition-all"
+                >
+                  <Calendar className="w-3 h-3 sm:w-4 sm:h-4" />
+                  <span>{currentQuestion.date}</span>
+                  <ExternalLink className="w-3 h-3 sm:w-3 sm:h-3" />
+                </a>
+              )}
             </div>
+            
             <button
               onClick={handleFlag}
               className={`p-1.5 sm:p-2 rounded-lg transition-all flex-shrink-0 ${
@@ -393,11 +445,40 @@ const Quiz: React.FC = () => {
             </button>
           </div>
 
-          <div className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-800 leading-relaxed">
-              {currentQuestion.text}
+          {/* Question Text */}
+          <div className="mb-6 sm:mb-8">
+            <h2 className="text-lg sm:text-2xl font-semibold text-gray-800 leading-relaxed whitespace-pre-wrap">
+              {formatTextWithNewlines(currentQuestion.text)}
             </h2>
+            {!isCurrentConfirmed && (
+              <p className="text-xs sm:text-sm text-purple-600 mt-2 font-medium">
+                💡 Vous pouvez sélectionner plusieurs réponses
+              </p>
+            )}
           </div>
+
+          {/* Attached Photo */}
+          {currentQuestion.attachedPhoto && (
+            <div className="mb-6 sm:mb-8">
+              <div className="relative group">
+                <img
+                  src={currentQuestion.attachedPhoto}
+                  alt="Question attachment"
+                  className="w-full max-h-96 object-contain rounded-lg border-2 border-gray-200 cursor-pointer hover:border-purple-400 transition-all"
+                  onClick={() => setExpandedImage(currentQuestion.attachedPhoto!)}
+                />
+                <button
+                  onClick={() => setExpandedImage(currentQuestion.attachedPhoto!)}
+                  className="absolute top-2 right-2 bg-white/90 hover:bg-white p-2 rounded-lg shadow-lg transition-all opacity-0 group-hover:opacity-100"
+                >
+                  <Maximize2 className="w-4 h-4 sm:w-5 sm:h-5 text-gray-700" />
+                </button>
+              </div>
+              <p className="text-xs text-gray-500 mt-2 text-center">
+                Cliquez sur l'image pour l'agrandir
+              </p>
+            </div>
+          )}
 
           {/* Options */}
           <div className="space-y-2 sm:space-y-3 mb-6 sm:mb-8">
@@ -425,8 +506,8 @@ const Quiz: React.FC = () => {
                   disabled={isCurrentConfirmed}
                 >
                   <div className="flex items-center justify-between gap-2">
-                    <span className="text-sm sm:text-lg text-gray-800 flex-1">
-                      {option.text}
+                    <span className="text-sm sm:text-lg text-gray-800 flex-1 whitespace-pre-wrap">
+                      {formatTextWithNewlines(option.text)}
                     </span>
                     <div className="flex-shrink-0">
                       {showCorrectAnswer && isCorrect && (
@@ -450,10 +531,10 @@ const Quiz: React.FC = () => {
             <div className="bg-blue-50 border-l-4 border-blue-500 p-4 sm:p-6 rounded-lg mb-6 animate-fadeIn">
               <h3 className="text-sm sm:text-base font-semibold text-blue-900 mb-2 flex items-center gap-2">
                 <Check className="w-4 h-4 sm:w-5 sm:h-5" />
-                Expliquation
+                Explanation
               </h3>
-              <p className="text-sm sm:text-base text-blue-800 leading-relaxed">
-                {currentQuestion.explanation}
+              <p className="text-sm sm:text-base text-blue-800 leading-relaxed whitespace-pre-wrap">
+                {formatTextWithNewlines(currentQuestion.explanation)}
               </p>
             </div>
           )}
@@ -476,7 +557,7 @@ const Quiz: React.FC = () => {
                 disabled={!answers[currentQuestion.id] || answers[currentQuestion.id].length === 0}
                 className="flex items-center gap-1 sm:gap-2 px-3 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed text-xs sm:text-base"
               >
-                <span className="hidden sm:inline">Confirmer</span>
+                <span className="hidden sm:inline">Confirm Answer</span>
                 <span className="sm:hidden">Confirm</span>
                 <Check className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
@@ -485,7 +566,7 @@ const Quiz: React.FC = () => {
                 onClick={handleSubmit}
                 className="flex items-center gap-1 sm:gap-2 px-3 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all text-xs sm:text-base"
               >
-                <span className="hidden sm:inline">Soumettre</span>
+                <span className="hidden sm:inline">Submit Quiz</span>
                 <span className="sm:hidden">Submit</span>
                 <Check className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
@@ -494,7 +575,7 @@ const Quiz: React.FC = () => {
                 onClick={handleNext}
                 className="flex items-center gap-1 sm:gap-2 px-3 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all text-xs sm:text-base"
               >
-                <span className="hidden sm:inline">Suivant</span>
+                <span className="hidden sm:inline">Next</span>
                 <span className="sm:hidden">Next</span>
                 <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
@@ -504,7 +585,7 @@ const Quiz: React.FC = () => {
           {/* Scrollable Pagination */}
           <div className="border-t border-gray-200 pt-4">
             <h4 className="text-xs sm:text-sm font-semibold text-gray-700 mb-2 sm:mb-3">
-              Navigateur des Questions
+              Questions Navigator
             </h4>
             <div className="relative">
               <div
@@ -545,7 +626,7 @@ const Quiz: React.FC = () => {
               </div>
               {/* Scroll hint for mobile */}
               <div className="text-xs text-gray-500 text-center mt-2 sm:hidden">
-                ← Glisser pour en voir plus →
+                ← Swipe to see more questions →
               </div>
             </div>
           </div>
@@ -554,30 +635,53 @@ const Quiz: React.FC = () => {
         {/* Quick Stats */}
         <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 mt-4 sm:mt-6">
           <h3 className="text-sm sm:text-base font-semibold text-gray-800 mb-3 sm:mb-4">
-            Stats Rapides
+            Quick Stats
           </h3>
           <div className="grid grid-cols-3 gap-2 sm:gap-4">
             <div className="text-center p-3 sm:p-4 bg-green-50 rounded-lg">
               <div className="text-xl sm:text-2xl font-bold text-green-600">
                 {answeredCount}
               </div>
-              <div className="text-xs sm:text-sm text-green-700">Résolues</div>
+              <div className="text-xs sm:text-sm text-green-700">Answered</div>
             </div>
             <div className="text-center p-3 sm:p-4 bg-gray-50 rounded-lg">
               <div className="text-xl sm:text-2xl font-bold text-gray-600">
                 {totalQuestions - answeredCount}
               </div>
-              <div className="text-xs sm:text-sm text-gray-700">Restantes</div>
+              <div className="text-xs sm:text-sm text-gray-700">Remaining</div>
             </div>
             <div className="text-center p-3 sm:p-4 bg-yellow-50 rounded-lg">
               <div className="text-xl sm:text-2xl font-bold text-yellow-600">
                 {flaggedQuestions.size}
               </div>
-              <div className="text-xs sm:text-sm text-yellow-700">Signalé</div>
+              <div className="text-xs sm:text-sm text-yellow-700">Flagged</div>
             </div>
           </div>
         </div>
       </div>
+
+      {/* Image Modal */}
+      {expandedImage && (
+        <div
+          className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
+          onClick={() => setExpandedImage(null)}
+        >
+          <div className="relative max-w-7xl max-h-screen">
+            <button
+              onClick={() => setExpandedImage(null)}
+              className="absolute -top-12 right-0 bg-white/20 hover:bg-white/30 text-white p-2 rounded-lg transition-all"
+            >
+              <Minimize2 className="w-6 h-6" />
+            </button>
+            <img
+              src={expandedImage}
+              alt="Expanded view"
+              className="max-w-full max-h-[90vh] object-contain rounded-lg"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </div>
+        </div>
+      )}
 
       <style>{`
         @keyframes fadeIn {
@@ -619,9 +723,3 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
-
-
-
-
-
-
