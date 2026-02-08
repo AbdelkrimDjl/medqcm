@@ -57,7 +57,7 @@ const Quiz: React.FC = () => {
     if (!DateString) return "#";
   // 1. Define your specific links here
   const links: Record<string, string> = {
-    "24 Février 2024": "https://drive.google.com/file/d/1mnn4SFS5PK8EuEr_cX1UDb1sCyYkP1dx/view?usp=sharing",
+    "24 Février 2024": "https://drive.google.com/drive/folders/1abq3-rKIZ172vpCgtGWOvFmuWgCFssjR?usp=drive_link",
     "04 Mai 2025": "https://drive.google.com/file/d/13G53e4NjptfnHrUBNWwdXnrZSIJnEwML/view?usp=sharing",
     "15 Mars 2022": "https://drive.google.com/file/d/1I-o6xQBBJVP2jHu0-ozULY9A4YQET6Ya/view?usp=sharing",
     "05 Mars 2023": "https://drive.google.com/file/d/1HIgHKTGDyheUFbm-CYWtVJwoBPhH7lUY/view?usp=sharing",
@@ -663,6 +663,7 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
 
