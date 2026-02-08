@@ -45,6 +45,7 @@ const Quiz: React.FC = () => {
   const navigate = useNavigate();
   const config = location.state as QuizConfig;
   const paginationRef = useRef<HTMLDivElement>(null);
+  
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [answers, setAnswers] = useState<Record<number, number[]>>({});
@@ -52,6 +53,21 @@ const Quiz: React.FC = () => {
     new Set(),
   );
 
+  const getDateLink = (dateString: string): string => {
+  // 1. Define your specific links here
+  const links: Record<string, string> = {
+    "24 Février 2024": "https://drive.google.com/file/d/1mnn4SFS5PK8EuEr_cX1UDb1sCyYkP1dx/view?usp=sharing",
+    "04 Mai 2025": "https://drive.google.com/file/d/13G53e4NjptfnHrUBNWwdXnrZSIJnEwML/view?usp=sharing",
+    "15 Mars 2022": "https://drive.google.com/file/d/1I-o6xQBBJVP2jHu0-ozULY9A4YQET6Ya/view?usp=sharing",
+    "05 Mars 2023": "https://drive.google.com/file/d/1HIgHKTGDyheUFbm-CYWtVJwoBPhH7lUY/view?usp=sharing",
+    "16 Mai 2021": "https://drive.google.com/file/d/1Rx32-1cJYzfqz-DztL00cvoWuZ0p8XhY/view?usp=sharing"
+  };
+
+  // 2. Return the specific link, or a fallback (e.g., a Google search) if not found
+  return links[dateString] || "#"; 
+};
+
+  
   const [showResults, setShowResults] = useState<boolean>(false);
   const [filteredQuestions, setFilteredQuestions] = useState<Question[]>([]);
   const [confirmedAnswers, setConfirmedAnswers] = useState<Set<number>>(new Set());
@@ -378,17 +394,25 @@ const Quiz: React.FC = () => {
             </div>
             {/* --- NEW CODE START: Date Button --- */}
              {currentQuestion.Date && (
-            <a
-              // REPLACE THIS URL with your logic (e.g., specific PDF link)
-               href={`https://drive.google.com/drive/folders/YOUR_ID_HERE?q=${currentQuestion.Date}`} 
-              target="_blank"
-               rel="noopener noreferrer"
-              className="flex items-center gap-1.5 px-2 sm:px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-xs sm:text-sm font-medium hover:bg-blue-100 transition-colors border border-blue-100"
-               >
-             <Calendar className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
-            <span>{currentQuestion.Date}</span>
-            </a>
-         )}
+             <a
+               href={getDateLink(currentQuestion.Date)} // <--- Calls the helper function
+                 target="_blank"
+              rel="noopener noreferrer"
+              className={`flex items-center gap-1.5 px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium transition-colors border ${
+           getDateLink(currentQuestion.Date) !== "#"
+            ? "bg-blue-50 text-blue-600 hover:bg-blue-100 border-blue-100 cursor-pointer"
+            : "bg-gray-50 text-gray-400 border-gray-100 cursor-default"
+                }`}
+             // Optional: Disable click if no link exists
+              onClick={(e) => {
+              if (getDateLink(currentQuestion.Date) === "#") e.preventDefault();
+        }}
+      >
+        <Calendar className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
+        <span>{currentQuestion.Date}</span>
+      </a>
+    )}
+    {/* --- END UPDATED CODE --- */}
             <button
               onClick={handleFlag}
               className={`p-1.5 sm:p-2 rounded-lg transition-all flex-shrink-0 ${
@@ -635,4 +659,5 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
