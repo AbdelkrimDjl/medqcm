@@ -594,9 +594,6 @@ const Quiz: React.FC = () => {
 
         {/* Quick Stats */}
         <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 mt-4 sm:mt-6">
-              <p className="text-xs sm:text-sm text-purple-600 mt-2 font-medium">
-                ❓ Si vous soupçonnez une erreur, vous pouvez consulter la correction et sujet officielles en cliquant sur le bouton correspondant à la date de cette question ci-dessus.
-              </p>
           <h3 className="text-sm sm:text-base font-semibold text-gray-800 mb-3 sm:mb-4">
             Stats Rapides
           </h3>
@@ -620,6 +617,9 @@ const Quiz: React.FC = () => {
               <div className="text-xs sm:text-sm text-yellow-700">Signalé</div>
             </div>
           </div>
+              <p className="text-xs sm:text-sm text-purple-600 mt-2 font-medium">
+                ❓ Si vous soupçonnez une erreur, vous pouvez consulter la correction et sujet officielles en cliquant sur le bouton correspondant à la date de cette question ci-dessus.
+              </p>
         </div>
       </div>
 
@@ -663,6 +663,7 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
 
 
