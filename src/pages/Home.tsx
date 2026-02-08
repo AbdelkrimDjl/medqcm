@@ -2,8 +2,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { BookOpen, Layers, Hash, ArrowRight } from "lucide-react";
-import { Analytics } from "@vercel/analytics/react";
-<Analytics />
 
 interface Question {
   id: number;

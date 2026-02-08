@@ -137,7 +137,7 @@
       { "id": 5, "text": "E(3,4)" }
     ],
     "correctOptionIds": [2],
-    "Date":"04 Mai 2025"
+    "Date":"04 Mai 2023"
   },
   {
     "id": 11,
@@ -151,7 +151,7 @@
       { "id": 5, "text": "E(1,4,5)" }
     ],
     "correctOptionIds": [4],
-    "Date":"04 Mai 2025"
+    "Date":"04 Mai 2023"
   },
   {
     "id": 12,
@@ -165,7 +165,7 @@
       { "id": 5, "text": "E(1,2,4)" }
     ],
     "correctOptionIds": [3],
-    "Date":"04 Mai 2025"
+    "Date":"04 Mai 2023"
   },
   {
     "id": 13,
@@ -179,7 +179,7 @@
       { "id": 5, "text": "E. Toutes les repenses sont fausses" }
     ],
     "correctOptionIds": [5],
-    "Date":"04 Mai 2025"
+    "Date":"04 Mai 2023"
   },
   {
     "id": 14,
@@ -193,7 +193,7 @@
       { "id": 5, "text": "E(2-4)" }
     ],
     "correctOptionIds": [4],
-    "Date":"04 Mai 2025"
+    "Date":"04 Mai 2023"
   },
   {
     "id": 15,
@@ -207,7 +207,7 @@
       { "id": 5, "text": "E(3,4)" }
     ],
     "correctOptionIds": [1],
-    "Date":"04 Mai 2025"
+    "Date":"04 Mai 2023"
   },
   {
     "id": 16,
@@ -221,7 +221,7 @@
       { "id": 5, "text": "E. Le groupe mammaire interne des lymphatiques du sein part du plexus lymphatiques péri-aréolaire." }
     ],
     "correctOptionIds": [4],
-    "Date":"04 Mai 2025"
+    "Date":"04 Mai 2023"
   },
   {
     "id": 17,
@@ -235,7 +235,7 @@
       { "id": 5, "text": "E (1)" }
     ],
     "correctOptionIds": [4],
-    "Date":"04 Mai 2025"
+    "Date":"04 Mai 2023"
   },
   {
     "id": 18,
@@ -249,7 +249,7 @@
       { "id": 5, "text": "E. Toutes les réponses sont fausses." }
     ],
     "correctOptionIds": [3],
-    "Date":"04 Mai 2025"
+    "Date":"04 Mai 2023"
   },
   {
     "id": 19,
@@ -309,7 +309,7 @@
   },
   {
     "id": 23,
-    "text": "Le schéma ci-joint (Appareil génital féminin) :\ncocher les réponses justes",
+    "text": "Le schéma ci-joint (Appareil génital féminin) :\nCliquez sur le bouton de date ci-dessus pour voir l'image jointe dans le document officiel.\ncocher les réponses justes",
     "module": "Anatomie",
     "options": [
       { "id": 1, "text": "A. Ligament tubo-ovarien" },
@@ -491,7 +491,7 @@
   },
   {
     "id": 36,
-    "text": "Le schémas ci-dessous (Vue postérieure de la prostate):\nA. (1) face ventrale\nB. (5) canaux déférents\nC. (6) uretère\nD. (4) vessie\nE. Vue postérieure de la prostate",
+    "text": "Le schémas ci-dessous (Vue postérieure de la prostate):\nCliquez sur le bouton de date ci-dessus pour voir l'image jointe dans le document officiel.\nA. (1) face ventrale\nB. (5) canaux déférents\nC. (6) uretère\nD. (4) vessie\nE. Vue postérieure de la prostate",
     "module": "Anatomie",
     "options": [
       { "id": 1, "text": "A" },
@@ -589,7 +589,7 @@
   },
   {
     "id": 43,
-    "text": "Le schéma ci-dessous (Testicule) :\nA. Canal déférent\nB. Bord antérieur du testicule\nC. L'albuginée\nD. Queue de l'épididyme\nE. Coupe sagittale du testicule",
+    "text": "Le schéma ci-dessous (Testicule) :\nCliquez sur le bouton de date ci-dessus pour voir l'image jointe dans le document officiel.\nA. Canal déférent\nB. Bord antérieur du testicule\nC. L'albuginée\nD. Queue de l'épididyme\nE. Coupe sagittale du testicule",
     "module": "Anatomie",
     "options": [
       { "id": 1, "text": "A" },
@@ -617,7 +617,7 @@
   },
   {
     "id": 45,
-    "text": "Le schéma ci-dessous (Voies génitales féminines) :\nA. Ligament tubo-ovarien\nB. Ampoule de la trompe\nC. Ligament utéro-ovarien\nD. Ligament funiculaire\nE. Ligament rond",
+    "text": "Le schéma ci-dessous (Voies génitales féminines) :\nCliquez sur le bouton de date ci-dessus pour voir l'image jointe dans le document officiel.\nA. Ligament tubo-ovarien\nB. Ampoule de la trompe\nC. Ligament utéro-ovarien\nD. Ligament funiculaire\nE. Ligament rond",
     "module": "Anatomie",
     "options": [
       { "id": 1, "text": "A" },
