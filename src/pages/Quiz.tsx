@@ -8,8 +8,6 @@ import {
   Check,
   X,
   Home as HomeIcon,
-  Calendar,
-  ExternalLink,
   Maximize2,
   Minimize2,
 } from "lucide-react";
@@ -113,12 +111,6 @@ const Quiz: React.FC = () => {
     ));
   };
 
-  // Helper function to get document URL based on date
-  const getDocumentUrl = (date: string): string => {
-    // If documentUrl is provided in the question, use that
-    // Otherwise, construct a URL based on the date
-    return currentQuestion.documentUrl || `#document-${date}`;
-  };
 
   const handleSelectOption = (optionId: number): void => {
     if (!confirmedAnswers.has(currentQuestion.id)) {
