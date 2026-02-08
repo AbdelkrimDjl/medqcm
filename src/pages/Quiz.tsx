@@ -103,7 +103,7 @@ const Quiz: React.FC = () => {
   // Helper function to format text with newlines
   const formatTextWithNewlines = (text: string) => {
     if (!text) return text;
-    return text.split('\\n').map((line, index, array) => (
+    return text.split('\n').map((line, index, array) => (
       <React.Fragment key={index}>
         {line}
         {index < array.length - 1 && <br />}
@@ -491,7 +491,6 @@ const Quiz: React.FC = () => {
                         <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-purple-600" />
                       )}
                     </div>
-                  </div>
                 </button>
               );
             })}
@@ -694,3 +693,4 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
