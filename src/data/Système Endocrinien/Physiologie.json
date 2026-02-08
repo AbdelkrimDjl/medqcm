@@ -10,7 +10,8 @@
       { "id": 4, "text": "D/ certaines hormones antéhypophysaires agissent sur plusieurs organes ou tissus et sur différents métabolismes." },
       { "id": 5, "text": "E/ la GHRH stimule la sécrétion de FSH et de LH." }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"24 Février 2024"
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
       { "id": 4, "text": "D/ elle renforce l'action de la CRH hypothalamique." },
       { "id": 5, "text": "E/ les osmo- récepteurs régulant sa sécrétion sont localisés sur la paroi vasculaire." }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"24 Février 2024"
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
       { "id": 4, "text": "D) 3, 4" },
       { "id": 5, "text": "E) 2, 3" }
     ],
-    "correctOptionIds": [3]
+    "correctOptionIds": [3],
+    "Date":"24 Février 2024"
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
       { "id": 4, "text": "D) la synthèse des hormones thyroïdienne fait appel à la tyrosine peroxydase." },
       { "id": 5, "text": "E) la sécrétion de TSH suit un rythme nycthéméral" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [2],
+    "Date":"24 Février 2024"
   },
   {
     "id": 5,
@@ -62,7 +66,8 @@
       { "id": 4, "text": "D) 1, 5" },
       { "id": 5, "text": "E) 1, 2, 4" }
     ],
-    "correctOptionIds": [3]
+    "correctOptionIds": [3],
+    "Date":"24 Février 2024"
   },
   {
     "id": 6,
@@ -75,7 +80,8 @@
       { "id": 4, "text": "D) 1, 3, 4" },
       { "id": 5, "text": "E) 3, 4" }
     ],
-    "correctOptionIds": [5]
+    "correctOptionIds": [5],
+    "Date":"24 Février 2024"
   },
   {
     "id": 7,
@@ -88,7 +94,8 @@
       { "id": 4, "text": "D/ les concentrations plasmatiques du cortisol varient au cours du nycthémère" },
       { "id": 5, "text": "E/ l'ablation des deux surrénales est rapidement mortel" }
     ],
-    "correctOptionIds": [1]
+    "correctOptionIds": [1],
+    "Date":"24 Février 2024"
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
       { "id": 4, "text": "D/ ils stimulent la réabsorption active du sodium" },
       { "id": 5, "text": "E/ ils favorisent l'excrétion urinaire d'ions H+" }
     ],
-    "correctOptionIds": [1]
+    "correctOptionIds": [1],
+    "Date":"24 Février 2024"
   },
   {
     "id": 9,
@@ -114,7 +122,8 @@
       { "id": 4, "text": "D/ 1, 2, 4" },
       { "id": 5, "text": "E/ 2, 4" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"24 Février 2024"
   },
   {
     "id": 10,
@@ -127,7 +136,8 @@
       { "id": 4, "text": "D/ 2, 3" },
       { "id": 5, "text": "E/ 1, 4" }
     ],
-    "correctOptionIds": [1]
+    "correctOptionIds": [1],
+    "Date":"24 Février 2024"
   },
   {
     "id": 11,
@@ -140,7 +150,8 @@
       { "id": 4, "text": "D/ fait intervenir des canaux calciques ligand-dépendants" },
       { "id": 5, "text": "E/ aucune proposition n'est juste" }
     ],
-    "correctOptionIds": [5]
+    "correctOptionIds": [5],
+    "Date":"24 Février 2024"
   },
   {
     "id": 12,
@@ -153,7 +164,8 @@
       { "id": 4, "text": "D/ est basée sur trois prélèvements chez la femme enceinte" },
       { "id": 5, "text": "E/ permet le diagnostic du diabète" }
     ],
-    "correctOptionIds": [3]
+    "correctOptionIds": [3],
+    "Date":"24 Février 2024"
   },
   {
     "id": 13,
@@ -166,7 +178,8 @@
       { "id": 4, "text": "D/ 1+3+4" },
       { "id": 5, "text": "E/ 2+3+4" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [2],
+    "Date":"24 Février 2024"
   },
   {
     "id": 14,
@@ -179,7 +192,8 @@
       { "id": 4, "text": "D/ le récepteur Scavenger classe B" },
       { "id": 5, "text": "E/ la lipase hépatique (LH)" }
     ],
-    "correctOptionIds": [1]
+    "correctOptionIds": [1],
+    "Date":"24 Février 2024"
   },
   {
     "id": 14,
@@ -192,7 +206,8 @@
       { "id": 4, "text": "D/ 2,3" },
       { "id": 5, "text": "E/ 2, 4" }
     ],
-    "correctOptionIds": [3]
+    "correctOptionIds": [3],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 15,
@@ -205,7 +220,8 @@
       { "id": 4, "text": "D/ 4, 5" },
       { "id": 5, "text": "E/ 2, 5" }
     ],
-    "correctOptionIds": [5]
+    "correctOptionIds": [5],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 16,
@@ -218,7 +234,8 @@
       { "id": 4, "text": "D/ 1,3, 4" },
       { "id": 5, "text": "E/ 1,4,5" }
     ],
-    "correctOptionIds": [5]
+    "correctOptionIds": [5],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 17,
@@ -231,7 +248,8 @@
       { "id": 4, "text": "D/ sa sécrétion est inhibée par la somatostatine." },
       { "id": 5, "text": "E/ sa sécrétion est inhibée par la ghréline." }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 18,
@@ -244,7 +262,8 @@
       { "id": 4, "text": "D/ la frilosité est un symptôme classique de l'hypothyroïdie." },
       { "id": 5, "text": "E/ la thyréoglobuline sert de support à la synthèse des hormones thyroïdiennes." }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 19,
@@ -257,7 +276,8 @@
       { "id": 4, "text": "D/ voient leur sécrétion réduite par l'ACTH hypophysaire" },
       { "id": 5, "text": "E/ n'exercent pas de rétrocontrôle sur l'ACTH hypophysaire" }
     ],
-    "correctOptionIds": [5]
+    "correctOptionIds": [5],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 20,
@@ -270,7 +290,8 @@
       { "id": 4, "text": "D/ 2, 4, 5" },
       { "id": 5, "text": "E/ 3, 4, 5" }
     ],
-    "correctOptionIds": [3]
+    "correctOptionIds": [3],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 21,
@@ -283,7 +304,8 @@
       { "id": 4, "text": "D/ indispensable pour la lipolyse adipocytaire" },
       { "id": 5, "text": "E/ les propositions B et D" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 22,
@@ -296,7 +318,8 @@
       { "id": 4, "text": "D/ 3+4" },
       { "id": 5, "text": "E/ 1+3+4" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [2],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 23,
@@ -309,7 +332,8 @@
       { "id": 4, "text": "D/ les HDL" },
       { "id": 5, "text": "E/ les VLDL et les LDL" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 24,
@@ -322,7 +346,8 @@
       { "id": 4, "text": "D/ 3" },
       { "id": 5, "text": "E/ 4" }
     ],
-    "correctOptionIds": [5]
+    "correctOptionIds": [5],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 25,
@@ -335,7 +360,8 @@
       { "id": 4, "text": "D/ est abaissé lors d'une acidose" },
       { "id": 5, "text": "E/ est augmenté lors d'une hyperalbuminémie" }
     ],
-    "correctOptionIds": [3]
+    "correctOptionIds": [3],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 26,
@@ -348,7 +374,8 @@
       { "id": 4, "text": "D/ favorisée par la prise des agrumes" },
       { "id": 5, "text": "E/ limitée par la consommation du thé" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [2],
+    "Date":"04 Mai 2025"
   },
   {
     "id": 27,
@@ -359,7 +386,8 @@
       { "id": 2, "text": "B/ 2, 3, 4" },
       { "id": 3, "text": "C/ 2,4,5" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [2],
+    "Date":"05 Mars 2025"
   },
   {
     "id": 28,
@@ -372,7 +400,8 @@
       { "id": 4, "text": "D/ 2,5" },
       { "id": 5, "text": "E/ 2, 4, 5" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"05 Mars 2025"
   },
   {
     "id": 29,
@@ -385,7 +414,8 @@
       { "id": 4, "text": "D/ 1,3" },
       { "id": 5, "text": "E/ 3,4" }
     ],
-    "correctOptionIds": [5]
+    "correctOptionIds": [5],
+    "Date":"05 Mars 2025"
   },
   {
     "id": 30,
@@ -398,7 +428,8 @@
       { "id": 4, "text": "D/ l'ovaire" },
       { "id": 5, "text": "E/ la réticulée surrénalienne" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [2],
+    "Date":"05 Mars 2025"
   },
   {
     "id": 31,
@@ -411,7 +442,8 @@
       { "id": 4, "text": "D/ est une hormone hydrophobe" },
       { "id": 5, "text": "E/ est sécrétée en réponse à l'hypo-osmolarité plasmatique" }
     ],
-    "correctOptionIds": [2]
+    "correctOptionIds": [2],
+    "Date":"05 Mars 2025"
   },
   {
     "id": 32,
@@ -424,7 +456,8 @@
       { "id": 4, "text": "D/ 1, 3, 4" },
       { "id": 5, "text": "E/ 1,3" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"05 Mars 2025"
   },
   {
     "id": 33,
@@ -437,7 +470,8 @@
       { "id": 4, "text": "D/ 3,4" },
       { "id": 5, "text": "E/ 2, 4" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"05 Mars 2025"
   },
   {
     "id": 34,
@@ -450,7 +484,8 @@
       { "id": 4, "text": "D/ 1,3,4" },
       { "id": 5, "text": "E/ 1,2,3" }
     ],
-    "correctOptionIds": [5]
+    "correctOptionIds": [5],
+    "Date":"05 Mars 2025"
   },
   {
     "id": 35,
@@ -463,7 +498,8 @@
       { "id": 4, "text": "D/ une hypotension artérielle" },
       { "id": 5, "text": "E/ une acidose métabolique" }
     ],
-    "correctOptionIds": [1]
+    "correctOptionIds": [1],
+    "Date":"05 Mars 2025"
   },
   {
     "id": 36,
@@ -476,7 +512,8 @@
       { "id": 4, "text": "D/ 1,3" },
       { "id": 5, "text": "E/ 1,5" }
     ],
-    "correctOptionIds": [3]
+    "correctOptionIds": [3],
+    "Date":"05 Mars 2025"
   },
   {
     "id": 37,
@@ -489,7 +526,8 @@
       { "id": 4, "text": "D/ 1+3+4" },
       { "id": 5, "text": "E/ 2+3+4" }
     ],
-    "correctOptionIds": [1]
+    "correctOptionIds": [1],
+    "Date":"05 Mars 2025"
   },
   {
     "id": 38,
@@ -502,7 +540,8 @@
       { "id": 4, "text": "D/ un anabolisme musculaire" },
       { "id": 5, "text": "E/ les propositions B et C sont justes" }
     ],
-    "correctOptionIds": [5]
+    "correctOptionIds": [5],
+    "Date":"05 Mars 2025"
   },
   {
     "id": 39,
@@ -515,7 +554,8 @@
       { "id": 4, "text": "D/ un acarbose" },
       { "id": 5, "text": "E/ un inhibiteur des SGLT2" }
     ],
-    "correctOptionIds": [3]
+    "correctOptionIds": [3],
+    "Date":"05 Mars 2025"
   },
   {
     "id": 40,
@@ -528,7 +568,8 @@
       { "id": 4, "text": "D/ les propositions A et B sont justes" },
       { "id": 5, "text": "E/ toutes les propositions sont justes" }
     ],
-    "correctOptionIds": [4]
+    "correctOptionIds": [4],
+    "Date":"05 Mars 2025"
   },
   {
     "id": 41,
