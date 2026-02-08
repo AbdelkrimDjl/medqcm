@@ -8,8 +8,6 @@ import {
   Check,
   X,
   Home as HomeIcon,
-  Maximize2,
-  Minimize2,
 } from "lucide-react";
 
 interface Option {
@@ -24,9 +22,6 @@ export interface Question {
   options: Option[];
   correctOptionIds: number[];
   explanation: string;
-  date?: string; // Optional: Date key for document reference
-  documentUrl?: string; // Optional: Direct URL to document
-  attachedPhoto?: string; // Optional: URL or path to attached image
 }
 
 interface ModuleStat {
@@ -58,7 +53,6 @@ const Quiz: React.FC = () => {
   const [showResults, setShowResults] = useState<boolean>(false);
   const [filteredQuestions, setFilteredQuestions] = useState<Question[]>([]);
   const [confirmedAnswers, setConfirmedAnswers] = useState<Set<number>>(new Set());
-  const [expandedImage, setExpandedImage] = useState<string | null>(null);
 
   useEffect(() => {
     if (!config || !config.questions || config.questions.length === 0) {
@@ -99,18 +93,6 @@ const Quiz: React.FC = () => {
     
     return arraysEqual(userAnswers, correctAnswers);
   };
-
-  // Helper function to format text with newlines
-  const formatTextWithNewlines = (text: string) => {
-    if (!text) return text;
-    return text.split('\n').map((line, index, array) => (
-      <React.Fragment key={index}>
-        {line}
-        {index < array.length - 1 && <br />}
-      </React.Fragment>
-    ));
-  };
-
 
   const handleSelectOption = (optionId: number): void => {
     if (!confirmedAnswers.has(currentQuestion.id)) {
@@ -208,17 +190,6 @@ const Quiz: React.FC = () => {
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-600 to-indigo-600">
         <div className="text-white text-center">
           <p className="text-xl mb-4">Un moment...</p>
-        </div>
-      </div>
-    );
-  }
-
-  // Guard against undefined currentQuestion
-  if (!currentQuestion) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-600 to-indigo-600">
-        <div className="text-white text-center">
-          <p className="text-xl mb-4">Chargement...</p>
         </div>
       </div>
     );
@@ -428,29 +399,6 @@ const Quiz: React.FC = () => {
             </h2>
           </div>
 
-          {/* Attached Photo */}
-          {currentQuestion.attachedPhoto && (
-            <div className="mb-6 sm:mb-8">
-              <div className="relative group">
-                <img
-                  src={currentQuestion.attachedPhoto}
-                  alt="Question attachment"
-                  className="w-full max-h-96 object-contain rounded-lg border-2 border-gray-200 cursor-pointer hover:border-purple-400 transition-all"
-                  onClick={() => setExpandedImage(currentQuestion.attachedPhoto!)}
-                />
-                <button
-                  onClick={() => setExpandedImage(currentQuestion.attachedPhoto!)}
-                  className="absolute top-2 right-2 bg-white/90 hover:bg-white p-2 rounded-lg shadow-lg transition-all opacity-0 group-hover:opacity-100"
-                >
-                  <Maximize2 className="w-4 h-4 sm:w-5 sm:h-5 text-gray-700" />
-                </button>
-              </div>
-              <p className="text-xs text-gray-500 mt-2 text-center">
-                Cliquez sur l'image pour l'agrandir
-              </p>
-            </div>
-          )}
-
           {/* Options */}
           <div className="space-y-2 sm:space-y-3 mb-6 sm:mb-8">
             {currentQuestion.options.map((option) => {
@@ -477,8 +425,8 @@ const Quiz: React.FC = () => {
                   disabled={isCurrentConfirmed}
                 >
                   <div className="flex items-center justify-between gap-2">
-                    <span className="text-sm sm:text-lg text-gray-800 flex-1 whitespace-pre-wrap">
-                      {formatTextWithNewlines(option.text)}
+                    <span className="text-sm sm:text-lg text-gray-800 flex-1">
+                      {option.text}
                     </span>
                     <div className="flex-shrink-0">
                       {showCorrectAnswer && isCorrect && (
@@ -491,7 +439,7 @@ const Quiz: React.FC = () => {
                         <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-purple-600" />
                       )}
                     </div>
-                    </div>
+                  </div>
                 </button>
               );
             })}
@@ -504,8 +452,8 @@ const Quiz: React.FC = () => {
                 <Check className="w-4 h-4 sm:w-5 sm:h-5" />
                 Expliquation
               </h3>
-              <p className="text-sm sm:text-base text-blue-800 leading-relaxed whitespace-pre-wrap">
-                {formatTextWithNewlines(currentQuestion.explanation)}
+              <p className="text-sm sm:text-base text-blue-800 leading-relaxed">
+                {currentQuestion.explanation}
               </p>
             </div>
           )}
@@ -631,29 +579,6 @@ const Quiz: React.FC = () => {
         </div>
       </div>
 
-      {/* Image Modal */}
-      {expandedImage && (
-        <div
-          className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
-          onClick={() => setExpandedImage(null)}
-        >
-          <div className="relative max-w-7xl max-h-screen">
-            <button
-              onClick={() => setExpandedImage(null)}
-              className="absolute -top-12 right-0 bg-white/20 hover:bg-white/30 text-white p-2 rounded-lg transition-all"
-            >
-              <Minimize2 className="w-6 h-6" />
-            </button>
-            <img
-              src={expandedImage}
-              alt="Expanded view"
-              className="max-w-full max-h-[90vh] object-contain rounded-lg"
-              onClick={(e) => e.stopPropagation()}
-            />
-          </div>
-        </div>
-      )}
-
       <style>{`
         @keyframes fadeIn {
           from {
@@ -694,5 +619,3 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
-
-
