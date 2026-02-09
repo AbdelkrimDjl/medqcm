@@ -56,10 +56,10 @@ const Home: React.FC = () => {
         }
 
         const unitData = unitDataMap.get(unitFolder)!;
-        
+
         // @ts-ignore
         const questions = module.default || [];
-        
+
         unitData.modules.push({
           moduleName: fileName,
           questions: Array.isArray(questions) ? questions : [],
@@ -106,7 +106,7 @@ const Home: React.FC = () => {
       if (moduleData) {
         // Extract unique course names from all questions in this module
         const courseSet = new Set<string>();
-        
+
         moduleData.questions.forEach((question) => {
           if (question.courseName && Array.isArray(question.courseName)) {
             question.courseName.forEach((course) => {
@@ -137,19 +137,19 @@ const Home: React.FC = () => {
 
       if (moduleData) {
         let count = 0;
-        
+
         if (selectedCourse) {
           // Count questions that include this course in their courseName array
-          count = moduleData.questions.filter((q) => 
-            q.courseName && 
-            Array.isArray(q.courseName) && 
+          count = moduleData.questions.filter((q) =>
+            q.courseName &&
+            Array.isArray(q.courseName) &&
             q.courseName.includes(selectedCourse)
           ).length;
         } else {
           // No course selected, count all questions
           count = moduleData.questions.length;
         }
-        
+
         setAvailableQuestionCount(count);
         // Adjust question count if it exceeds available questions
         if (questionCount > count) {
@@ -171,19 +171,19 @@ const Home: React.FC = () => {
 
       if (moduleData) {
         let filteredQuestions: Question[] = [];
-        
+
         if (selectedCourse) {
           // Filter questions that include the selected course
           filteredQuestions = moduleData.questions.filter((q) =>
-            q.courseName && 
-            Array.isArray(q.courseName) && 
+            q.courseName &&
+            Array.isArray(q.courseName) &&
             q.courseName.includes(selectedCourse)
           );
         } else {
           // No course selected, use all questions
           filteredQuestions = moduleData.questions;
         }
-        
+
         const questions = filteredQuestions.slice(0, questionCount);
 
         navigate("/quiz", {
@@ -206,34 +206,34 @@ const Home: React.FC = () => {
     <div
       className="min-h-screen flex items-center justify-center p-6"
       style={{
-        background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        background: "#f4f4ea",
         fontFamily: "'Inter', sans-serif",
       }}
     >
       <div className="w-full max-w-2xl">
         <div className="text-center mb-8">
-          <h1 className="text-5xl font-bold text-white mb-4">MedQCM — Blida</h1>
-          <p className="text-xl text-purple-100">
+          <h1 className="text-5xl font-bold text-[#353533] mb-4">MedQCM — Blida</h1>
+          <p className="text-xl text-[#2e302f]">
             2ème Année Médecine
           </p>
         </div>
 
-        <div className="bg-white rounded-2xl shadow-2xl p-8">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6">
+        <div className="bg-[#212121] rounded-2xl shadow-2xl p-8 font-normal">
+          <h2 className="text-2xl font-bold text-[#eceadd] mb-6">
             Configurer Votre Questionnaire
           </h2>
 
           <div className="space-y-6">
             {/* Unit Select */}
             <div>
-              <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
+              <label className="flex items-center gap-2 text-sm font-semibold text-[#f1f2ec] mb-3">
                 <Layers className="w-5 h-5 text-purple-600" />
                 Sélectionner l'Unité
               </label>
               <select
                 value={selectedUnit}
                 onChange={(e) => setSelectedUnit(e.target.value)}
-                className="w-full p-4 border-2 border-gray-200 rounded-lg font-semibold text-gray-700 focus:border-purple-600 focus:outline-none transition-all bg-white"
+                className="w-full p-4 border-2 border-[#c1c2bb] rounded-lg font-semibold text-[#e8eade] focus:border-purple-600 focus:outline-none transition-all bg-[#373734]"
               >
                 <option value="">Choisissez une Unité</option>
                 {units.map((unit) => (
@@ -246,7 +246,7 @@ const Home: React.FC = () => {
 
             {/* Module Select */}
             <div>
-              <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
+              <label className="flex items-center gap-2 text-sm font-semibold text-[#f1f2ec] mb-3">
                 <BookOpen className="w-5 h-5 text-purple-600" />
                 Sélectionner le Module
               </label>
@@ -254,7 +254,7 @@ const Home: React.FC = () => {
                 value={selectedModule}
                 onChange={(e) => setSelectedModule(e.target.value)}
                 disabled={!selectedUnit}
-                className="w-full p-4 border-2 border-gray-200 rounded-lg font-semibold text-gray-700 focus:border-purple-600 focus:outline-none transition-all bg-white disabled:bg-gray-100 disabled:cursor-not-allowed"
+                className="w-full p-4 border-2 border-[#c1c2bb] rounded-lg font-semibold text-[#e8eade] focus:border-purple-600 focus:outline-none transition-all bg-[#373734] disabled:bg-[#222222] disabled:opacity-30 disabled:cursor-not-allowed"
               >
                 <option value="">
                   {selectedUnit
@@ -268,7 +268,7 @@ const Home: React.FC = () => {
                 ))}
               </select>
               {!selectedUnit && (
-                <p className="text-sm text-gray-500 mt-2">
+                <p className="text-sm text-[#eff0e9] opacity-70 mt-2">
                   Veuillez d'abord sélectionner une unité
                 </p>
               )}
@@ -277,14 +277,14 @@ const Home: React.FC = () => {
             {/* Course Select - Only show if module has courses */}
             {moduleHasCourses && (
               <div>
-                <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
+                <label className="flex items-center gap-2 text-sm font-semibold text-[#f1f2ec] mb-3">
                   <Files className="w-5 h-5 text-purple-600" />
                   Sélectionner le Cours (Optionnel)
                 </label>
                 <select
                   value={selectedCourse}
                   onChange={(e) => setSelectedCourse(e.target.value)}
-                  className="w-full p-4 border-2 border-gray-200 rounded-lg font-semibold text-gray-700 focus:border-purple-600 focus:outline-none transition-all bg-white"
+                  className="w-full p-4 border-2 border-[#c1c2bb] rounded-lg font-semibold text-[#e8eade] focus:border-purple-600 focus:outline-none transition-all bg-[#373734]"
                 >
                   <option value="">Tous les Cours</option>
                   {availableCourses.map((course) => (
@@ -293,7 +293,7 @@ const Home: React.FC = () => {
                     </option>
                   ))}
                 </select>
-                <p className="text-sm text-gray-500 mt-2">
+                <p className="text-sm text-[#eff0e9] opacity-70 mt-2">
                   Laissez vide pour inclure toutes les questions du module
                 </p>
               </div>
@@ -301,7 +301,7 @@ const Home: React.FC = () => {
 
             {/* Question Count */}
             <div>
-              <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
+              <label className="flex items-center gap-2 text-sm font-semibold text-[#f1f2ec] mb-3">
                 <Hash className="w-5 h-5 text-purple-600" />
                 Nombre de Questions
               </label>
@@ -316,15 +316,15 @@ const Home: React.FC = () => {
                   setQuestionCount(Math.min(value, maxValue));
                 }}
                 disabled={!selectedModule}
-                className="w-full p-4 border-2 border-gray-200 rounded-lg font-semibold text-gray-700 focus:border-purple-600 focus:outline-none transition-all disabled:bg-gray-100 disabled:cursor-not-allowed"
+                className="w-full p-4 bg-[#373734] border-2 border-[#c1c2bb] rounded-lg font-semibold text-[#e8eade] focus:border-purple-600 focus:outline-none transition-all disabled:bg-[#222222] disabled:opacity-30 disabled:cursor-not-allowed"
               />
               {selectedModule && availableQuestionCount > 0 ? (
-                <p className="text-sm text-gray-500 mt-2">
+                <p className="text-sm text-[#eff0e9] opacity-70 mt-2">
                   {availableQuestionCount} {availableQuestionCount === 1 ? 'question disponible' : 'questions disponibles'}
                   {selectedCourse ? ` pour le cours "${selectedCourse}"` : ' pour ce module'}
                 </p>
               ) : (
-                <p className="text-sm text-gray-500 mt-2">
+                <p className="text-sm text-[#eff0e9] opacity-70 mt-2">
                   Sélectionnez un module pour voir les questions disponibles
                 </p>
               )}
@@ -332,11 +332,11 @@ const Home: React.FC = () => {
           </div>
 
           {selectedUnit && selectedModule && (
-            <div className="mt-6 p-4 bg-purple-50 rounded-lg border border-purple-200">
-              <h3 className="font-semibold text-purple-900 mb-2">
+            <div className="mt-6 p-4 bg-[#373734] rounded-lg border border-[#c1c2bb]">
+              <h3 className="font-semibold text-[#f1f2ec] mb-2">
                 Configuration de Questionnaire
               </h3>
-              <div className="space-y-1 text-sm text-purple-700">
+              <div className="space-y-1 text-sm text-[#eff0e9] opacity-70">
                 <p>
                   <span className="font-semibold">Unité:</span> {selectedUnit}
                 </p>
@@ -361,9 +361,9 @@ const Home: React.FC = () => {
           <button
             onClick={handleStartQuiz}
             disabled={!isFormValid}
-            className={`w-full mt-8 py-4 rounded-lg font-semibold text-lg flex items-center justify-center gap-2 transition-all ${isFormValid
-                ? "bg-gradient-to-r from-purple-600 to-indigo-600 text-white hover:shadow-lg"
-                : "bg-gray-200 text-gray-400 cursor-not-allowed"
+            className={`w-full mt-8 py-4 rounded-lg font-semibold text-lg flex items-center justify-center gap-2 transition-all disabled:opacity-50 ease-[cubic-bezier(0.165,0.85,0.45,1)] duration-150 hover:scale-y-[1.015] hover:scale-x-[1.005] ${isFormValid
+              ? "bg-[#faf9f5] text-[#54534f] hover:shadow-lg"
+              : "bg-[#faf9f5] text-gray-400 cursor-not-allowed"
               }`}
           >
             Démarrer
@@ -371,7 +371,7 @@ const Home: React.FC = () => {
           </button>
         </div>
 
-        <div className="mt-6 text-center text-purple-100 text-sm">
+        <div className="mt-6 text-center text-[#353533] text-sm">
           <p>
             Sélectionnez vos préférences ci-dessus pour commencer votre entraînement à l'examen médical.
           </p>
@@ -380,6 +380,5 @@ const Home: React.FC = () => {
     </div>
   );
 };
-
 
 export default Home;
