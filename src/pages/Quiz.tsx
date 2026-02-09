@@ -46,7 +46,7 @@ const Quiz: React.FC = () => {
   const navigate = useNavigate();
   const config = location.state as QuizConfig;
   const paginationRef = useRef<HTMLDivElement>(null);
-  
+
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [answers, setAnswers] = useState<Record<number, number[]>>({});
@@ -56,20 +56,20 @@ const Quiz: React.FC = () => {
 
   const getDateLink = (DateString: string | undefined): string => {
     if (!DateString) return "#";
-  // 1. Define your specific links here
-  const links: Record<string, string> = {
-    "24 Février 2024": "https://drive.google.com/drive/folders/1abq3-rKIZ172vpCgtGWOvFmuWgCFssjR?usp=drive_link",
-    "04 Mai 2025": "https://drive.google.com/file/d/13G53e4NjptfnHrUBNWwdXnrZSIJnEwML/view?usp=sharing",
-    "15 Mars 2022": "https://drive.google.com/file/d/1I-o6xQBBJVP2jHu0-ozULY9A4YQET6Ya/view?usp=sharing",
-    "05 Mars 2023": "https://drive.google.com/file/d/1HIgHKTGDyheUFbm-CYWtVJwoBPhH7lUY/view?usp=sharing",
-    "16 Mai 2021": "https://drive.google.com/file/d/1Rx32-1cJYzfqz-DztL00cvoWuZ0p8XhY/view?usp=sharing"
+    // 1. Define your specific links here
+    const links: Record<string, string> = {
+      "24 Février 2024": "https://drive.google.com/drive/folders/1abq3-rKIZ172vpCgtGWOvFmuWgCFssjR?usp=drive_link",
+      "04 Mai 2025": "https://drive.google.com/file/d/13G53e4NjptfnHrUBNWwdXnrZSIJnEwML/view?usp=sharing",
+      "15 Mars 2022": "https://drive.google.com/file/d/1I-o6xQBBJVP2jHu0-ozULY9A4YQET6Ya/view?usp=sharing",
+      "05 Mars 2023": "https://drive.google.com/file/d/1HIgHKTGDyheUFbm-CYWtVJwoBPhH7lUY/view?usp=sharing",
+      "16 Mai 2021": "https://drive.google.com/file/d/1Rx32-1cJYzfqz-DztL00cvoWuZ0p8XhY/view?usp=sharing"
+    };
+
+    // 2. Return the specific link, or a fallback (e.g., a Google search) if not found
+    return links[DateString] || "#";
   };
 
-  // 2. Return the specific link, or a fallback (e.g., a Google search) if not found
-  return links[DateString] || "#"; 
-};
 
-  
   const [showResults, setShowResults] = useState<boolean>(false);
   const [filteredQuestions, setFilteredQuestions] = useState<Question[]>([]);
   const [confirmedAnswers, setConfirmedAnswers] = useState<Set<number>>(new Set());
@@ -107,10 +107,10 @@ const Quiz: React.FC = () => {
   const isAnswerCorrect = (questionId: number): boolean => {
     const question = filteredQuestions.find(q => q.id === questionId);
     if (!question) return false;
-    
+
     const userAnswers = answers[questionId] || [];
     const correctAnswers = (question.correctOptionIds || []).map(Number);
-    
+
     return arraysEqual(userAnswers, correctAnswers);
   };
 
@@ -118,16 +118,29 @@ const Quiz: React.FC = () => {
     if (!confirmedAnswers.has(currentQuestion.id)) {
       const currentSelections = answers[currentQuestion.id] || [];
       const optionIdNum = Number(optionId);
-      
+
       let newSelections: number[];
       if (currentSelections.includes(optionIdNum)) {
         newSelections = currentSelections.filter(id => id !== optionIdNum);
       } else {
         newSelections = [...currentSelections, optionIdNum];
       }
-      
+
       setAnswers({ ...answers, [currentQuestion.id]: newSelections });
     }
+  };
+
+  const askGoogleSearch = () => {
+    if (!currentQuestion) return;
+    // Formats options into "A. Text, B. Text..."
+    const optionsString = currentQuestion.options
+      .map((opt) => `${opt.text}`)
+      .join(", ");
+
+    // Combines everything for a high-quality medical search
+    const fullQuery = `Agis en tant que professeur en ${currentQuestion.module}. Analyse la question à choix multiple (QCM) suivante et fournis une explication détaillée pour chaque option, identifiant la ou les réponse(s) juste(s).\n"${currentQuestion.text}\nOptions:\n${optionsString}"`;
+    const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(fullQuery)}&udm=50`;
+    window.open(searchUrl, "_blank");
   };
 
   const handleFlag = () => {
@@ -143,7 +156,7 @@ const Quiz: React.FC = () => {
     newConfirmed.add(currentQuestion.id);
     setConfirmedAnswers(newConfirmed);
   };
-  
+
   const handleNext = () => {
     if (currentQuestionIndex < totalQuestions - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
@@ -172,7 +185,7 @@ const Quiz: React.FC = () => {
     filteredQuestions.forEach((q) => {
       const userAnswers = answers[q.id] || [];
       const correctAnswers = (q.correctOptionIds || []).map(Number);
-      
+
       if (arraysEqual(userAnswers, correctAnswers)) {
         correct++;
       }
@@ -190,10 +203,10 @@ const Quiz: React.FC = () => {
       if (!moduleStats[q.module])
         moduleStats[q.module] = { total: 0, correct: 0 };
       moduleStats[q.module].total++;
-      
+
       const userAnswers = answers[q.id] || [];
       const correctAnswers = (q.correctOptionIds || []).map(Number);
-      
+
       if (arraysEqual(userAnswers, correctAnswers)) {
         moduleStats[q.module].correct++;
       }
@@ -272,26 +285,24 @@ const Quiz: React.FC = () => {
                         {module.module}
                       </span>
                       <span
-                        className={`text-sm sm:text-base font-bold ${
-                          module.accuracy >= 70
+                        className={`text-sm sm:text-base font-bold ${module.accuracy >= 70
                             ? "text-green-600"
                             : module.accuracy >= 50
                               ? "text-yellow-600"
                               : "text-red-600"
-                        }`}
+                          }`}
                       >
                         {Math.round(module.accuracy)}%
                       </span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-2 sm:h-3">
                       <div
-                        className={`h-2 sm:h-3 rounded-full transition-all duration-500 ${
-                          module.accuracy >= 70
+                        className={`h-2 sm:h-3 rounded-full transition-all duration-500 ${module.accuracy >= 70
                             ? "bg-green-500"
                             : module.accuracy >= 50
                               ? "bg-yellow-500"
                               : "bg-red-500"
-                        }`}
+                          }`}
                         style={{ width: `${module.accuracy}%` }}
                       />
                     </div>
@@ -395,33 +406,31 @@ const Quiz: React.FC = () => {
               </div>
             </div>
             {/* --- NEW CODE START: Date Button --- */}
-             {currentQuestion.Date && (
-             <a
-               href={getDateLink(currentQuestion.Date)} // <--- Calls the helper function
-                 target="_blank"
-              rel="noopener noreferrer"
-              className={`flex items-center gap-1.5 px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium transition-colors border ${
-           getDateLink(currentQuestion.Date) !== "#"
-            ? "bg-blue-50 text-blue-600 hover:bg-blue-100 border-blue-100 cursor-pointer"
-            : "bg-gray-50 text-gray-400 border-gray-100 cursor-default"
-                }`}
-             // Optional: Disable click if no link exists
-              onClick={(e) => {
-              if (getDateLink(currentQuestion.Date) === "#") e.preventDefault();
-        }}
-      >
-        <Calendar className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
-        <span>{currentQuestion.Date}</span>
-      </a>
-    )}
-    {/* --- END UPDATED CODE --- */}
+            {currentQuestion.Date && (
+              <a
+                href={getDateLink(currentQuestion.Date)} // <--- Calls the helper function
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`flex items-center gap-1.5 px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium transition-colors border ${getDateLink(currentQuestion.Date) !== "#"
+                    ? "bg-blue-50 text-blue-600 hover:bg-blue-100 border-blue-100 cursor-pointer"
+                    : "bg-gray-50 text-gray-400 border-gray-100 cursor-default"
+                  }`}
+                // Optional: Disable click if no link exists
+                onClick={(e) => {
+                  if (getDateLink(currentQuestion.Date) === "#") e.preventDefault();
+                }}
+              >
+                <Calendar className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
+                <span>{currentQuestion.Date}</span>
+              </a>
+            )}
+            {/* --- END UPDATED CODE --- */}
             <button
               onClick={handleFlag}
-              className={`p-1.5 sm:p-2 rounded-lg transition-all flex-shrink-0 ${
-                flaggedQuestions.has(currentQuestion.id)
+              className={`p-1.5 sm:p-2 rounded-lg transition-all flex-shrink-0 ${flaggedQuestions.has(currentQuestion.id)
                   ? "bg-yellow-100 text-yellow-600"
                   : "bg-gray-100 text-gray-400 hover:text-yellow-600"
-              }`}
+                }`}
             >
               <Flag
                 className="w-5 h-5 sm:w-6 sm:h-6"
@@ -455,15 +464,14 @@ const Quiz: React.FC = () => {
                 <button
                   key={option.id}
                   onClick={() => handleSelectOption(option.id)}
-                  className={`w-full text-left p-3 sm:p-4 rounded-lg sm:rounded-xl border-2 transition-all ${
-                    showCorrectAnswer && isCorrect
+                  className={`w-full text-left p-3 sm:p-4 rounded-lg sm:rounded-xl border-2 transition-all ${showCorrectAnswer && isCorrect
                       ? "border-green-500 bg-green-50"
                       : showCorrectAnswer && isSelected && !isCorrect
                         ? "border-red-500 bg-red-50"
                         : isSelected
                           ? "border-purple-500 bg-purple-50"
                           : "border-gray-200 hover:border-purple-300 hover:bg-gray-50"
-                  }`}
+                    }`}
                   disabled={isCurrentConfirmed}
                 >
                   <div className="flex items-center justify-between gap-2">
@@ -487,18 +495,18 @@ const Quiz: React.FC = () => {
             })}
           </div>
 
-          {/* Explanation */}
-          {isCurrentConfirmed && (
-            <div className="bg-blue-50 border-l-4 border-blue-500 p-4 sm:p-6 rounded-lg mb-6 animate-fadeIn">
-              <h3 className="text-sm sm:text-base font-semibold text-blue-900 mb-2 flex items-center gap-2">
-                <Check className="w-4 h-4 sm:w-5 sm:h-5" />
-                Expliquation
-              </h3>
-              <p className="text-sm sm:text-base text-blue-800 leading-relaxed">
-                {currentQuestion.explanation}
-              </p>
-            </div>
-          )}
+          <div className="mb-8">
+            {/* INSERT THE BUTTON HERE */}
+            <button
+              onClick={askGoogleSearch}
+              className="inline-flex items-center gap-2 px-3 py-1.5 bg-blue-50 text-blue-600 rounded-full border border-blue-100 hover:bg-blue-100 transition-all duration-200 group"
+            >
+              <svg className="w-4 h-4 transition-transform group-hover:scale-110" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M12.48 10.92v3.28h4.74c-.2 1.06-1.2 3.12-4.74 3.12-3.07 0-5.57-2.54-5.57-5.68s2.5-5.68 5.57-5.68c1.75 0 2.92.74 3.59 1.39l2.59-2.5c-1.66-1.55-3.82-2.49-6.18-2.49-5.22 0-9.45 4.23-9.45 9.45s4.23 9.45 9.45 9.45c5.45 0 9.08-3.84 9.08-9.23 0-.62-.07-1.09-.15-1.57h-8.93z" />
+              </svg>
+              <span className="text-xs font-bold tracking-wide uppercase">Analyse Google AI</span>
+            </button>
+          </div>
 
           {/* Navigation Buttons */}
           <div className="flex items-center justify-between pt-4 sm:pt-6 border-t border-gray-200 mb-4 sm:mb-6 gap-2">
@@ -568,8 +576,7 @@ const Quiz: React.FC = () => {
                     <button
                       key={q.id}
                       onClick={() => setCurrentQuestionIndex(idx)}
-                      className={`flex-shrink-0 w-9 h-9 sm:w-10 sm:h-10 rounded-lg font-semibold transition-all text-xs sm:text-sm ${
-                        isCurrent
+                      className={`flex-shrink-0 w-9 h-9 sm:w-10 sm:h-10 rounded-lg font-semibold transition-all text-xs sm:text-sm ${isCurrent
                           ? "bg-purple-600 text-white ring-2 ring-purple-300"
                           : isConfirmed && isCorrect
                             ? "bg-green-500 text-white"
@@ -578,7 +585,7 @@ const Quiz: React.FC = () => {
                               : isAnswered
                                 ? "bg-blue-100 text-blue-700"
                                 : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                      } ${isFlagged ? "ring-2 ring-yellow-400" : ""}`}
+                        } ${isFlagged ? "ring-2 ring-yellow-400" : ""}`}
                     >
                       {idx + 1}
                     </button>
@@ -618,9 +625,9 @@ const Quiz: React.FC = () => {
               <div className="text-xs sm:text-sm text-yellow-700">Signalé</div>
             </div>
           </div>
-              <p className="text-xs sm:text-sm text-purple-600 mt-2 font-medium">
-                ❓ Si vous soupçonnez une erreur, vous pouvez consulter la correction et sujet officielles en cliquant sur le bouton correspondant à la date de cette question ci-dessus.
-              </p>
+          <p className="text-xs sm:text-sm text-purple-600 mt-2 font-medium">
+            ❓ Si vous soupçonnez une erreur, vous pouvez consulter la correction et sujet officielles en cliquant sur le bouton correspondant à la date de cette question ci-dessus.
+          </p>
         </div>
       </div>
 
