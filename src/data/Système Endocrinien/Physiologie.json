@@ -4,962 +4,1031 @@
     "text": "Concernant les relations hypothalamo-hypophysaires:\n(Cocher une seule réponse)",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ chaque hormone hypothalamique stimule spécifiquement une seule cible dans l'adénohypophyse."},
-      {"id":2,"text":"B/ les relations nerveuses s'établissent entre l'hypothalamus et l'adénohypophyse."},
-      {"id":3,"text":"C/ les hormones antéhypophysaires qui stimulent un organe cible spécifique sont appelées des libérines."},
-      {"id":4,"text":"D/ certaines hormones antéhypophysaires agissent sur plusieurs organes ou tissus et sur différents métabolismes."},
-      {"id":5,"text":"E/ la GHRH stimule la sécrétion de FSH et de LH."}
+      {"id": 1, "text": "A/ chaque hormone hypothalamique stimule spécifiquement une seule cible dans l'adénohypophyse."},
+      {"id": 2, "text": "B/ les relations nerveuses s'établissent entre l'hypothalamus et l'adénohypophyse."},
+      {"id": 3, "text": "C/ les hormones antéhypophysaires qui stimulent un organe cible spécifique sont appelées des libérines."},
+      {"id": 4, "text": "D/ certaines hormones antéhypophysaires agissent sur plusieurs organes ou tissus et sur différents métabolismes."},
+      {"id": 5, "text": "E/ la GHRH stimule la sécrétion de FSH et de LH."}
     ],
     "correctOptionIds": [4],
-    "Date": "24 Février 2024"
+    "Date": "24 Février 2024",
+    "courseName": ["Relations Hypothalamo-Hypophysaires", "Les Hormones Hypophysaires"]
   },
   {
     "id": 2,
     "text": "A propos de l'hormone antidiurétique (ADH):\n(Cocher une seule réponse)",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ son action principale est vasoconstrictrice comme son nom l'indique"},
-      {"id":2,"text":"B/ elle agit au niveau de tout le tubule rénal en facilitant la réabsorption de l'eau."},
-      {"id":3,"text":"C/ via ses récepteurs V2 elle entraine la relocalisation des aquaporines 2 sur les membranes apicale et basolatérale."},
-      {"id":4,"text":"D/ elle renforce l'action de la CRH hypothalamique."},
-      {"id":5,"text":"E/ les osmo- récepteurs régulant sa sécrétion sont localisés sur la paroi vasculaire."}
+      {"id": 1, "text": "A/ son action principale est vasoconstrictrice comme son nom l'indique"},
+      {"id": 2, "text": "B/ elle agit au niveau de tout le tubule rénal en facilitant la réabsorption de l'eau."},
+      {"id": 3, "text": "C/ via ses récepteurs V2 elle entraine la relocalisation des aquaporines 2 sur les membranes apicale et basolatérale."},
+      {"id": 4, "text": "D/ elle renforce l'action de la CRH hypothalamique."},
+      {"id": 5, "text": "E/ les osmo- récepteurs régulant sa sécrétion sont localisés sur la paroi vasculaire."}
     ],
     "correctOptionIds": [4],
-    "Date": "24 Février 2024"
+    "Date": "24 Février 2024",
+    "courseName": ["Les Hormones Hypophysaires", "Relations Hypothalamo-Hypophysaires"]
   },
   {
     "id": 3,
     "text": "A propos des hormones thyroïdiennes :\n1/ le captage des iodures est réalisé par un transporteur NIS situé sur la membrane apicale.\n2/ la thyroglobuline est produite et stockée dans la colloïde.\n3/ la production thyroïdienne de T4 correspond à la totalité de la production de T4\n4/ la T3 est biologiquement moins active que la T4\n5/ elles sont capables de freiner la sécrétion de TSH et donc de leur propre synthèse.",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A) 1, 2"},
-      {"id":2,"text":"B) 1, 3"},
-      {"id":3,"text":"C) 3, 5"},
-      {"id":4,"text":"D) 3, 4"},
-      {"id":5,"text":"E) 2, 3"}
+      {"id": 1, "text": "A) 1, 2"},
+      {"id": 2, "text": "B) 1, 3"},
+      {"id": 3, "text": "C) 3, 5"},
+      {"id": 4, "text": "D) 3, 4"},
+      {"id": 5, "text": "E) 2, 3"}
     ],
     "correctOptionIds": [3],
-    "Date": "24 Février 2024"
+    "Date": "24 Février 2024",
+    "courseName": ["La Fonction Thyroïdienne"]
   },
   {
     "id": 4,
     "text": "Une des propositions suivantes est fausse, laquelle ?",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A) à concentration physiologique, la T4 stimule la synthèse protéique."},
-      {"id":2,"text":"B) dans les hyperthyroïdies, on note fréquemment une constipation."},
-      {"id":3,"text":"C) la surcharge de la thyroïde en iodure stoppe la synthèse des hormones."},
-      {"id":4,"text":"D) la synthèse des hormones thyroïdienne fait appel à la tyrosine peroxydase."},
-      {"id":5,"text":"E) la sécrétion de TSH suit un rythme nycthéméral"}
+      {"id": 1, "text": "A) à concentration physiologique, la T4 stimule la synthèse protéique."},
+      {"id": 2, "text": "B) dans les hyperthyroïdies, on note fréquemment une constipation."},
+      {"id": 3, "text": "C) la surcharge de la thyroïde en iodure stoppe la synthèse des hormones."},
+      {"id": 4, "text": "D) la synthèse des hormones thyroïdienne fait appel à la tyrosine peroxydase."},
+      {"id": 5, "text": "E) la sécrétion de TSH suit un rythme nycthéméral"}
     ],
     "correctOptionIds": [2],
-    "Date": "24 Février 2024"
+    "Date": "24 Février 2024",
+    "courseName": ["La Fonction Thyroïdienne"]
   },
   {
     "id": 5,
     "text": "A propos du complexe GH/IGF1:\n1/ la GH est synthétisée par les cellules somatotropes de l'antéhypophyse.\n2/ la GH présente une sécrétion pulsatile.\n3/ le jeune diminue la sécrétion de GH, le cortisol l'augmente.\n4/ I'IGF1 est un polypeptide de 191 acides aminés\n5/ toute l'IGF1 circulante a pour origine le foie.",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A) 1, 2, 3"},
-      {"id":2,"text":"B) 2, 3"},
-      {"id":3,"text":"C) 1, 2"},
-      {"id":4,"text":"D) 1, 5"},
-      {"id":5,"text":"E) 1, 2, 4"}
+      {"id": 1, "text": "A) 1, 2, 3"},
+      {"id": 2, "text": "B) 2, 3"},
+      {"id": 3, "text": "C) 1, 2"},
+      {"id": 4, "text": "D) 1, 5"},
+      {"id": 5, "text": "E) 1, 2, 4"}
     ],
     "correctOptionIds": [3],
-    "Date": "24 Février 2024"
+    "Date": "24 Février 2024",
+    "courseName": ["Les Hormones Hypophysaires"]
   },
   {
     "id": 6,
     "text": "A propos de la prolactine:\n1/ c'est une hormone glycoprotéique qui a une structure proche de celle de GH\n2/ elle est synthétisée dans les cellules lactotrope de l'hypothalamus\n3/ elie a une sécrétion pulsatile\n4/ sa synthèse et sa sécrétion sont freinées par la dopamine",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A) 1, 2"},
-      {"id":2,"text":"B) 3"},
-      {"id":3,"text":"C) 2, 3, 4"},
-      {"id":4,"text":"D) 1, 3, 4"},
-      {"id":5,"text":"E) 3, 4"}
+      {"id": 1, "text": "A) 1, 2"},
+      {"id": 2, "text": "B) 3"},
+      {"id": 3, "text": "C) 2, 3, 4"},
+      {"id": 4, "text": "D) 1, 3, 4"},
+      {"id": 5, "text": "E) 3, 4"}
     ],
     "correctOptionIds": [5],
-    "Date": "24 Février 2024"
+    "Date": "24 Février 2024",
+    "courseName": ["Les Hormones Hypophysaires"]
   },
   {
     "id": 7,
     "text": "A propos de la corticosurrénale: (RF)",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ la zone glomérulée est la plus épaisse"},
-      {"id":2,"text":"B/ la zone fasciculée élabore des glucocorticoïdes"},
-      {"id":3,"text":"C/ la maladie d'Addison correspond à une insuffisance surrénale lente"},
-      {"id":4,"text":"D/ les concentrations plasmatiques du cortisol varient au cours du nycthémère"},
-      {"id":5,"text":"E/ l'ablation des deux surrénales est rapidement mortel"}
+      {"id": 1, "text": "A/ la zone glomérulée est la plus épaisse"},
+      {"id": 2, "text": "B/ la zone fasciculée élabore des glucocorticoïdes"},
+      {"id": 3, "text": "C/ la maladie d'Addison correspond à une insuffisance surrénale lente"},
+      {"id": 4, "text": "D/ les concentrations plasmatiques du cortisol varient au cours du nycthémère"},
+      {"id": 5, "text": "E/ l'ablation des deux surrénales est rapidement mortel"}
     ],
     "correctOptionIds": [1],
-    "Date": "24 Février 2024"
+    "Date": "24 Février 2024",
+    "courseName": ["La Cortico-Surrénale"]
   },
   {
     "id": 8,
     "text": "A propos des minéralo-corticoïdes: (RF)",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ ils sont secrétés par la fasciculée en réponse à l'angiotensine II"},
-      {"id":2,"text":"B/ leur stimulation par l'angiotensine II dépend du statut sodé de l'individu"},
-      {"id":3,"text":"C/ I'ACTH a concentration supra physiologique stimule leur sécrétion"},
-      {"id":4,"text":"D/ ils stimulent la réabsorption active du sodium"},
-      {"id":5,"text":"E/ ils favorisent l'excrétion urinaire d'ions H+"}
+      {"id": 1, "text": "A/ ils sont secrétés par la fasciculée en réponse à l'angiotensine II"},
+      {"id": 2, "text": "B/ leur stimulation par l'angiotensine II dépend du statut sodé de l'individu"},
+      {"id": 3, "text": "C/ I'ACTH a concentration supra physiologique stimule leur sécrétion"},
+      {"id": 4, "text": "D/ ils stimulent la réabsorption active du sodium"},
+      {"id": 5, "text": "E/ ils favorisent l'excrétion urinaire d'ions H+"}
     ],
     "correctOptionIds": [1],
-    "Date": "24 Février 2024"
+    "Date": "24 Février 2024",
+    "courseName": ["La Cortico-Surrénale"]
   },
   {
     "id": 9,
     "text": "Le cycle génital chez la femme:\n1/ s'étale de la puberté à la ménopause\n2/ est un cycle de 28 jours\n3/ est marqué par l'apparition des menstruations au quatorzième jour\n4/ est composé de deux phases séparées par l'ovulation",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1, 3"},
-      {"id":2,"text":"B/ 1, 4"},
-      {"id":3,"text":"C/ 1, 2"},
-      {"id":4,"text":"D/ 1, 2, 4"},
-      {"id":5,"text":"E/ 2, 4"}
+      {"id": 1, "text": "A/ 1, 3"},
+      {"id": 2, "text": "B/ 1, 4"},
+      {"id": 3, "text": "C/ 1, 2"},
+      {"id": 4, "text": "D/ 1, 2, 4"},
+      {"id": 5, "text": "E/ 2, 4"}
     ],
     "correctOptionIds": [4],
-    "Date": "24 Février 2024"
+    "Date": "24 Février 2024",
+    "courseName": ["La Fonction Gonadique Féminin"]
   },
   {
     "id": 10,
     "text": "Durant la grossesse :\n1/ I'HCG est produite exclusivement par le placenta\n2/ I'HCG est produite du troisième au neuvième mois\n3/ le corps jaune persiste durant le premier trimestre\n4/ 1'HPL est une hormone anabolisante",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1, 3, 4"},
-      {"id":2,"text":"B/ 1, 2, 4"},
-      {"id":3,"text":"C/ 2, 3, 4"},
-      {"id":4,"text":"D/ 2, 3"},
-      {"id":5,"text":"E/ 1, 4"}
+      {"id": 1, "text": "A/ 1, 3, 4"},
+      {"id": 2, "text": "B/ 1, 2, 4"},
+      {"id": 3, "text": "C/ 2, 3, 4"},
+      {"id": 4, "text": "D/ 2, 3"},
+      {"id": 5, "text": "E/ 1, 4"}
     ],
     "correctOptionIds": [1],
-    "Date": "24 Février 2024"
+    "Date": "24 Février 2024",
+    "courseName": ["La Fonction Gonadique Féminin"]
   },
   {
     "id": 11,
     "text": "Dans la cellule ẞ pancréatique, La sécrétion de l'insuline: (RJ)",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ implique obligatoirement l'entrée du glucose"},
-      {"id":2,"text":"B/ est secondaire à la diminution du rapport ATP/AMPC"},
-      {"id":3,"text":"C/ nécessite une dépolarisation suite à la sortie du K"},
-      {"id":4,"text":"D/ fait intervenir des canaux calciques ligand-dépendants"},
-      {"id":5,"text":"E/ aucune proposition n'est juste"}
+      {"id": 1, "text": "A/ implique obligatoirement l'entrée du glucose"},
+      {"id": 2, "text": "B/ est secondaire à la diminution du rapport ATP/AMPC"},
+      {"id": 3, "text": "C/ nécessite une dépolarisation suite à la sortie du K"},
+      {"id": 4, "text": "D/ fait intervenir des canaux calciques ligand-dépendants"},
+      {"id": 5, "text": "E/ aucune proposition n'est juste"}
     ],
     "correctOptionIds": [5],
-    "Date": "24 Février 2024"
+    "Date": "24 Février 2024",
+    "courseName": ["Complexe Insuline-Glucagon et Métabolisme des Macromolécules", "Glycorégulation"]
   },
   {
     "id": 12,
     "text": "L'hyperglycémie provoquée par voie orale (HGPO): (RF)",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ se déroule le matin à jeun"},
-      {"id":2,"text":"B/ est validée chez l'enfant"},
-      {"id":3,"text":"C/ est recommandée chez la femme enceinte diabétique connue"},
-      {"id":4,"text":"D/ est basée sur trois prélèvements chez la femme enceinte"},
-      {"id":5,"text":"E/ permet le diagnostic du diabète"}
+      {"id": 1, "text": "A/ se déroule le matin à jeun"},
+      {"id": 2, "text": "B/ est validée chez l'enfant"},
+      {"id": 3, "text": "C/ est recommandée chez la femme enceinte diabétique connue"},
+      {"id": 4, "text": "D/ est basée sur trois prélèvements chez la femme enceinte"},
+      {"id": 5, "text": "E/ permet le diagnostic du diabète"}
     ],
     "correctOptionIds": [3],
-    "Date": "24 Février 2024"
+    "Date": "24 Février 2024",
+    "courseName": ["Glycorégulation"]
   },
   {
     "id": 13,
     "text": "Concernant le métabolisme phosphocalcique, l'absorption intestinale du calcium est: (RJ)\n1/ unimodale\n2/ efficace si les apports alimentaires sont faibles\n3/ favorisée par la prise des antiacides\n4/ limitée par la consommation du pain complet",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1+2"},
-      {"id":2,"text":"B/ 2+4"},
-      {"id":3,"text":"C/ 3+4"},
-      {"id":4,"text":"D/ 1+3+4"},
-      {"id":5,"text":"E/ 2+3+4"}
+      {"id": 1, "text": "A/ 1+2"},
+      {"id": 2, "text": "B/ 2+4"},
+      {"id": 3, "text": "C/ 3+4"},
+      {"id": 4, "text": "D/ 1+3+4"},
+      {"id": 5, "text": "E/ 2+3+4"}
     ],
     "correctOptionIds": [2],
-    "Date": "24 Février 2024"
+    "Date": "24 Février 2024",
+    "courseName": ["Métabolisme Phosphocalcique"]
   },
   {
     "id": 14,
     "text": "Un des acteurs suivants n'intervient pas dans la voie de retour du cholestérol : (RJ)",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ La microsomial TG transfert protéine (la MTP)"},
-      {"id":2,"text":"B/ le récepteur ABC-A1"},
-      {"id":3,"text":"C/ l'Apo E"},
-      {"id":4,"text":"D/ le récepteur Scavenger classe B"},
-      {"id":5,"text":"E/ la lipase hépatique (LH)"}
+      {"id": 1, "text": "A/ La microsomial TG transfert protéine (la MTP)"},
+      {"id": 2, "text": "B/ le récepteur ABC-A1"},
+      {"id": 3, "text": "C/ l'Apo E"},
+      {"id": 4, "text": "D/ le récepteur Scavenger classe B"},
+      {"id": 5, "text": "E/ la lipase hépatique (LH)"}
     ],
     "correctOptionIds": [1],
-    "Date": "24 Février 2024"
+    "Date": "24 Février 2024",
+    "courseName": ["Complexe Insuline-Glucagon et Métabolisme des Macromolécules"]
   },
   {
     "id": 15,
     "text": "Lors de l'exploration fonctionnelle endocrinienne, les épreuves dynamiques :\n1/ permettent la confirmation de la pathologie\n2/ se pratiquent toujours de bas en haut\n3/ sont des épreuves de freination en cas d'hyperfonctionnement\n4/ sont des épreuves de stimulation en cas d'hypofonctionnement",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1,2,3"},
-      {"id":2,"text":"B/ 1,2,4"},
-      {"id":3,"text":"C/ 2,3,4"},
-      {"id":4,"text":"D/ 2,3"},
-      {"id":5,"text":"E/ 2, 4"}
+      {"id": 1, "text": "A/ 1,2,3"},
+      {"id": 2, "text": "B/ 1,2,4"},
+      {"id": 3, "text": "C/ 2,3,4"},
+      {"id": 4, "text": "D/ 2,3"},
+      {"id": 5, "text": "E/ 2, 4"}
     ],
     "correctOptionIds": [3],
-    "Date": "04 Mai 2025"
+    "Date": "04 Mai 2025",
+    "courseName": ["Dysfonctionnement de l’axe Hypothalamo-Hypophyso-Endocrinien et Effecteurs"]
   },
   {
     "id": 16,
     "text": "L'hypofonctionnement endocrinien au cours d'une atteinte secondaire, répond aux propositions suivantes :\n1/ le taux de l'hormone effectrice est élevé\n2/ le taux de la stimuline est bas\n3/ le test à la RH est positif\n4/ le test à la stimuline est négatif\n5/ le taux de la RH est élevé",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 2,3"},
-      {"id":2,"text":"B/ 2, 3,5"},
-      {"id":3,"text":"C/ 1, 3, 5"},
-      {"id":4,"text":"D/ 4, 5"},
-      {"id":5,"text":"E/ 2, 5"}
+      {"id": 1, "text": "A/ 2,3"},
+      {"id": 2, "text": "B/ 2, 3,5"},
+      {"id": 3, "text": "C/ 1, 3, 5"},
+      {"id": 4, "text": "D/ 4, 5"},
+      {"id": 5, "text": "E/ 2, 5"}
     ],
     "correctOptionIds": [5],
-    "Date": "04 Mai 2025"
+    "Date": "04 Mai 2025",
+    "courseName": ["Dysfonctionnement de l’axe Hypothalamo-Hypophyso-Endocrinien et Effecteurs"]
   },
   {
     "id": 17,
     "text": "A propos de l'hormone antidiurétique :\n1/ est une hormone protéique\n2/ est synthétisée par la post-hypophyse\n3/ a des effets vasculaires via des récepteurs V2\n4/ est régulée essentiellement par l'osmolarité plasmatique\n5/ a des effets vasculaires à forte dose",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1,2,3"},
-      {"id":2,"text":"B/ 2,3,4"},
-      {"id":3,"text":"C/ 4,5"},
-      {"id":4,"text":"D/ 1,3, 4"},
-      {"id":5,"text":"E/ 1,4,5"}
+      {"id": 1, "text": "A/ 1,2,3"},
+      {"id": 2, "text": "B/ 2,3,4"},
+      {"id": 3, "text": "C/ 4,5"},
+      {"id": 4, "text": "D/ 1,3, 4"},
+      {"id": 5, "text": "E/ 1,4,5"}
     ],
     "correctOptionIds": [5],
-    "Date": "04 Mai 2025"
+    "Date": "04 Mai 2025",
+    "courseName": ["Les Hormones Hypophysaires"]
   },
   {
     "id": 18,
     "text": "A propos de l'hormone de croissance (GH) :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ c'est une hormone protéique produite par l'hypothalamus."},
-      {"id":2,"text":"B/ elle a un effet hypoglycémiant."},
-      {"id":3,"text":"C/ elle agit sur le métabolisme glucidique via l'IGF-1."},
-      {"id":4,"text":"D/ sa sécrétion est inhibée par la somatostatine."},
-      {"id":5,"text":"E/ sa sécrétion est inhibée par la ghréline."}
+      {"id": 1, "text": "A/ c'est une hormone protéique produite par l'hypothalamus."},
+      {"id": 2, "text": "B/ elle a un effet hypoglycémiant."},
+      {"id": 3, "text": "C/ elle agit sur le métabolisme glucidique via l'IGF-1."},
+      {"id": 4, "text": "D/ sa sécrétion est inhibée par la somatostatine."},
+      {"id": 5, "text": "E/ sa sécrétion est inhibée par la ghréline."}
     ],
     "correctOptionIds": [4],
-    "Date": "04 Mai 2025"
+    "Date": "04 Mai 2025",
+    "courseName": ["Les Hormones Hypophysaires"]
   },
   {
     "id": 19,
     "text": "Parmi les affirmations suivantes concernant le fonctionnement de la thyroïde laquelle est fausse ?",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ le transport de l'iode est assuré par le symport NIS situé sur la membrane basolatérale."},
-      {"id":2,"text":"B/ la thyroperoxydase est une enzyme indispensable à la synthèse des hormones thyroïdiennes."},
-      {"id":3,"text":"C/ en situation d'hyperthyroïdie basse, la TSH est abaissée."},
-      {"id":4,"text":"D/ la frilosité est un symptôme classique de l'hypothyroïdie."},
-      {"id":5,"text":"E/ la thyréoglobuline sert de support à la synthèse des hormones thyroïdiennes."}
+      {"id": 1, "text": "A/ le transport de l'iode est assuré par le symport NIS situé sur la membrane basolatérale."},
+      {"id": 2, "text": "B/ la thyroperoxydase est une enzyme indispensable à la synthèse des hormones thyroïdiennes."},
+      {"id": 3, "text": "C/ en situation d'hyperthyroïdie basse, la TSH est abaissée."},
+      {"id": 4, "text": "D/ la frilosité est un symptôme classique de l'hypothyroïdie."},
+      {"id": 5, "text": "E/ la thyréoglobuline sert de support à la synthèse des hormones thyroïdiennes."}
     ],
     "correctOptionIds": [4],
-    "Date": "04 Mai 2025"
+    "Date": "04 Mai 2025",
+    "courseName": ["La Fonction Thyroïdienne"]
   },
   {
     "id": 20,
     "text": "Les androgènes surrénaliens :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ sont des hormones actives"},
-      {"id":2,"text":"B/ circulent sous forme libre dans 60% des cas"},
-      {"id":3,"text":"C/ leur rôle biologique est important chez l'homme adulte"},
-      {"id":4,"text":"D/ voient leur sécrétion réduite par l'ACTH hypophysaire"},
-      {"id":5,"text":"E/ n'exercent pas de rétrocontrôle sur l'ACTH hypophysaire"}
+      {"id": 1, "text": "A/ sont des hormones actives"},
+      {"id": 2, "text": "B/ circulent sous forme libre dans 60% des cas"},
+      {"id": 3, "text": "C/ leur rôle biologique est important chez l'homme adulte"},
+      {"id": 4, "text": "D/ voient leur sécrétion réduite par l'ACTH hypophysaire"},
+      {"id": 5, "text": "E/ n'exercent pas de rétrocontrôle sur l'ACTH hypophysaire"}
     ],
     "correctOptionIds": [5],
-    "Date": "04 Mai 2025"
+    "Date": "04 Mai 2025",
+    "courseName": ["La Cortico-Surrénale"]
   },
   {
     "id": 21,
     "text": "La testostérone est une hormone sexuelle qui :\n1/ n'intervient pas dans la spermatogenèse\n2/ n'a aucun effet sur la croissance osseuse\n3/ suit une sécrétion circadienne\n4/ exerce une rétroaction négative sur la LH\n5/ est sécrétée de la puberté jusqu'à l'âge de 50 ans",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1,2,3"},
-      {"id":2,"text":"B/ 2, 3, 4"},
-      {"id":3,"text":"C/ 1, 3, 4"},
-      {"id":4,"text":"D/ 2, 4, 5"},
-      {"id":5,"text":"E/ 3, 4, 5"}
+      {"id": 1, "text": "A/ 1,2,3"},
+      {"id": 2, "text": "B/ 2, 3, 4"},
+      {"id": 3, "text": "C/ 1, 3, 4"},
+      {"id": 4, "text": "D/ 2, 4, 5"},
+      {"id": 5, "text": "E/ 3, 4, 5"}
     ],
     "correctOptionIds": [3],
-    "Date": "04 Mai 2025"
+    "Date": "04 Mai 2025",
+    "courseName": ["La Fonction Gonadique Masculin"]
   },
   {
     "id": 22,
     "text": "Concernant la physiologie des métabolismes; La lipoprotéine lipase (LPL) est : (RF)",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ impliquée dans la dégradation des TG exogènes"},
-      {"id":2,"text":"B/ responsable de l'hydrolyse des TG endogènes"},
-      {"id":3,"text":"C/ sous contrôle positif de l'insuline"},
-      {"id":4,"text":"D/ indispensable pour la lipolyse adipocytaire"},
-      {"id":5,"text":"E/ les propositions B et D"}
+      {"id": 1, "text": "A/ impliquée dans la dégradation des TG exogènes"},
+      {"id": 2, "text": "B/ responsable de l'hydrolyse des TG endogènes"},
+      {"id": 3, "text": "C/ sous contrôle positif de l'insuline"},
+      {"id": 4, "text": "D/ indispensable pour la lipolyse adipocytaire"},
+      {"id": 5, "text": "E/ les propositions B et D"}
     ],
     "correctOptionIds": [4],
-    "Date": "04 Mai 2025"
+    "Date": "04 Mai 2025",
+    "courseName": ["Complexe Insuline-Glucagon et Métabolisme des Macromolécules"]
   },
   {
     "id": 23,
     "text": "À distance des repas (durant la phase post absorptive) : (RJ)\n1/ la sécrétion d'insuline est monophasique continue\n2/ le flux hépatique de glucose est abaissé\n3/ la lipoprotéine lipase (LPL) est inactivée\n4/ la lipolyse participe à l'alimentation du cœur",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1+2+3"},
-      {"id":2,"text":"B/ 1+4"},
-      {"id":3,"text":"C/ 2+3+4"},
-      {"id":4,"text":"D/ 3+4"},
-      {"id":5,"text":"E/ 1+3+4"}
+      {"id": 1, "text": "A/ 1+2+3"},
+      {"id": 2, "text": "B/ 1+4"},
+      {"id": 3, "text": "C/ 2+3+4"},
+      {"id": 4, "text": "D/ 3+4"},
+      {"id": 5, "text": "E/ 1+3+4"}
     ],
     "correctOptionIds": [2],
-    "Date": "04 Mai 2025"
+    "Date": "04 Mai 2025",
+    "courseName": ["Complexe Insuline-Glucagon et Métabolisme des Macromolécules", "Glycorégulation"]
   },
   {
     "id": 24,
     "text": "Le transport inverse du cholestérol est assuré par : (RJ)",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ les CM"},
-      {"id":2,"text":"B/ les VLDL"},
-      {"id":3,"text":"C/ les LDL"},
-      {"id":4,"text":"D/ les HDL"},
-      {"id":5,"text":"E/ les VLDL et les LDL"}
+      {"id": 1, "text": "A/ les CM"},
+      {"id": 2, "text": "B/ les VLDL"},
+      {"id": 3, "text": "C/ les LDL"},
+      {"id": 4, "text": "D/ les HDL"},
+      {"id": 5, "text": "E/ les VLDL et les LDL"}
     ],
     "correctOptionIds": [4],
-    "Date": "04 Mai 2025"
+    "Date": "04 Mai 2025",
+    "courseName": ["Complexe Insuline-Glucagon et Métabolisme des Macromolécules"]
   },
   {
     "id": 25,
     "text": "La courbe d'HGPO enregistrée chez une femme à sa 28ème semaine de grossesse montre que : (RJ)\nGlycémie (g/l) : 0.88 (à jeun), 1.6 (1h après), 1.9 (2h après)\nCliquez sur le bouton de date ci-dessus pour voir l'image jointe dans le document officiel.\n1/ le pic d'insulinémie est précoce\n2/ la glycémie après 1h est normale\n3/ l'épreuve n'est pas concluante\n4/ le diagnostic de diabète gestationnel est retenu",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1+2"},
-      {"id":2,"text":"B/ 1+3"},
-      {"id":3,"text":"C/ 1+4"},
-      {"id":4,"text":"D/ 3"},
-      {"id":5,"text":"E/ 4"}
+      {"id": 1, "text": "A/ 1+2"},
+      {"id": 2, "text": "B/ 1+3"},
+      {"id": 3, "text": "C/ 1+4"},
+      {"id": 4, "text": "D/ 3"},
+      {"id": 5, "text": "E/ 4"}
     ],
     "correctOptionIds": [5],
-    "Date": "04 Mai 2025"
+    "Date": "04 Mai 2025",
+    "courseName": ["Glycorégulation", "La Fonction Gonadique Féminin"]
   },
   {
     "id": 26,
     "text": "À propos de la répartition du calcium dans l'organisme, le calcium ionisé : (RJ)",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ constitue la fraction non diffusible du calcium"},
-      {"id":2,"text":"B/ représente 0,001% du calcium total du corps"},
-      {"id":3,"text":"C/ est la seule fraction plasmatique douée d'une activité biologique"},
-      {"id":4,"text":"D/ est abaissé lors d'une acidose"},
-      {"id":5,"text":"E/ est augmenté lors d'une hyperalbuminémie"}
+      {"id": 1, "text": "A/ constitue la fraction non diffusible du calcium"},
+      {"id": 2, "text": "B/ représente 0,001% du calcium total du corps"},
+      {"id": 3, "text": "C/ est la seule fraction plasmatique douée d'une activité biologique"},
+      {"id": 4, "text": "D/ est abaissé lors d'une acidose"},
+      {"id": 5, "text": "E/ est augmenté lors d'une hyperalbuminémie"}
     ],
     "correctOptionIds": [3],
-    "Date": "04 Mai 2025"
+    "Date": "04 Mai 2025",
+    "courseName": ["Métabolisme Phosphocalcique"]
   },
   {
     "id": 27,
     "text": "L'absorption intestinale transcellulaire du calcium est : (RF)",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ active, vitamine D dépendante"},
-      {"id":2,"text":"B/ proportionnelle aux apports alimentaires"},
-      {"id":3,"text":"C/ optimale au moment des repas"},
-      {"id":4,"text":"D/ favorisée par la prise des agrumes"},
-      {"id":5,"text":"E/ limitée par la consommation du thé"}
+      {"id": 1, "text": "A/ active, vitamine D dépendante"},
+      {"id": 2, "text": "B/ proportionnelle aux apports alimentaires"},
+      {"id": 3, "text": "C/ optimale au moment des repas"},
+      {"id": 4, "text": "D/ favorisée par la prise des agrumes"},
+      {"id": 5, "text": "E/ limitée par la consommation du thé"}
     ],
     "correctOptionIds": [2],
-    "Date": "04 Mai 2025"
+    "Date": "04 Mai 2025",
+    "courseName": ["Métabolisme Phosphocalcique"]
   },
   {
     "id": 28,
     "text": "L'hyperfonctionnement endocrinien au cours d'une atteinte primaire, répond aux propositions suivantes :\n1/ le taux de l'hormone effectrice est bas\n2/ le taux de la stimuline est bas\n3/ le taux de la RH est bas\n4/ le test à l'anti hormone est positif",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1, 2, 3"},
-      {"id":2,"text":"B/ 2, 3, 4"},
-      {"id":3,"text":"C/ 2,4,5"}
+      {"id": 1, "text": "A/ 1, 2, 3"},
+      {"id": 2, "text": "B/ 2, 3, 4"},
+      {"id": 3, "text": "C/ 2,4,5"}
     ],
     "correctOptionIds": [2],
-    "Date": "05 Mars 2023"
+    "Date": "05 Mars 2023",
+    "courseName": ["Dysfonctionnement de l’axe Hypothalamo-Hypophyso-Endocrinien et Effecteurs"]
   },
   {
     "id": 29,
     "text": "L'hypofonctionnement endocrinien au cours d'une atteinte secondaire, répond aux propositions suivantes :\n1/ le taux de l'hormone effectrice est élevé\n2/ le taux de la stimuline est bas\n3/ le test à la RH est positif\n4/ le test à la stimuline est négatif\n5/ le taux de la RH est élevé",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1, 2, 3"},
-      {"id":2,"text":"B/ 2, 3"},
-      {"id":3,"text":"C/ 2,3,5"},
-      {"id":4,"text":"D/ 2,5"},
-      {"id":5,"text":"E/ 2, 4, 5"}
+      {"id": 1, "text": "A/ 1, 2, 3"},
+      {"id": 2, "text": "B/ 2, 3"},
+      {"id": 3, "text": "C/ 2,3,5"},
+      {"id": 4, "text": "D/ 2,5"},
+      {"id": 5, "text": "E/ 2, 4, 5"}
     ],
     "correctOptionIds": [4],
-    "Date": "05 Mars 2023"
+    "Date": "05 Mars 2023",
+    "courseName": ["Dysfonctionnement de l’axe Hypothalamo-Hypophyso-Endocrinien et Effecteurs"]
   },
   {
     "id": 30,
     "text": "La synthèse des hormones thyroïdiennes nécessite la réunion des critères suivants\n1/ un transporteur d'iode au pôle basolatéral nommé la pendrine\n2/ la présence d'une protéine extra-thyroïdienne la thyroglobuline\n3/ la présence d'un équipement enzymatique la thyropéroxidase\n4/ la disponibilité de la TSH",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1,2"},
-      {"id":2,"text":"B/ 2"},
-      {"id":3,"text":"C/ 2,4"},
-      {"id":4,"text":"D/ 1,3"},
-      {"id":5,"text":"E/ 3,4"}
+      {"id": 1, "text": "A/ 1,2"},
+      {"id": 2, "text": "B/ 2"},
+      {"id": 3, "text": "C/ 2,4"},
+      {"id": 4, "text": "D/ 1,3"},
+      {"id": 5, "text": "E/ 3,4"}
     ],
     "correctOptionIds": [5],
-    "Date": "05 Mars 2023"
+    "Date": "05 Mars 2023",
+    "courseName": ["La Fonction Thyroïdienne"]
   },
   {
     "id": 31,
     "text": "Toutes les glandes suivantes dépendent du système hypothalamo-hypophysaire sauf une laquelle ?",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ la fasciculée du cortex surrénalien"},
-      {"id":2,"text":"B/ le pancréas endocrine"},
-      {"id":3,"text":"C/ la thyroïde sécrétant la T3 et la T4"},
-      {"id":4,"text":"D/ l'ovaire"},
-      {"id":5,"text":"E/ la réticulée surrénalienne"}
+      {"id": 1, "text": "A/ la fasciculée du cortex surrénalien"},
+      {"id": 2, "text": "B/ le pancréas endocrine"},
+      {"id": 3, "text": "C/ la thyroïde sécrétant la T3 et la T4"},
+      {"id": 4, "text": "D/ l'ovaire"},
+      {"id": 5, "text": "E/ la réticulée surrénalienne"}
     ],
     "correctOptionIds": [2],
-    "Date": "05 Mars 2023"
+    "Date": "05 Mars 2023",
+    "courseName": ["Relations Hypothalamo-Hypophysaires", "Principes des Systèmes de Contrôle Hormonal"]
   },
   {
     "id": 32,
     "text": "L'hormone antidiurétique (ADH):",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ est synthétisée par l'hypophyse postérieure"},
-      {"id":2,"text":"B/ est sécrétée en réponse à l'hypovolémie"},
-      {"id":3,"text":"C/ agit au niveau proximal du néphron"},
-      {"id":4,"text":"D/ est une hormone hydrophobe"},
-      {"id":5,"text":"E/ est sécrétée en réponse à l'hypo-osmolarité plasmatique"}
+      {"id": 1, "text": "A/ est synthétisée par l'hypophyse postérieure"},
+      {"id": 2, "text": "B/ est sécrétée en réponse à l'hypovolémie"},
+      {"id": 3, "text": "C/ agit au niveau proximal du néphron"},
+      {"id": 4, "text": "D/ est une hormone hydrophobe"},
+      {"id": 5, "text": "E/ est sécrétée en réponse à l'hypo-osmolarité plasmatique"}
     ],
     "correctOptionIds": [2],
-    "Date": "05 Mars 2023"
+    "Date": "05 Mars 2023",
+    "courseName": ["Les Hormones Hypophysaires"]
   },
   {
     "id": 33,
     "text": "A propos de l'hormone de croissance (GH):\n1/ a un effet direct sur la croissance du cartilage\n2/ elle est hypoglycémiante et lipolytique\n3/ elle a un effet directe sur les métabolismes glucidiques et lipidique\n4/ c'est une hormone anabolisante",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1, 2,4"},
-      {"id":2,"text":"B/ 3,4"},
-      {"id":3,"text":"C/ 2,3"},
-      {"id":4,"text":"D/ 1, 3, 4"},
-      {"id":5,"text":"E/ 1,3"}
+      {"id": 1, "text": "A/ 1, 2,4"},
+      {"id": 2, "text": "B/ 3,4"},
+      {"id": 3, "text": "C/ 2,3"},
+      {"id": 4, "text": "D/ 1, 3, 4"},
+      {"id": 5, "text": "E/ 1,3"}
     ],
     "correctOptionIds": [4],
-    "Date": "05 Mars 2023"
+    "Date": "05 Mars 2023",
+    "courseName": ["Les Hormones Hypophysaires"]
   },
   {
     "id": 34,
-    "text": "Le déficit en hormone de croissance, a comme conséquences:\n1/ une hyperglycémie\n2/ un gigantisme chez l'enfant\n3/ une asthénie avec hypoglycémie chez l'adulte\n4/ un catabolisme protéique",
+    "text": "Le deficit en hormone de croissance, a comme conséquences:\n1/ une hyperglycémie\n2/ un gigantisme chez l'enfant\n3/ une asthénie avec hypoglycémie chez l'adulte\n4/ un catabolisme protéique",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1,2"},
-      {"id":2,"text":"B/ 2, 3"},
-      {"id":3,"text":"C/ 2, 3, 4"},
-      {"id":4,"text":"D/ 3,4"},
-      {"id":5,"text":"E/ 2, 4"}
+      {"id": 1, "text": "A/ 1,2"},
+      {"id": 2, "text": "B/ 2, 3"},
+      {"id": 3, "text": "C/ 2, 3, 4"},
+      {"id": 4, "text": "D/ 3,4"},
+      {"id": 5, "text": "E/ 2, 4"}
     ],
     "correctOptionIds": [4],
-    "Date": "05 Mars 2023"
+    "Date": "05 Mars 2023",
+    "courseName": ["Les Hormones Hypophysaires"]
   },
   {
     "id": 35,
     "text": "Les androgènes surrénaliens:\n1/ sont des pro-hormones inactives\n2/ ont un rôle négligeable chez l'homme adulte\n3/ sont libérés par la réticulée de la corticosurrénale\n4/ exercent un rétro contrôle sur la sécrétion de l'ACTH hypophysaire",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1,2"},
-      {"id":2,"text":"B/ 3,4"},
-      {"id":3,"text":"C/ 2,4"},
-      {"id":4,"text":"D/ 1,3,4"},
-      {"id":5,"text":"E/ 1,2,3"}
+      {"id": 1, "text": "A/ 1,2"},
+      {"id": 2, "text": "B/ 3,4"},
+      {"id": 3, "text": "C/ 2,4"},
+      {"id": 4, "text": "D/ 1,3,4"},
+      {"id": 5, "text": "E/ 1,2,3"}
     ],
     "correctOptionIds": [5],
-    "Date": "05 Mars 2023"
+    "Date": "05 Mars 2023",
+    "courseName": ["La Cortico-Surrénale"]
   },
   {
     "id": 36,
     "text": "Une destruction du cortex surrénalien s'accompagne de tous les symptômes suivant sauf un lequel",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ une prise de poids"},
-      {"id":2,"text":"B/ une hypoglycémie"},
-      {"id":3,"text":"C/ une asthénie"},
-      {"id":4,"text":"D/ une hypotension artérielle"},
-      {"id":5,"text":"E/ une acidose métabolique"}
+      {"id": 1, "text": "A/ une prise de poids"},
+      {"id": 2, "text": "B/ une hypoglycémie"},
+      {"id": 3, "text": "C/ une asthénie"},
+      {"id": 4, "text": "D/ une hypotension artérielle"},
+      {"id": 5, "text": "E/ une acidose métabolique"}
     ],
     "correctOptionIds": [1],
-    "Date": "05 Mars 2023"
+    "Date": "05 Mars 2023",
+    "courseName": ["La Cortico-Surrénale"]
   },
   {
     "id": 37,
     "text": "La progestérone est une hormone :\n1/ produite par les cellules de la granulosa\n2/ de la phase post- ovulatoire\n3/ stéroïdienne, sédative\n4/ de la gestation\n5/ préparant l'organisme pour la fécondation",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1,4"},
-      {"id":2,"text":"B/ 2, 5"},
-      {"id":3,"text":"C/ 2, 3, 4"},
-      {"id":4,"text":"D/ 1,3"},
-      {"id":5,"text":"E/ 1,5"}
+      {"id": 1, "text": "A/ 1,4"},
+      {"id": 2, "text": "B/ 2, 5"},
+      {"id": 3, "text": "C/ 2, 3, 4"},
+      {"id": 4, "text": "D/ 1,3"},
+      {"id": 5, "text": "E/ 1,5"}
     ],
     "correctOptionIds": [3],
-    "Date": "05 Mars 2023"
+    "Date": "05 Mars 2023",
+    "courseName": ["La Fonction Gonadique Féminin"]
   },
   {
     "id": 38,
     "text": "Le profil glycémique d'un adulte est présenté ci-après.\nCliquez sur le bouton de date ci-dessus pour voir l'image jointe dans le document officiel.\nIndiquez la proposition juste parmi les suivantes :\n1/ sa glycémie post prandiale du petit déjeuner = 1,60 g/l\n2/ sa glycémie à jeun = 5,5 mmol/l\n3/ sa glycémie post prandiale du diner est normale\n4/ son HbA1c = 7,7%",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1+3"},
-      {"id":2,"text":"B/ 2+4"},
-      {"id":3,"text":"C/ 1+2+3"},
-      {"id":4,"text":"D/ 1+3+4"},
-      {"id":5,"text":"E/ 2+3+4"}
+      {"id": 1, "text": "A/ 1+3"},
+      {"id": 2, "text": "B/ 2+4"},
+      {"id": 3, "text": "C/ 1+2+3"},
+      {"id": 4, "text": "D/ 1+3+4"},
+      {"id": 5, "text": "E/ 2+3+4"}
     ],
     "correctOptionIds": [1],
-    "Date": "05 Mars 2023"
+    "Date": "05 Mars 2023",
+    "courseName": ["Glycorégulation"]
   },
   {
     "id": 39,
     "text": "Sur le plan métabolique, cette personne présente :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ une glycogénolyse inhibée"},
-      {"id":2,"text":"B/ une néoglucogenèse activée"},
-      {"id":3,"text":"C/ une mobilisation des triglycérides"},
-      {"id":4,"text":"D/ un anabolisme musculaire"},
-      {"id":5,"text":"E/ les propositions B et C sont justes"}
+      {"id": 1, "text": "A/ une glycogénolyse inhibée"},
+      {"id": 2, "text": "B/ une néoglucogenèse activée"},
+      {"id": 3, "text": "C/ une mobilisation des triglycérides"},
+      {"id": 4, "text": "D/ un anabolisme musculaire"},
+      {"id": 5, "text": "E/ les propositions B et C sont justes"}
     ],
     "correctOptionIds": [5],
-    "Date": "05 Mars 2023"
+    "Date": "05 Mars 2023",
+    "courseName": ["Complexe Insuline-Glucagon et Métabolisme des Macromolécules", "Glycorégulation"]
   },
   {
     "id": 40,
     "text": "Pour équilibrer sa glycémie, on doit lui prescrire en première intention:",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ une insuline rapide"},
-      {"id":2,"text":"B/ un répaglinide"},
-      {"id":3,"text":"C/ un biguanide"},
-      {"id":4,"text":"D/ un acarbose"},
-      {"id":5,"text":"E/ un inhibiteur des SGLT2"}
+      {"id": 1, "text": "A/ une insuline rapide"},
+      {"id": 2, "text": "B/ un répaglinide"},
+      {"id": 3, "text": "C/ un biguanide"},
+      {"id": 4, "text": "D/ un acarbose"},
+      {"id": 5, "text": "E/ un inhibiteur des SGLT2"}
     ],
     "correctOptionIds": [3],
-    "Date": "05 Mars 2023"
+    "Date": "05 Mars 2023",
+    "courseName": ["Glycorégulation"]
   },
   {
     "id": 41,
     "text": "L'exploration métabolique a montré une insuffisance rénale, le retentissement sur les paramètres phosphocalciques est:",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ une hypocalcitriolémie"},
-      {"id":2,"text":"B/ une hypocalcémie"},
-      {"id":3,"text":"C/ une diminution de la PTH sanguine"},
-      {"id":4,"text":"D/ les propositions A et B sont justes"},
-      {"id":5,"text":"E/ toutes les propositions sont justes"}
+      {"id": 1, "text": "A/ une hypocalcitriolémie"},
+      {"id": 2, "text": "B/ une hypocalcémie"},
+      {"id": 3, "text": "C/ une diminution de la PTH sanguine"},
+      {"id": 4, "text": "D/ les propositions A et B sont justes"},
+      {"id": 5, "text": "E/ toutes les propositions sont justes"}
     ],
     "correctOptionIds": [4],
-    "Date": "05 Mars 2023"
+    "Date": "05 Mars 2023",
+    "courseName": ["Métabolisme Phosphocalcique"]
   },
   {
     "id": 42,
     "text": "Une insuffisance endocrinienne primaire est confirmée par :\n1/un taux d'hormone effectrice bas\n2/un taux de stimuline élevé\n3/un taux de RH bas\n4/ un test à l'hormone négatif\n5/ un test à la stimuline négatif",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/1, 2, 3"},
-      {"id":2,"text":"B/2, 3, 5"},
-      {"id":3,"text":"C/1, 2, 5"},
-      {"id":4,"text":"D/3, 4, 5"},
-      {"id":5,"text":"E/ 1, 2, 4"}
+      {"id": 1, "text": "A/1, 2, 3"},
+      {"id": 2, "text": "B/2, 3, 5"},
+      {"id": 3, "text": "C/1, 2, 5"},
+      {"id": 4, "text": "D/3, 4, 5"},
+      {"id": 5, "text": "E/ 1, 2, 4"}
     ],
     "correctOptionIds": [3],
-    "Date": "15 Mars 2022"
+    "Date": "15 Mars 2022",
+    "courseName": ["Dysfonctionnement de l’axe Hypothalamo-Hypophyso-Endocrinien et Effecteurs"]
   },
   {
     "id": 43,
     "text": "L'hyperfonctionnement endocrinien au cours d'une atteinte secondaire, répond aux propositions suivantes :\n1/ le taux de l'hormone effectrice est élevé\n2/ le taux de RH est diminué\n3/ le test à l'antihormone est positif\n4/le test à l'anti stimuline est négatif",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/1, 2, 4"},
-      {"id":2,"text":"B/1, 2, 3"},
-      {"id":3,"text":"C/2, 3, 4"},
-      {"id":4,"text":"D/3, 4"},
-      {"id":5,"text":"E/1, 4"}
+      {"id": 1, "text": "A/1, 2, 4"},
+      {"id": 2, "text": "B/1, 2, 3"},
+      {"id": 3, "text": "C/2, 3, 4"},
+      {"id": 4, "text": "D/3, 4"},
+      {"id": 5, "text": "E/1, 4"}
     ],
     "correctOptionIds": [2],
-    "Date": "15 Mars 2022"
+    "Date": "15 Mars 2022",
+    "courseName": ["Dysfonctionnement de l’axe Hypothalamo-Hypophyso-Endocrinien et Effecteurs"]
   },
   {
     "id": 44,
     "text": "La sécrétion de l'hormone de croissance (GH) est inhibée par :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ l'hyperglycémie"},
-      {"id":2,"text":"B/ les glucocorticoïdes"},
-      {"id":3,"text":"C/ les B adrénergiques"},
-      {"id":4,"text":"D/l'excès d'acides gras"},
-      {"id":5,"text":"E/ toutes les propositions sont justes"}
+      {"id": 1, "text": "A/ l'hyperglycémie"},
+      {"id": 2, "text": "B/ les glucocorticoïdes"},
+      {"id": 3, "text": "C/ les B adrénergiques"},
+      {"id": 4, "text": "D/l'excès d'acides gras"},
+      {"id": 5, "text": "E/ toutes les propositions sont justes"}
     ],
     "correctOptionIds": [5],
-    "Date": "15 Mars 2022"
+    "Date": "15 Mars 2022",
+    "courseName": ["Les Hormones Hypophysaires"]
   },
   {
     "id": 45,
     "text": "Les hormones thyroïdiennes à forte dose induisent:\n1/ un catabolisme protéïque chez l'adulte\n2/ une augmentation de la minéralisation osseuse\n3/ une augmentation de la thermogenèse\n4/ un ralentissement de la fréquence cardiaque",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/1,2"},
-      {"id":2,"text":"B/2,3"},
-      {"id":3,"text":"C/3,4"},
-      {"id":4,"text":"D/1,3"},
-      {"id":5,"text":"E/1, 2, 3"}
+      {"id": 1, "text": "A/1,2"},
+      {"id": 2, "text": "B/2,3"},
+      {"id": 3, "text": "C/3,4"},
+      {"id": 4, "text": "D/1,3"},
+      {"id": 5, "text": "E/1, 2, 3"}
     ],
     "correctOptionIds": [1],
-    "Date": "15 Mars 2022"
+    "Date": "15 Mars 2022",
+    "courseName": ["La Fonction Thyroïdienne"]
   },
   {
     "id": 46,
     "text": "La biosynthèse des hormones thyroïdiennes nécessite la présence de tous les facteurs suivant sauf un lequel ?",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ présence d'une protéine spécifique (la thyroglobuline)"},
-      {"id":2,"text":"B/ un transporteur d'iode au pôle apical type NIS"},
-      {"id":3,"text":"C/ une thyroperoxydase"},
-      {"id":4,"text":"D/une disponibilité de la TSH"},
-      {"id":5,"text":"E/ un apport suffisant d'iode"}
+      {"id": 1, "text": "A/ présence d'une protéine spécifique (la thyroglobuline)"},
+      {"id": 2, "text": "B/ un transporteur d'iode au pôle apical type NIS"},
+      {"id": 3, "text": "C/ une thyroperoxydase"},
+      {"id": 4, "text": "D/une disponibilité de la TSH"},
+      {"id": 5, "text": "E/ un apport suffisant d'iode"}
     ],
     "correctOptionIds": [2],
-    "Date": "15 Mars 2022"
+    "Date": "15 Mars 2022",
+    "courseName": ["La Fonction Thyroïdienne"]
   },
   {
     "id": 47,
     "text": "Les androgènes surrénaliens: RF",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ sont des pro hormones inactives"},
-      {"id":2,"text":"B/ circulent sous forme liée à la SBP dans 60%des cas"},
-      {"id":3,"text":"C/ leur rôle biologique est négligeable chez l'homme adulte"},
-      {"id":4,"text":"D/ voient leur sécrétion augmentée par l'ACTH hypophysaire"},
-      {"id":5,"text":"E/ exercent un rétrocontrôle sur l'ACTH hypophysaire"}
+      {"id": 1, "text": "A/ sont des pro hormones inactives"},
+      {"id": 2, "text": "B/ circulent sous forme liée à la SBP dans 60%des cas"},
+      {"id": 3, "text": "C/ leur rôle biologique est négligeable chez l'homme adulte"},
+      {"id": 4, "text": "D/ voient leur sécrétion augmentée par l'ACTH hypophysaire"},
+      {"id": 5, "text": "E/ exercent un rétrocontrôle sur l'ACTH hypophysaire"}
     ],
     "correctOptionIds": [5],
-    "Date": "15 Mars 2022"
+    "Date": "15 Mars 2022",
+    "courseName": ["La Cortico-Surrénale"]
   },
   {
     "id": 48,
     "text": "Le cortisol administré à forte dose exerce toutes les actions suivantes sauf une :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ action antiinflammatoire"},
-      {"id":2,"text":"B/ action immunostimulante"},
-      {"id":3,"text":"C/ augmentation de l'acidité gastrique"},
-      {"id":4,"text":"D/ franchissement de la barrière hématoencéphalique"},
-      {"id":5,"text":"E/ action stimulatrice sur l'érythropoïèse et la thrombopoïèse"}
+      {"id": 1, "text": "A/ action antiinflammatoire"},
+      {"id": 2, "text": "B/ action immunostimulante"},
+      {"id": 3, "text": "C/ augmentation de l'acidité gastrique"},
+      {"id": 4, "text": "D/ franchissement de la barrière hématoencéphalique"},
+      {"id": 5, "text": "E/ action stimulatrice sur l'érythropoïèse et la thrombopoïèse"}
     ],
     "correctOptionIds": [2],
-    "Date": "15 Mars 2022"
+    "Date": "15 Mars 2022",
+    "courseName": ["La Cortico-Surrénale"]
   },
   {
     "id": 49,
     "text": "La testostérone est une hormone sexuelle qui :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ n'intervient pas dans la spermatogenèse"},
-      {"id":2,"text":"B/ n'a aucun effet sur la croissance osseuse"},
-      {"id":3,"text":"C/suit une sécrétion cyclique"},
-      {"id":4,"text":"D/ exerce une rétroaction négative sur la LH"},
-      {"id":5,"text":"E/ est très active chez la femme"}
+      {"id": 1, "text": "A/ n'intervient pas dans la spermatogenèse"},
+      {"id": 2, "text": "B/ n'a aucun effet sur la croissance osseuse"},
+      {"id": 3, "text": "C/suit une sécrétion cyclique"},
+      {"id": 4, "text": "D/ exerce une rétroaction négative sur la LH"},
+      {"id": 5, "text": "E/ est très active chez la femme"}
     ],
     "correctOptionIds": [4],
-    "Date": "15 Mars 2022"
+    "Date": "15 Mars 2022",
+    "courseName": ["La Fonction Gonadique Masculin"]
   },
   {
     "id": 50,
     "text": "Le cycle génital chez la femme:\n1/ s'étale de la puberté à la ménopause\n2/ est un cycle de 28 jours\n3/ est marqué par l'apparition des menstruations au quatorzième jour\n4/ est composé de deux phases séparées par l'ovulation",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/1, 3"},
-      {"id":2,"text":"B/1, 4"},
-      {"id":3,"text":"C/1,2"},
-      {"id":4,"text":"D/1, 2, 4"},
-      {"id":5,"text":"E/2, 4"}
+      {"id": 1, "text": "A/1, 3"},
+      {"id": 2, "text": "B/1, 4"},
+      {"id": 3, "text": "C/1,2"},
+      {"id": 4, "text": "D/1, 2, 4"},
+      {"id": 5, "text": "E/2, 4"}
     ],
     "correctOptionIds": [4],
-    "Date": "15 Mars 2022"
+    "Date": "15 Mars 2022",
+    "courseName": ["La Fonction Gonadique Féminin"]
   },
   {
     "id": 51,
     "text": "Durant la grossesse :\n1/ l'HCG est produite exclusivement par le placenta\n2/ l'HCG est produite du troisième au neuvième mois\n3/ le corps jaune persiste durant le premier trimestre\n4/ l'HPL est une hormone anabolisante",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/1, 3, 4"},
-      {"id":2,"text":"B/1, 2, 4"},
-      {"id":3,"text":"C/2, 3, 4"},
-      {"id":4,"text":"D/2, 4"},
-      {"id":5,"text":"E/1, 4"}
+      {"id": 1, "text": "A/1, 3, 4"},
+      {"id": 2, "text": "B/1, 2, 4"},
+      {"id": 3, "text": "C/2, 3, 4"},
+      {"id": 4, "text": "D/2, 4"},
+      {"id": 5, "text": "E/1, 4"}
     ],
     "correctOptionIds": [2],
-    "Date": "15 Mars 2022"
+    "Date": "15 Mars 2022",
+    "courseName": ["La Fonction Gonadique Féminin"]
   },
   {
     "id": 52,
     "text": "À propos du métabolisme glucidique, parmi les organes suivants lesquels sont insulinodépendants:\n1/ le muscle\n2/ le cerveau\n3/ le globule rouge\n4/ le tissu adipeux",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/1+2"},
-      {"id":2,"text":"B/2+3"},
-      {"id":3,"text":"C/1+4"},
-      {"id":4,"text":"D/1+3+4"},
-      {"id":5,"text":"E/2+3+4"}
+      {"id": 1, "text": "A/1+2"},
+      {"id": 2, "text": "B/2+3"},
+      {"id": 3, "text": "C/1+4"},
+      {"id": 4, "text": "D/1+3+4"},
+      {"id": 5, "text": "E/2+3+4"}
     ],
     "correctOptionIds": [3],
-    "Date": "15 Mars 2022"
+    "Date": "15 Mars 2022",
+    "courseName": ["Complexe Insuline-Glucagon et Métabolisme des Macromolécules", "Glycorégulation"]
   },
   {
     "id": 53,
     "text": "L'action des facteurs suivants est médiée par l'activation d'une protéine kinase A (PKA) sauf pour:\n1/ le glucagon\n2/ l'angiotensine II\n3/ l'isoprénaline\n4/ l'insuline",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/1+2"},
-      {"id":2,"text":"B/1+3"},
-      {"id":3,"text":"C/2+3"},
-      {"id":4,"text":"D/3+4"},
-      {"id":5,"text":"E/2+4"}
+      {"id": 1, "text": "A/1+2"},
+      {"id": 2, "text": "B/1+3"},
+      {"id": 3, "text": "C/2+3"},
+      {"id": 4, "text": "D/3+4"},
+      {"id": 5, "text": "E/2+4"}
     ],
     "correctOptionIds": [5],
-    "Date": "15 Mars 2022"
+    "Date": "15 Mars 2022",
+    "courseName": ["Principes des Systèmes de Contrôle Hormonal"]
   },
   {
     "id": 54,
     "text": "Dans la voie de retour du cholestérol, la CETP permet aux HDL de gagner:",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ du cholestérol libre"},
-      {"id":2,"text":"B/ du cholestérol estérifié"},
-      {"id":3,"text":"C/ des apolipoprotéines E (Apo E)"},
-      {"id":4,"text":"D/ des apolipoprotéines AI (Apo AI)"},
-      {"id":5,"text":"E/ des apolipoprotéines C (Apo C)"}
+      {"id": 1, "text": "A/ du cholestérol libre"},
+      {"id": 2, "text": "B/ du cholestérol estérifié"},
+      {"id": 3, "text": "C/ des apolipoprotéines E (Apo E)"},
+      {"id": 4, "text": "D/ des apolipoprotéines AI (Apo AI)"},
+      {"id": 5, "text": "E/ des apolipoprotéines C (Apo C)"}
     ],
     "correctOptionIds": [3],
-    "Date": "15 Mars 2022"
+    "Date": "15 Mars 2022",
+    "courseName": ["Complexe Insuline-Glucagon et Métabolisme des Macromolécules"]
   },
   {
     "id": 55,
     "text": "Concernant le métabolisme phosphocalcique, une hyper-calciurie peut être le fait :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ de la parathormone (la PTH)"},
-      {"id":2,"text":"B/ de l'hormone de croissance (la GH)"},
-      {"id":3,"text":"C/ de l'esiderex"},
-      {"id":4,"text":"D/ de la phosphatonine (FGF23)"},
-      {"id":5,"text":"E/ propositions B et D"}
+      {"id": 1, "text": "A/ de la parathormone (la PTH)"},
+      {"id": 2, "text": "B/ de l'hormone de croissance (la GH)"},
+      {"id": 3, "text": "C/ de l'esiderex"},
+      {"id": 4, "text": "D/ de la phosphatonine (FGF23)"},
+      {"id": 5, "text": "E/ propositions B et D"}
     ],
     "correctOptionIds": [5],
-    "Date": "15 Mars 2022"
+    "Date": "15 Mars 2022",
+    "courseName": ["Métabolisme Phosphocalcique"]
   },
   {
     "id": 56,
     "text": "Dans les relations hypothalamo-hypophysaires :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ L'hypothalamus ne sécrète que des hormones stimulatrices"},
-      {"id":2,"text":"B/ La GnRH stimule la sécrétion de l'ACTH hypophysaire"},
-      {"id":3,"text":"C/ Les relations de continuité nerveuse relient l'hypothalamus à l'adénohypophyse"},
-      {"id":4,"text":"D/ Les hormones hypophysaires sont des hormones trophiques nommées également stimulines"},
-      {"id":5,"text":"E/ Dans l'axe corticotrope, les androgènes surrénaliens bloquent l'ACTH hypophysaire"}
+      {"id": 1, "text": "A/ L'hypothalamus ne sécrète que des hormones stimulatrices"},
+      {"id": 2, "text": "B/ La GnRH stimule la sécrétion de l'ACTH hypophysaire"},
+      {"id": 3, "text": "C/ Les relations de continuité nerveuse relient l'hypothalamus à l'adénohypophyse"},
+      {"id": 4, "text": "D/ Les hormones hypophysaires sont des hormones trophiques nommées également stimulines"},
+      {"id": 5, "text": "E/ Dans l'axe corticotrope, les androgènes surrénaliens bloquent l'ACTH hypophysaire"}
     ],
     "correctOptionIds": [4],
-    "Date": "16 Mai 2021"
+    "Date": "16 Mai 2021",
+    "courseName": ["Relations Hypothalamo-Hypophysaires", "Les Hormones Hypophysaires"]
   },
   {
     "id": 57,
     "text": "Les hormones protéiques :\n1/ Sont des hormones hydrophiles\n2/ Ont des récepteurs au niveau nucléaire\n3/ Sont synthétisées initialement sous forme de pro-hormones\n4/ Doivent s'unir à un transporteur protéique dans le sang",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1,2,3"},
-      {"id":2,"text":"B/ 2,3,4"},
-      {"id":3,"text":"C/ 3,4"},
-      {"id":4,"text":"D/ 1,3"}
+      {"id": 1, "text": "A/ 1,2,3"},
+      {"id": 2, "text": "B/ 2,3,4"},
+      {"id": 3, "text": "C/ 3,4"},
+      {"id": 4, "text": "D/ 1,3"}
     ],
     "correctOptionIds": [5],
-    "Date": "16 Mai 2021"
+    "Date": "16 Mai 2021",
+    "courseName": ["Principes des Systèmes de Contrôle Hormonal"]
   },
   {
     "id": 58,
     "text": "Devant un hypofonctionnement au cours d'une atteinte primaire :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ Le taux de l'hormone effectrice est diminué"},
-      {"id":2,"text":"B/ Le taux de la stimuline est diminué"},
-      {"id":3,"text":"C/ Le taux de la RH est élevé"},
-      {"id":4,"text":"D/ Le test à l'hormone est positif"},
-      {"id":5,"text":"E/ Le test à la stimuline est négatif"}
+      {"id": 1, "text": "A/ Le taux de l'hormone effectrice est diminué"},
+      {"id": 2, "text": "B/ Le taux de la stimuline est diminué"},
+      {"id": 3, "text": "C/ Le taux de la RH est élevé"},
+      {"id": 4, "text": "D/ Le test à l'hormone est positif"},
+      {"id": 5, "text": "E/ Le test à la stimuline est négatif"}
     ],
     "correctOptionIds": [2],
-    "Date": "16 Mai 2021"
+    "Date": "16 Mai 2021",
+    "courseName": ["Dysfonctionnement de l’axe Hypothalamo-Hypophyso-Endocrinien et Effecteurs"]
   },
   {
     "id": 59,
     "text": "L'hormone de croissance (GH) :\n1. Est sécrétée par le foie\n2. A des effets métaboliques anti-insuliniques\n3. Est une hormone hydrophile\n4. Voit sa sécrétion inhibée par la ghréline",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ 1,2,3"},
-      {"id":2,"text":"B/ 2,3"},
-      {"id":3,"text":"C/ 3,4"},
-      {"id":4,"text":"D/ 3"},
-      {"id":5,"text":"E/ 2,3,4"}
+      {"id": 1, "text": "A/ 1,2,3"},
+      {"id": 2, "text": "B/ 2,3"},
+      {"id": 3, "text": "C/ 3,4"},
+      {"id": 4, "text": "D/ 3"},
+      {"id": 5, "text": "E/ 2,3,4"}
     ],
     "correctOptionIds": [4],
-    "Date": "16 Mai 2021"
+    "Date": "16 Mai 2021",
+    "courseName": ["Les Hormones Hypophysaires"]
   },
   {
     "id": 60,
     "text": "Devant un taux bas de TRH et de TSH avec des taux élevés de T3 et de T4, on suspecte une :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ Hypothyroïdie primaire"},
-      {"id":2,"text":"B/ Hypothyroïdie centrale"},
-      {"id":3,"text":"C/ Hyperthyroïdie primaire"},
-      {"id":4,"text":"D/ Hyperthyroïdie secondaire"},
-      {"id":5,"text":"E/ Hyperthyroïdie tertiaire"}
+      {"id": 1, "text": "A/ Hypothyroïdie primaire"},
+      {"id": 2, "text": "B/ Hypothyroïdie centrale"},
+      {"id": 3, "text": "C/ Hyperthyroïdie primaire"},
+      {"id": 4, "text": "D/ Hyperthyroïdie secondaire"},
+      {"id": 5, "text": "E/ Hyperthyroïdie tertiaire"}
     ],
     "correctOptionIds": [3],
-    "Date": "16 Mai 2021"
+    "Date": "16 Mai 2021",
+    "courseName": ["La Fonction Thyroïdienne", "Dysfonctionnement de l’axe Hypothalamo-Hypophyso-Endocrinien et Effecteurs"]
   },
   {
     "id": 61,
     "text": "Devant une surcharge iodée, tous les mécanismes suivants sont mis en jeu sauf un, lequel ?",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ Diminution de la vascularisation thyroïdienne"},
-      {"id":2,"text":"B/ Diminution du captage d'iode"},
-      {"id":3,"text":"C/ Diminution de la synthèse de la thyroglobuline"},
-      {"id":4,"text":"D/ Effet de Wolff-Chaikoff"},
-      {"id":5,"text":"E/ Augmentation de l'organification de l'iode"}
+      {"id": 1, "text": "A/ Diminution de la vascularisation thyroïdienne"},
+      {"id": 2, "text": "B/ Diminution du captage d'iode"},
+      {"id": 3, "text": "C/ Diminution de la synthèse de la thyroglobuline"},
+      {"id": 4, "text": "D/ Effet de Wolff-Chaikoff"},
+      {"id": 5, "text": "E/ Augmentation de l'organification de l'iode"}
     ],
     "correctOptionIds": [5],
-    "Date": "16 Mai 2021"
+    "Date": "16 Mai 2021",
+    "courseName": ["La Fonction Thyroïdienne"]
   },
   {
     "id": 62,
     "text": "L'hormone antidiurétique (ADH) :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ Hormone protéique synthétisée par l'hypothalamus"},
-      {"id":2,"text":"B/ Hormone stockée dans la posthypophyse"},
-      {"id":3,"text":"C/ Sécrétion stimulée par les osmorécepteurs centraux"},
-      {"id":4,"text":"D/ Augmente le volume des LEC via les récepteurs V2"},
-      {"id":5,"text":"E/ Toutes ces propositions sont exactes"}
+      {"id": 1, "text": "A/ Hormone protéique synthétisée par l'hypothalamus"},
+      {"id": 2, "text": "B/ Hormone stockée dans la posthypophyse"},
+      {"id": 3, "text": "C/ Sécrétion stimulée par les osmorécepteurs centraux"},
+      {"id": 4, "text": "D/ Augmente le volume des LEC via les récepteurs V2"},
+      {"id": 5, "text": "E/ Toutes ces propositions sont exactes"}
     ],
     "correctOptionIds": [5],
-    "Date": "16 Mai 2021"
+    "Date": "16 Mai 2021",
+    "courseName": ["Les Hormones Hypophysaires", "Relations Hypothalamo-Hypophysaires"]
   },
   {
     "id": 63,
     "text": "La sécrétion d'aldostérone est :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ Assurée par la couche moyenne de la corticosurrénale"},
-      {"id":2,"text":"B/ Régie essentiellement par l'axe corticotrope"},
-      {"id":3,"text":"C/ Accrue en cas d'une chute de la volémie"},
-      {"id":4,"text":"D/ Diminuée en cas d'hypokaliémie"},
-      {"id":5,"text":"E/ Accrue en cas d'hypernatrémie"}
+      {"id": 1, "text": "A/ Assurée par la couche moyenne de la corticosurrénale"},
+      {"id": 2, "text": "B/ Régie essentiellement par l'axe corticotrope"},
+      {"id": 3, "text": "C/ Accrue en cas d'une chute de la volémie"},
+      {"id": 4, "text": "D/ Diminuée en cas d'hypokaliémie"},
+      {"id": 5, "text": "E/ Accrue en cas d'hypernatrémie"}
     ],
-    "correctOptionIds": [3,4],
-    "Date": "16 Mai 2021"
+    "correctOptionIds": [3, 4],
+    "Date": "16 Mai 2021",
+    "courseName": ["La Cortico-Surrénale"]
   },
   {
     "id": 64,
     "text": "Le 17 B estradiol (cocher la RF) :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ Dérive du cholestérol"},
-      {"id":2,"text":"B/ Représente l'estrogène majeur de la femme"},
-      {"id":3,"text":"C/ Augmente les sécrétions cervicales"},
-      {"id":4,"text":"D/ Diminue la contractilité du myomètre"},
-      {"id":5,"text":"E/ Stimule la prolifération de l'épithélium vaginal"}
+      {"id": 1, "text": "A/ Dérive du cholestérol"},
+      {"id": 2, "text": "B/ Représente l'estrogène majeur de la femme"},
+      {"id": 3, "text": "C/ Augmente les sécrétions cervicales"},
+      {"id": 4, "text": "D/ Diminue la contractilité du myomètre"},
+      {"id": 5, "text": "E/ Stimule la prolifération de l'épithélium vaginal"}
     ],
     "correctOptionIds": [4],
-    "Date": "16 Mai 2021"
+    "Date": "16 Mai 2021",
+    "courseName": ["La Fonction Gonadique Féminin"]
   },
   {
     "id": 65,
     "text": "La testostérone :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ Sécrétée par les cellules de Leydig"},
-      {"id":2,"text":"B/ Active sous forme de dihydrotestostérone"},
-      {"id":3,"text":"C/ Stimule la poussée de croissance pubertaire"},
-      {"id":4,"text":"D/ Hormone lipophile"},
-      {"id":5,"text":"E/ Toutes ces propositions sont exactes"}
+      {"id": 1, "text": "A/ Sécrétée par les cellules de Leydig"},
+      {"id": 2, "text": "B/ Active sous forme de dihydrotestostérone"},
+      {"id": 3, "text": "C/ Stimule la poussée de croissance pubertaire"},
+      {"id": 4, "text": "D/ Hormone lipophile"},
+      {"id": 5, "text": "E/ Toutes ces propositions sont exactes"}
     ],
     "correctOptionIds": [5],
-    "Date": "16 Mai 2021"
+    "Date": "16 Mai 2021",
+    "courseName": ["La Fonction Gonadique Masculin"]
   },
   {
     "id": 66,
     "text": "Durant la phase post-absorptive, chez un sujet normal, il se voit :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ Glycémie entre 6 et 8 mmol/l"},
-      {"id":2,"text":"B/ Diminution du débit hépatique de glucose"},
-      {"id":3,"text":"C/ Activation de la LHS"},
-      {"id":4,"text":"D/ Expression des GLUT4 musculaires"},
-      {"id":5,"text":"E/ Mise au repos des GLUT 2 hépatiques"}
+      {"id": 1, "text": "A/ Glycémie entre 6 et 8 mmol/l"},
+      {"id": 2, "text": "B/ Diminution du débit hépatique de glucose"},
+      {"id": 3, "text": "C/ Activation de la LHS"},
+      {"id": 4, "text": "D/ Expression des GLUT4 musculaires"},
+      {"id": 5, "text": "E/ Mise au repos des GLUT 2 hépatiques"}
     ],
     "correctOptionIds": [3],
-    "Date": "16 Mai 2021"
+    "Date": "16 Mai 2021",
+    "courseName": ["Complexe Insuline-Glucagon et Métabolisme des Macromolécules", "Glycorégulation"]
   },
   {
     "id": 67,
     "text": "L'action lipolytique des catécholamines est médiée par :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ Récepteurs alpha-2 couplés à des protéines Gs"},
-      {"id":2,"text":"B/ Phosphorylation de la périlipine"},
-      {"id":3,"text":"C/ Inhibition de l'AMPc"},
-      {"id":4,"text":"D/ Activation d'une PKG"},
-      {"id":5,"text":"E/ Aucune proposition n'est juste"}
+      {"id": 1, "text": "A/ Récepteurs alpha-2 couplés à des protéines Gs"},
+      {"id": 2, "text": "B/ Phosphorylation de la périlipine"},
+      {"id": 3, "text": "C/ Inhibition de l'AMPc"},
+      {"id": 4, "text": "D/ Activation d'une PKG"},
+      {"id": 5, "text": "E/ Aucune proposition n'est juste"}
     ],
     "correctOptionIds": [2],
-    "Date": "16 Mai 2021"
+    "Date": "16 Mai 2021",
+    "courseName": ["Complexe Insuline-Glucagon et Métabolisme des Macromolécules", "Principes des Systèmes de Contrôle Hormonal"]
   },
   {
     "id": 68,
     "text": "Les acteurs suivants interviennent tous dans la voie de retour du cholestérol, sauf :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ Le LDL récepteur"},
-      {"id":2,"text":"B/ La CETP"},
-      {"id":3,"text":"C/ La LCAT"},
-      {"id":4,"text":"D/ La lipase hépatique"},
-      {"id":5,"text":"E/ Le récepteur scavenger B1"}
+      {"id": 1, "text": "A/ Le LDL récepteur"},
+      {"id": 2, "text": "B/ La CETP"},
+      {"id": 3, "text": "C/ La LCAT"},
+      {"id": 4, "text": "D/ La lipase hépatique"},
+      {"id": 5, "text": "E/ Le récepteur scavenger B1"}
     ],
     "correctOptionIds": [1],
-    "Date": "16 Mai 2021"
+    "Date": "16 Mai 2021",
+    "courseName": ["Complexe Insuline-Glucagon et Métabolisme des Macromolécules"]
   },
   {
     "id": 69,
     "text": "Une surproduction du FGF23 induit une augmentation de :",
     "module": "Physiologie",
     "options": [
-      {"id":1,"text":"A/ Minéralisation osseuse"},
-      {"id":2,"text":"B/ Phosphatémie"},
-      {"id":3,"text":"C/ Calcémie"},
-      {"id":4,"text":"D/ Calcitriolémie"},
-      {"id":5,"text":"E/ Aucune proposition n'est juste"}
+      {"id": 1, "text": "A/ Minéralisation osseuse"},
+      {"id": 2, "text": "B/ Phosphatémie"},
+      {"id": 3, "text": "C/ Calcémie"},
+      {"id": 4, "text": "D/ Calcitriolémie"},
+      {"id": 5, "text": "E/ Aucune proposition n'est juste"}
     ],
     "correctOptionIds": [5],
-    "Date": "16 Mai 2021"
+    "Date": "16 Mai 2021",
+    "courseName": ["Métabolisme Phosphocalcique"]
   }
 ]

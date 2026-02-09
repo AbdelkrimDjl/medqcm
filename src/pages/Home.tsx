@@ -1,23 +1,26 @@
 // Home.tsx
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { BookOpen, Layers, Hash, ArrowRight } from "lucide-react";
+import { Files, BookOpen, Layers, Hash, ArrowRight } from "lucide-react";
 
 interface Question {
   id: number;
   text: string;
   module: string;
+  courseName?: string[]; // Array of courses this question belongs to
   options: { id: number; text: string }[];
   correctOptionIds: number[];
   explanation: string;
 }
 
+interface Module {
+  moduleName: string;
+  questions: Question[];
+}
+
 interface UnitData {
   unitName: string;
-  modules: {
-    moduleName: string;
-    questions: Question[];
-  }[];
+  modules: Module[];
 }
 
 const Home: React.FC = () => {
@@ -25,7 +28,9 @@ const Home: React.FC = () => {
   const [units, setUnits] = useState<string[]>([]);
   const [selectedUnit, setSelectedUnit] = useState<string>("");
   const [availableModules, setAvailableModules] = useState<string[]>([]);
+  const [availableCourses, setAvailableCourses] = useState<string[]>([]);
   const [selectedModule, setSelectedModule] = useState<string>("");
+  const [selectedCourse, setSelectedCourse] = useState<string>("");
   const [questionCount, setQuestionCount] = useState<number>(10);
   const [allData, setAllData] = useState<UnitData[]>([]);
   const [availableQuestionCount, setAvailableQuestionCount] = useState<number>(0);
@@ -51,10 +56,13 @@ const Home: React.FC = () => {
         }
 
         const unitData = unitDataMap.get(unitFolder)!;
+        
+        // @ts-ignore
+        const questions = module.default || [];
+        
         unitData.modules.push({
           moduleName: fileName,
-          // @ts-ignore
-          questions: module.default || [],
+          questions: Array.isArray(questions) ? questions : [],
         });
       });
 
@@ -76,25 +84,72 @@ const Home: React.FC = () => {
           .sort();
         setAvailableModules(moduleNames);
         setSelectedModule(""); // Reset module selection when unit changes
+        setSelectedCourse(""); // Reset course selection
         setAvailableQuestionCount(0); // Reset question count
       }
     } else {
       setAvailableModules([]);
       setSelectedModule("");
+      setSelectedCourse("");
       setAvailableQuestionCount(0);
     }
   }, [selectedUnit, allData]);
 
-  // Update available question count when module is selected
+  // Update available courses when module is selected
   useEffect(() => {
     if (selectedUnit && selectedModule) {
       const unitData = allData.find((u) => u.unitName === selectedUnit);
       const moduleData = unitData?.modules.find(
         (m) => m.moduleName === selectedModule
       );
-      
+
       if (moduleData) {
-        const count = moduleData.questions.length;
+        // Extract unique course names from all questions in this module
+        const courseSet = new Set<string>();
+        
+        moduleData.questions.forEach((question) => {
+          if (question.courseName && Array.isArray(question.courseName)) {
+            question.courseName.forEach((course) => {
+              if (course && course.trim()) {
+                courseSet.add(course.trim());
+              }
+            });
+          }
+        });
+
+        const courseNames = Array.from(courseSet).sort();
+        setAvailableCourses(courseNames);
+        setSelectedCourse(""); // Reset course selection when module changes
+      }
+    } else {
+      setAvailableCourses([]);
+      setSelectedCourse("");
+    }
+  }, [selectedUnit, selectedModule, allData]);
+
+  // Update available question count when module or course is selected
+  useEffect(() => {
+    if (selectedUnit && selectedModule) {
+      const unitData = allData.find((u) => u.unitName === selectedUnit);
+      const moduleData = unitData?.modules.find(
+        (m) => m.moduleName === selectedModule
+      );
+
+      if (moduleData) {
+        let count = 0;
+        
+        if (selectedCourse) {
+          // Count questions that include this course in their courseName array
+          count = moduleData.questions.filter((q) => 
+            q.courseName && 
+            Array.isArray(q.courseName) && 
+            q.courseName.includes(selectedCourse)
+          ).length;
+        } else {
+          // No course selected, count all questions
+          count = moduleData.questions.length;
+        }
+        
         setAvailableQuestionCount(count);
         // Adjust question count if it exceeds available questions
         if (questionCount > count) {
@@ -104,7 +159,7 @@ const Home: React.FC = () => {
     } else {
       setAvailableQuestionCount(0);
     }
-  }, [selectedUnit, selectedModule, allData]);
+  }, [selectedUnit, selectedModule, selectedCourse, allData]);
 
   const handleStartQuiz = () => {
     if (selectedUnit && selectedModule && questionCount > 0) {
@@ -115,12 +170,27 @@ const Home: React.FC = () => {
       );
 
       if (moduleData) {
-        const questions = moduleData.questions.slice(0, questionCount);
+        let filteredQuestions: Question[] = [];
+        
+        if (selectedCourse) {
+          // Filter questions that include the selected course
+          filteredQuestions = moduleData.questions.filter((q) =>
+            q.courseName && 
+            Array.isArray(q.courseName) && 
+            q.courseName.includes(selectedCourse)
+          );
+        } else {
+          // No course selected, use all questions
+          filteredQuestions = moduleData.questions;
+        }
+        
+        const questions = filteredQuestions.slice(0, questionCount);
 
         navigate("/quiz", {
           state: {
             unit: selectedUnit,
             module: selectedModule,
+            course: selectedCourse || "All Courses",
             questionCount,
             questions,
           },
@@ -130,6 +200,7 @@ const Home: React.FC = () => {
   };
 
   const isFormValid = selectedUnit && selectedModule && questionCount > 0;
+  const moduleHasCourses = selectedModule && availableCourses.length > 0;
 
   return (
     <div
@@ -203,6 +274,31 @@ const Home: React.FC = () => {
               )}
             </div>
 
+            {/* Course Select - Only show if module has courses */}
+            {moduleHasCourses && (
+              <div>
+                <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
+                  <Files className="w-5 h-5 text-purple-600" />
+                  Sélectionner le Cours (Optionnel)
+                </label>
+                <select
+                  value={selectedCourse}
+                  onChange={(e) => setSelectedCourse(e.target.value)}
+                  className="w-full p-4 border-2 border-gray-200 rounded-lg font-semibold text-gray-700 focus:border-purple-600 focus:outline-none transition-all bg-white"
+                >
+                  <option value="">Tous les Cours</option>
+                  {availableCourses.map((course) => (
+                    <option key={course} value={course}>
+                      {course.charAt(0).toUpperCase() + course.slice(1)}
+                    </option>
+                  ))}
+                </select>
+                <p className="text-sm text-gray-500 mt-2">
+                  Laissez vide pour inclure toutes les questions du module
+                </p>
+              </div>
+            )}
+
             {/* Question Count */}
             <div>
               <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-3">
@@ -211,12 +307,12 @@ const Home: React.FC = () => {
               </label>
               <input
                 type="number"
-                min={1}
-                max={availableQuestionCount > 0 ? availableQuestionCount : 50}
+                min={0}
+                max={availableQuestionCount > 0 ? availableQuestionCount : 999}
                 value={questionCount}
                 onChange={(e) => {
-                  const value = parseInt(e.target.value) || 1;
-                  const maxValue = availableQuestionCount > 0 ? availableQuestionCount : 50;
+                  const value = parseInt(e.target.value) || 0;
+                  const maxValue = availableQuestionCount > 0 ? availableQuestionCount : 999;
                   setQuestionCount(Math.min(value, maxValue));
                 }}
                 disabled={!selectedModule}
@@ -224,7 +320,8 @@ const Home: React.FC = () => {
               />
               {selectedModule && availableQuestionCount > 0 ? (
                 <p className="text-sm text-gray-500 mt-2">
-                  {availableQuestionCount} {availableQuestionCount === 1 ? 'question disponible' : 'questions disponibles'} pour ce module
+                  {availableQuestionCount} {availableQuestionCount === 1 ? 'question disponible' : 'questions disponibles'}
+                  {selectedCourse ? ` pour le cours "${selectedCourse}"` : ' pour ce module'}
                 </p>
               ) : (
                 <p className="text-sm text-gray-500 mt-2">
@@ -247,6 +344,12 @@ const Home: React.FC = () => {
                   <span className="font-semibold">Module:</span>{" "}
                   {selectedModule}
                 </p>
+                {moduleHasCourses && (
+                  <p>
+                    <span className="font-semibold">Cours:</span>{" "}
+                    {selectedCourse || "Tous les Cours"}
+                  </p>
+                )}
                 <p>
                   <span className="font-semibold">Questions:</span>{" "}
                   {questionCount} / {availableQuestionCount}
@@ -258,11 +361,10 @@ const Home: React.FC = () => {
           <button
             onClick={handleStartQuiz}
             disabled={!isFormValid}
-            className={`w-full mt-8 py-4 rounded-lg font-semibold text-lg flex items-center justify-center gap-2 transition-all ${
-              isFormValid
+            className={`w-full mt-8 py-4 rounded-lg font-semibold text-lg flex items-center justify-center gap-2 transition-all ${isFormValid
                 ? "bg-gradient-to-r from-purple-600 to-indigo-600 text-white hover:shadow-lg"
                 : "bg-gray-200 text-gray-400 cursor-not-allowed"
-            }`}
+              }`}
           >
             Démarrer
             <ArrowRight className="w-5 h-5" />
@@ -280,6 +382,3 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-
-
-

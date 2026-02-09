@@ -24,6 +24,7 @@ export interface Question {
   correctOptionIds: number[];
   explanation: string;
   Date?: string;
+  courseName?: string[];
 }
 
 interface ModuleStat {
@@ -263,9 +264,6 @@ const Quiz: React.FC = () => {
             </div>
 
             <div>
-              <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-4">
-                Performance par Module
-              </h2>
               <div className="space-y-4">
                 {moduleBreakdown.map((module, idx) => (
                   <div key={idx} className="bg-gray-50 rounded-lg p-3 sm:p-4">
@@ -392,6 +390,9 @@ const Quiz: React.FC = () => {
               <div className="text-xs sm:text-sm text-gray-600 bg-gray-100 px-2 sm:px-3 py-1 rounded-full">
                 {currentQuestion.module}
               </div>
+              <div className="text-xs sm:text-sm text-gray-600 bg-gray-100 px-2 sm:px-3 py-1 rounded-full">
+                {currentQuestion.courseName ? currentQuestion.courseName.join(", ") : ""}
+              </div>
             </div>
             {/* --- NEW CODE START: Date Button --- */}
              {currentQuestion.Date && (
@@ -507,7 +508,7 @@ const Quiz: React.FC = () => {
               className="flex items-center gap-1 sm:gap-2 px-3 sm:px-6 py-2 sm:py-3 bg-gray-100 text-gray-700 rounded-lg font-semibold hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed transition-all text-xs sm:text-base"
             >
               <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" />
-              <span className="hidden sm:inline">Previous</span>
+              <span className="hidden sm:inline">Prev</span>
               <span className="sm:hidden">Prev</span>
             </button>
 
