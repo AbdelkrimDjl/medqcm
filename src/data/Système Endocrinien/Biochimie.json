@@ -316,14 +316,14 @@
   },
   {
     "id": 22,
-    "text": "En ce qui concerne les catécholamines, cocher la ou les propositions exactes:\nA- Elles augmentent la sécrétion de rénine\nB- Par l'intermédiaire de leurs récepteurs α-1, elles inhibent la libération de l'insuline\nC- Elles stimulent la lipolyse par l'intermédiaire de leurs récepteurs β-1\nD- Les VMA sont les produits de dégradation finale de toutes les catécholamines\nE- La metanephrine est le produit d'action de l'enzyme MAO sur l'adrénaline",
+    "text": "En ce qui concerne les catécholamines, cocher la ou les propositions exactes:",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A"},
-      {"id": 2, "text": "B"},
-      {"id": 3, "text": "C"},
-      {"id": 4, "text": "D"},
-      {"id": 5, "text": "E"}
+      {"id": 1, "text": "A- Elles augmentent la sécrétion de rénine"},
+      {"id": 2, "text": "B- Par l'intermédiaire de leurs récepteurs α-1, elles inhibent la libération de l'insuline."},
+      {"id": 3, "text": "C- Elles stimulent la lipolyse par l'intermédiaire de leurs récepteurs β-1"},
+      {"id": 4, "text": "D- Les VMA sont les produits de dégradation finale de toutes les catécholamines"},
+      {"id": 5, "text": "E- La metanephrine est le produit d'action de l'enzyme MAO sur l'adrénaline"}
     ],
     "correctOptionIds": [1, 3],
     "Date": "24 Février 2024",
