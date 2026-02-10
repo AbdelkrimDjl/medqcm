@@ -341,7 +341,6 @@ const Quiz: React.FC = () => {
 
   return (
     <div
-      id="quiz-top"
       className="min-h-screen p-4 sm:p-6"
       style={{
         background: "#f4f4ea",
@@ -382,7 +381,7 @@ const Quiz: React.FC = () => {
         </div>
 
         {/* Question Card */}
-        <div className="bg-[#212121] rounded-2xl shadow-2xl p-4 sm:p-8 mb-4 sm:mb-6 shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
+        <div id="quiz-top" className="bg-[#212121] rounded-2xl shadow-2xl p-4 sm:p-8 mb-4 sm:mb-6 shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
           <div className="mb-6 sm:mb-8">
             {/* Main Header Container: Row on Desktop/Tablet, Column on tiny mobile if needed */}
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
@@ -658,3 +657,4 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
