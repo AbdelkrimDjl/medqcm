@@ -18,6 +18,4 @@ function App() {
   );
 }
 
-<googled562d0d3c0a74a2e></googled562d0d3c0a74a2e>
-
 export default App;
