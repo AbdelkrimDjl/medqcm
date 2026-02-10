@@ -2,6 +2,8 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Quiz from "./pages/Quiz";
 import Home from "./pages/Home";
+import googled562d0d3c0a74a2e from "./pages/googled562d0d3c0a74a2e";
+
 import { AppSnackbarProvider } from "./providers/SnackbarProvider";
 import { Analytics } from "@vercel/analytics/react";
 
