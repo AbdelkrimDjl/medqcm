@@ -4,13 +4,13 @@
     "text": "le récepteur d'EGF (facteur de croissance épidermique)",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A. Est une protéine ancrée dans la membrane par deux acides gras (protéine membranaire intrinsèque)"},
-      {"id": 2, "text": "B. Est un canal ionique"},
-      {"id": 3, "text": "C. Est une protéine transmembranaire qui porte une activité kinasique, type tyrosine kinase, dans son segment intracellulaire"},
-      {"id": 4, "text": "D. Est un récepteur nucléaire (car l'EGF est hydrophobe et traverse la membrane plasmique)"},
-      {"id": 5, "text": "E. Est parfois surexprimé dans certains cancers"}
+      {"id":1,"text":"A. Est une protéine ancrée dans la membrane par deux acides gras (protéine membranaire intrinsèque)"},
+      {"id":2,"text":"B. Est un canal ionique"},
+      {"id":3,"text":"C. Est une protéine transmembranaire qui porte une activité kinasique, type tyrosine kinase, dans son segment intracellulaire"},
+      {"id":4,"text":"D. Est un récepteur nucléaire (car l'EGF est hydrophobe et traverse la membrane plasmique)"},
+      {"id":5,"text":"E. Est parfois surexprimé dans certains cancers"}
     ],
-    "correctOptionIds": [3, 5],
+    "correctOptionIds": [3,5],
     "Date": "24 Février 2024",
     "courseName": ["Mécanismes d’Action des Hormones"]
   },
@@ -19,13 +19,13 @@
     "text": "Les récepteurs de la membrane plasmique, cocher la ou les propositions exactes",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A. S'associent à des ligands extracellulaires de manière irréversible."},
-      {"id": 2, "text": "B. Génèrent des signaux intracellulaires faisant intervenir des \"seconds messagers\"."},
-      {"id": 3, "text": "C. Sont uniquement associés à des protéines G."},
-      {"id": 4, "text": "D. Sont responsables de la transduction d'une information."},
-      {"id": 5, "text": "E. Peuvent être des enzymes."}
+      {"id":1,"text":"A. S'associent à des ligands extracellulaires de manière irréversible."},
+      {"id":2,"text":"B. Génèrent des signaux intracellulaires faisant intervenir des \"seconds messagers\"."},
+      {"id":3,"text":"C. Sont uniquement associés à des protéines G."},
+      {"id":4,"text":"D. Sont responsables de la transduction d'une information."},
+      {"id":5,"text":"E. Peuvent être des enzymes."}
     ],
-    "correctOptionIds": [2, 4, 5],
+    "correctOptionIds": [2,4,5],
     "Date": "24 Février 2024",
     "courseName": ["Mécanismes d’Action des Hormones"]
   },
@@ -34,11 +34,11 @@
     "text": "La transduction d'un signal extracellulaire mettant en jeu l'adényl cyclase se déroule en faisant intervenir plusieurs étapes :\n1) hydrolyse du GTP en GDP par les protéines G\n2) Fixation du médiateur chimique (ligand) sur son récepteur spécifique et changement de conformation du récepteur\n3) Hydrolyse de l'ATP et cyclisation de l'AMP par l'adénylyl cyclase\n4) Remplacement du GDP par du GTP sur la protéine G (échange)\n5) Formation du complexe protéine G-adénylyl cyclase\n6) Activation d'une cascade de phosphorylation\nDans quel ordre chronologique se déroule les différentes étapes ?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- 1,2,5,3,6,4"},
-      {"id": 2, "text": "B- 2,1,5,3,6,4"},
-      {"id": 3, "text": "C- 2,1,5,3,4,6"},
-      {"id": 4, "text": "D- 2,4,6,3,1,5"},
-      {"id": 5, "text": "E- 2,4,5,3,6,1"}
+      {"id":1,"text":"A- 1,2,5,3,6,4"},
+      {"id":2,"text":"B- 2,1,5,3,6,4"},
+      {"id":3,"text":"C- 2,1,5,3,4,6"},
+      {"id":4,"text":"D- 2,4,6,3,1,5"},
+      {"id":5,"text":"E- 2,4,5,3,6,1"}
     ],
     "correctOptionIds": [5],
     "Date": "24 Février 2024",
@@ -49,28 +49,28 @@
     "text": "Laquelle de ces hormones régule la fonction des gènes et interagit avec les récepteurs à l'intérieur des cellules ?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- hormone anti diurèse"},
-      {"id": 2, "text": "B- hormones thyroïdiennes"},
-      {"id": 3, "text": "C- hormone de croissance"},
-      {"id": 4, "text": "D- thyrotrophine"},
-      {"id": 5, "text": "E- aucune hormone"}
+      {"id":1,"text":"A- hormone anti diurèse"},
+      {"id":2,"text":"B- hormones thyroïdiennes"},
+      {"id":3,"text":"C- hormone de croissance"},
+      {"id":4,"text":"D- thyrotrophine"},
+      {"id":5,"text":"E- aucune hormone"}
     ],
     "correctOptionIds": [2],
     "Date": "24 Février 2024",
-    "courseName": ["Mécanismes d’Action des Hormones", "Les Hormones Thyroïdiennes"]
+    "courseName": ["Mécanismes d’Action des Hormones","Les Hormones Thyroïdiennes"]
   },
   {
     "id": 5,
     "text": "Indiquez la (ou les) proposition(s) exacte(s).",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Une glande endocrine peut synthétiser plusieurs hormones différentes."},
-      {"id": 2, "text": "B- Une hormone ne peut être produite que par un seul organe."},
-      {"id": 3, "text": "C- Un tissu n'est soumis qu'à l'influence d'une et une seule hormone."},
-      {"id": 4, "text": "D- Une hormone donnée n'agit que sur un seul tissu."},
-      {"id": 5, "text": "E- Une hormone agit toujours à distance de son lieu de synthèse."}
+      {"id":1,"text":"A- Une glande endocrine peut synthétiser plusieurs hormones différentes."},
+      {"id":2,"text":"B- Une hormone ne peut être produite que par un seul organe."},
+      {"id":3,"text":"C- Un tissu n'est soumis qu'à l'influence d'une et une seule hormone."},
+      {"id":4,"text":"D- Une hormone donnée n'agit que sur un seul tissu."},
+      {"id":5,"text":"E- Une hormone agit toujours à distance de son lieu de synthèse."}
     ],
-    "correctOptionIds": [1, 5],
+    "correctOptionIds": [1,5],
     "Date": "24 Février 2024",
     "courseName": ["Généralités sur les Hormones"]
   },
@@ -79,13 +79,13 @@
     "text": "Parmi les propositions suivantes concernant les hormones thyroïdiennes, indiquer celle(s) qui est (sont) exacte(s) ?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- T3 est plus active que T4"},
-      {"id": 2, "text": "B- Une carence en iode inhibe la fonction thyroïdienne"},
-      {"id": 3, "text": "C- Une peroxydase est nécessaire au couplage des iodotyrosines"},
-      {"id": 4, "text": "D- T4 est transportée dans le sang par la thyroglobuline"},
-      {"id": 5, "text": "E- la tétraïodothyrosine circulante est d'origine exclusivement thyroïdienne"}
+      {"id":1,"text":"A- T3 est plus active que T4"},
+      {"id":2,"text":"B- Une carence en iode inhibe la fonction thyroïdienne"},
+      {"id":3,"text":"C- Une peroxydase est nécessaire au couplage des iodotyrosines"},
+      {"id":4,"text":"D- T4 est transportée dans le sang par la thyroglobuline"},
+      {"id":5,"text":"E- la tétraïodothyrosine circulante est d'origine exclusivement thyroïdienne"}
     ],
-    "correctOptionIds": [1, 2, 3],
+    "correctOptionIds": [1,2,3],
     "Date": "24 Février 2024",
     "courseName": ["Les Hormones Thyroïdiennes"]
   },
@@ -94,28 +94,28 @@
     "text": "Chez un animal hypophysectomisé, l'injection de TSH produit en quelques minutes au niveau de la glande thyroïde l'apparition de tous les phénomènes suivants sauf un lequel,",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A. Augmentation de la capture de l'iode"},
-      {"id": 2, "text": "B. Sécrétion de thyroglobuline dans la substance colloïde."},
-      {"id": 3, "text": "C. Synthèse de T3, T4 et des iodotyrosines."},
-      {"id": 4, "text": "D. Diminution du débit sanguin thyroïdien."},
-      {"id": 5, "text": "E. Endocytose de la colloïde."}
+      {"id":1,"text":"A. Augmentation de la capture de l'iode"},
+      {"id":2,"text":"B. Sécrétion de thyroglobuline dans la substance colloïde."},
+      {"id":3,"text":"C. Synthèse de T3, T4 et des iodotyrosines."},
+      {"id":4,"text":"D. Diminution du débit sanguin thyroïdien."},
+      {"id":5,"text":"E. Endocytose de la colloïde."}
     ],
     "correctOptionIds": [4],
     "Date": "24 Février 2024",
-    "courseName": ["Les Hormones Thyroïdiennes", "Les Hormones Hypothalamo-hypophysaires"]
+    "courseName": ["Les Hormones Thyroïdiennes","Les Hormones Hypothalamo-hypophysaires"]
   },
   {
     "id": 8,
     "text": "En réponse à une privation d'eau: cocher la ou les propositions exactes",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A. L'osmolarité du plasma diminue."},
-      {"id": 2, "text": "B. La sécrétion d'ADH augmente."},
-      {"id": 3, "text": "C. La réabsorption d'eau au niveau du tube collecteur augmente."},
-      {"id": 4, "text": "D. L'osmolarité de l'urine augmente."},
-      {"id": 5, "text": "E. Le volume de l'urine augmente"}
+      {"id":1,"text":"A. L'osmolarité du plasma diminue."},
+      {"id":2,"text":"B. La sécrétion d'ADH augmente."},
+      {"id":3,"text":"C. La réabsorption d'eau au niveau du tube collecteur augmente."},
+      {"id":4,"text":"D. L'osmolarité de l'urine augmente."},
+      {"id":5,"text":"E. Le volume de l'urine augmente"}
     ],
-    "correctOptionIds": [2, 3, 4],
+    "correctOptionIds": [2,3,4],
     "Date": "24 Février 2024",
     "courseName": ["Les Hormones Post-hypophysaires"]
   },
@@ -124,28 +124,28 @@
     "text": "Cocher la ou les propositions exactes:",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Le récepteur des cellules gonadotropes de la GnRH est couplé à la protéine G"},
-      {"id": 2, "text": "B- L'impuberisme peut être du à un hypergonadisme hypogonadotrope d'origine génétique"},
-      {"id": 3, "text": "C- La leptine module la sécrétion de GnRH"},
-      {"id": 4, "text": "D- L'inhibine B contrôle négativement la spermatogenèse"},
-      {"id": 5, "text": "E- L'ABP, hormone secrétée par les cellules de Sertoli stimule la synthèse de FSH"}
+      {"id":1,"text":"A- Le récepteur des cellules gonadotropes de la GnRH est couplé à la protéine G"},
+      {"id":2,"text":"B- L'impuberisme peut être du à un hypergonadisme hypogonadotrope d'origine génétique"},
+      {"id":3,"text":"C- La leptine module la sécrétion de GnRH"},
+      {"id":4,"text":"D- L'inhibine B contrôle négativement la spermatogenèse"},
+      {"id":5,"text":"E- L'ABP, hormone secrétée par les cellules de Sertoli stimule la synthèse de FSH"}
     ],
-    "correctOptionIds": [1, 3, 4],
+    "correctOptionIds": [1,3,4],
     "Date": "24 Février 2024",
-    "courseName": ["Les Hormones Hypothalamo-hypophysaires", "Exploration Biochimique des Testicules"]
+    "courseName": ["Les Hormones Hypothalamo-hypophysaires","Exploration Biochimique des Testicules"]
   },
   {
     "id": 10,
     "text": "Cocher la ou les propositions fausses concernant la prolactine:",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A. elle est sécrétée par les cellules lactotropes de l'antéhypophyse"},
-      {"id": 2, "text": "B. freine sa propre sécrétion"},
-      {"id": 3, "text": "C. sa sécrétion est stimulée par la dopamine"},
-      {"id": 4, "text": "D. sa sécrétion est freinée par les estrogènes"},
-      {"id": 5, "text": "E. est responsable de l'éjection du lait au niveau de la glande mammaire"}
+      {"id":1,"text":"A. elle est sécrétée par les cellules lactotropes de l'antéhypophyse"},
+      {"id":2,"text":"B. freine sa propre sécrétion"},
+      {"id":3,"text":"C. sa sécrétion est stimulée par la dopamine"},
+      {"id":4,"text":"D. sa sécrétion est freinée par les estrogènes"},
+      {"id":5,"text":"E. est responsable de l'éjection du lait au niveau de la glande mammaire"}
     ],
-    "correctOptionIds": [3, 4, 5],
+    "correctOptionIds": [3,4,5],
     "Date": "24 Février 2024",
     "courseName": ["Les Hormones Hypothalamo-hypophysaires"]
   },
@@ -154,13 +154,13 @@
     "text": "Parmi les caractéristiques physiologiques et hormonales suivantes, lesquelles caractérisent la phase de ménopause:",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Une augmentation de la testostérone"},
-      {"id": 2, "text": "B- Une augmentation des œstrogènes"},
-      {"id": 3, "text": "C- Une augmentation des FSH, LH"},
-      {"id": 4, "text": "D- Un épuisement du capital folliculaire"},
-      {"id": 5, "text": "E- Une diminution des androgènes"}
+      {"id":1,"text":"A- Une augmentation de la testostérone"},
+      {"id":2,"text":"B- Une augmentation des œstrogènes"},
+      {"id":3,"text":"C- Une augmentation des FSH, LH"},
+      {"id":4,"text":"D- Un épuisement du capital folliculaire"},
+      {"id":5,"text":"E- Une diminution des androgènes"}
     ],
-    "correctOptionIds": [3, 4],
+    "correctOptionIds": [3,4],
     "Date": "24 Février 2024",
     "courseName": ["Exploration biochimique des Ovaires"]
   },
@@ -169,26 +169,26 @@
     "text": "Parmi les causes suivantes, lesquelles peuvent être à l'origine d'une aménorrhée secondaire:",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Retard de croissance"},
-      {"id": 2, "text": "B- Grossesse"},
-      {"id": 3, "text": "C- Hypothyroïdie"},
-      {"id": 4, "text": "D- Syndrome de Turner"},
-      {"id": 5, "text": "E- Syndrome de Klinefelter"}
+      {"id":1,"text":"A- Retard de croissance"},
+      {"id":2,"text":"B- Grossesse"},
+      {"id":3,"text":"C- Hypothyroïdie"},
+      {"id":4,"text":"D- Syndrome de Turner"},
+      {"id":5,"text":"E- Syndrome de Klinefelter"}
     ],
-    "correctOptionIds": [2, 3],
+    "correctOptionIds": [2,3],
     "Date": "24 Février 2024",
-    "courseName": ["Exploration biochimique des Ovaires", "Les Hormones Thyroïdiennes"]
+    "courseName": ["Exploration biochimique des Ovaires","Les Hormones Thyroïdiennes"]
   },
   {
     "id": 13,
     "text": "Une tumeur testiculaire peut être à l'origine de quelle pathologie parmi les suivantes:",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Gynécomastie"},
-      {"id": 2, "text": "B- Puberté précoce vrai"},
-      {"id": 3, "text": "C- Puberté précoce fausse"},
-      {"id": 4, "text": "D- Retard pubertaire"},
-      {"id": 5, "text": "E- Un état intersexué"}
+      {"id":1,"text":"A- Gynécomastie"},
+      {"id":2,"text":"B- Puberté précoce vrai"},
+      {"id":3,"text":"C- Puberté précoce fausse"},
+      {"id":4,"text":"D- Retard pubertaire"},
+      {"id":5,"text":"E- Un état intersexué"}
     ],
     "correctOptionIds": [3],
     "Date": "24 Février 2024",
@@ -199,11 +199,11 @@
     "text": "Le stroma ovarien est le lieu de synthèse de (CRJ)",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Oestrogènes"},
-      {"id": 2, "text": "B- Progestérone"},
-      {"id": 3, "text": "C- Oestrogènes et progesterogènes"},
-      {"id": 4, "text": "D- Androgènes"},
-      {"id": 5, "text": "E- Inhibines A"}
+      {"id":1,"text":"A- Oestrogènes"},
+      {"id":2,"text":"B- Progestérone"},
+      {"id":3,"text":"C- Oestrogènes et progesterogènes"},
+      {"id":4,"text":"D- Androgènes"},
+      {"id":5,"text":"E- Inhibines A"}
     ],
     "correctOptionIds": [4],
     "Date": "24 Février 2024",
@@ -214,11 +214,11 @@
     "text": "L'examen clinique d'un enfant de 5 ans de sexe masculin, montre à la palpation, l'absence de testicule droit au niveau du scrotum, dans le but de poser un diagnostic différentiel entre cryptorchidie et anorchidie, quel (s) test (s) proposeriez-vous?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Un dosage statique de la testostérone,"},
-      {"id": 2, "text": "B- Un test de stimulation à la BHCG,"},
-      {"id": 3, "text": "C- Un spermogramme,"},
-      {"id": 4, "text": "D- Un dosage de la FSH, LH,"},
-      {"id": 5, "text": "E- Un test de stimulation au Tamoxifène."}
+      {"id":1,"text":"A- Un dosage statique de la testostérone,"},
+      {"id":2,"text":"B- Un test de stimulation à la BHCG,"},
+      {"id":3,"text":"C- Un spermogramme,"},
+      {"id":4,"text":"D- Un dosage de la FSH, LH,"},
+      {"id":5,"text":"E- Un test de stimulation au Tamoxifène."}
     ],
     "correctOptionIds": [2],
     "Date": "24 Février 2024",
@@ -229,13 +229,13 @@
     "text": "La sécrétion d'Aldostérone est augmented lors: cocher la ou les propositions exactes",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A. d'une augmentation de la kaliémie"},
-      {"id": 2, "text": "B. d'une déplétion sodée"},
-      {"id": 3, "text": "C. d'une hypovolémie"},
-      {"id": 4, "text": "D. du passage de la position debout à la position couchée"},
-      {"id": 5, "text": "E. d'un traitement par le captopril"}
+      {"id":1,"text":"A. d'une augmentation de la kaliémie"},
+      {"id":2,"text":"B. d'une déplétion sodée"},
+      {"id":3,"text":"C. d'une hypovolémie"},
+      {"id":4,"text":"D. du passage de la position debout à la position couchée"},
+      {"id":5,"text":"E. d'un traitement par le captopril"}
     ],
-    "correctOptionIds": [1, 2, 3],
+    "correctOptionIds": [1,2,3],
     "Date": "24 Février 2024",
     "courseName": ["Les Hormones Cortico-Surrénaliennes"]
   },
@@ -244,13 +244,13 @@
     "text": "La déficience en prolactine est responsable: cocher la ou les propositions fausses",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A. Le plus souvent d'une naissance prématurée."},
-      {"id": 2, "text": "B. De l'absence de production de lait."},
-      {"id": 3, "text": "C. D'une absence d'ovulation."},
-      {"id": 4, "text": "D. D'une augmentation de la production de lait"},
-      {"id": 5, "text": "E. D'une galactorrhée"}
+      {"id":1,"text":"A. Le plus souvent d'une naissance prématurée."},
+      {"id":2,"text":"B. De l'absence de production de lait."},
+      {"id":3,"text":"C. D'une absence d'ovulation."},
+      {"id":4,"text":"D. D'une augmentation de la production de lait"},
+      {"id":5,"text":"E. D'une galactorrhée"}
     ],
-    "correctOptionIds": [1, 3, 4, 5],
+    "correctOptionIds": [1,3,4,5],
     "Date": "24 Février 2024",
     "courseName": ["Les Hormones Hypothalamo-hypophysaires"]
   },
@@ -259,11 +259,11 @@
     "text": "Dans un syndrome de Conn, on retrouve un ou plusieurs des éléments suivants, lequel ou lesquels :",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A. Une diminution de la réabsorption du sodium"},
-      {"id": 2, "text": "B. Une augmentation de la réabsorption du potassium"},
-      {"id": 3, "text": "C. Une hypertension artérielle"},
-      {"id": 4, "text": "D. Une hyperkaliémie"},
-      {"id": 5, "text": "E. Une diminution de la volémie"}
+      {"id":1,"text":"A. Une diminution de la réabsorption du sodium"},
+      {"id":2,"text":"B. Une augmentation de la réabsorption du potassium"},
+      {"id":3,"text":"C. Une hypertension artérielle"},
+      {"id":4,"text":"D. Une hyperkaliémie"},
+      {"id":5,"text":"E. Une diminution de la volémie"}
     ],
     "correctOptionIds": [3],
     "Date": "24 Février 2024",
@@ -274,13 +274,13 @@
     "text": "Quelles sont les propositions vraies à propos du système rénine / angiotensine / aldostérone?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A. La rénine est une enzyme"},
-      {"id": 2, "text": "B. L'angiotensine Il est une enzyme"},
-      {"id": 3, "text": "C. L'angiotensine Il a un effet vasoconstricteur"},
-      {"id": 4, "text": "D. L'angiotensine I stimule la production d'aldostérone"},
-      {"id": 5, "text": "E. L'activité Rénine représente la quantité d'Angiotensine II libéré en une heure par 1ml de plasma riche en Angiotensinogene"}
+      {"id":1,"text":"A. La rénine est une enzyme"},
+      {"id":2,"text":"B. L'angiotensine Il est une enzyme"},
+      {"id":3,"text":"C. L'angiotensine Il a un effet vasoconstricteur"},
+      {"id":4,"text":"D. L'angiotensine I stimule la production d'aldostérone"},
+      {"id":5,"text":"E. L'activité Rénine représente la quantité d'Angiotensine II libéré en une heure par 1ml de plasma riche en Angiotensinogene"}
     ],
-    "correctOptionIds": [1, 3],
+    "correctOptionIds": [1,3],
     "Date": "24 Février 2024",
     "courseName": ["Les Hormones Cortico-Surrénaliennes"]
   },
@@ -289,43 +289,43 @@
     "text": "À propos de la biosynthèse des androgènes, relevez-la (ou les) proposition(s) exacte(s).",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- La DHEA est exclusivement synthétisé par les surrénales."},
-      {"id": 2, "text": "B- l'hirsutisme est du à une hyper androgénie chez la femme"},
-      {"id": 3, "text": "C- La DHT est un androgène plus actif que la testostérone"},
-      {"id": 4, "text": "D- La voie Δ4 permet la synthèse d'androstène-dione à partir d'un précurseur : la progestérone"},
-      {"id": 5, "text": "E- Chez l'homme la plupart des androgènes circulants proviennent des testicules"}
+      {"id":1,"text":"A- La DHEA est exclusivement synthétisé par les surrénales."},
+      {"id":2,"text":"B- l'hirsutisme est du à une hyper androgénie chez la femme"},
+      {"id":3,"text":"C- La DHT est un androgène plus actif que la testostérone"},
+      {"id":4,"text":"D- La voie Δ4 permet la synthèse d'androstène-dione à partir d'un précurseur : la progestérone"},
+      {"id":5,"text":"E- Chez l'homme la plupart des androgènes circulants proviennent des testicules"}
     ],
-    "correctOptionIds": [2, 3, 4],
+    "correctOptionIds": [2,3,4],
     "Date": "24 Février 2024",
-    "courseName": ["Généralités sur les Hormones Stéroïdes", "Exploration Biochimique des Testicules"]
+    "courseName": ["Généralités sur les Hormones Stéroïdes","Exploration Biochimique des Testicules"]
   },
   {
     "id": 21,
     "text": "L'hypogonadisme hypogonadotrope, cocher la ou les propositions fausses",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Il est caracterisé par une diminution du taux plasmatique de testostérone"},
-      {"id": 2, "text": "B- Il peut être du a une agénésie testiculaire"},
-      {"id": 3, "text": "C- Il est d'origine hypothalamo-hypophysaire"},
-      {"id": 4, "text": "D- il est du à un déficit en gonadoliberines"},
-      {"id": 5, "text": "E- il est responsable d'infertilité"}
+      {"id":1,"text":"A- Il est caracterisé par une diminution du taux plasmatique de testostérone"},
+      {"id":2,"text":"B- Il peut être du a une agénésie testiculaire"},
+      {"id":3,"text":"C- Il est d'origine hypothalamo-hypophysaire"},
+      {"id":4,"text":"D- il est du à un déficit en gonadoliberines"},
+      {"id":5,"text":"E- il est responsable d'infertilité"}
     ],
     "correctOptionIds": [2],
     "Date": "24 Février 2024",
-    "courseName": ["Les Hormones Hypothalamo-hypophysaires", "Exploration Biochimique des Gonades"]
+    "courseName": ["Les Hormones Hypothalamo-hypophysaires","Exploration Biochimique des Gonades"]
   },
   {
     "id": 22,
     "text": "En ce qui concerne les catécholamines, cocher la ou les propositions exactes:",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Elles augmentent la sécrétion de rénine"},
-      {"id": 2, "text": "B- Par l'intermédiaire de leurs récepteurs α-1, elles inhibent la libération de l'insuline."},
-      {"id": 3, "text": "C- Elles stimulent la lipolyse par l'intermédiaire de leurs récepteurs β-1"},
-      {"id": 4, "text": "D- Les VMA sont les produits de dégradation finale de toutes les catécholamines"},
-      {"id": 5, "text": "E- La metanephrine est le produit d'action de l'enzyme MAO sur l'adrénaline"}
+      {"id":1,"text":"A- Elles augmentent la sécrétion de rénine"},
+      {"id":2,"text":"B- Par l'intermédiaire de leurs récepteurs α-1, elles inhibent la libération de l'insuline."},
+      {"id":3,"text":"C- Elles stimulent la lipolyse par l'intermédiaire de leurs récepteurs β-1"},
+      {"id":4,"text":"D- Les VMA sont les produits de dégradation finale de toutes les catécholamines"},
+      {"id":5,"text":"E- La metanephrine est le produit d'action de l'enzyme MAO sur l'adrénaline"}
     ],
-    "correctOptionIds": [1, 3],
+    "correctOptionIds": [1,3],
     "Date": "24 Février 2024",
     "courseName": ["Les Catécholamines"]
   },
@@ -334,26 +334,26 @@
     "text": "La Protiréline est : cocher la proposition exacte :",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Synthétisée par l'hypothalamus"},
-      {"id": 2, "text": "B- A le même effet que la prolactine"},
-      {"id": 3, "text": "C- Est un analogue structural de la TRH"},
-      {"id": 4, "text": "D- Est utilisée dans le test à la TSH"},
-      {"id": 5, "text": "E- Aucune proposition exacte"}
+      {"id":1,"text":"A- Synthétisée par l'hypothalamus"},
+      {"id":2,"text":"B- A le même effet que la prolactine"},
+      {"id":3,"text":"C- Est un analogue structural de la TRH"},
+      {"id":4,"text":"D- Est utilisée dans le test à la TSH"},
+      {"id":5,"text":"E- Aucune proposition exacte"}
     ],
     "correctOptionIds": [4],
     "Date": "04 Mai 2025",
-    "courseName": ["Les Hormones Hypothalamo-hypophysaires", "Les Hormones Thyroïdiennes"]
+    "courseName": ["Les Hormones Hypothalamo-hypophysaires","Les Hormones Thyroïdiennes"]
   },
   {
     "id": 24,
     "text": "Les conséquences d'une hyperprolactinémie : cocher la combinaison exacte\n1. Une augmentation de la sécrétion de GnRH\n2. une sécrétion importante de dopamine\n3. une diminution de la sécrétion de Prolactine\n4. une infertilité\n5. une hyperstimulation ovarienne",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- 1,2"},
-      {"id": 2, "text": "B- 2,3"},
-      {"id": 3, "text": "C- 3,4"},
-      {"id": 4, "text": "D- 4,5"},
-      {"id": 5, "text": "E- 1,5"}
+      {"id":1,"text":"A- 1,2"},
+      {"id":2,"text":"B- 2,3"},
+      {"id":3,"text":"C- 3,4"},
+      {"id":4,"text":"D- 4,5"},
+      {"id":5,"text":"E- 1,5"}
     ],
     "correctOptionIds": [3],
     "Date": "04 Mai 2025",
@@ -364,11 +364,11 @@
     "text": "Quelle proposition est inexacte parmi les suivantes :\n1. Le nombre de sites récepteurs d'une hormone diminue si la synthèse de l'hormone diminue\n2. Il y a une augmentation de l'activité hormonale si l'hormone n'est pas liée à son transporteur\n3. Les récepteurs hormonaux sont des protéines\n4. Les récepteurs des facteurs de croissance sont activés par la voie Ras/Map kinase\n5. Le récepteur GABA est un canal ionique perméable au K+",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- 1,2"},
-      {"id": 2, "text": "B- 1,3"},
-      {"id": 3, "text": "C- 1,5"},
-      {"id": 4, "text": "D- 2,4"},
-      {"id": 5, "text": "E- 3,5"}
+      {"id":1,"text":"A- 1,2"},
+      {"id":2,"text":"B- 1,3"},
+      {"id":3,"text":"C- 1,5"},
+      {"id":4,"text":"D- 2,4"},
+      {"id":5,"text":"E- 3,5"}
     ],
     "correctOptionIds": [3],
     "Date": "04 Mai 2025",
@@ -379,11 +379,11 @@
     "text": "Une mutation activatrice de Ras peut conduire à la cancérogenèse par quel mécanisme ? Cocher la proposition exacte",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Elle inhibe définitivement la division cellulaire"},
-      {"id": 2, "text": "B- Elle maintient Ras dans une forme inactive"},
-      {"id": 3, "text": "C- Elle rend Ras constitutivement actif, stimulant la prolifération cellulaire en continu"},
-      {"id": 4, "text": "D- Elle bloque complètement la voie MAPK"},
-      {"id": 5, "text": "E- elle favorise l'hydrolyse du GTP lié à Ras"}
+      {"id":1,"text":"A- Elle inhibe définitivement la division cellulaire"},
+      {"id":2,"text":"B- Elle maintient Ras dans une forme inactive"},
+      {"id":3,"text":"C- Elle rend Ras constitutivement actif, stimulant la prolifération cellulaire en continu"},
+      {"id":4,"text":"D- Elle bloque complètement la voie MAPK"},
+      {"id":5,"text":"E- elle favorise l'hydrolyse du GTP lié à Ras"}
     ],
     "correctOptionIds": [3],
     "Date": "04 Mai 2025",
@@ -394,11 +394,11 @@
     "text": "A propos des hormones thyroïdiennes, cocher la combinaison inexacte\n1. Elles favorisent la sécrétion de STH au cours de l'enfance\n2. Elles favorisent la thermogenèse grâce à l'effet découpleur de la T4\n3. Elles favorisent la formation osseuse chez l'adulte\n4. Elles diminuent le LDL-C\n5. En cas de leur déficit chez l'enfant, il s'installe un nanisme harmonieux",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- 1,2"},
-      {"id": 2, "text": "B- 2,3"},
-      {"id": 3, "text": "C- 3,4"},
-      {"id": 4, "text": "D- 4,5"},
-      {"id": 5, "text": "E- 3,5"}
+      {"id":1,"text":"A- 1,2"},
+      {"id":2,"text":"B- 2,3"},
+      {"id":3,"text":"C- 3,4"},
+      {"id":4,"text":"D- 4,5"},
+      {"id":5,"text":"E- 3,5"}
     ],
     "correctOptionIds": [5],
     "Date": "04 Mai 2025",
@@ -409,11 +409,11 @@
     "text": "Parmi les signes biologiques suivants, lesquels sont ceux qui peuvent confirmer la maladie de Basedow ?\n1- TSH élevée\n2- T3 libre élevée\n3- Anticorps anti R-TSH élevés\n4- calcitonine élevée",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- 1,2"},
-      {"id": 2, "text": "B- 2,3"},
-      {"id": 3, "text": "C- 3,4"},
-      {"id": 4, "text": "D- 1,3"},
-      {"id": 5, "text": "E- 2,4"}
+      {"id":1,"text":"A- 1,2"},
+      {"id":2,"text":"B- 2,3"},
+      {"id":3,"text":"C- 3,4"},
+      {"id":4,"text":"D- 1,3"},
+      {"id":5,"text":"E- 2,4"}
     ],
     "correctOptionIds": [2],
     "Date": "04 Mai 2025",
@@ -424,11 +424,11 @@
     "text": "En ce qui concerne l'adrénaline, quelle est la proposition inexacte ?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Ses récepteurs β activent l'adénylcyclase"},
-      {"id": 2, "text": "B- Elle stimule la sécrétion de rénine"},
-      {"id": 3, "text": "C- Son catabolisme aboutit au VMA après l'action de MAO puis de COMT"},
-      {"id": 4, "text": "D- Son dosage se fait sur un prélèvement sanguin en position couchée après un repos de 20mn"},
-      {"id": 5, "text": "E- Elle est co-sécrétée avec la chromogranine A"}
+      {"id":1,"text":"A- Ses récepteurs β activent l'adénylcyclase"},
+      {"id":2,"text":"B- Elle stimule la sécrétion de rénine"},
+      {"id":3,"text":"C- Son catabolisme aboutit au VMA après l'action de MAO puis de COMT"},
+      {"id":4,"text":"D- Son dosage se fait sur un prélèvement sanguin en position couchée après un repos de 20mn"},
+      {"id":5,"text":"E- Elle est co-sécrétée avec la chromogranine A"}
     ],
     "correctOptionIds": [3],
     "Date": "04 Mai 2025",
@@ -439,11 +439,11 @@
     "text": "Un bilan hormonal donne les résultats suivants : œstrogène bas, progestérone bas, FSH élevé, LH élevé : ce bilan est caractéristique de quelle condition ?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Premier trimestre de la grossesse"},
-      {"id": 2, "text": "B- Ménopause"},
-      {"id": 3, "text": "C- Infertilité féminine"},
-      {"id": 4, "text": "D- Puberté retardée"},
-      {"id": 5, "text": "E- Hirsutisme"}
+      {"id":1,"text":"A- Premier trimestre de la grossesse"},
+      {"id":2,"text":"B- Ménopause"},
+      {"id":3,"text":"C- Infertilité féminine"},
+      {"id":4,"text":"D- Puberté retardée"},
+      {"id":5,"text":"E- Hirsutisme"}
     ],
     "correctOptionIds": [2],
     "Date": "04 Mai 2025",
@@ -454,11 +454,11 @@
     "text": "Parmi les propositions suivantes sur l'action de la FSH chez l'homme et la femme, cochez la réponse correcte :",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Elle agit sur les cellules Leydig"},
-      {"id": 2, "text": "B- Elle agit sur le stroma ovarien"},
-      {"id": 3, "text": "C- Elle agit sur les cellules de Sertoli"},
-      {"id": 4, "text": "D- Elle agit sur les cellules de la Granulosa pour stimuler la sécrétion des œstrogènes"},
-      {"id": 5, "text": "E- Elle agit sur les cellules de la thèque interne pour stimuler la synthèse des androgènes ovariens"}
+      {"id":1,"text":"A- Elle agit sur les cellules Leydig"},
+      {"id":2,"text":"B- Elle agit sur le stroma ovarien"},
+      {"id":3,"text":"C- Elle agit sur les cellules de Sertoli"},
+      {"id":4,"text":"D- Elle agit sur les cellules de la Granulosa pour stimuler la sécrétion des œstrogènes"},
+      {"id":5,"text":"E- Elle agit sur les cellules de la thèque interne pour stimuler la synthèse des androgènes ovariens"}
     ],
     "correctOptionIds": [3],
     "Date": "04 Mai 2025",
@@ -469,11 +469,11 @@
     "text": "Parmi les hormones suivantes, lequel est indiqué dans l'azoospermie pour le diagnostic différentiel entre les causes obstructives et l'insuffisance testiculaire ?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Testostérone"},
-      {"id": 2, "text": "B- Dihydrotestostérone"},
-      {"id": 3, "text": "C- FSH et LH"},
-      {"id": 4, "text": "D- Inhibine A"},
-      {"id": 5, "text": "E- Inhibine B"}
+      {"id":1,"text":"A- Testostérone"},
+      {"id":2,"text":"B- Dihydrotestostérone"},
+      {"id":3,"text":"C- FSH et LH"},
+      {"id":4,"text":"D- Inhibine A"},
+      {"id":5,"text":"E- Inhibine B"}
     ],
     "correctOptionIds": [5],
     "Date": "04 Mai 2025",
@@ -484,11 +484,11 @@
     "text": "Parmi les molécules suivantes, laquelle est indiquée dans le cancer des testicules ?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Testostérone"},
-      {"id": 2, "text": "B- AMH"},
-      {"id": 3, "text": "C- Inhibines A"},
-      {"id": 4, "text": "D- Beta-HCG"},
-      {"id": 5, "text": "E- LH"}
+      {"id":1,"text":"A- Testostérone"},
+      {"id":2,"text":"B- AMH"},
+      {"id":3,"text":"C- Inhibines A"},
+      {"id":4,"text":"D- Beta-HCG"},
+      {"id":5,"text":"E- LH"}
     ],
     "correctOptionIds": [4],
     "Date": "04 Mai 2025",
@@ -499,26 +499,26 @@
     "text": "Parmi les propositions suivantes concernant l'ACTH, quelle est la proposition exacte ?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Sa concentration sanguine est augmentée dans le cas d'un adénome de la corticosurrénale"},
-      {"id": 2, "text": "B- Sa concentration sanguine est augmentée dans le cas d'une maladie de Cushing"},
-      {"id": 3, "text": "C- Sa concentration sanguine est diminuée dans le cas d'une maladie d'Addison"},
-      {"id": 4, "text": "D- L'ACTH est physiologiquement sécrétée par la post-hypophyse"},
-      {"id": 5, "text": "E- Sa concentration sanguine est constante au cours de la journée"}
+      {"id":1,"text":"A- Sa concentration sanguine est augmentée dans le cas d'un adénome de la corticosurrénale"},
+      {"id":2,"text":"B- Sa concentration sanguine est augmentée dans le cas d'une maladie de Cushing"},
+      {"id":3,"text":"C- Sa concentration sanguine est diminuée dans le cas d'une maladie d'Addison"},
+      {"id":4,"text":"D- L'ACTH est physiologiquement sécrétée par la post-hypophyse"},
+      {"id":5,"text":"E- Sa concentration sanguine est constante au cours de la journée"}
     ],
     "correctOptionIds": [2],
     "Date": "04 Mai 2025",
-    "courseName": ["Les Hormones Hypothalamo-hypophysaires", "Les Hormones Cortico-Surrénaliennes"]
+    "courseName": ["Les Hormones Hypothalamo-hypophysaires","Les Hormones Cortico-Surrénaliennes"]
   },
   {
     "id": 35,
     "text": "Tout excès d'aldostérone entraine : cocher la proposition exacte\n1. Hyperkaliémie\n2. une acidose métabolique\n3. une hypertension artérielle\n4. une hyposécrétion de rénine\n5. une réabsorption excessive d'eau libre",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- 1,2"},
-      {"id": 2, "text": "B- 1,3"},
-      {"id": 3, "text": "C- 2,4"},
-      {"id": 4, "text": "D- 3,4"},
-      {"id": 5, "text": "E- 3,5"}
+      {"id":1,"text":"A- 1,2"},
+      {"id":2,"text":"B- 1,3"},
+      {"id":3,"text":"C- 2,4"},
+      {"id":4,"text":"D- 3,4"},
+      {"id":5,"text":"E- 3,5"}
     ],
     "correctOptionIds": [4],
     "Date": "04 Mai 2025",
@@ -529,11 +529,11 @@
     "text": "Parmi les hormones stéroïdes : laquelle est inexacte ?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- La testostérone provient de la progestérone"},
-      {"id": 2, "text": "B- Les œstrogènes proviennent de la DHEA"},
-      {"id": 3, "text": "C- L'aldostérone provient de la progestérone"},
-      {"id": 4, "text": "D- Le cortisol provient de la testostérone"},
-      {"id": 5, "text": "E- L'action de l'Aromatase sur les androgènes donne les œstrogènes"}
+      {"id":1,"text":"A- La testostérone provient de la progestérone"},
+      {"id":2,"text":"B- Les œstrogènes proviennent de la DHEA"},
+      {"id":3,"text":"C- L'aldostérone provient de la progestérone"},
+      {"id":4,"text":"D- Le cortisol provient de la testostérone"},
+      {"id":5,"text":"E- L'action de l'Aromatase sur les androgènes donne les œstrogènes"}
     ],
     "correctOptionIds": [4],
     "Date": "04 Mai 2025",
@@ -544,26 +544,26 @@
     "text": "A propos du test au synacthène, cocher la proposition inexacte",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A - il n'est pas utile en cas d'hypercorticisme"},
-      {"id": 2, "text": "B- il évalue la capacité des surrénales à produire du cortisol"},
-      {"id": 3, "text": "C- c'est une injection d'ACTH synthétique"},
-      {"id": 4, "text": "D- il ne répond pas en cas de maladie d'Addison"},
-      {"id": 5, "text": "E- en cas d'insuffisance hypophysaire, le taux de cortisol ne varie pas"}
+      {"id":1,"text":"A - il n'est pas utile en cas d'hypercorticisme"},
+      {"id":2,"text":"B- il évalue la capacité des surrénales à produire du cortisol"},
+      {"id":3,"text":"C- c'est une injection d'ACTH synthétique"},
+      {"id":4,"text":"D- il ne répond pas en cas de maladie d'Addison"},
+      {"id":5,"text":"E- en cas d'insuffisance hypophysaire, le taux de cortisol ne varie pas"}
     ],
     "correctOptionIds": [5],
     "Date": "04 Mai 2025",
-    "courseName": ["Les Hormones Cortico-Surrénaliennes", "Les Hormones Hypothalamo-hypophysaires"]
+    "courseName": ["Les Hormones Cortico-Surrénaliennes","Les Hormones Hypothalamo-hypophysaires"]
   },
   {
     "id": 38,
     "text": "L'hormone antidiurétique (ADH) : cocher la proposition inexacte",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Déclenche la soif"},
-      {"id": 2, "text": "B- Augmente l'osmolarité urinaire"},
-      {"id": 3, "text": "C- Est une hormone post-hypophysaire"},
-      {"id": 4, "text": "D- Augmente la pression artérielle"},
-      {"id": 5, "text": "E- elle est formée de 9 acides aminés"}
+      {"id":1,"text":"A- Déclenche la soif"},
+      {"id":2,"text":"B- Augmente l'osmolarité urinaire"},
+      {"id":3,"text":"C- Est une hormone post-hypophysaire"},
+      {"id":4,"text":"D- Augmente la pression artérielle"},
+      {"id":5,"text":"E- elle est formée de 9 acides aminés"}
     ],
     "correctOptionIds": [1],
     "Date": "04 Mai 2025",
@@ -574,11 +574,11 @@
     "text": "L'ocytocine provoque : cocher la proposition inexacte",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- La contraction du myomètre"},
-      {"id": 2, "text": "B- La lactogenèse"},
-      {"id": 3, "text": "C - L'éjection du lait"},
-      {"id": 4, "text": "D - L'expulsion du placenta après l'accouchement"},
-      {"id": 5, "text": "E - permet l'excrétion des spermatozoïdes hors des tubes séminifères chez l'homme"}
+      {"id":1,"text":"A- La contraction du myomètre"},
+      {"id":2,"text":"B- La lactogenèse"},
+      {"id":3,"text":"C - L'éjection du lait"},
+      {"id":4,"text":"D - L'expulsion du placenta après l'accouchement"},
+      {"id":5,"text":"E - permet l'excrétion des spermatozoïdes hors des tubes séminifères chez l'homme"}
     ],
     "correctOptionIds": [2],
     "Date": "04 Mai 2025",
@@ -589,11 +589,11 @@
     "text": "le diabète insipide se caractérise par, cocher la proposition exacte :\n1- un excès de production d'ADH\n2- une polydipsie\n3- une polyurie\n4- un risque de déshydratation\n5- une hyperosmolarité plasmatique",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- 1,2,3"},
-      {"id": 2, "text": "B- 2,3,4"},
-      {"id": 3, "text": "C- 2,3,4,5"},
-      {"id": 4, "text": "D- 3,4,5"},
-      {"id": 5, "text": "E- 1,4,5"}
+      {"id":1,"text":"A- 1,2,3"},
+      {"id":2,"text":"B- 2,3,4"},
+      {"id":3,"text":"C- 2,3,4,5"},
+      {"id":4,"text":"D- 3,4,5"},
+      {"id":5,"text":"E- 1,4,5"}
     ],
     "correctOptionIds": [3],
     "Date": "04 Mai 2025",
@@ -604,11 +604,11 @@
     "text": "La principale anomalie en cas d'hypothyroïdie congénitale est : cocher la proposition exacte",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- un défaut de fixation de l'iode par la thyroïde"},
-      {"id": 2, "text": "B- une insensibilité aux hormones thyroïdiennes"},
-      {"id": 3, "text": "C- Absence ou malformation de la thyroïde"},
-      {"id": 4, "text": "D- un hyperfonctionnement hypothalamique"},
-      {"id": 5, "text": "E- aucune proposition exacte"}
+      {"id":1,"text":"A- un défaut de fixation de l'iode par la thyroïde"},
+      {"id":2,"text":"B- une insensibilité aux hormones thyroïdiennes"},
+      {"id":3,"text":"C- Absence ou malformation de la thyroïde"},
+      {"id":4,"text":"D- un hyperfonctionnement hypothalamique"},
+      {"id":5,"text":"E- aucune proposition exacte"}
     ],
     "correctOptionIds": [3],
     "Date": "04 Mai 2025",
@@ -619,11 +619,11 @@
     "text": "Le dépistage systématique de l'hypothyroïdie congénitale repose sur : cocher la proposition exacte",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- le dosage de T3 et T4 a la naissance"},
-      {"id": 2, "text": "B- le dosage de la TSH à la naissance"},
-      {"id": 3, "text": "C- le dosage de la TSH entre le 3eme et le 7eme jour après la naissance"},
-      {"id": 4, "text": "D- une scintigraphie thyroïdienne le 3 eme jour de la naissance"},
-      {"id": 5, "text": "E- les propositions C et D"}
+      {"id":1,"text":"A- le dosage de T3 et T4 a la naissance"},
+      {"id":2,"text":"B- le dosage de la TSH à la naissance"},
+      {"id":3,"text":"C- le dosage de la TSH entre le 3eme et le 7eme jour après la naissance"},
+      {"id":4,"text":"D- une scintigraphie thyroïdienne le 3 eme jour de la naissance"},
+      {"id":5,"text":"E- les propositions C et D"}
     ],
     "correctOptionIds": [3],
     "Date": "04 Mai 2025",
@@ -634,26 +634,26 @@
     "text": "A propos de la TSH, cocher la combinaison exacte :\n1- Elle inhibe l'organification de l'iode\n2- Elle a des récepteurs (RCPG) activant l'adénylcyclase au niveau de la thyroïde\n3- Elle stimule la synthèse de la thyroglobuline\n4- sa sécrétion est stimulée par la dopamine\n5- elle a un effet trophique sur la thyroïde",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- 1,2,3"},
-      {"id": 2, "text": "B- 1,3,4"},
-      {"id": 3, "text": "C- 2,3,4"},
-      {"id": 4, "text": "D- 2,3,5"},
-      {"id": 5, "text": "E- 3,4,5"}
+      {"id":1,"text":"A- 1,2,3"},
+      {"id":2,"text":"B- 1,3,4"},
+      {"id":3,"text":"C- 2,3,4"},
+      {"id":4,"text":"D- 2,3,5"},
+      {"id":5,"text":"E- 3,4,5"}
     ],
     "correctOptionIds": [4],
     "Date": "04 Mai 2025",
-    "courseName": ["Les Hormones Hypothalamo-hypophysaires", "Les Hormones Thyroïdiennes"]
+    "courseName": ["Les Hormones Hypothalamo-hypophysaires","Les Hormones Thyroïdiennes"]
   },
   {
     "id": 44,
     "text": "Quel type de récepteurs active la voie des Map-kinase ?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- RCPG"},
-      {"id": 2, "text": "B- Récepteurs nucléaires"},
-      {"id": 3, "text": "C- Récepteurs a activité catalytique quelconque"},
-      {"id": 4, "text": "D- Récepteurs tyrosine kinase"},
-      {"id": 5, "text": "E- Récepteurs couplés aux canaux ioniques"}
+      {"id":1,"text":"A- RCPG"},
+      {"id":2,"text":"B- Récepteurs nucléaires"},
+      {"id":3,"text":"C- Récepteurs a activité catalytique quelconque"},
+      {"id":4,"text":"D- Récepteurs tyrosine kinase"},
+      {"id":5,"text":"E- Récepteurs couplés aux canaux ioniques"}
     ],
     "correctOptionIds": [4],
     "Date": "04 Mai 2025",
@@ -664,28 +664,28 @@
     "text": "Laquelle des propositions suivantes est inexacte ?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- un déficit en phénylalanine hydroxylase ne permet pas la synthèse des cathécolamines"},
-      {"id": 2, "text": "B- L'ACTH stimule la synthèse de l'aldostérone"},
-      {"id": 3, "text": "C- un goitre est spécifique d'une hyperthyroïdie"},
-      {"id": 4, "text": "D- la somatostatine inhibe la sécrétion de GH-RH"},
-      {"id": 5, "text": "E- la valeur normale de la TSH est de 0,3-4,0 Mu/L"}
+      {"id":1,"text":"A- un déficit en phénylalanine hydroxylase ne permet pas la synthèse des cathécolamines"},
+      {"id":2,"text":"B- L'ACTH stimule la synthèse de l'aldostérone"},
+      {"id":3,"text":"C- un goitre est spécifique d'une hyperthyroïdie"},
+      {"id":4,"text":"D- la somatostatine inhibe la sécrétion de GH-RH"},
+      {"id":5,"text":"E- la valeur normale de la TSH est de 0,3-4,0 Mu/L"}
     ],
     "correctOptionIds": [3],
     "Date": "04 Mai 2025",
-    "courseName": ["Généralités sur les Hormones", "Les Hormones Thyroïdiennes"]
+    "courseName": ["Généralités sur les Hormones","Les Hormones Thyroïdiennes"]
   },
   {
     "id": 46,
     "text": "A propos de la GnRH, cocher la ou les réponses exactes:",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Le GAP fait partie de la molécule de GnRH"},
-      {"id": 2, "text": "B- La GnRH régule sa propre synthèse"},
-      {"id": 3, "text": "C- une mutation du gène GnRH est à l'origine d'un impuberisme"},
-      {"id": 4, "text": "D- elle stimule la sécrétion de GH hypophysaire"},
-      {"id": 5, "text": "E- la leptine régule sa sécrétion"}
+      {"id":1,"text":"A- Le GAP fait partie de la molécule de GnRH"},
+      {"id":2,"text":"B- La GnRH régule sa propre synthèse"},
+      {"id":3,"text":"C- une mutation du gène GnRH est à l'origine d'un impuberisme"},
+      {"id":4,"text":"D- elle stimule la sécrétion de GH hypophysaire"},
+      {"id":5,"text":"E- la leptine régule sa sécrétion"}
     ],
-    "correctOptionIds": [2, 3, 5],
+    "correctOptionIds": [2,3,5],
     "Date": "05 Mars 2023",
     "courseName": ["Les Hormones Hypothalamo-hypophysaires"]
   },
@@ -694,26 +694,26 @@
     "text": "A propos de l'insuline, cocher la ou les réponse (s) inexacte(s):",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Ses récepteurs cytosoliques ont une activité tyrosine kinase"},
-      {"id": 2, "text": "B- Elle est synthétisée sous forme de préprohormone"},
-      {"id": 3, "text": "C- Son transport plasmatique est représenté surtout par l'albumine"},
-      {"id": 4, "text": "D- Elle est stockée dans des granules cytoplasmiques et secrétée par exocytose"},
-      {"id": 5, "text": "E- Elle se lie à son récepteur d'une façon covalente"}
+      {"id":1,"text":"A- Ses récepteurs cytosoliques ont une activité tyrosine kinase"},
+      {"id":2,"text":"B- Elle est synthétisée sous forme de préprohormone"},
+      {"id":3,"text":"C- Son transport plasmatique est représenté surtout par l'albumine"},
+      {"id":4,"text":"D- Elle est stockée dans des granules cytoplasmiques et secrétée par exocytose"},
+      {"id":5,"text":"E- Elle se lie à son récepteur d'une façon covalente"}
     ],
-    "correctOptionIds": [1, 3, 5],
+    "correctOptionIds": [1,3,5],
     "Date": "05 Mars 2023",
-    "courseName": ["Mécanismes d’Action des Hormones", "Généralités sur les Hormones"]
+    "courseName": ["Mécanismes d’Action des Hormones","Généralités sur les Hormones"]
   },
   {
     "id": 48,
     "text": "Chez une femme de 40 ans porteuse d'un Pan hypopituitarisme, l'un de ces signes n'est jamais retrouvé, lequel ?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Discrète infiltration du visage"},
-      {"id": 2, "text": "B- sècheresse cutanée"},
-      {"id": 3, "text": "C- Pigmentation diffuse"},
-      {"id": 4, "text": "D- Dépilation axillaire et pubienne"},
-      {"id": 5, "text": "E- Ralentissement de l'activity physique et psychique"}
+      {"id":1,"text":"A- Discrète infiltration du visage"},
+      {"id":2,"text":"B- sècheresse cutanée"},
+      {"id":3,"text":"C- Pigmentation diffuse"},
+      {"id":4,"text":"D- Dépilation axillaire et pubienne"},
+      {"id":5,"text":"E- Ralentissement de l'activity physique et psychique"}
     ],
     "correctOptionIds": [3],
     "Date": "05 Mars 2023",
@@ -724,41 +724,41 @@
     "text": "La TSH plasmatique s'élève après stimulation par la TRH dans la ou les situations suivantes:",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Syndrome de sheean"},
-      {"id": 2, "text": "B- Adénome thyroïdien toxique"},
-      {"id": 3, "text": "C- Maladie de Basedow"},
-      {"id": 4, "text": "D- Insuffisance thyroïdienne périphérique"},
-      {"id": 5, "text": "E- Aucune de ces pathologies"}
+      {"id":1,"text":"A- Syndrome de sheean"},
+      {"id":2,"text":"B- Adénome thyroïdien toxique"},
+      {"id":3,"text":"C- Maladie de Basedow"},
+      {"id":4,"text":"D- Insuffisance thyroïdienne périphérique"},
+      {"id":5,"text":"E- Aucune de ces pathologies"}
     ],
     "correctOptionIds": [4],
     "Date": "05 Mars 2023",
-    "courseName": ["Les Hormones Hypothalamo-hypophysaires", "Les Hormones Thyroïdiennes"]
+    "courseName": ["Les Hormones Hypothalamo-hypophysaires","Les Hormones Thyroïdiennes"]
   },
   {
     "id": 50,
     "text": "Quand on suspecte cliniquement une insuffisance antéhypophysaire chez une femme de plus de 60 ans, quel est l'examen le plus utile au diagnostic?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Glycémie"},
-      {"id": 2, "text": "B- TSH"},
-      {"id": 3, "text": "C- ACTH"},
-      {"id": 4, "text": "D- FSH-LH"},
-      {"id": 5, "text": "E- Prolactine"}
+      {"id":1,"text":"A- Glycémie"},
+      {"id":2,"text":"B- TSH"},
+      {"id":3,"text":"C- ACTH"},
+      {"id":4,"text":"D- FSH-LH"},
+      {"id":5,"text":"E- Prolactine"}
     ],
     "correctOptionIds": [4],
     "Date": "05 Mars 2023",
-    "courseName": ["Les Hormones Hypothalamo-hypophysaires", "Exploration Biochimique des Gonades"]
+    "courseName": ["Les Hormones Hypothalamo-hypophysaires","Exploration Biochimique des Gonades"]
   },
   {
     "id": 51,
     "text": "Parmi les tests suivants, lequel est le plus approprié pour le diagnostic de l'insuffisance thyroïdienne primitive:",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- dosage de la T4 libre"},
-      {"id": 2, "text": "B- dosage de la T3"},
-      {"id": 3, "text": "C- dosage de la TSH"},
-      {"id": 4, "text": "D- dosage du cholestérol"},
-      {"id": 5, "text": "E- Formule numération sanguine"}
+      {"id":1,"text":"A- dosage de la T4 libre"},
+      {"id":2,"text":"B- dosage de la T3"},
+      {"id":3,"text":"C- dosage de la TSH"},
+      {"id":4,"text":"D- dosage du cholestérol"},
+      {"id":5,"text":"E- Formule numération sanguine"}
     ],
     "correctOptionIds": [3],
     "Date": "05 Mars 2023",
@@ -769,11 +769,11 @@
     "text": "Parmi les tests suivants, lequel permet de poser le diagnostic différentiel entre une anorchidie et une cryptorchidie chez l'enfant :",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Dosage de la 5a-di-hydro-testostérone"},
-      {"id": 2, "text": "B- Dosage de la testostérone"},
-      {"id": 3, "text": "C- Le test de stimulation à la HCG"},
-      {"id": 4, "text": "D- Dosage de la FSH et de la LH"},
-      {"id": 5, "text": "E- Dosage de l'estradiol"}
+      {"id":1,"text":"A- Dosage de la 5a-di-hydro-testostérone"},
+      {"id":2,"text":"B- Dosage de la testostérone"},
+      {"id":3,"text":"C- Le test de stimulation à la HCG"},
+      {"id":4,"text":"D- Dosage de la FSH et de la LH"},
+      {"id":5,"text":"E- Dosage de l'estradiol"}
     ],
     "correctOptionIds": [3],
     "Date": "05 Mars 2023",
@@ -784,13 +784,13 @@
     "text": "Dans l'azoospermie obstructive, on retrouve (Cochez les réponses exactes):",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- L'AMH séminal est effondrée"},
-      {"id": 2, "text": "B- L'inhibine B est effondrée"},
-      {"id": 3, "text": "C- La testostérone est effondrée"},
-      {"id": 4, "text": "D- L'inhibine B est élevée"},
-      {"id": 5, "text": "E- FSH et LH bas"}
+      {"id":1,"text":"A- L'AMH séminal est effondrée"},
+      {"id":2,"text":"B- L'inhibine B est effondrée"},
+      {"id":3,"text":"C- La testostérone est effondrée"},
+      {"id":4,"text":"D- L'inhibine B est élevée"},
+      {"id":5,"text":"E- FSH et LH bas"}
     ],
-    "correctOptionIds": [1, 2],
+    "correctOptionIds": [1,2],
     "Date": "05 Mars 2023",
     "courseName": ["Exploration Biochimique des Testicules"]
   },
@@ -799,11 +799,11 @@
     "text": "Quel est parmi les signes suivants celui en faveur d'un adénome hypophysaire à prolactine plutôt que d'une hyper-prolactinémie fonctionnelle ?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- taux de prolactine élevé"},
-      {"id": 2, "text": "B- une prolactine non stimulable par la TRH"},
-      {"id": 3, "text": "C- la normalité de la FSH"},
-      {"id": 4, "text": "D- la normalité de la LH"},
-      {"id": 5, "text": "E- l'abaissement de la progestérone"}
+      {"id":1,"text":"A- taux de prolactine élevé"},
+      {"id":2,"text":"B- une prolactine non stimulable par la TRH"},
+      {"id":3,"text":"C- la normalité de la FSH"},
+      {"id":4,"text":"D- la normalité de la LH"},
+      {"id":5,"text":"E- l'abaissement de la progestérone"}
     ],
     "correctOptionIds": [2],
     "Date": "05 Mars 2023",
@@ -814,13 +814,13 @@
     "text": "Lors de la sécrétion inopinée d'hormone anti diurèse, on observe (cocher la ou les réponses exactes):",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Une élévation de l'osmolalité urinaire"},
-      {"id": 2, "text": "B- Une hyponatrémie"},
-      {"id": 3, "text": "C- Une hyperkaliémie"},
-      {"id": 4, "text": "D- Une acidose métabolique"},
-      {"id": 5, "text": "E- Une hyponatrémie"}
+      {"id":1,"text":"A- Une élévation de l'osmolalité urinaire"},
+      {"id":2,"text":"B- Une hyponatrémie"},
+      {"id":3,"text":"C- Une hyperkaliémie"},
+      {"id":4,"text":"D- Une acidose métabolique"},
+      {"id":5,"text":"E- Une hyponatrémie"}
     ],
-    "correctOptionIds": [1, 5],
+    "correctOptionIds": [1,5],
     "Date": "05 Mars 2023",
     "courseName": ["Les Hormones Post-hypophysaires"]
   },
@@ -829,13 +829,13 @@
     "text": "La thyroglobuline, cocher la ou les propositions inexactes:",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Permet le transport plasmatique de T3 et T4"},
-      {"id": 2, "text": "B- Est une protéine iodée"},
-      {"id": 3, "text": "C- Sa synthèse est stimulée par la TSH"},
-      {"id": 4, "text": "D- Son taux plasmatique est nul en cas d'Athyréose"},
-      {"id": 5, "text": "E- Son taux plasmatique est élevé en cas de thyroïdite d'Hashimoto"}
+      {"id":1,"text":"A- Permet le transport plasmatique de T3 et T4"},
+      {"id":2,"text":"B- Est une protéine iodée"},
+      {"id":3,"text":"C- Sa synthèse est stimulée par la TSH"},
+      {"id":4,"text":"D- Son taux plasmatique est nul en cas d'Athyréose"},
+      {"id":5,"text":"E- Son taux plasmatique est élevé en cas de thyroïdite d'Hashimoto"}
     ],
-    "correctOptionIds": [1, 5],
+    "correctOptionIds": [1,5],
     "Date": "05 Mars 2023",
     "courseName": ["Les Hormones Thyroïdiennes"]
   },
@@ -844,13 +844,13 @@
     "text": "A propos de la thyroperoxydase (TPO), cocher la ou les propositions exactes:",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- C'est le support de la synthèse des hormones thyroïdiennes"},
-      {"id": 2, "text": "B- Elle est inhibée par le Carbimazole"},
-      {"id": 3, "text": "C- Elle est activée par thyroglobuline"},
-      {"id": 4, "text": "D- Fermet l'activation des iodures plasmatiques"},
-      {"id": 5, "text": "E- Active la libération de T3, T4 dans le plasma"}
+      {"id":1,"text":"A- C'est le support de la synthèse des hormones thyroïdiennes"},
+      {"id":2,"text":"B- Elle est inhibée par le Carbimazole"},
+      {"id":3,"text":"C- Elle est activée par thyroglobuline"},
+      {"id":4,"text":"D- Fermet l'activation des iodures plasmatiques"},
+      {"id":5,"text":"E- Active la libération de T3, T4 dans le plasma"}
     ],
-    "correctOptionIds": [2, 4],
+    "correctOptionIds": [2,4],
     "Date": "05 Mars 2023",
     "courseName": ["Les Hormones Thyroïdiennes"]
   },
@@ -859,13 +859,13 @@
     "text": "A propos des récepteurs hormonaux intracellulaires, lesquelles sont exactes ?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Ils reconnaissent et fixent l'hormone"},
-      {"id": 2, "text": "B- Ils servent de réserve en hormone circulante"},
-      {"id": 3, "text": "C- Leur déficit est à l'origine des syndromes d'insensibilité aux hormones"},
-      {"id": 4, "text": "D- Leur affinité pour leur hormone est faible"},
-      {"id": 5, "text": "E- Ils peuvent être localisés dans le noyau"}
+      {"id":1,"text":"A- Ils reconnaissent et fixent l'hormone"},
+      {"id":2,"text":"B- Ils servent de réserve en hormone circulante"},
+      {"id":3,"text":"C- Leur déficit est à l'origine des syndromes d'insensibilité aux hormones"},
+      {"id":4,"text":"D- Leur affinité pour leur hormone est faible"},
+      {"id":5,"text":"E- Ils peuvent être localisés dans le noyau"}
     ],
-    "correctOptionIds": [1, 3, 5],
+    "correctOptionIds": [1,3,5],
     "Date": "05 Mars 2023",
     "courseName": ["Mécanismes d’Action des Hormones"]
   },
@@ -874,13 +874,13 @@
     "text": "A propos des protéines kinase A, quelles sont les propositions exactes ?",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Elles sont activées au niveau hépatique par le glucagon"},
-      {"id": 2, "text": "B- Elles fixent le produit d'action de l'adényl-cyclase sur l'ATP"},
-      {"id": 3, "text": "C- Leurs composantes catalytiques sont libres à l'état active et inactivé"},
-      {"id": 4, "text": "D- Elles permettent l'activation de la glycogène phosphorylase"},
-      {"id": 5, "text": "E- Elles sont désactivées par la phosphodiesterase"}
+      {"id":1,"text":"A- Elles sont activées au niveau hépatique par le glucagon"},
+      {"id":2,"text":"B- Elles fixent le produit d'action de l'adényl-cyclase sur l'ATP"},
+      {"id":3,"text":"C- Leurs composantes catalytiques sont libres à l'état active et inactivé"},
+      {"id":4,"text":"D- Elles permettent l'activation de la glycogène phosphorylase"},
+      {"id":5,"text":"E- Elles sont désactivées par la phosphodiesterase"}
     ],
-    "correctOptionIds": [1, 3, 4, 5],
+    "correctOptionIds": [1,3,4,5],
     "Date": "05 Mars 2023",
     "courseName": ["Mécanismes d’Action des Hormones"]
   },
@@ -889,13 +889,13 @@
     "text": "Les récepteurs de NT-ProBNP, cocher la ou les propositions fausses :",
     "module": "Biochimie",
     "options": [
-      {"id": 1, "text": "A- Ce sont des récepteurs membranaires"},
-      {"id": 2, "text": "B- Leur activation permet de diminuer la tension artérielle"},
-      {"id": 3, "text": "C- Ils sont doués d'une activité guanyl-cyclase intrinsèque"},
-      {"id": 4, "text": "D- Leur activation se fait par l'intermédiaire de la protéine Gs"},
-      {"id": 5, "text": "E- Ils sont également activés par le NO (monoxyde d'azote)"}
+      {"id":1,"text":"A- Ce sont des récepteurs membranaires"},
+      {"id":2,"text":"B- Leur activation permet de diminuer la tension artérielle"},
+      {"id":3,"text":"C- Ils sont doués d'une activité guanyl-cyclase intrinsèque"},
+      {"id":4,"text":"D- Leur activation se fait par l'intermédiaire de la protéine Gs"},
+      {"id":5,"text":"E- Ils sont également activés par le NO (monoxyde d'azote)"}
     ],
-    "correctOptionIds": [4, 5],
+    "correctOptionIds": [4,5],
     "Date": "05 Mars 2023",
     "courseName": ["Mécanismes d’Action des Hormones"]
   },
@@ -904,11 +904,11 @@
     "text": "En ce qui concerne les catécholamines, laquelle est fausse ?",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- La tyrosine hydroxylase est activée grâce aux PKA" },
-      { "id": 2, "text": "B- La dopamine inhibe la synthèse de la tyrosine hydroxylase" },
-      { "id": 3, "text": "C- Le cortisol contrôle l'activité de la derrière étape de synthèse de l'adrénaline" },
-      { "id": 4, "text": "D- L'adrénaline plasmatique est plus élevée que la Noradrénaline" },
-      { "id": 5, "text": "E- Le froid et le stress favorisent la sécrétion des catécholamines" }
+      {"id":1,"text":"A- La tyrosine hydroxylase est activée grâce aux PKA"},
+      {"id":2,"text":"B- La dopamine inhibe la synthèse de la tyrosine hydroxylase"},
+      {"id":3,"text":"C- Le cortisol contrôle l'activité de la derrière étape de synthèse de l'adrénaline"},
+      {"id":4,"text":"D- L'adrénaline plasmatique est plus élevée que la Noradrénaline"},
+      {"id":5,"text":"E- Le froid et le stress favorisent la sécrétion des catécholamines"}
     ],
     "correctOptionIds": [4],
     "Date": "05 Mars 2023",
@@ -919,13 +919,13 @@
     "text": "Quelles sont les propositions exactes parmi les suivantes?",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- La MAO est une enzyme d'inactivation de l'adrénaline." },
-      { "id": 2, "text": "B- Les inhibiteurs de la MAO sont employés comme des antidépresseurs." },
-      { "id": 3, "text": "C- Le HVA est obtenu après l'action de la MAO puis la COMT sur la dopamine." },
-      { "id": 4, "text": "D- L'effet lipolytique de l'adrénaline est du à l'activation des récepteurs ẞ2 adrénergiques." },
-      { "id": 5, "text": "E- Les catécholamines favorisent la sécrétion d'insuline." }
+      {"id":1,"text":"A- La MAO est une enzyme d'inactivation de l'adrénaline."},
+      {"id":2,"text":"B- Les inhibiteurs de la MAO sont employés comme des antidépresseurs."},
+      {"id":3,"text":"C- Le HVA est obtenu après l'action de la MAO puis la COMT sur la dopamine."},
+      {"id":4,"text":"D- L'effet lipolytique de l'adrénaline est du à l'activation des récepteurs ẞ2 adrénergiques."},
+      {"id":5,"text":"E- Les catécholamines favorisent la sécrétion d'insuline."}
     ],
-    "correctOptionIds": [1, 2, 3],
+    "correctOptionIds": [1,2,3],
     "Date": "05 Mars 2023",
     "courseName": ["Les Catécholamines"]
   },
@@ -934,11 +934,11 @@
     "text": "Parmi les propositions suivantes, cochez celle ou celles qui correspond (ent) aux stimulateurs de la prolactine",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- les œstrogènes" },
-      { "id": 2, "text": "B- LH RH" },
-      { "id": 3, "text": "C- Cortisone" },
-      { "id": 4, "text": "D- Dopamine" },
-      { "id": 5, "text": "E- Thyroxine" }
+      {"id":1,"text":"A- les œstrogènes"},
+      {"id":2,"text":"B- LH RH"},
+      {"id":3,"text":"C- Cortisone"},
+      {"id":4,"text":"D- Dopamine"},
+      {"id":5,"text":"E- Thyroxine"}
     ],
     "correctOptionIds": [1],
     "Date": "05 Mars 2023",
@@ -949,13 +949,13 @@
     "text": "Les indications du dosage de la prolactinémie sont :",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- Aménorrhée" },
-      { "id": 2, "text": "B- galactorrhée" },
-      { "id": 3, "text": "C- polyurie" },
-      { "id": 4, "text": "D- stérilité" },
-      { "id": 5, "text": "E- hypertension" }
+      {"id":1,"text":"A- Aménorrhée"},
+      {"id":2,"text":"B- galactorrhée"},
+      {"id":3,"text":"C- polyurie"},
+      {"id":4,"text":"D- stérilité"},
+      {"id":5,"text":"E- hypertension"}
     ],
-    "correctOptionIds": [1, 2, 4],
+    "correctOptionIds": [1,2,4],
     "Date": "05 Mars 2023",
     "courseName": ["Les Hormones Hypothalamo-hypophysaires"]
   },
@@ -964,13 +964,13 @@
     "text": "Les causes d'hypogonadisme hypergonadotropes chez l'enfant sont représentées par les situations suivantes :",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- Ectopie testiculaire" },
-      { "id": 2, "text": "B- Syndrome de Klinefelter" },
-      { "id": 3, "text": "C- Syndrome de Kallman" },
-      { "id": 4, "text": "D- Agénésie testiculaire" },
-      { "id": 5, "text": "E- Tumeur hypothalamique hypersecretante" }
+      {"id":1,"text":"A- Ectopie testiculaire"},
+      {"id":2,"text":"B- Syndrome de Klinefelter"},
+      {"id":3,"text":"C- Syndrome de Kallman"},
+      {"id":4,"text":"D- Agénésie testiculaire"},
+      {"id":5,"text":"E- Tumeur hypothalamique hypersecretante"}
     ],
-    "correctOptionIds": [1, 2, 4],
+    "correctOptionIds": [1,2,4],
     "Date": "05 Mars 2023",
     "courseName": ["Exploration Biochimique des Testicules"]
   },
@@ -979,28 +979,28 @@
     "text": "Cocher la proposition exacte parmi les suivantes concernant les causes d'hirsutisme?",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- le syndrome des ovaires polykystiques" },
-      { "id": 2, "text": "B- déficit en 21-Hydroxylase" },
-      { "id": 3, "text": "C- tumeur virilisante de l'ovaire" },
-      { "id": 4, "text": "D- hyperplasie congénitale des surrénales" },
-      { "id": 5, "text": "E- toutes ces propositions sont exactes" }
+      {"id":1,"text":"A- le syndrome des ovaires polykystiques"},
+      {"id":2,"text":"B- déficit en 21-Hydroxylase"},
+      {"id":3,"text":"C- tumeur virilisante de l'ovaire"},
+      {"id":4,"text":"D- hyperplasie congénitale des surrénales"},
+      {"id":5,"text":"E- toutes ces propositions sont exactes"}
     ],
     "correctOptionIds": [5],
     "Date": "05 Mars 2023",
-    "courseName": ["Exploration biochimique des Ovaires", "Les Hormones Cortico-Surrénaliennes"]
+    "courseName": ["Exploration biochimique des Ovaires","Les Hormones Cortico-Surrénaliennes"]
   },
   {
     "id": 67,
     "text": "quelle(s) etiologie(s) des syndromes de Cushing s'accompagne(ent) généralement d'une hyperplasier des surrénales?",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- Maladie de Cushing" },
-      { "id": 2, "text": "B- corticosurrénalome malin" },
-      { "id": 3, "text": "C- le syndrome de cushing paranéoplasique" },
-      { "id": 4, "text": "D- l 'adénome corticosurrénalien" },
-      { "id": 5, "text": "E- syndrome de cushing secondaire au traitement par les corticoides" }
+      {"id":1,"text":"A- Maladie de Cushing"},
+      {"id":2,"text":"B- corticosurrénalome malin"},
+      {"id":3,"text":"C- le syndrome de cushing paranéoplasique"},
+      {"id":4,"text":"D- l 'adénome corticosurrénalien"},
+      {"id":5,"text":"E- syndrome de cushing secondaire au traitement par les corticoides"}
     ],
-    "correctOptionIds": [1, 3],
+    "correctOptionIds": [1,3],
     "Date": "05 Mars 2023",
     "courseName": ["Les Hormones Cortico-Surrénaliennes"]
   },
@@ -1009,11 +1009,11 @@
     "text": "Mme BF est hospitalisée pour exploration d'un syndrome polyuro-polydipsique évoluant depuis quatre mois. Un bilan de restriction hydrique a été réalisé.\nCliquez sur le bouton de date ci-dessus pour voir l'image jointe dans le document officiel.\nCe résultat est en faveur de: (Cocher la proposition exacte)\n1-diabete insipide central\n2-reponse hypothalamique normale\n3-potomanie\n4-diabete insipide périphérique",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A-1,2" },
-      { "id": 2, "text": "B-1,3" },
-      { "id": 3, "text": "C-2,4" },
-      { "id": 4, "text": "D-2,3" },
-      { "id": 5, "text": "E-3,4" }
+      {"id":1,"text":"A-1,2"},
+      {"id":2,"text":"B-1,3"},
+      {"id":3,"text":"C-2,4"},
+      {"id":4,"text":"D-2,3"},
+      {"id":5,"text":"E-3,4"}
     ],
     "correctOptionIds": [4],
     "Date": "15 Mars 2022",
@@ -1024,11 +1024,11 @@
     "text": "Une femme de 48 ans présente depuis quelques semaines une asthénie, une frilosité et une constipation. L'examen clinique montre une hypertrophie uniforme de la thyroïde. Un bilan montre : TSH=6 mU/l, FT4=12 pmol/l [VN=12-22 pmol/l]. Quel est le diagnostic ?",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- hyperthyroidie" },
-      { "id": 2, "text": "B-hypothyroidie centrale" },
-      { "id": 3, "text": "C-hypothyroidie périphérique" },
-      { "id": 4, "text": "D-thyrotoxicose" },
-      { "id": 5, "text": "E-syndrome de basse T3" }
+      {"id":1,"text":"A- hyperthyroidie"},
+      {"id":2,"text":"B-hypothyroidie centrale"},
+      {"id":3,"text":"C-hypothyroidie périphérique"},
+      {"id":4,"text":"D-thyrotoxicose"},
+      {"id":5,"text":"E-syndrome de basse T3"}
     ],
     "correctOptionIds": [3],
     "Date": "15 Mars 2022",
@@ -1039,11 +1039,11 @@
     "text": "Les examens à demander pour le diagnostic étiologique (suite cas précédent) sont, cocher la réponse juste :\n1-Ac anti-TPO\n2-Ac anti-Tg\n3-test à la TSH\n4-test à la TRH",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A-1,2" },
-      { "id": 2, "text": "B-1,2,3" },
-      { "id": 3, "text": "C-1,2,4" },
-      { "id": 4, "text": "D-3,4" },
-      { "id": 5, "text": "E-1,2,3,4" }
+      {"id":1,"text":"A-1,2"},
+      {"id":2,"text":"B-1,2,3"},
+      {"id":3,"text":"C-1,2,4"},
+      {"id":4,"text":"D-3,4"},
+      {"id":5,"text":"E-1,2,3,4"}
     ],
     "correctOptionIds": [1],
     "Date": "15 Mars 2022",
@@ -1054,11 +1054,11 @@
     "text": "Le diabète insipide central se manifeste par: cocher la proposition exacte",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- Une polydipsie primaire" },
-      { "id": 2, "text": "B- Une polyurie hypotonique" },
-      { "id": 3, "text": "C- Une osmolarité urinaire élevée" },
-      { "id": 4, "text": "D- Une densité urinaire normale" },
-      { "id": 5, "text": "E- Un taux d'ADH élevé" }
+      {"id":1,"text":"A- Une polydipsie primaire"},
+      {"id":2,"text":"B- Une polyurie hypotonique"},
+      {"id":3,"text":"C- Une osmolarité urinaire élevée"},
+      {"id":4,"text":"D- Une densité urinaire normale"},
+      {"id":5,"text":"E- Un taux d'ADH élevé"}
     ],
     "correctOptionIds": [2],
     "Date": "15 Mars 2022",
@@ -1069,26 +1069,26 @@
     "text": "Les transporteurs des hormones se caractérisent par: cocher la proposition exacte\n1- protègent l'hormone contre son catabolisme hépatique\n2- facilitent le transfert transmembranaire de l'hormone\n3- libèrent l'hormone au fur et à mesure en fonction des besoins\n4- ont une grande spécificité s'ils ont un nombre restreint de sites de liaison\n5-ils ne sont pas indispensables pour le transport de l'hormone peptidique « Ocytocine » vers la posthypophyse",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A-1,2" },
-      { "id": 2, "text": "B-1,2,3" },
-      { "id": 3, "text": "C-1,3,4" },
-      { "id": 4, "text": "D-3,4,5" },
-      { "id": 5, "text": "E-1,3,5" }
+      {"id":1,"text":"A-1,2"},
+      {"id":2,"text":"B-1,2,3"},
+      {"id":3,"text":"C-1,3,4"},
+      {"id":4,"text":"D-3,4,5"},
+      {"id":5,"text":"E-1,3,5"}
     ],
     "correctOptionIds": [3],
     "Date": "15 Mars 2022",
-    "courseName": ["Généralités sur les Hormones", "Les Hormones Post-hypophysaires"]
+    "courseName": ["Généralités sur les Hormones","Les Hormones Post-hypophysaires"]
   },
   {
     "id": 73,
     "text": "Parmi les substances suivantes, quelle est celle qui élève l'effet de prolactine chez une femme ?",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A-LH-RH" },
-      { "id": 2, "text": "B-œstrogènes" },
-      { "id": 3, "text": "C-insuline" },
-      { "id": 4, "text": "D-progestérone" },
-      { "id": 5, "text": "E-L-dopa" }
+      {"id":1,"text":"A-LH-RH"},
+      {"id":2,"text":"B-œstrogènes"},
+      {"id":3,"text":"C-insuline"},
+      {"id":4,"text":"D-progestérone"},
+      {"id":5,"text":"E-L-dopa"}
     ],
     "correctOptionIds": [2],
     "Date": "15 Mars 2022",
@@ -1099,11 +1099,11 @@
     "text": "Quand on suspecte une insuffisance antéhypophysaire globale chez une femme de plus de 55 ans, quel est l'examen la plus utile au diagnostic?",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- ACTH" },
-      { "id": 2, "text": "B-TSH" },
-      { "id": 3, "text": "C-FSH-LH" },
-      { "id": 4, "text": "D-prolactine" },
-      { "id": 5, "text": "E-STH" }
+      {"id":1,"text":"A- ACTH"},
+      {"id":2,"text":"B-TSH"},
+      {"id":3,"text":"C-FSH-LH"},
+      {"id":4,"text":"D-prolactine"},
+      {"id":5,"text":"E-STH"}
     ],
     "correctOptionIds": [3],
     "Date": "15 Mars 2022",
@@ -1114,11 +1114,11 @@
     "text": "Concernant l'hormono-synthèse chez la femme, cochez la réponse fausse :\n1. L'inhibine A et B sont synthétisés par le granulosa pendant la phase folliculaire\n2. La synthèse des œstrogènes est assurée par la thèque interne pendant la phase luthéale\n3. Le stroma ovarien synthétise en continu la delta 4- androstenedione.\n4. La thèque interne synthétise les androgènes avant l'ovulation.\n5. En fin de la phase lutéale il y a une chute du taux de l'inhibine A.",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A-1,2" },
-      { "id": 2, "text": "B-1,3" },
-      { "id": 3, "text": "C-2,4" },
-      { "id": 4, "text": "D-2,5" },
-      { "id": 5, "text": "E-4,5" }
+      {"id":1,"text":"A-1,2"},
+      {"id":2,"text":"B-1,3"},
+      {"id":3,"text":"C-2,4"},
+      {"id":4,"text":"D-2,5"},
+      {"id":5,"text":"E-4,5"}
     ],
     "correctOptionIds": [3],
     "Date": "15 Mars 2022",
@@ -1129,11 +1129,11 @@
     "text": "L'andropause se caractérise par (cochez la réponse juste):",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- Une baisse de la testostérone" },
-      { "id": 2, "text": "B- Une baisse de la spermatogénèse" },
-      { "id": 3, "text": "C- Une aspermie" },
-      { "id": 4, "text": "D- Une baisse de la FSH et de LH" },
-      { "id": 5, "text": "E- Une augmentation de l'inhibine b" }
+      {"id":1,"text":"A- Une baisse de la testostérone"},
+      {"id":2,"text":"B- Une baisse de la spermatogénèse"},
+      {"id":3,"text":"C- Une aspermie"},
+      {"id":4,"text":"D- Une baisse de la FSH et de LH"},
+      {"id":5,"text":"E- Une augmentation de l'inhibine b"}
     ],
     "correctOptionIds": [1],
     "Date": "15 Mars 2022",
@@ -1144,11 +1144,11 @@
     "text": "Dans la spermatogénèse, cochez la proposition fausse:\n1- Un taux d'inhibine b bas oriente vers une azoospermie de cause extra-testiculaire\n2- La spermatogénèse est contrôlée par la LH et la FSH.\n3-La testostérone ainsi que les œstrogènes sont nécessaires pour la maturation des spermatozoīdes\n4- L'éjaculation rétrograde est responsable d'une aspermie.\n5- Asthénospermie est définie par une vitalité des spermatozoïdes <50% la première heure.",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A-1,2,4" },
-      { "id": 2, "text": "B-1,2,5" },
-      { "id": 3, "text": "C-2,3,4" },
-      { "id": 4, "text": "D-2,3,5" },
-      { "id": 5, "text": "E-2,4,5" }
+      {"id":1,"text":"A-1,2,4"},
+      {"id":2,"text":"B-1,2,5"},
+      {"id":3,"text":"C-2,3,4"},
+      {"id":4,"text":"D-2,3,5"},
+      {"id":5,"text":"E-2,4,5"}
     ],
     "correctOptionIds": [1],
     "Date": "15 Mars 2022",
@@ -1159,11 +1159,11 @@
     "text": "A propos de la prolactine. Cochez la réponse juste :\n1. La sécrétion de prolactine augmente pendant la phase ovulatoire\n2. L'hypo-prolactinémie est un signe de dérèglement ovulatoire\n3. Les hormones de la thyroïde ainsi que la TRH inhibent la synthèse de la prolactine\n4. Le métoclopramide stimule la synthèse de la prolactine\n5. La testostérone stimule la synthèse de la prolactine",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A-1.2" },
-      { "id": 2, "text": "B-2,3" },
-      { "id": 3, "text": "C-2,4" },
-      { "id": 4, "text": "D-3,4" },
-      { "id": 5, "text": "E-4,5" }
+      {"id":1,"text":"A-1.2"},
+      {"id":2,"text":"B-2,3"},
+      {"id":3,"text":"C-2,4"},
+      {"id":4,"text":"D-3,4"},
+      {"id":5,"text":"E-4,5"}
     ],
     "correctOptionIds": [5],
     "Date": "15 Mars 2022",
@@ -1174,11 +1174,11 @@
     "text": "A propos du contrôle hypothalamo-hypophysaire-gonadique chez la femme, cochez la proposition juste\n1. Les estrogènes stimulent en fin de la phase folliculaire la sécrétion de la LH\n2. La phase de transition luthéo-folliculaire est sous le contrôle de la LH.\n3. La croissance folliculaire est stimulée par la FSH\n4. La ménopause est assimilée à un cas hypergonadisme hypogonadotrophique\n5. Pendant la phase folliculaire, l'activité aromatase est sous le contrôle de la FSH et de la LH",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A-1.2" },
-      { "id": 2, "text": "B-1,3" },
-      { "id": 3, "text": "C-2,3" },
-      { "id": 4, "text": "D-3,4" },
-      { "id": 5, "text": "E-4,5" }
+      {"id":1,"text":"A-1.2"},
+      {"id":2,"text":"B-1,3"},
+      {"id":3,"text":"C-2,3"},
+      {"id":4,"text":"D-3,4"},
+      {"id":5,"text":"E-4,5"}
     ],
     "correctOptionIds": [2],
     "Date": "15 Mars 2022",
@@ -1189,11 +1189,11 @@
     "text": "A propos des récepteurs hormonaux, cocher la proposition fausse :\n1. Ceux du BNP et NT-pro BNP portent une activité enzymatique\n2. La protéine G représente le site de couplage de certains récepteurs membranaires\n3. L'intégrité structurale du domaine central des récepteurs intracellulaires est indispensable à l'activité des hormones\n4. Dès que la progestérone se fixe sur le domaine central de son récepteur, il y a activation de la transcription de l'ADN en ARNm\n5. Les protéines kinases A permettent la phosphorylation des enzymes du métabolisme du glycogène grace à leurs sous unités catalytiques qui fixent chacune 2 phosphates",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A-1,2" },
-      { "id": 2, "text": "B-2,4" },
-      { "id": 3, "text": "C-3,4" },
-      { "id": 4, "text": "D-4,5" },
-      { "id": 5, "text": "E-2,3" }
+      {"id":1,"text":"A-1,2"},
+      {"id":2,"text":"B-2,4"},
+      {"id":3,"text":"C-3,4"},
+      {"id":4,"text":"D-4,5"},
+      {"id":5,"text":"E-2,3"}
     ],
     "correctOptionIds": [4],
     "Date": "15 Mars 2022",
@@ -1204,11 +1204,11 @@
     "text": "La somatostatine est; cocher la proposition inexacte",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- Synthétisée par les cellules y des îlots de Langerhans" },
-      { "id": 2, "text": "B- a des RCPG qui activent la protéine Gi" },
-      { "id": 3, "text": "C- Inhibe la sécrétion exocrine du pancréas" },
-      { "id": 4, "text": "D- Inhibe la sécrétion de GH-RH" },
-      { "id": 5, "text": "E- Stimule sa propre synthèse" }
+      {"id":1,"text":"A- Synthétisée par les cellules y des îlots de Langerhans"},
+      {"id":2,"text":"B- a des RCPG qui activent la protéine Gi"},
+      {"id":3,"text":"C- Inhibe la sécrétion exocrine du pancréas"},
+      {"id":4,"text":"D- Inhibe la sécrétion de GH-RH"},
+      {"id":5,"text":"E- Stimule sa propre synthèse"}
     ],
     "correctOptionIds": [5],
     "Date": "15 Mars 2022",
@@ -1219,11 +1219,11 @@
     "text": "A propos du précurseur POMC, quelle est la proposition exacte\n1- Les séquences N-terminales de l'a-MSH et de l'ACTH sont identiques\n2- La libération de Y-MSH à partir du POMPC se fait au niveau de l'hypothalamus\n3- Son fragment C-terminal est le précurseur des lipotropines.\n4- Le B-MSH correspond à la partie N-terminale du POMC",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A-1,2" },
-      { "id": 2, "text": "B-1,2,3" },
-      { "id": 3, "text": "C-1,3" },
-      { "id": 4, "text": "D-1,2,3,4" },
-      { "id": 5, "text": "E-1,5" }
+      {"id":1,"text":"A-1,2"},
+      {"id":2,"text":"B-1,2,3"},
+      {"id":3,"text":"C-1,3"},
+      {"id":4,"text":"D-1,2,3,4"},
+      {"id":5,"text":"E-1,5"}
     ],
     "correctOptionIds": [3],
     "Date": "15 Mars 2022",
@@ -1234,11 +1234,11 @@
     "text": "Parmi les propositions suivantes, laquelle est exacte ? la stimulation du système rénine-angiotensine :\n1. A pour conséquence une sécrétion de l'ADH\n2. Augmente la volémie\n3. Entraine la sécrétion d'aldostérone\n4. Augmente l'excrétion urinaire du sodium\n5. Peut être consécutive à une baisse de pression dans l'artère rénale",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A-1,2,3" },
-      { "id": 2, "text": "B-1,2,4" },
-      { "id": 3, "text": "C-2,3,5" },
-      { "id": 4, "text": "D-1,2,3,4,5" },
-      { "id": 5, "text": "E-1,2,3,5" }
+      {"id":1,"text":"A-1,2,3"},
+      {"id":2,"text":"B-1,2,4"},
+      {"id":3,"text":"C-2,3,5"},
+      {"id":4,"text":"D-1,2,3,4,5"},
+      {"id":5,"text":"E-1,2,3,5"}
     ],
     "correctOptionIds": [5],
     "Date": "15 Mars 2022",
@@ -1249,11 +1249,11 @@
     "text": "A propos de l'ostéocalcine, cocher la proposition inexacte:\n1-elle est synthétisée par les ostéoclastes\n2-c'est une hormone spécifique de l'os\n3-elle permet la minéralisation osseuse\n4-c'est un marqueur de résorption osseuse comme l'isoenzyme osseuse de la PAL\n5-sa concentration sanguine est élevée en cas d'hyperparathyroïdie",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A-1,3" },
-      { "id": 2, "text": "B-1,4" },
-      { "id": 3, "text": "C-2,4" },
-      { "id": 4, "text": "D-2,5" },
-      { "id": 5, "text": "E-4,5" }
+      {"id":1,"text":"A-1,3"},
+      {"id":2,"text":"B-1,4"},
+      {"id":3,"text":"C-2,4"},
+      {"id":4,"text":"D-2,5"},
+      {"id":5,"text":"E-4,5"}
     ],
     "correctOptionIds": [2],
     "Date": "15 Mars 2022",
@@ -1264,11 +1264,11 @@
     "text": "A propos du Carbimazole, cocher la proposition exacte :\n1- permet d'inhiber la synthèse de la thyroxine uniquement\n2- il est prescrit chez l'hyperthyroïdien\n3- il inhibe l'oxydation des iodures en présence de peroxydase\n4- il empêche la condensation des iodothyronines\n5-ll inhibe la synthèse de la thyroglobuline",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A-1,2,3" },
-      { "id": 2, "text": "B-2,3" },
-      { "id": 3, "text": "C-2,3,4" },
-      { "id": 4, "text": "D-3,4" },
-      { "id": 5, "text": "E-2,3,4,5" }
+      {"id":1,"text":"A-1,2,3"},
+      {"id":2,"text":"B-2,3"},
+      {"id":3,"text":"C-2,3,4"},
+      {"id":4,"text":"D-3,4"},
+      {"id":5,"text":"E-2,3,4,5"}
     ],
     "correctOptionIds": [2],
     "Date": "15 Mars 2022",
@@ -1279,29 +1279,26 @@
     "text": "Toutes ces maladies endocriniennes se caractérisent par une hypertension artérielle sauf une laquelle ? :",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A-Phéochromocytome" },
-      { "id": 2, "text": "B-hyperaldosteronisme primaire" },
-      { "id": 3, "text": "C-déficit en Angiotensine" },
-      { "id": 4, "text": "D-hyper-reninisme primaire" },
-      { "id": 5, "text": "E- syndrome de Conn" }
+      {"id":1,"text":"A-Phéochromocytome"},
+      {"id":2,"text":"B-hyperaldosteronisme primaire"},
+      {"id":3,"text":"C-déficit en Angiotensine"},
+      {"id":4,"text":"D-hyper-reninisme primaire"},
+      {"id":5,"text":"E- syndrome de Conn"}
     ],
     "correctOptionIds": [3],
     "Date": "15 Mars 2022",
-    "courseName": [
-      "Les Hormones Cortico-Surrénaliennes",
-      "Les Catécholamines"
-    ]
+    "courseName": ["Les Hormones Cortico-Surrénaliennes","Les Catécholamines"]
   },
   {
     "id": 87,
     "text": "A propos de l'hypothyroïdie congénitale, cocher la réponse fausse :",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- Elle est fréquente chez la fille" },
-      { "id": 2, "text": "B- elle doit être dépistée à la naissance" },
-      { "id": 3, "text": "C-son diagnostic est établi si le taux de TSH est > à la normale (>4Mu/L)" },
-      { "id": 4, "text": "D- se caractérise par un nanisme" },
-      { "id": 5, "text": "E-elle est surtout due à une hypoplasie de la glande ou une athyréose" }
+      {"id":1,"text":"A- Elle est fréquente chez la fille"},
+      {"id":2,"text":"B- elle doit être dépistée à la naissance"},
+      {"id":3,"text":"C-son diagnostic est établi si le taux de TSH est > à la normale (>4Mu/L)"},
+      {"id":4,"text":"D- se caractérise par un nanisme"},
+      {"id":5,"text":"E-elle est surtout due à une hypoplasie de la glande ou une athyréose"}
     ],
     "correctOptionIds": [3],
     "Date": "15 Mars 2022",
@@ -1312,11 +1309,11 @@
     "text": "A propos de la synthèse des glucocorticoïdes, quelle est la proposition fausse ?",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- Chez le sujet normal, la synthèse du cortisol est freinée par la dexamethzone" },
-      { "id": 2, "text": "B- Elle met en jeu une 21 hydroxylase" },
-      { "id": 3, "text": "C- L'ACTH stimule la transformation cytosolique du cholestérol en pregnenolone" },
-      { "id": 4, "text": "D- La dernière étape de biosynthèse est mitochondriale" },
-      { "id": 5, "text": "E- Le substrat de la 17 OHase est la Progestérone" }
+      {"id":1,"text":"A- Chez le sujet normal, la synthèse du cortisol est freinée par la dexamethzone"},
+      {"id":2,"text":"B- Elle met en jeu une 21 hydroxylase"},
+      {"id":3,"text":"C- L'ACTH stimule la transformation cytosolique du cholestérol en pregnenolone"},
+      {"id":4,"text":"D- La dernière étape de biosynthèse est mitochondriale"},
+      {"id":5,"text":"E- Le substrat de la 17 OHase est la Progestérone"}
     ],
     "correctOptionIds": [3],
     "Date": "15 Mars 2022",
@@ -1327,11 +1324,11 @@
     "text": "Cocher la proposition inexacte parmi les suivantes :",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- En cas d'aménorrhée, il est indiqué de doser la prolactinemie" },
-      { "id": 2, "text": "B- Une hyperprolactinemie peut être due à une hyperthyroïdie" },
-      { "id": 3, "text": "C- La prolactine a une grande similitude structurale avec la STH" },
-      { "id": 4, "text": "D- La dopamine inhibe la sécrétion de la prolactine" },
-      { "id": 5, "text": "E- Les effets de la prolactine et de l'ocytocine sur la glande mammaire sont complémentaires" }
+      {"id":1,"text":"A- En cas d'aménorrhée, il est indiqué de doser la prolactinemie"},
+      {"id":2,"text":"B- Une hyperprolactinemie peut être due à une hyperthyroïdie"},
+      {"id":3,"text":"C- La prolactine a une grande similitude structurale avec la STH"},
+      {"id":4,"text":"D- La dopamine inhibe la sécrétion de la prolactine"},
+      {"id":5,"text":"E- Les effets de la prolactine et de l'ocytocine sur la glande mammaire sont complémentaires"}
     ],
     "correctOptionIds": [2],
     "Date": "15 Mars 2022",
@@ -1342,11 +1339,11 @@
     "text": "Indiquez la combinaison exacte parmi les suivantes :\n1. Une glande endocrine peut synthétiser plusieurs hormones différentes\n2. Une hormone ne peut être produite que par un seul organe.\n3. Un tissu n'est soumis qu'à l'influence d'une et une seule hormone\n4. Une hormone donnée n'agit que sur un seul tissu.\n5. Une hormone agit toujours à distance de son lieu de synthèse",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A: 1-2" },
-      { "id": 2, "text": "B: 1-5" },
-      { "id": 3, "text": "C: 1,2,5" },
-      { "id": 4, "text": "D: 2,4" },
-      { "id": 5, "text": "E: 3,5" }
+      {"id":1,"text":"A: 1-2"},
+      {"id":2,"text":"B: 1-5"},
+      {"id":3,"text":"C: 1,2,5"},
+      {"id":4,"text":"D: 2,4"},
+      {"id":5,"text":"E: 3,5"}
     ],
     "correctOptionIds": [2],
     "Date": "16 Mai 2021",
@@ -1357,11 +1354,11 @@
     "text": "La transduction d'un signal extracellulaire mettant en jeu l'adénylcyclase se déroule en faisant intervenir plusieurs étapes :\n1- hydrolyse du GTP en GDP par les protéines G\n2- fixation du médiateur chimique sur son récepteur spécifique et changement de conformation du récepteur\n3- hydrolyse de l'ATP et cyclisation de l'AMP par l'adényl cyclase\n4- remplacement du GDP par du GTP sur la protéine G\n5- formation du complexe protéine G-adénylcyclase\n6- activation d'une cascade de phosphorylation\nDans quel ordre chronologique se déroulent les différentes étapes ?",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- 1,2,5,3,6,4" },
-      { "id": 2, "text": "B- 2,1,5,3,6,4" },
-      { "id": 3, "text": "C- 2,1,5,3,4,6" },
-      { "id": 4, "text": "D- 2,4,6,3,1,5" },
-      { "id": 5, "text": "E- 2,4,5,3,6,1" }
+      {"id":1,"text":"A- 1,2,5,3,6,4"},
+      {"id":2,"text":"B- 2,1,5,3,6,4"},
+      {"id":3,"text":"C- 2,1,5,3,4,6"},
+      {"id":4,"text":"D- 2,4,6,3,1,5"},
+      {"id":5,"text":"E- 2,4,5,3,6,1"}
     ],
     "correctOptionIds": [5],
     "Date": "16 Mai 2021",
@@ -1372,11 +1369,11 @@
     "text": "Concernant les formes hormonales liées à leurs transporteurs, cocher la proposition fausse :",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- Elles représentent une réserve d'hormones" },
-      { "id": 2, "text": "B- Elles ne sont pas actives" },
-      { "id": 3, "text": "C- Elles sont catabolisées au niveau hépatique ou rénal" },
-      { "id": 4, "text": "D- Leur liaison avec le transporteur est réversible" },
-      { "id": 5, "text": "E- La forte liaison de la Testostérone à son transporteur est responsable d'insuffisance androgénique" }
+      {"id":1,"text":"A- Elles représentent une réserve d'hormones"},
+      {"id":2,"text":"B- Elles ne sont pas actives"},
+      {"id":3,"text":"C- Elles sont catabolisées au niveau hépatique ou rénal"},
+      {"id":4,"text":"D- Leur liaison avec le transporteur est réversible"},
+      {"id":5,"text":"E- La forte liaison de la Testostérone à son transporteur est responsable d'insuffisance androgénique"}
     ],
     "correctOptionIds": [3],
     "Date": "16 Mai 2021",
@@ -1387,11 +1384,11 @@
     "text": "Concernant les hormones post-hypophysaires, cocher la combinaison exacte :\n1. Elles n'ont aucune fonction carboxyle libre dans leur structure\n2. Leurs récepteurs membranaires sont couplés aux protéines G\n3. Chez une personne qui a un diabète insipide, l'osmolalité plasmatique et urinaire restent élevées à la fin du test de restriction hydrique\n4. L'ocytocine stimule chez l'homme la spermatogenèse\n5. La sécrétion de l'ADH fait suite à l'action de l'aldostérone",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A: 1,2,3" },
-      { "id": 2, "text": "B: 1,4,5" },
-      { "id": 3, "text": "C: 1,2,4" },
-      { "id": 4, "text": "D: 1,2,5" },
-      { "id": 5, "text": "E: 1,2,4,5" }
+      {"id":1,"text":"A: 1,2,3"},
+      {"id":2,"text":"B: 1,4,5"},
+      {"id":3,"text":"C: 1,2,4"},
+      {"id":4,"text":"D: 1,2,5"},
+      {"id":5,"text":"E: 1,2,4,5"}
     ],
     "correctOptionIds": [4],
     "Date": "16 Mai 2021",
@@ -1402,11 +1399,11 @@
     "text": "Concernant les fonctions endocrines et exocrines des testicules, cochez la combinaison exacte :\n1- La FSH stimule la sécrétion de la testostérone tandis que la LH stimule la spermatogenèse.\n2- La FSH agit sur les cellules de Leydig.\n3- La sécrétion de la FSH est contrôlée par l'inhibine sécrétée par les cellules de Sertoli.\n4- La sécrétion de la LH est contrôlée par la GnRH.\n5- La FSH inhibe la sécrétion de la testostérone tandis que la LH la stimule.",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A: 1,2,3" },
-      { "id": 2, "text": "B: 3,4" },
-      { "id": 3, "text": "C: 3,5" },
-      { "id": 4, "text": "D: 4,5" },
-      { "id": 5, "text": "E: 1,5" }
+      {"id":1,"text":"A: 1,2,3"},
+      {"id":2,"text":"B: 3,4"},
+      {"id":3,"text":"C: 3,5"},
+      {"id":4,"text":"D: 4,5"},
+      {"id":5,"text":"E: 1,5"}
     ],
     "correctOptionIds": [2],
     "Date": "16 Mai 2021",
@@ -1417,11 +1414,11 @@
     "text": "Concernant les fonctions endocrines et exocrines des ovaires, cochez la combinaison fausse :\n1. Pendant la phase folliculaire, le cholestérol diffuse dans la granulosa où il est transformé en androgènes\n2- Chez la femme, la LH stimule la synthèse thécale des androgènes.\n3. Le recrutement des follicules au cours de la phase de transition lutéo-folliculaire est contrôlé par la FSH\n4- La fenêtre d'implantation embryonnaire correspond au milieu de la phase folliculaire\n5- En cas de fécondation et implantation, le corps jaune dégénère après 12 jours",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A: 3,1" },
-      { "id": 2, "text": "B: 1,3,5" },
-      { "id": 3, "text": "C: 1,4,5" },
-      { "id": 4, "text": "D: 2,3,4" },
-      { "id": 5, "text": "E: 3,1,5" }
+      {"id":1,"text":"A: 3,1"},
+      {"id":2,"text":"B: 1,3,5"},
+      {"id":3,"text":"C: 1,4,5"},
+      {"id":4,"text":"D: 2,3,4"},
+      {"id":5,"text":"E: 3,1,5"}
     ],
     "correctOptionIds": [3],
     "Date": "16 Mai 2021",
@@ -1432,11 +1429,11 @@
     "text": "La ménopause se caractérise par : (cocher la proposition exacte) :\n1. Une augmentation de la testostérone\n2. Une augmentation des estrogènes\n3. Une augmentation des FSH, LH\n4. L'épuisement du capital folliculaire\n5. Une diminution des androgènes",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A: 1,2" },
-      { "id": 2, "text": "B: 1,5" },
-      { "id": 3, "text": "C: 3,5" },
-      { "id": 4, "text": "D: 3,4" },
-      { "id": 5, "text": "E: 4,5" }
+      {"id":1,"text":"A: 1,2"},
+      {"id":2,"text":"B: 1,5"},
+      {"id":3,"text":"C: 3,5"},
+      {"id":4,"text":"D: 3,4"},
+      {"id":5,"text":"E: 4,5"}
     ],
     "correctOptionIds": [4],
     "Date": "16 Mai 2021",
@@ -1447,11 +1444,11 @@
     "text": "Concernant les catécholamines, cocher la proposition fausse :",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- La douleur et l'hypertension stimulent la synthèse des catécholamines" },
-      { "id": 2, "text": "B- Le VMA est le produit terminal du catabolisme de la noradrénaline" },
-      { "id": 3, "text": "C- La sécrétion de rénine est le résultat de la stimulation des récepteurs B par l'adrénaline" },
-      { "id": 4, "text": "D- Le taux de métanéphrine est élevé au cours du neuroblastome" },
-      { "id": 5, "text": "E- L'étape de régulation est catalysée par la Tyrosine hydroxylase" }
+      {"id":1,"text":"A- La douleur et l'hypertension stimulent la synthèse des catécholamines"},
+      {"id":2,"text":"B- Le VMA est le produit terminal du catabolisme de la noradrénaline"},
+      {"id":3,"text":"C- La sécrétion de rénine est le résultat de la stimulation des récepteurs B par l'adrénaline"},
+      {"id":4,"text":"D- Le taux de métanéphrine est élevé au cours du neuroblastome"},
+      {"id":5,"text":"E- L'étape de régulation est catalysée par la Tyrosine hydroxylase"}
     ],
     "correctOptionIds": [4],
     "Date": "16 Mai 2021",
@@ -1462,11 +1459,11 @@
     "text": "Cocher la proposition fausse parmi les suivantes :",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- L'inhibine inhibe la sécrétion hypophysaire de FSH chez les 2 sexes" },
-      { "id": 2, "text": "B- L'étape limitante de la stéroïdogenèse est mitochondriale" },
-      { "id": 3, "text": "C- Le défaut de transfert du cholestérol vers la mitochondrie cause un déficit global" },
-      { "id": 4, "text": "D- Les organes stéroïdogènes stockent leurs hormones dans des liposomes" },
-      { "id": 5, "text": "E- Le domaine central des récepteurs se lie à l'ADN" }
+      {"id":1,"text":"A- L'inhibine inhibe la sécrétion hypophysaire de FSH chez les 2 sexes"},
+      {"id":2,"text":"B- L'étape limitante de la stéroïdogenèse est mitochondriale"},
+      {"id":3,"text":"C- Le défaut de transfert du cholestérol vers la mitochondrie cause un déficit global"},
+      {"id":4,"text":"D- Les organes stéroïdogènes stockent leurs hormones dans des liposomes"},
+      {"id":5,"text":"E- Le domaine central des récepteurs se lie à l'ADN"}
     ],
     "correctOptionIds": [4],
     "Date": "16 Mai 2021",
@@ -1477,11 +1474,11 @@
     "text": "À propos du système rénine-angiotensine-aldostérone, laquelle est exacte ?",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A. La production de rénine est stimulée par une augmentation de la PA" },
-      { "id": 2, "text": "B. L'angiotensinogène est produit principalement par le rein" },
-      { "id": 3, "text": "C. L'aldostérone est une hormone de type peptidique" },
-      { "id": 4, "text": "D. L'angiotensine II est un puissant vasodilatateur" },
-      { "id": 5, "text": "E. Aucune des propositions ci-dessus n'est exacte" }
+      {"id":1,"text":"A. La production de rénine est stimulée par une augmentation de la PA"},
+      {"id":2,"text":"B. L'angiotensinogène est produit principalement par le rein"},
+      {"id":3,"text":"C. L'aldostérone est une hormone de type peptidique"},
+      {"id":4,"text":"D. L'angiotensine II est un puissant vasodilatateur"},
+      {"id":5,"text":"E. Aucune des propositions ci-dessus n'est exacte"}
     ],
     "correctOptionIds": [5],
     "Date": "16 Mai 2021",
@@ -1492,11 +1489,11 @@
     "text": "À propos des hormones thyroïdiennes, cocher la proposition inexacte :",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- Elles sont synthétisées sur la thyroglobuline" },
-      { "id": 2, "text": "B- La TSH est l'examen de première intention en cas d'hypothyroïdie suspectée" },
-      { "id": 3, "text": "C- Le dosage des anticorps anti-récepteurs à la TSH est utile au diagnostic d'hyperthyroïdie" },
-      { "id": 4, "text": "D- La thyroglobuline est aussi appelée TBG et synthétisée par le foie" },
-      { "id": 5, "text": "E- En cas d'athyreose, la thyroglobuline est absente au niveau sanguin" }
+      {"id":1,"text":"A- Elles sont synthétisées sur la thyroglobuline"},
+      {"id":2,"text":"B- La TSH est l'examen de première intention en cas d'hypothyroïdie suspectée"},
+      {"id":3,"text":"C- Le dosage des anticorps anti-récepteurs à la TSH est utile au diagnostic d'hyperthyroïdie"},
+      {"id":4,"text":"D- La thyroglobuline est aussi appelée TBG et synthétisée par le foie"},
+      {"id":5,"text":"E- En cas d'athyreose, la thyroglobuline est absente au niveau sanguin"}
     ],
     "correctOptionIds": [4],
     "Date": "16 Mai 2021",
@@ -1507,11 +1504,11 @@
     "text": "Un adulte présente une faiblesse musculaire, une hypertension artérielle, une soif continue et une polyurie. Quel paramètre biologique pourra vous orienter vers le diagnostic ?",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- La glycémie" },
-      { "id": 2, "text": "B- La natrémie" },
-      { "id": 3, "text": "C- La kaliémie" },
-      { "id": 4, "text": "D- Chlorurémie" },
-      { "id": 5, "text": "E- Aucune proposition exacte" }
+      {"id":1,"text":"A- La glycémie"},
+      {"id":2,"text":"B- La natrémie"},
+      {"id":3,"text":"C- La kaliémie"},
+      {"id":4,"text":"D- Chlorurémie"},
+      {"id":5,"text":"E- Aucune proposition exacte"}
     ],
     "correctOptionIds": [3],
     "Date": "16 Mai 2021",
@@ -1522,11 +1519,11 @@
     "text": "Si le paramètre précédent (kaliémie) revient bas, quel est votre diagnostic ?",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- Hypersécrétion d'Aldostérone" },
-      { "id": 2, "text": "B- Syndrome de Conn" },
-      { "id": 3, "text": "C- Hypersécrétion de rénine par le rein" },
-      { "id": 4, "text": "D- Hyperplasie bilatérale de la zone glomérulée" },
-      { "id": 5, "text": "E- Toutes ces propositions sont exactes" }
+      {"id":1,"text":"A- Hypersécrétion d'Aldostérone"},
+      {"id":2,"text":"B- Syndrome de Conn"},
+      {"id":3,"text":"C- Hypersécrétion de rénine par le rein"},
+      {"id":4,"text":"D- Hyperplasie bilatérale de la zone glomérulée"},
+      {"id":5,"text":"E- Toutes ces propositions sont exactes"}
     ],
     "correctOptionIds": [5],
     "Date": "16 Mai 2021",
@@ -1537,11 +1534,11 @@
     "text": "À propos du cortisol, cocher la combinaison fausse :\n1. La 1ère et la 5ème étape de sa biosynthèse sont intramitochondriales\n2. Sa protéine de transport plasmatique est saturée aux concentrations physiologiques\n3. L'ACTH stimule toutes les étapes de sa biosynthèse\n4. Il exerce un feed-back positif hypothalamo-hypophysaire\n5. Le prélèvement doit se faire le matin entre 8H et 9H",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A: 1,3" },
-      { "id": 2, "text": "B: 2,3" },
-      { "id": 3, "text": "C: 3,4" },
-      { "id": 4, "text": "D: 3,5" },
-      { "id": 5, "text": "E: 1,4" }
+      {"id":1,"text":"A: 1,3"},
+      {"id":2,"text":"B: 2,3"},
+      {"id":3,"text":"C: 3,4"},
+      {"id":4,"text":"D: 3,5"},
+      {"id":5,"text":"E: 1,4"}
     ],
     "correctOptionIds": [3],
     "Date": "16 Mai 2021",
@@ -1552,11 +1549,11 @@
     "text": "À propos du remodelage osseux, cocher la proposition fausse :",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A. Participe à l'homéostasie calcique" },
-      { "id": 2, "text": "B. Il correspond uniquement au phénomène de résorption osseuse" },
-      { "id": 3, "text": "C. La PTH et la Vitamine D stimulent la résorption" },
-      { "id": 4, "text": "D. Les estrogènes favorisent la formation osseuse" },
-      { "id": 5, "text": "E. La calcitonine inhibe la résorption" }
+      {"id":1,"text":"A. Participe à l'homéostasie calcique"},
+      {"id":2,"text":"B. Il correspond uniquement au phénomène de résorption osseuse"},
+      {"id":3,"text":"C. La PTH et la Vitamine D stimulent la résorption"},
+      {"id":4,"text":"D. Les estrogènes favorisent la formation osseuse"},
+      {"id":5,"text":"E. La calcitonine inhibe la résorption"}
     ],
     "correctOptionIds": [2],
     "Date": "16 Mai 2021",
@@ -1567,11 +1564,11 @@
     "text": "Un déficit d'apport alimentaire en iode entraîne : (cocher la proposition exacte)\n1. Une augmentation de la sécrétion de TSH\n2. Une augmentation de la production de chaleur\n3. Une diminution de la sécrétion hypothalamique de TRH\n4. Affecte directement la synthèse de la thyroglobuline\n5. Affecte l'action de la thyroperoxydase (TPO)",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A: 1,5" },
-      { "id": 2, "text": "B: 1,4" },
-      { "id": 3, "text": "C: 2,4" },
-      { "id": 4, "text": "D: 3,4" },
-      { "id": 5, "text": "E: 4,5" }
+      {"id":1,"text":"A: 1,5"},
+      {"id":2,"text":"B: 1,4"},
+      {"id":3,"text":"C: 2,4"},
+      {"id":4,"text":"D: 3,4"},
+      {"id":5,"text":"E: 4,5"}
     ],
     "correctOptionIds": [1],
     "Date": "16 Mai 2021",
@@ -1582,11 +1579,11 @@
     "text": "Parmi les causes de l'excès de production de prolactine, une seule est inexacte, laquelle ?",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- Tumeur hypophysaire" },
-      { "id": 2, "text": "B- Déficit en iode" },
-      { "id": 3, "text": "C- Prise de sulpiride" },
-      { "id": 4, "text": "D- Hyperthyroïdie" },
-      { "id": 5, "text": "E- L'allaitement" }
+      {"id":1,"text":"A- Tumeur hypophysaire"},
+      {"id":2,"text":"B- Déficit en iode"},
+      {"id":3,"text":"C- Prise de sulpiride"},
+      {"id":4,"text":"D- Hyperthyroïdie"},
+      {"id":5,"text":"E- L'allaitement"}
     ],
     "correctOptionIds": [4],
     "Date": "16 Mai 2021",
@@ -1597,11 +1594,11 @@
     "text": "Les récepteurs à activité guanylcyclase sont caractérisés par : (cocher la réponse fausse)",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- Récepteurs du BNP" },
-      { "id": 2, "text": "B- Activité membranaire guanylcyclase" },
-      { "id": 3, "text": "C- Ce sont des récepteurs canaux" },
-      { "id": 4, "text": "D- Permettent de former du GMPc" },
-      { "id": 5, "text": "E- Localisés au niveau des intestins" }
+      {"id":1,"text":"A- Récepteurs du BNP"},
+      {"id":2,"text":"B- Activité membranaire guanylcyclase"},
+      {"id":3,"text":"C- Ce sont des récepteurs canaux"},
+      {"id":4,"text":"D- Permettent de former du GMPc"},
+      {"id":5,"text":"E- Localisés au niveau des intestins"}
     ],
     "correctOptionIds": [3],
     "Date": "16 Mai 2021",
@@ -1612,11 +1609,11 @@
     "text": "Quelle proposition n'est pas compatible avec un diagnostic de diabète insipide central ?",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- La densité urinaire est basse" },
-      { "id": 2, "text": "B- Origine génétique ou lésion hypothalamo-hypophysaire" },
-      { "id": 3, "text": "C- Osmolalité plasmatique élevée au test de restriction hydrique" },
-      { "id": 4, "text": "D- Débit urinaire élevé au cours de l'épreuve" },
-      { "id": 5, "text": "E- L'osmolalité urinaire diminue quand on administre de l'ADH" }
+      {"id":1,"text":"A- La densité urinaire est basse"},
+      {"id":2,"text":"B- Origine génétique ou lésion hypothalamo-hypophysaire"},
+      {"id":3,"text":"C- Osmolalité plasmatique élevée au test de restriction hydrique"},
+      {"id":4,"text":"D- Débit urinaire élevé au cours de l'épreuve"},
+      {"id":5,"text":"E- L'osmolalité urinaire diminue quand on administre de l'ADH"}
     ],
     "correctOptionIds": [5],
     "Date": "16 Mai 2021",
@@ -1627,11 +1624,11 @@
     "text": "L'adrénaline est formée à partir de la noradrénaline par une réaction :",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- O-méthylation" },
-      { "id": 2, "text": "B- N-méthylation" },
-      { "id": 3, "text": "C- Désamination oxydative" },
-      { "id": 4, "text": "D- Hydroxylation" },
-      { "id": 5, "text": "E- Décarboxylation" }
+      {"id":1,"text":"A- O-méthylation"},
+      {"id":2,"text":"B- N-méthylation"},
+      {"id":3,"text":"C- Désamination oxydative"},
+      {"id":4,"text":"D- Hydroxylation"},
+      {"id":5,"text":"E- Décarboxylation"}
     ],
     "correctOptionIds": [2],
     "Date": "16 Mai 2021",
@@ -1642,32 +1639,419 @@
     "text": "La TSH hypophysaire présente les actions suivantes sauf une, laquelle ?",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- Stimule toutes les étapes de biosynthèse thyroïdienne" },
-      { "id": 2, "text": "B- Active la synthèse de la thyroglobuline" },
-      { "id": 3, "text": "C- Active la synthèse de la TPO" },
-      { "id": 4, "text": "D- Présente une analogie structurale avec la FSH" },
-      { "id": 5, "text": "E- Sa production est inhibée par l'hypoglycémie" }
+      {"id":1,"text":"A- Stimule toutes les étapes de biosynthèse thyroïdienne"},
+      {"id":2,"text":"B- Active la synthèse de la thyroglobuline"},
+      {"id":3,"text":"C- Active la synthèse de la TPO"},
+      {"id":4,"text":"D- Présente une analogie structurale avec la FSH"},
+      {"id":5,"text":"E- Sa production est inhibée par l'hypoglycémie"}
     ],
     "correctOptionIds": [5],
     "Date": "16 Mai 2021",
-    "courseName": [
-      "Les Hormones Thyroïdiennes",
-      "Les Hormones Hypothalamo-hypophysaires"
-    ]
+    "courseName": ["Les Hormones Thyroïdiennes","Les Hormones Hypothalamo-hypophysaires"]
   },
   {
     "id": 111,
     "text": "À propos du rétrocontrôle (feedback), cocher la proposition inexacte :",
     "module": "Biochimie",
     "options": [
-      { "id": 1, "text": "A- Négatif entre la GH et la glycémie" },
-      { "id": 2, "text": "B- Court et négatif entre l'ACTH et la CRH" },
-      { "id": 3, "text": "C- Négatif entre l'inhibine et la FSH" },
-      { "id": 4, "text": "D- Positif entre les estrogènes et la LH au milieu du cycle" },
-      { "id": 5, "text": "E- Positif entre la Testostérone et la Gn-RH" }
+      {"id":1,"text":"A- Négatif entre la GH et la glycémie"},
+      {"id":2,"text":"B- Court et négatif entre l'ACTH et la CRH"},
+      {"id":3,"text":"C- Négatif entre l'inhibine et la FSH"},
+      {"id":4,"text":"D- Positif entre les estrogènes et la LH au milieu du cycle"},
+      {"id":5,"text":"E- Positif entre la Testostérone et la Gn-RH"}
     ],
     "correctOptionIds": [5],
     "Date": "16 Mai 2021",
     "courseName": ["Généralités sur les Hormones"]
+  },
+  {
+    "id": 112,
+    "text": "Concernant les fonctions endocrines et exocrines des ovaires. Cochez la Fausse :\n1. Pendant la phase folliculaire, le cholestérol diffuse dans la granulosa où il est transformé en androgènes.\n2. Chez la femme, la LH stimule la synthèse thécale des androgènes.\n3. Le recrutement des follicules au cours de la phase de transition lutéo-folliculaire est contrôlé par la FSH.\n4. La fenêtre d'implantation embryonnaire correspond au milieu de la phase folliculaire\n5. En cas de fécondation et implantation, le corps jaune dégénère après 12 jours.",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A=1+2"},
+      {"id":2,"text":"B=1+2+3"},
+      {"id":3,"text":"C=1+4"},
+      {"id":4,"text":"D=2+3+4"},
+      {"id":5,"text":"E=1+4+5"}
+    ],
+    "correctOptionIds": [5],
+    "Date": "07 Juillet 2024",
+    "courseName": ["Exploration biochimique des Ovaires"]
+  },
+  {
+    "id": 113,
+    "text": "Concernant les fonctions endocrines et exocrines des testicules. cochez la réponse exacte :\n1. L'oligospermie désigne une baisse du volume du sperme.\n2. Dans l'azoospermie obstructive, le taux de l'inhibine b est normal.\n3. Dans l'azoospermie obstructive, l'AMH séminal est éffondré.\n4. La 5alpha réductase assure l'activation de la testostérone\n5. Aucune réponse n'est exacte.",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A=1+2"},
+      {"id":2,"text":"B=2+3"},
+      {"id":3,"text":"C=2+3+4"},
+      {"id":4,"text":"D=3+4"},
+      {"id":5,"text":"E=5"}
+    ],
+    "correctOptionIds": [3],
+    "Date": "07 Juillet 2024",
+    "courseName": ["Exploration Biochimique des Testicules"]
+  },
+  {
+    "id": 114,
+    "text": "Parmi les propositions suivantes, cochez celle (s) qui peut (peuvent) être secondaire (s) à une tumeur surrénalienne chez la fille :",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A- Retard pubertaire"},
+      {"id":2,"text":"B- Puberté précoce"},
+      {"id":3,"text":"C- Aménorrhée"},
+      {"id":4,"text":"D- Absence de caractères sexuels secondaires"},
+      {"id":5,"text":"E- Anorexie mentale"}
+    ],
+    "correctOptionIds": [2],
+    "Date": "07 Juillet 2024",
+    "courseName": ["Les Hormones Cortico-Surrénaliennes","Exploration Biochimique des Gonades"]
+  },
+  {
+    "id": 115,
+    "text": "La transduction d'un signal extracellulaire mettant en jeu l'adényl cyclase se déroule en faisant intervenir plusieurs étapes :\n1) hydrolyse du GTP en GDP par les protéines G\n2) Fixation du médiateur chimique (ligand) sur son récepteur spécifique et changement de conformation du récepteur\n3) Hydrolyse de l'ATP et cyclisation de l'AMP par l'adénylyl cyclase\n4) Remplacement du GDP par du GTP sur la protéine G (échange)\n5) Formation du complexe protéine G-adénylyl cyclase\n6) Activation d'une cascade de phosphorylation\n\nDans quel ordre chronologique se déroule les différentes étapes ?",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A- 1,2,5,3,6,4"},
+      {"id":2,"text":"B- 2,1,5,3,6,4"},
+      {"id":3,"text":"C- 2,1,5,3,4,6"},
+      {"id":4,"text":"D- 2,4,6,3,1,5"},
+      {"id":5,"text":"E- 2,4,5,3,6,1"}
+    ],
+    "correctOptionIds": [5],
+    "Date": "07 Juillet 2024",
+    "courseName": ["Mécanismes d’Action des Hormones"]
+  },
+  {
+    "id": 116,
+    "text": "Quelle proposition ne correspond pas aux catécholamines ?",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"l'acide homovanilique est le catabolite de la dopamine"},
+      {"id":2,"text":"la monoamine oxydase est une enzyme de dégradation des catécholamines"},
+      {"id":3,"text":"au cours du phéochromocytome, il y a une hyperglycémie"},
+      {"id":4,"text":"les VMA urinaires sont élevées en cas d'excès de synthèse de Noradrénaline"},
+      {"id":5,"text":"le neuroblastome est caractérisé par un excès de sécrétion d'Adrénaline"}
+    ],
+    "correctOptionIds": [5],
+    "Date": "13 Septembre 2020",
+    "courseName": ["Les Catécholamines"]
+  },
+  {
+    "id": 117,
+    "text": "Cocher la proposition exacte parmi les suivantes :",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"Le goitre de l'hypothyroïdie est du à un déficit de TSH"},
+      {"id":2,"text":"La maladie de Basedow est due à une hyper stimulation de la thyroide par la TSH hypophysaire"},
+      {"id":3,"text":"Une carence iodée entraine hyperthyroïdie"},
+      {"id":4,"text":"Le syndrome de basse T3 s'accompagne d'une hypothyroidie"},
+      {"id":5,"text":"En cas d'Athyreose, la thyroglobuline est diminuée dans le sang"}
+    ],
+    "correctOptionIds": [4],
+    "Date": "13 Septembre 2020",
+    "courseName": ["Les Hormones Thyroïdiennes"]
+  },
+  {
+    "id": 118,
+    "text": "Parmi les causes des hyperthyroïdies auto-immunes, la plus fréquente est :",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"La maladie de Basedow"},
+      {"id":2,"text":"L'adénome toxique"},
+      {"id":3,"text":"Le goitre multinodulaire toxique"},
+      {"id":4,"text":"La thyroïdite subaiguë"},
+      {"id":5,"text":"La thyroïdite d'Hashimoto"}
+    ],
+    "correctOptionIds": [1],
+    "Date": "13 Septembre 2020",
+    "courseName": ["Les Hormones Thyroïdiennes"]
+  },
+  {
+    "id": 119,
+    "text": "Cocher la proposition inexacte concernant les hormones parmi les suivantes :",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"Celles d'origine hypophysaire sont de nature peptidique"},
+      {"id":2,"text":"La FSH stimule la spermatogenèse"},
+      {"id":3,"text":"La prolactine est stimulée par la TRH hypothalamique"},
+      {"id":4,"text":"I'ACTH a une activité mélanostimulante"},
+      {"id":5,"text":"Un déficit en LH entraine chez le garçon une rareté des cellules de Sertoli"}
+    ],
+    "correctOptionIds": [5],
+    "Date": "13 Septembre 2020",
+    "courseName": ["Les Hormones Hypothalamo-hypophysaires","Exploration Biochimique des Gonades"]
+  },
+  {
+    "id": 120,
+    "text": "A propos de la Sécrétion des hormones, cocher la proposition inexacte :",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"Le cortisol présente un pic de sécrétion le matin"},
+      {"id":2,"text":"La sécrétion de l'hormone de croissance est stimulée par l'exercice physique"},
+      {"id":3,"text":"La sécrétion d'hormones thyroïdiennes est stimulée par le froid"},
+      {"id":4,"text":"On observe un pic d'ocytocine lors de l'accouchement"},
+      {"id":5,"text":"L'hypertension favorise la sécrétion de l'adrénaline"}
+    ],
+    "correctOptionIds": [5],
+    "Date": "13 Septembre 2020",
+    "courseName": ["Généralités sur les Hormones"]
+  },
+  {
+    "id": 121,
+    "text": "Les effecteurs enzymatiques directs des récepteurs à 7 domaines transmembranaires sont :",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"Les phosphodiestérases"},
+      {"id":2,"text":"Les adénylates cyclases"},
+      {"id":3,"text":"Les phosphorylases kinases"},
+      {"id":4,"text":"Les guanylcyclases"},
+      {"id":5,"text":"Les tyrosines kinases"}
+    ],
+    "correctOptionIds": [2],
+    "Date": "13 Septembre 2020",
+    "courseName": ["Mécanismes d’Action des Hormones"]
+  },
+  {
+    "id": 122,
+    "text": "Parmi les molécules suivantes, laquelle est le reflet de la maturation folliculaire au cours de la phase folliculaire :",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"Estradiol"},
+      {"id":2,"text":"Estrone"},
+      {"id":3,"text":"Delta 4 Androstenedione"},
+      {"id":4,"text":"LH"},
+      {"id":5,"text":"FSH"}
+    ],
+    "correctOptionIds": [1],
+    "Date": "13 Septembre 2020",
+    "courseName": ["Exploration biochimique des Ovaires"]
+  },
+  {
+    "id": 123,
+    "text": "Concernant la fonction testiculaire, cochez la proposition exacte :",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"La spermatogenèse au niveau des cellules de Leydig est sous le contrôle de la LH"},
+      {"id":2,"text":"L'asthénospermie est définie par une baisse de la production des spermatozoïdes"},
+      {"id":3,"text":"L'inhibine b diminue dans l'azoospermie par cause gonadique"},
+      {"id":4,"text":"La synthèse de la testostérone est stimulée par la LH et inhibée par la GnRH"},
+      {"id":5,"text":"La 5a réductase est l'enzyme clé de la synthèse de la testostérone"}
+    ],
+    "correctOptionIds": [3],
+    "Date": "13 Septembre 2020",
+    "courseName": ["Exploration Biochimique des Testicules"]
+  },
+  {
+    "id": 124,
+    "text": "A propos des hormones de la post hypophyse, cocher la proposition fausse :",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"Ces hormones ont une structure cyclique indispensable à leur activité biologique"},
+      {"id":2,"text":"La vasopressine permet la réabsorption d'eau libre au niveau du tube collecteur"},
+      {"id":3,"text":"Le test de stimulation d'ADH permet de faire le diagnostic de diabète insipide"},
+      {"id":4,"text":"La sécrétion lactée de la glande mammaire dépend de l'ocytocine"},
+      {"id":5,"text":"En cas d'excès de sécrétion d'ADH, il y a une hypoglycémie par hémodilution"}
+    ],
+    "correctOptionIds": [4],
+    "Date": "13 Septembre 2020",
+    "courseName": ["Les Hormones Post-hypophysaires"]
+  },
+  {
+    "id": 125,
+    "text": "Quelle proposition ne correspond pas au diabète insipide ?",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"C'est un déficit de l'ADH"},
+      {"id":2,"text":"Caractérisé par une polyurie accompagnée d'une polydipsie"},
+      {"id":3,"text":"La glycosurie est constante"},
+      {"id":4,"text":"Il peut être d'origine centrale ou périphérique"},
+      {"id":5,"text":"Il peut être d'origine génétique"}
+    ],
+    "correctOptionIds": [3],
+    "Date": "13 Septembre 2020",
+    "courseName": ["Les Hormones Post-hypophysaires"]
+  },
+  {
+    "id": 126,
+    "text": "L'une des enzymes suivantes de la médullo-surrénale est spécifique :",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"La noradrenaline N-méthyl transférase"},
+      {"id":2,"text":"La dopamine B-hydroxylase"},
+      {"id":3,"text":"La tyrosine hydroxylase"},
+      {"id":4,"text":"La DOPA décarboxylase"},
+      {"id":5,"text":"La Phenyl alanine hydroxylase"}
+    ],
+    "correctOptionIds": [1],
+    "Date": "13 Septembre 2020",
+    "courseName": ["Les Catécholamines"]
+  },
+  {
+    "id": 127,
+    "text": "Parmi les propositions suivantes, laquelle est exacte ? Dans la médullosurrénale:\n1- La biosynthèse des catécholamines est influencée par les stéroïdes corticosurrénaliens\n2- Les catécholamines sont synthétisées à partir du tryptophane\n3- Les catécholamines sont secrétées par les cellules chromaffines\n4- La sécrétion des catécholamines est stimulée par l'acétylcholine\n5- La sécrétion des catécholamines est stimulée par le système parasympathique",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A (1, 2, 3)"},
+      {"id":2,"text":"B (1, 3, 4)"},
+      {"id":3,"text":"C (1, 3, 5)"},
+      {"id":4,"text":"D (3, 4, 5)"},
+      {"id":5,"text":"E (2, 3, 4)"}
+    ],
+    "correctOptionIds": [2],
+    "Date": "13 Septembre 2022",
+    "courseName": ["Les Catécholamines"]
+  },
+  {
+    "id": 128,
+    "text": "L'axe corticotrope, cocher la proposition fausse ;",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Les endorphines et l'a-MSH sont le produit final du clivage de la beta lipotropin."},
+      {"id":2,"text":"B. L'ACTH stimule la production de cortisol au niveau de la cortico-surrénale."},
+      {"id":3,"text":"C. L'a-MSH est produite en réponse aux UV au niveau de la peau et favorise le bronzage."},
+      {"id":4,"text":"D. Le CLIP est le peptide qui a l'activité ACTH"},
+      {"id":5,"text":"E. La sécrétion du cortisol suit un cycle circadien, avec un maximum de sécrétion le matin."}
+    ],
+    "correctOptionIds": [1],
+    "Date": "13 Septembre 2022",
+    "courseName": ["Les Hormones Hypothalamo-hypophysaires","Les Hormones Cortico-Surrénaliennes"]
+  },
+  {
+    "id": 129,
+    "text": "Concernant la GH, quelle est la proposition exacte ?",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. C'est une hormone peptidique de 91aa"},
+      {"id":2,"text":"B. Sa sécrétion est stimulée pendant toute la durée du sommeil"},
+      {"id":3,"text":"C. Elle favorise l'action de l'insuline"},
+      {"id":4,"text":"D. Sa sécrétion est inhibée par L'IGF1"},
+      {"id":5,"text":"E. C'est une hormone hypothalamique"}
+    ],
+    "correctOptionIds": [4],
+    "Date": "13 Septembre 2022",
+    "courseName": ["Les Hormones Hypothalamo-hypophysaires"]
+  },
+  {
+    "id": 130,
+    "text": "L'hyperaldosteronisme primaire se caractérise par les signes suivants sauf un, lequel ?",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Hypertension"},
+      {"id":2,"text":"B. Hypokaliémie"},
+      {"id":3,"text":"C. Polyurie"},
+      {"id":4,"text":"D. Polydipsie"},
+      {"id":5,"text":"E. Augmentation de la Rénine"}
+    ],
+    "correctOptionIds": [5],
+    "Date": "13 Septembre 2022",
+    "courseName": ["Les Hormones Cortico-Surrénaliennes"]
+  },
+  {
+    "id": 131,
+    "text": "Toutes ces hormones circulent obligatoirement liées à un transporteur protéique plasmatique sauf une, de laquelle s'agit-il ?",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Les iodothyronines"},
+      {"id":2,"text":"B. L'Aldostérone"},
+      {"id":3,"text":"C. Les œstrogènes"},
+      {"id":4,"text":"D. Le cortisol"},
+      {"id":5,"text":"E. L'oestradiol"}
+    ],
+    "correctOptionIds": [2],
+    "Date": "13 Septembre 2022",
+    "courseName": ["Généralités sur les Hormones"]
+  },
+  {
+    "id": 132,
+    "text": "Concernant la STAR (Steroidogenic Acute Regulatory Peptid), quelle est la proposition fausse ?",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Elle est de structure protéique"},
+      {"id":2,"text":"B. C'est une protéine de transport plasmatique de cholestérol"},
+      {"id":3,"text":"C. Son déficit entraine l'absence de toutes les hormones stéroïdes"},
+      {"id":4,"text":"D. Permet le transfert intra mitochondrial du cholestérol"},
+      {"id":5,"text":"E. Elle régule l'étape limitante de la steroidogenese"}
+    ],
+    "correctOptionIds": [2],
+    "Date": "13 Septembre 2022",
+    "courseName": ["Généralités sur les Hormones Stéroïdes"]
+  },
+  {
+    "id": 133,
+    "text": "En présence d'un excès d'ADH, quelle est la proposition exacte ?",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Il s'installe une glycosurie sans hyperglycémie"},
+      {"id":2,"text":"B. Le patient présentera une polyurie"},
+      {"id":3,"text":"C. Il s'installe une hyernatrémie"},
+      {"id":4,"text":"D. Les urines seront très concentrées"},
+      {"id":5,"text":"E. Il s'agit d'un diabète insipide qui peut être central ou périphérique"}
+    ],
+    "correctOptionIds": [4],
+    "Date": "13 Septembre 2022",
+    "courseName": ["Les Hormones Post-hypophysaires"]
+  },
+  {
+    "id": 134,
+    "text": "A propos de la TSH, cocher la proposition fausse ?",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. C'est une hormone peptidique"},
+      {"id":2,"text":"B. Sa chaine alpha est identique à la FSH et à la LH"},
+      {"id":3,"text":"C. Elle est diminuée en cas d'hypopituitarisme"},
+      {"id":4,"text":"D. Stimule toutes les étapes de la synthèse des hormones thyroïdiennes"},
+      {"id":5,"text":"E. Elle active la synthèse de la Thyroglobuline"}
+    ],
+    "correctOptionIds": [1],
+    "Date": "13 Septembre 2022",
+    "courseName": ["Les Hormones Hypothalamo-hypophysaires","Les Hormones Thyroïdiennes"]
+  },
+  {
+    "id": 135,
+    "text": "Parmi les facteurs hormonaux suivants, laquelle augmente la pulsatilité de la gonadolibérine:",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Progestérone"},
+      {"id":2,"text":"B. Noradrénaline"},
+      {"id":3,"text":"C. Dopamine"},
+      {"id":4,"text":"D. Mélatonine"},
+      {"id":5,"text":"E. Cortisol"}
+    ],
+    "correctOptionIds": [2],
+    "Date": "13 Septembre 2022",
+    "courseName": ["Les Hormones Hypothalamo-hypophysaires"]
+  },
+  {
+    "id": 136,
+    "text": "Parmi les propositions suivantes, laquelle est compatible avec un hypogonadisme masculin hypo gonadotrope ?",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Obésité morbide"},
+      {"id":2,"text":"B. Une gynécomastie"},
+      {"id":3,"text":"C. Puberté précoce."},
+      {"id":4,"text":"D. Taux élevé de FSH et de LH"},
+      {"id":5,"text":"E. Un syndrome de Klinefelter"}
+    ],
+    "correctOptionIds": [2],
+    "Date": "13 Septembre 2022",
+    "courseName": ["Exploration Biochimique des Testicules","Les Hormones Hypothalamo-hypophysaires"]
+  },
+  {
+    "id": 137,
+    "text": "les récepteurs hormonaux, cocher la proposition inexacte :",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Ils sont de nature protéique"},
+      {"id":2,"text":"B. ils sont exclusivement membranires"},
+      {"id":3,"text":"C. ceux des hormones stéroïdes sont intracellulaires"},
+      {"id":4,"text":"D. le domaine central des récepteurs intracellulaires se lient à l'ADN"},
+      {"id":5,"text":"E. ils peuvent avoir une activité catalytique intrinsèque"}
+    ],
+    "correctOptionIds": [2],
+    "Date": "13 Septembre 2022",
+    "courseName": ["Mécanismes d’Action des Hormones"]
   }
 ]
