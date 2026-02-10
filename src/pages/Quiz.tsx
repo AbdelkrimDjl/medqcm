@@ -80,20 +80,16 @@ const Quiz: React.FC = () => {
       return;
     }
 
+
     setFilteredQuestions(config.questions.slice(0, config.questionCount));
+
   }, [config, navigate]);
 
   // Auto-scroll pagination to show current question
   useEffect(() => {
-    if (paginationRef.current) {
-      const currentButton = paginationRef.current.children[currentQuestionIndex] as HTMLElement;
-      if (currentButton) {
-        currentButton.scrollIntoView({
-          behavior: 'smooth',
-          block: 'nearest',
-          inline: 'center'
-        });
-      }
+    const topElement = document.getElementById('quiz-top');
+    if (topElement) {
+      topElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }, [currentQuestionIndex]);
 
@@ -253,7 +249,7 @@ const Quiz: React.FC = () => {
         }}
       >
         <div className="max-w-4xl mx-auto">
-          <div className="bg-[#212121] rounded-2xl shadow-2xl p-6 sm:p-8 mb-6 animate-fadeIn">
+          <div className="bg-[#212121] rounded-2xl shadow-2xl p-6 sm:p-8 mb-6 animate-fadeIn shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
             <div className="text-center mb-8">
               <h2 className="text-3xl sm:text-4xl font-bold text-[#eceadd] mb-2">
                 Quiz Terminé!
@@ -290,7 +286,7 @@ const Quiz: React.FC = () => {
               </h3>
               <div className="space-y-4">
                 {moduleStats.map(stat => (
-                  <div key={stat.module} className="bg-[#212121] rounded-lg p-4 border border-[#c1c2bb]">
+                  <div key={stat.module} className="bg-[#212121] rounded-lg p-4 border border-[#c1c2bb] shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
                     <div className="flex justify-between items-center mb-2">
                       <span className="font-semibold text-[#f1f2ec]">
                         {stat.module}
@@ -345,6 +341,7 @@ const Quiz: React.FC = () => {
 
   return (
     <div
+      id="quiz-top"
       className="min-h-screen p-4 sm:p-6"
       style={{
         background: "#f4f4ea",
@@ -353,28 +350,29 @@ const Quiz: React.FC = () => {
     >
       <div className="max-w-4xl mx-auto">
         {/* Header */}
-        <div className="bg-[#212121] rounded-2xl shadow-2xl p-4 sm:p-6 mb-4 sm:mb-6">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
-            <div>
-              <h1 className="text-2xl sm:text-3xl font-bold text-[#eceadd] mb-2">
+        <div className="bg-[#212121] rounded-2xl shadow-2xl p-4 sm:p-6 mb-4 sm:mb-6 shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
+          <div className="flex flex-row items-start justify-between gap-4 mb-4">
+            <div className="min-w-0"> {/* min-w-0 prevents text overflow issues in flex */}
+              <h1 className="text-xl sm:text-3xl font-bold text-[#eceadd] mb-1 sm:mb-2 leading-tight">
                 {config.module}
               </h1>
-              <p className="text-sm sm:text-base text-[#eff0e9] opacity-70">
+              <p className="text-xs sm:text-base text-[#eff0e9] opacity-70 truncate">
                 {config.unit}
               </p>
             </div>
+
             <button
               onClick={() => navigate("/")}
-              className="flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-[#373734] text-[#eceadd] rounded-lg font-semibold border-2 border-[#c1c2bb] hover:bg-[#454542] transition-all"
+              className="flex-shrink-0 flex items-center gap-2 px-3 sm:px-6 py-2 sm:py-3 bg-[#373734] text-[#eceadd] rounded-lg font-semibold border-2 border-[#c1c2bb] hover:bg-[#454542] transition-all"
             >
               <HomeIcon className="w-4 h-4 sm:w-5 sm:h-5" />
-              <span className="text-sm sm:text-base">Accueil</span>
+              <span className="text-xs sm:text-base">Accueil</span>
             </button>
           </div>
 
           <div className="bg-[#373734] rounded-lg h-3 overflow-hidden border border-[#c1c2bb]">
             <div
-              className="h-full bg-purple-600 transition-all duration-300"
+              className="h-full bg-purple-600 shadow-[0_0_10px_rgba(147,51,234,0.5)] transition-all duration-300"
               style={{ width: `${progress}%` }}
             />
           </div>
@@ -384,7 +382,7 @@ const Quiz: React.FC = () => {
         </div>
 
         {/* Question Card */}
-        <div className="bg-[#212121] rounded-2xl shadow-2xl p-4 sm:p-8 mb-4 sm:mb-6">
+        <div className="bg-[#212121] rounded-2xl shadow-2xl p-4 sm:p-8 mb-4 sm:mb-6 shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
           <div className="mb-6 sm:mb-8">
             {/* Main Header Container: Row on Desktop/Tablet, Column on tiny mobile if needed */}
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
@@ -395,14 +393,16 @@ const Quiz: React.FC = () => {
                   Q{currentQuestionIndex + 1}
                 </span>
 
-                {currentQuestion.courseName && currentQuestion.courseName.length > 0 && (
-                  <div className="flex items-center gap-1.5 px-3 py-1.5 bg-[#373734] text-[#eceadd] rounded-full border border-purple-600/30 text-xs sm:text-sm font-medium">
-                    <span className="w-2 h-2 rounded-full bg-purple-600 flex-shrink-0"></span>
-                    <span className="truncate max-w-[150px] sm:max-w-none">
-                      {currentQuestion.courseName.join(", ")}
-                    </span>
+                {/* We map through the array to create individual badges for each course */}
+                {currentQuestion.courseName && currentQuestion.courseName.map((name, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center gap-1.5 px-3 py-1.5 bg-[#373734] text-[#eceadd] rounded-full border border-purple-600/30 text-[10px] sm:text-xs font-medium whitespace-nowrap"
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full bg-purple-600 flex-shrink-0"></span>
+                    <span>{name}</span>
                   </div>
-                )}
+                ))}
               </div>
 
               {/* Right Side: Action Buttons (Flag & Date) */}
@@ -477,11 +477,11 @@ const Quiz: React.FC = () => {
                 </button>
               );
             })}
-            
+
             <button
               onClick={askGoogleSearch}
               /* Increased px-3 py-1.5 to px-5 py-2.5 for a larger footprint */
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#373734] text-blue-400 rounded-full font-medium border border-[#c1c2bb]/30 hover:bg-[#454542] hover:border-purple-600/30 transition-all"
+              className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-[#373734] to-[#2d2d2a] text-blue-400 rounded-full font-medium border border-blue-400/20 hover:border-blue-400/50 shadow-[0_0_15px_rgba(96,165,250,0.1)] transition-all"
             >
               {/* Increased w-4 h-4 to w-5 h-5 */}
               <svg className="w-5 h-5 transition-transform group-hover:scale-110" viewBox="0 0 24 24">
@@ -526,7 +526,9 @@ const Quiz: React.FC = () => {
               </button>
             ) : (
               <button
-                onClick={handleNext}
+                onClick={() => {
+                  handleNext();
+                }}
                 className="flex items-center gap-1 sm:gap-2 px-3 sm:px-6 py-2 sm:py-3 bg-purple-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all text-xs sm:text-base"
               >
                 <span className="hidden sm:inline">Suivant</span>
@@ -586,7 +588,7 @@ const Quiz: React.FC = () => {
         </div>
 
         {/* Quick Stats */}
-        <div className="bg-[#212121] rounded-2xl shadow-2xl p-4 sm:p-6 mt-4 sm:mt-6">
+        <div className="bg-[#212121] rounded-2xl shadow-2xl p-4 sm:p-6 mt-4 sm:mt-6 shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
           <h3 className="text-sm sm:text-base font-semibold text-[#eceadd] mb-3 sm:mb-4">
             Stats Rapides
           </h3>

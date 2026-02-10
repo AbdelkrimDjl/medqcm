@@ -211,29 +211,33 @@ const Home: React.FC = () => {
       }}
     >
       <div className="w-full max-w-2xl">
-        <div className="text-center mb-8">
-          <h1 className="text-5xl font-bold text-[#353533] mb-4">MedQCM — Blida</h1>
-          <p className="text-xl text-[#2e302f]">
-            2ème Année Médecine
+        <div className="text-center mb-12">
+          <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-purple-500/10 text-purple-600 border border-purple-500/20 mb-4 uppercase tracking-wider">
+            Gemini AI intégré
+          </span>
+          <h1 className="text-5xl font-extrabold text-[#353533] mb-4 tracking-tight">
+            MedQCM <span className="text-purple-600">—</span> Blida</h1>
+          <p className="text-lg text-[#2e302f] max-w-lg mx-auto leading-relaxed opacity-80">
+            Désormais, accédez aux examens de votre professeurs et entraînez-vous sur les QCM plus facilement que jamais. Progressez et comprenez chaque concept en profondeur grâce à Gemini AI intégrée.
           </p>
         </div>
 
-        <div className="bg-[#212121] rounded-2xl shadow-2xl p-8 font-normal">
-          <h2 className="text-2xl font-bold text-[#eceadd] mb-6">
+        <div className="bg-[#212121] rounded-2xl shadow-2xl p-8 font-normal shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
+          <h2 className="text-2xl font-bold text-[#eceadd]/70 mb-6">
             Configurer Votre Questionnaire
           </h2>
 
-          <div className="space-y-6">
+          <div className="space-y-8">
             {/* Unit Select */}
             <div>
               <label className="flex items-center gap-2 text-sm font-semibold text-[#f1f2ec] mb-3">
-                <Layers className="w-5 h-5 text-purple-600" />
+                <Layers className="w-5 h-5 text-purple-600 opacity-80" />
                 Sélectionner l'Unité
               </label>
               <select
                 value={selectedUnit}
                 onChange={(e) => setSelectedUnit(e.target.value)}
-                className="w-full p-4 border-2 border-[#c1c2bb] rounded-lg font-semibold text-[#e8eade] focus:border-purple-600 focus:outline-none transition-all bg-[#373734]"
+                className="w-full p-4 border-2 border-white/10 rounded-xl font-semibold text-[#e8eade] focus:border-[#c1c2bb] focus:outline-none transition-all bg-[#373734]"
               >
                 <option value="">Choisissez une Unité</option>
                 {units.map((unit) => (
@@ -247,14 +251,14 @@ const Home: React.FC = () => {
             {/* Module Select */}
             <div>
               <label className="flex items-center gap-2 text-sm font-semibold text-[#f1f2ec] mb-3">
-                <BookOpen className="w-5 h-5 text-purple-600" />
+                <BookOpen className="w-5 h-5 text-purple-600 opacity-80" />
                 Sélectionner le Module
               </label>
               <select
                 value={selectedModule}
                 onChange={(e) => setSelectedModule(e.target.value)}
                 disabled={!selectedUnit}
-                className="w-full p-4 border-2 border-[#c1c2bb] rounded-lg font-semibold text-[#e8eade] focus:border-purple-600 focus:outline-none transition-all bg-[#373734] disabled:bg-[#222222] disabled:opacity-30 disabled:cursor-not-allowed"
+                className="w-full p-4 border-2 border-white/10 rounded-xl font-semibold text-[#e8eade] focus:border-[#c1c2bb] focus:outline-none transition-all bg-[#373734] disabled:bg-[#222222] disabled:opacity-30 disabled:cursor-not-allowed"
               >
                 <option value="">
                   {selectedUnit
@@ -278,13 +282,13 @@ const Home: React.FC = () => {
             {moduleHasCourses && (
               <div>
                 <label className="flex items-center gap-2 text-sm font-semibold text-[#f1f2ec] mb-3">
-                  <Files className="w-5 h-5 text-purple-600" />
+                  <Files className="w-5 h-5 text-purple-600 opacity-80" />
                   Sélectionner le Cours (Optionnel)
                 </label>
                 <select
                   value={selectedCourse}
                   onChange={(e) => setSelectedCourse(e.target.value)}
-                  className="w-full p-4 border-2 border-[#c1c2bb] rounded-lg font-semibold text-[#e8eade] focus:border-purple-600 focus:outline-none transition-all bg-[#373734]"
+                  className="w-full p-4 border-2 border-white/10 rounded-xl font-semibold text-[#e8eade] focus:border-[#c1c2bb] focus:outline-none transition-all bg-[#373734]"
                 >
                   <option value="">Tous les Cours</option>
                   {availableCourses.map((course) => (
@@ -302,7 +306,7 @@ const Home: React.FC = () => {
             {/* Question Count */}
             <div>
               <label className="flex items-center gap-2 text-sm font-semibold text-[#f1f2ec] mb-3">
-                <Hash className="w-5 h-5 text-purple-600" />
+                <Hash className="w-5 h-5 text-purple-600 opacity-80" />
                 Nombre de Questions
               </label>
               <input
@@ -316,7 +320,7 @@ const Home: React.FC = () => {
                   setQuestionCount(Math.min(value, maxValue));
                 }}
                 disabled={!selectedModule}
-                className="w-full p-4 bg-[#373734] border-2 border-[#c1c2bb] rounded-lg font-semibold text-[#e8eade] focus:border-purple-600 focus:outline-none transition-all disabled:bg-[#222222] disabled:opacity-30 disabled:cursor-not-allowed"
+                className="w-full p-4 bg-[#373734] border-2 border-white/10 rounded-xl font-semibold text-[#e8eade] focus:border-[#c1c2bb] focus:outline-none transition-all disabled:bg-[#222222] disabled:opacity-30 disabled:cursor-not-allowed"
               />
               {selectedModule && availableQuestionCount > 0 ? (
                 <p className="text-sm text-[#eff0e9] opacity-70 mt-2">
@@ -332,7 +336,7 @@ const Home: React.FC = () => {
           </div>
 
           {selectedUnit && selectedModule && (
-            <div className="mt-6 p-4 bg-[#373734] rounded-lg border border-[#c1c2bb]">
+            <div className="mt-6 p-4 bg-[#373734] rounded-xl border border-[#c1c2bb]">
               <h3 className="font-semibold text-[#f1f2ec] mb-2">
                 Configuration de Questionnaire
               </h3>
@@ -361,7 +365,7 @@ const Home: React.FC = () => {
           <button
             onClick={handleStartQuiz}
             disabled={!isFormValid}
-            className={`w-full mt-8 py-4 rounded-lg font-semibold text-lg flex items-center justify-center gap-2 transition-all disabled:opacity-50 ease-[cubic-bezier(0.165,0.85,0.45,1)] duration-150 hover:scale-y-[1.015] hover:scale-x-[1.005] ${isFormValid
+            className={`w-full mt-8 py-4 rounded-xl font-semibold text-xl flex items-center justify-center gap-2 transition-all disabled:opacity-50 ease-[cubic-bezier(0.165,0.85,0.45,1)] duration-150 hover:scale-y-[1.015] hover:scale-x-[1.005] ${isFormValid
               ? "bg-[#faf9f5] text-[#54534f] hover:shadow-lg"
               : "bg-[#faf9f5] text-gray-400 cursor-not-allowed"
               }`}
