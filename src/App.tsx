@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/quiz" element={<Quiz />} />
+        <Route path="/googled562d0d3c0a74a2e" element={<googled562d0d3c0a74a2e />} />
       </Routes>
       <Analytics />
     </AppSnackbarProvider>
