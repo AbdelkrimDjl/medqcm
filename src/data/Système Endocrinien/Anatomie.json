@@ -526,14 +526,14 @@
   },
   {
     "id": 36,
-    "text": "Le schémas ci-dessous (Vue postérieure de la prostate):\nCliquez sur le bouton de date ci-dessus pour voir l'image jointe dans le document officiel.\nA. (1) face ventrale\nB. (5) canaux déférents\nC. (6) uretère\nD. (4) vessie\nE. Vue postérieure de la prostate",
+    "text": "Le schémas ci-dessous (Vue postérieure de la prostate):\nCliquez sur le bouton de date ci-dessus pour voir l'image jointe dans le document officiel.",
     "module": "Anatomie",
     "options": [
-      {"id":1,"text":"A"},
-      {"id":2,"text":"B"},
-      {"id":3,"text":"C"},
-      {"id":4,"text":"D"},
-      {"id":5,"text":"E"}
+      {"id":1,"text":"A. (1) face ventrale"},
+      {"id":2,"text":"B. (5) canaux déférents"},
+      {"id":3,"text":"C. (6) uretère"},
+      {"id":4,"text":"D. (4) vessie"},
+      {"id":5,"text":"E. Vue postérieure de la prostate"}
     ],
     "correctOptionIds": [1],
     "Date": "15 Mars 2022",
