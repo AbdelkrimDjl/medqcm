@@ -451,14 +451,14 @@
   },
   {
     "id": 31,
-    "text": "Concernant les glandes surrénales :\nA. La glande surrénale est située dans une loge fibreuse indépendante de la loge rénale.\nB. L'artère surrénale supérieuredroite née de l'artère rénale droite.\nC. L'artère surrénale supérieure née de l'artère phrénique inférieure\nD. Rapports postérieurs des surrénales correspondent au diaphragme et la 7ème, 8ème côtes\nE. Les rapports antérieurs de surrénale gauche sont le corps du pancréas et la rate.",
+    "text": "Concernant les glandes surrénales :",
     "module": "Anatomie",
     "options": [
-      {"id":1,"text":"A"},
-      {"id":2,"text":"B"},
-      {"id":3,"text":"C"},
-      {"id":4,"text":"D"},
-      {"id":5,"text":"E"}
+      {"id":1,"text":"A. La glande surrénale est située dans une loge fibreuse indépendante de la loge rénale."},
+      {"id":2,"text":"B. L'artère surrénale supérieuredroite née de l'artère rénale droite."},
+      {"id":3,"text":"C. L'artère surrénale supérieure née de l'artère phrénique inférieure."},
+      {"id":4,"text":"D. Rapports postérieurs des surrénales correspondent au diaphragme et la 7ème, 8ème côtes."},
+      {"id":5,"text":"E. Les rapports antérieurs de surrénale gauche sont le corps du pancréas et la rate."}
     ],
     "correctOptionIds": [3],
     "Date": "15 Mars 2022",
@@ -466,14 +466,14 @@
   },
   {
     "id": 32,
-    "text": "Concernant l'appareil génital masculin :\nA. Le sinus épididymaire est une cavité de la tunique vaginale présente entre le corps de l'épididyme et le canal déférent\nB. L'urètre prostatique qui est entouré du sphincter strié\nC. L'artère prostatique issue de l'artère iliaque externe.\nD. La face médiale du testicule elle est dépourvue de vaginale\nE. Le bord antérieur du testicule répond à l'épididyme",
+    "text": "Concernant l'appareil génital masculin :",
     "module": "Anatomie",
     "options": [
-      {"id":1,"text":"A"},
-      {"id":2,"text":"B"},
-      {"id":3,"text":"C"},
-      {"id":4,"text":"D"},
-      {"id":5,"text":"E"}
+      {"id":1,"text":"A. Le sinus épididymaire est une cavité de la tunique vaginale présente entre le corps de l'épididyme et le canal déférent"},
+      {"id":2,"text":"B. L'urètre prostatique qui est entouré du sphincter strié."},
+      {"id":3,"text":"C. L'artère prostatique issue de l'artère iliaque externe."},
+      {"id":4,"text":"D. La face médiale du testicule elle est dépourvue de vaginale."},
+      {"id":5,"text":"E. Le bord antérieur du testicule répond à l'épididyme."}
     ],
     "correctOptionIds": [1],
     "Date": "15 Mars 2022",
@@ -631,14 +631,14 @@
   },
   {
     "id": 43,
-    "text": "Le schéma ci-dessous (Testicule) :\nCliquez sur le bouton de date ci-dessus pour voir l'image jointe dans le document officiel.\nA. Canal déférent\nB. Bord antérieur du testicule\nC. L'albuginée\nD. Queue de l'épididyme\nE. Coupe sagittale du testicule",
+    "text": "Le schéma ci-dessous (Testicule) :\nCliquez sur le bouton de date ci-dessus pour voir l'image jointe dans le document officiel.",
     "module": "Anatomie",
     "options": [
-      {"id":1,"text":"A"},
-      {"id":2,"text":"B"},
-      {"id":3,"text":"C"},
-      {"id":4,"text":"D"},
-      {"id":5,"text":"E"}
+      {"id":1,"text":"A. Canal déférent."},
+      {"id":2,"text":"B. Bord antérieur du testicule."},
+      {"id":3,"text":"C. L'albuginée."},
+      {"id":4,"text":"D. Queue de l'épididyme."},
+      {"id":5,"text":"E. Coupe sagittale du testicule."}
     ],
     "correctOptionIds": [1],
     "Date": "16 Mai 2021",
@@ -646,14 +646,14 @@
   },
   {
     "id": 44,
-    "text": "Appareil génital masculin :\nA. Les glandes génitales masculines sont associées aux conduits spermatiques et participent à la formation du plasma séminal\nB. L'urètre prostatique qui est entouré du sphincter strié\nC. L'artère prostatique issue de l'artère iliaque externe\nD. Glandes bulbo-urétrales, 2 formations glandulaires, arrondies, situées de chaque côté de la prostate\nE. Le conduit déférent, le segment scrotal est recouvert de la vaginale du testicule",
+    "text": "Appareil génital masculin :",
     "module": "Anatomie",
     "options": [
-      {"id":1,"text":"A"},
-      {"id":2,"text":"B"},
-      {"id":3,"text":"C"},
-      {"id":4,"text":"D"},
-      {"id":5,"text":"E"}
+      {"id":1,"text":"A. Les glandes génitales masculines sont associées aux conduits spermatiques et participent à la formation du plasma séminal."},
+      {"id":2,"text":"B. L'urètre prostatique qui est entouré du sphincter strié."},
+      {"id":3,"text":"C. L'artère prostatique issue de l'artère iliaque externe."},
+      {"id":4,"text":"D. Glandes bulbo-urétrales, 2 formations glandulaires, arrondies, situées de chaque côté de la prostate."},
+      {"id":5,"text":"E. Le conduit déférent, le segment scrotal est recouvert de la vaginale du testicule."}
     ],
     "correctOptionIds": [1],
     "Date": "16 Mai 2021",
@@ -661,14 +661,14 @@
   },
   {
     "id": 45,
-    "text": "Le schéma ci-dessous (Voies génitales féminines) :\nCliquez sur le bouton de date ci-dessus pour voir l'image jointe dans le document officiel.\nA. Ligament tubo-ovarien\nB. Ampoule de la trompe\nC. Ligament utéro-ovarien\nD. Ligament funiculaire\nE. Ligament rond",
+    "text": "Le schéma ci-dessous (Voies génitales féminines) :\nCliquez sur le bouton de date ci-dessus pour voir l'image jointe dans le document officiel.",
     "module": "Anatomie",
     "options": [
-      {"id":1,"text":"A"},
-      {"id":2,"text":"B"},
-      {"id":3,"text":"C"},
-      {"id":4,"text":"D"},
-      {"id":5,"text":"E"}
+      {"id":1,"text":"A. Ligament tubo-ovarien."},
+      {"id":2,"text":"B. Ampoule de la trompe."},
+      {"id":3,"text":"C. Ligament utéro-ovarien."},
+      {"id":4,"text":"D. Ligament funiculaire."},
+      {"id":5,"text":"E. Ligament rond."}
     ],
     "correctOptionIds": [4],
     "Date": "16 Mai 2021",
