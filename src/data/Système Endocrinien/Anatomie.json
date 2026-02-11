@@ -436,14 +436,14 @@
   },
   {
     "id": 30,
-    "text": "Concernant l'hypophyse :\nA. Le lobe antérieur est plus petit que le lobe postérieur.\nB. Le lobe antérieur est compris dans la gouttière du lobe postérieur.\nC. Au-dessous de l'hypophyse les rapports se font avec le chiasma optique\nD. Le lobe antérieur est formé de tissu nerveux et prend le nom d'adénohypophyse.\nE. Les artères proviennent toutes de la carotide interne, elles sont au nombre de 3",
+    "text": "Concernant l'hypophyse :",
     "module": "Anatomie",
     "options": [
-      {"id":1,"text":"A"},
-      {"id":2,"text":"B"},
-      {"id":3,"text":"C"},
-      {"id":4,"text":"D"},
-      {"id":5,"text":"E"}
+      {"id":1,"text":"A. Le lobe antérieur est plus petit que le lobe postérieur."},
+      {"id":2,"text":"B. Le lobe antérieur est compris dans la gouttière du lobe postérieur."},
+      {"id":3,"text":"C. Au-dessous de l'hypophyse les rapports se font avec le chiasma optique"},
+      {"id":4,"text":"D. Le lobe antérieur est formé de tissu nerveux et prend le nom d'adénohypophyse."},
+      {"id":5,"text":"E. Les artères proviennent toutes de la carotide interne, elles sont au nombre de 3"}
     ],
     "correctOptionIds": [5],
     "Date": "15 Mars 2022",
@@ -541,14 +541,14 @@
   },
   {
     "id": 37,
-    "text": "La glande thyroïde :\nA. Sa couleur est rose clair.\nB. La gaine viscérale du cou fixe la thyroïde\nC. Répond en avant aux muscles supra-hyoïdiens\nD. L'artère thyroïdienne inférieure nait de la carotide externe\nE. Les nerfs proviennent du sympathique cervical et des récurrents",
+    "text": "La glande thyroïde :",
     "module": "Anatomie",
     "options": [
-      {"id":1,"text":"A"},
-      {"id":2,"text":"B"},
-      {"id":3,"text":"C"},
-      {"id":4,"text":"D"},
-      {"id":5,"text":"E"}
+      {"id":1,"text":"A. Sa couleur est rose clair."},
+      {"id":2,"text":"B. La gaine viscérale du cou fixe la thyroïde."},
+      {"id":3,"text":"C. Répond en avant aux muscles supra-hyoïdiens."},
+      {"id":4,"text":"D. L'artère thyroïdienne inférieure nait de la carotide externe."},
+      {"id":5,"text":"E. Les nerfs proviennent du sympathique cervical et des récurrents."}
     ],
     "correctOptionIds": [2],
     "Date": "16 Mai 2021",
@@ -556,14 +556,14 @@
   },
   {
     "id": 38,
-    "text": "L'appareil génital féminin :\nA. L'utérus est un muscle plein impair et médian\nB. L'ampoule est le segment le plus mobile de la trompe\nC. Le vagin s'étend de l'isthme de l'utérus à la vulve\nD. L'ovaire est lisse chez la petite fille\nE. Le vestibule est délimité par les faces internes des grandes lèvres",
+    "text": "L'appareil génital féminin :",
     "module": "Anatomie",
     "options": [
-      {"id":1,"text":"A"},
-      {"id":2,"text":"B"},
-      {"id":3,"text":"C"},
-      {"id":4,"text":"D"},
-      {"id":5,"text":"E"}
+      {"id":1,"text":"A. L'utérus est un muscle plein impair et médian."},
+      {"id":2,"text":"B. L'ampoule est le segment le plus mobile de la trompe."},
+      {"id":3,"text":"C. Le vagin s'étend de l'isthme de l'utérus à la vulve."},
+      {"id":4,"text":"D. L'ovaire est lisse chez la petite fille."},
+      {"id":5,"text":"E. Le vestibule est délimité par les faces internes des grandes lèvres"}
     ],
     "correctOptionIds": [4],
     "Date": "16 Mai 2021",
@@ -571,14 +571,14 @@
   },
   {
     "id": 39,
-    "text": "Le périnée :\nA. Le muscle ilio-coccygien se termine sur le coccyx\nB. Le muscle pubo-coccygien se termine en trois faisceaux\nC. Les muscles transverses moyens appartiennent au plan moyen du périnée\nD. Le muscle bulbo-spongieux est impair\nE. Le muscle sphincter externe de l'anus assure l'occlusion involontaire du canal anal",
+    "text": "Le périnée :",
     "module": "Anatomie",
     "options": [
-      {"id":1,"text":"A"},
-      {"id":2,"text":"B"},
-      {"id":3,"text":"C"},
-      {"id":4,"text":"D"},
-      {"id":5,"text":"E"}
+      {"id":1,"text":"A. Le muscle ilio-coccygien se termine sur le coccyx"},
+      {"id":2,"text":"B. Le muscle pubo-coccygien se termine en trois faisceaux"},
+      {"id":3,"text":"C. Les muscles transverses moyens appartiennent au plan moyen du périnée"},
+      {"id":4,"text":"D. Le muscle bulbo-spongieux est impair"},
+      {"id":5,"text":"E. Le muscle sphincter externe de l'anus assure l'occlusion involontaire du canal anal"}
     ],
     "correctOptionIds": [1],
     "Date": "16 Mai 2021",
@@ -586,14 +586,14 @@
   },
   {
     "id": 40,
-    "text": "Concernant l'hypophyse :\nA. Le lobe antérieur de l'hypophyse est plus petit que le lobe postérieur.\nB. Le lobe antérieur est compris dans la gouttière du lobe postérieur.\nC. Le lobe postérieur ne synthétise pas d'hormone, il est le lieu de stockage de 2 neurohormones\nD. Au dessous de l'hypophyse les rapports se font avec le chiasma optique\nE. Le lobe antérieur formé de tissu nerveux et prend le nom d'adéno-hypophyse",
+    "text": "Concernant l'hypophyse :",
     "module": "Anatomie",
     "options": [
-      {"id":1,"text":"A"},
-      {"id":2,"text":"B"},
-      {"id":3,"text":"C"},
-      {"id":4,"text":"D"},
-      {"id":5,"text":"E"}
+      {"id":1,"text":"A. Le lobe antérieur de l'hypophyse est plus petit que le lobe postérieur."},
+      {"id":2,"text":"B. Le lobe antérieur est compris dans la gouttière du lobe postérieur."},
+      {"id":3,"text":"C. Le lobe postérieur ne synthétise pas d'hormone, il est le lieu de stockage de 2 neurohormones."},
+      {"id":4,"text":"D. Au dessous de l'hypophyse les rapports se font avec le chiasma optique."},
+      {"id":5,"text":"E. Le lobe antérieur formé de tissu nerveux et prend le nom d'adéno-hypophyse."}
     ],
     "correctOptionIds": [3],
     "Date": "16 Mai 2021",
@@ -601,14 +601,14 @@
   },
   {
     "id": 41,
-    "text": "La glande mammaire :\nA. La glande mammaire est une glande endocrine tubulo-alvéolaire\nB. A la 6ème semaine il y a apparition de la crête mammaire chez l'embryon\nC. Les moyens de fixation du sein sont peu développés\nD. La vascularisation de la glande mammaire est assurée par une seule artère : artère axillaire\nE. Le groupe mammaire interne des lymphatiques du sein part du plexus lymphatique péri-aréolaire",
+    "text": "La glande mammaire :",
     "module": "Anatomie",
     "options": [
-      {"id":1,"text":"A"},
-      {"id":2,"text":"B"},
-      {"id":3,"text":"C"},
-      {"id":4,"text":"D"},
-      {"id":5,"text":"E"}
+      {"id":1,"text":"A. La glande mammaire est une glande endocrine tubulo-alvéolaire"},
+      {"id":2,"text":"B. A la 6ème semaine il y a apparition de la crête mammaire chez l'embryon"},
+      {"id":3,"text":"C. Les moyens de fixation du sein sont peu développés"},
+      {"id":4,"text":"D. La vascularisation de la glande mammaire est assurée par une seule artère : artère axillaire"},
+      {"id":5,"text":"E. Le groupe mammaire interne des lymphatiques du sein part du plexus lymphatique péri-aréolaire"}
     ],
     "correctOptionIds": [3],
     "Date": "16 Mai 2021",
@@ -616,14 +616,14 @@
   },
   {
     "id": 42,
-    "text": "Les surrénales :\nA. Les surrénales sont situées dans l'espace rétro péritonéal de l'abdomen de part et d'autre de D12.\nB. La glande surrénale est située dans une loge fibreuse indépendante de la loge rénale.\nC. L'artère surrénale supérieure née de l'artère rénale.\nD. La veine surrénale moyenne se draine à droite, dans la veine rénale.\nE. Les rapports antérieurs de surrénale gauche sont le corps du pancréas et la rate",
+    "text": "Les surrénales :",
     "module": "Anatomie",
     "options": [
-      {"id":1,"text":"A"},
-      {"id":2,"text":"B"},
-      {"id":3,"text":"C"},
-      {"id":4,"text":"D"},
-      {"id":5,"text":"E"}
+      {"id":1,"text":"A. Les surrénales sont situées dans l'espace rétro péritonéal de l'abdomen de part et d'autre de D12."},
+      {"id":2,"text":"B. La glande surrénale est située dans une loge fibreuse indépendante de la loge rénale."},
+      {"id":3,"text":"C. L'artère surrénale supérieure née de l'artère rénale."},
+      {"id":4,"text":"D. La veine surrénale moyenne se draine à droite, dans la veine rénale."},
+      {"id":5,"text":"E. Les rapports antérieurs de surrénale gauche sont le corps du pancréas et la rate"}
     ],
     "correctOptionIds": [1],
     "Date": "16 Mai 2021",
