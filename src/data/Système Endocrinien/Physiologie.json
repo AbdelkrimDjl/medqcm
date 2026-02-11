@@ -460,7 +460,7 @@
     ],
     "correctOptionIds": [2],
     "Date": "05 Mars 2023",
-    "courseName": ["Relations Hypothalamo-Hypophysaires","Principes des Systèmes de Contrôle Hormonal"]
+    "courseName": ["Relations Hypothalamo-Hypophysaires"]
   },
   {
     "id": 32,
@@ -999,7 +999,7 @@
     ],
     "correctOptionIds": [2],
     "Date": "16 Mai 2021",
-    "courseName": ["Complexe Insuline-Glucagon et Métabolisme des Macromolécules","Principes des Systèmes de Contrôle Hormonal"]
+    "courseName": ["Complexe Insuline-Glucagon et Métabolisme des Macromolécules"]
   },
   {
     "id": 68,
@@ -1044,7 +1044,7 @@
     ],
     "correctOptionIds": [5],
     "Date": "07 Juillet 2024",
-    "courseName": ["Principes des Systèmes de Contrôle Hormonal","Dysfonctionnement de l’axe Hypothalamo-Hypophyso-Endocrinien et Effecteurs"]
+    "courseName": ["Dysfonctionnement de l’axe Hypothalamo-Hypophyso-Endocrinien et Effecteurs"]
   },
   {
     "id": 71,
@@ -1179,7 +1179,7 @@
     ],
     "correctOptionIds": [4],
     "Date": "13 Septembre 2020",
-    "courseName": ["Principes des Systèmes de Contrôle Hormonal","Dysfonctionnement de l’axe Hypothalamo-Hypophyso-Endocrinien et Effecteurs"]
+    "courseName": ["Dysfonctionnement de l’axe Hypothalamo-Hypophyso-Endocrinien et Effecteurs"]
   },
   {
     "id": 80,
