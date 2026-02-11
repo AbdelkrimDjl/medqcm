@@ -687,7 +687,7 @@
     ],
     "correctOptionIds": [5],
     "Date": "13 Septembre 2020",
-    "courseName": "La Thyroïde"
+    "courseName": ["La Thyroïde"]
   },
   {
     "id": 47,
@@ -702,7 +702,7 @@
     ],
     "correctOptionIds": [3],
     "Date": "13 Septembre 2020",
-    "courseName": "La Thyroïde"
+    "courseName": ["La Thyroïde"]
   },
   {
     "id": 48,
@@ -717,7 +717,7 @@
     ],
     "correctOptionIds": [2],
     "Date": "13 Septembre 2020",
-    "courseName": "L'Appareil Génital Féminin"
+    "courseName": ["L'Appareil Génital Féminin"]
   },
   {
     "id": 49,
@@ -762,7 +762,7 @@
     ],
     "correctOptionIds": [4],
     "Date": "07 Juillet 2024",
-    "courseName": "La Thyroïde"
+    "courseName": ["La Thyroïde"]
   },
   {
     "id": 52,
@@ -777,7 +777,7 @@
     ],
     "correctOptionIds": [2],
     "Date": "07 Juillet 2024",
-    "courseName": "La Glande Mammaire"
+    "courseName": ["La Glande Mammaire"]
   },
   {
     "id": 53,
@@ -792,7 +792,7 @@
     ],
     "correctOptionIds": [5],
     "Date": "07 Juillet 2024",
-    "courseName": "Le Périnée"
+    "courseName": ["Le Périnée"]
   },
   {
     "id": 54,
@@ -807,7 +807,7 @@
     ],
     "correctOptionIds": [5],
     "Date": "07 Juillet 2024",
-    "courseName": "L'Appareil Génital Féminin"
+    "courseName": ["L'Appareil Génital Féminin"]
   },
   {
     "id": 55,
@@ -822,7 +822,7 @@
     ],
     "correctOptionIds": [5],
     "Date": "07 Juillet 2024",
-    "courseName": "La Glande Hypophyse"
+    "courseName": ["La Glande Hypophyse"]
   },
   {
     "id": 56,
@@ -837,7 +837,7 @@
     ],
     "correctOptionIds": [2],
     "Date": "13 Septembre 2022",
-    "courseName": "L'Appareil Génital Féminin"
+    "courseName": ["L'Appareil Génital Féminin"]
   },
   {
     "id": 57,
@@ -882,7 +882,7 @@
     ],
     "correctOptionIds": [5],
     "Date": "13 Septembre 2022",
-    "courseName": "Le Périnée"
+    "courseName": ["Le Périnée"]
   },
   {
     "id": 60,
@@ -897,6 +897,6 @@
     ],
     "correctOptionIds": [5],
     "Date": "13 Septembre 2022",
-    "courseName": "La Thyroïde"
+    "courseName": ["La Thyroïde"]
   }
 ]
