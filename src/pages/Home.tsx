@@ -34,19 +34,25 @@ const Home: React.FC = () => {
   const [questionCount, setQuestionCount] = useState<number>(10);
   const [allData, setAllData] = useState<UnitData[]>([]);
   const [availableQuestionCount, setAvailableQuestionCount] = useState<number>(0);
+  const [shouldShowModuleSelect, setShouldShowModuleSelect] = useState<boolean>(true);
 
   // Load all JSON files from nested folder structure
   useEffect(() => {
     const importModules = async () => {
-      const context = import.meta.glob("../data/**/*.json", { eager: true });
+      // Use glob pattern that matches both .json and .JSON (case-insensitive)
+      const contextLower = import.meta.glob("../data/**/*.json", { eager: true });
+      const contextUpper = import.meta.glob("../data/**/*.JSON", { eager: true });
+      
+      // Merge both contexts
+      const context = { ...contextLower, ...contextUpper };
       const unitDataMap: Map<string, UnitData> = new Map();
 
       Object.entries(context).forEach(([path, module]) => {
         // Extract unit and module name from path
-        // Path format: ../data/Unit 1/modulename.json
+        // Path format: ../data/Unit 1/modulename.json or ../data/Génétique/Génétique.JSON
         const pathParts = path.split("/");
-        const unitFolder = pathParts[pathParts.length - 2]; // e.g., "Unit 1"
-        const fileName = pathParts[pathParts.length - 1].replace(".json", "");
+        const unitFolder = pathParts[pathParts.length - 2]; // e.g., "Système Endocrinien" or "Génétique"
+        const fileName = pathParts[pathParts.length - 1].replace(/\.(json|JSON)$/i, "");
 
         if (!unitDataMap.has(unitFolder)) {
           unitDataMap.set(unitFolder, {
@@ -83,15 +89,30 @@ const Home: React.FC = () => {
           .map((m) => m.moduleName)
           .sort();
         setAvailableModules(moduleNames);
-        setSelectedModule(""); // Reset module selection when unit changes
+        
+        // Check if we should auto-select the module
+        // Auto-select if: only one module AND module name matches unit name
+        const shouldAutoSelect = 
+          moduleNames.length === 1 && 
+          moduleNames[0].toLowerCase() === selectedUnit.toLowerCase();
+        
+        if (shouldAutoSelect) {
+          setSelectedModule(moduleNames[0]);
+          setShouldShowModuleSelect(false);
+        } else {
+          setSelectedModule(""); // Reset module selection when unit changes
+          setShouldShowModuleSelect(true);
+        }
+        
         setSelectedCourse(""); // Reset course selection
-        setAvailableQuestionCount(0); // Reset question count
+        // Don't reset availableQuestionCount here - let the next useEffect handle it
       }
     } else {
       setAvailableModules([]);
       setSelectedModule("");
       setSelectedCourse("");
       setAvailableQuestionCount(0);
+      setShouldShowModuleSelect(true);
     }
   }, [selectedUnit, allData]);
 
@@ -127,38 +148,37 @@ const Home: React.FC = () => {
     }
   }, [selectedUnit, selectedModule, allData]);
 
-  // Update available question count when module or course is selected
+// Update available question count and auto-fill the input when filters change
   useEffect(() => {
-    if (selectedUnit && selectedModule) {
-      const unitData = allData.find((u) => u.unitName === selectedUnit);
-      const moduleData = unitData?.modules.find(
-        (m) => m.moduleName === selectedModule
-      );
-
-      if (moduleData) {
-        let count = 0;
-
-        if (selectedCourse) {
-          // Count questions that include this course in their courseName array
-          count = moduleData.questions.filter((q) =>
-            q.courseName &&
-            Array.isArray(q.courseName) &&
-            q.courseName.includes(selectedCourse)
-          ).length;
-        } else {
-          // No course selected, count all questions
-          count = moduleData.questions.length;
-        }
-
-        setAvailableQuestionCount(count);
-        // Adjust question count if it exceeds available questions
-        if (questionCount > count) {
-          setQuestionCount(count);
-        }
-      }
-    } else {
+    // 1. Handle "No Selection" state early
+    if (!selectedUnit || !selectedModule) {
       setAvailableQuestionCount(0);
+      setQuestionCount(0); 
+      return;
     }
+
+    // 2. Drill down to the relevant questions
+    const unitData = allData.find((u) => u.unitName === selectedUnit);
+    const moduleData = unitData?.modules.find(
+      (m) => m.moduleName === selectedModule
+    );
+
+    const questions = moduleData?.questions || [];
+
+    // 3. Calculate count based on Course filter
+    let count = 0;
+    if (selectedCourse) {
+      count = questions.filter((q) =>
+        Array.isArray(q.courseName) && q.courseName.includes(selectedCourse)
+      ).length;
+    } else {
+      count = questions.length;
+    }
+
+    // 4. Update both states to the total available count
+    setAvailableQuestionCount(count);
+    setQuestionCount(count);
+
   }, [selectedUnit, selectedModule, selectedCourse, allData]);
 
   const handleStartQuiz = () => {
@@ -199,7 +219,7 @@ const Home: React.FC = () => {
     }
   };
 
-  const isFormValid = selectedUnit && selectedModule && questionCount > 0;
+  const isFormValid = selectedUnit && selectedModule && questionCount > 0 && availableQuestionCount > 0;
   const moduleHasCourses = selectedModule && availableCourses.length > 0;
 
   return (
@@ -248,35 +268,37 @@ const Home: React.FC = () => {
               </select>
             </div>
 
-            {/* Module Select */}
-            <div>
-              <label className="flex items-center gap-2 text-sm font-semibold text-[#f1f2ec] mb-3">
-                <BookOpen className="w-5 h-5 text-purple-600 opacity-80" />
-                Sélectionner le Module
-              </label>
-              <select
-                value={selectedModule}
-                onChange={(e) => setSelectedModule(e.target.value)}
-                disabled={!selectedUnit}
-                className="w-full p-4 border-2 border-white/10 rounded-xl font-semibold text-[#e8eade] focus:border-[#c1c2bb] focus:outline-none transition-all bg-[#373734] disabled:bg-[#222222] disabled:opacity-30 disabled:cursor-not-allowed"
-              >
-                <option value="">
-                  {selectedUnit
-                    ? "Choisissez un Module"
-                    : "Sélectionnez d'abord une Unité"}
-                </option>
-                {availableModules.map((module) => (
-                  <option key={module} value={module}>
-                    {module.charAt(0).toUpperCase() + module.slice(1)}
+            {/* Module Select - Only show if needed */}
+            {shouldShowModuleSelect && (
+              <div>
+                <label className="flex items-center gap-2 text-sm font-semibold text-[#f1f2ec] mb-3">
+                  <BookOpen className="w-5 h-5 text-purple-600 opacity-80" />
+                  Sélectionner le Module
+                </label>
+                <select
+                  value={selectedModule}
+                  onChange={(e) => setSelectedModule(e.target.value)}
+                  disabled={!selectedUnit}
+                  className="w-full p-4 border-2 border-white/10 rounded-xl font-semibold text-[#e8eade] focus:border-[#c1c2bb] focus:outline-none transition-all bg-[#373734] disabled:bg-[#222222] disabled:opacity-30 disabled:cursor-not-allowed"
+                >
+                  <option value="">
+                    {selectedUnit
+                      ? "Choisissez un Module"
+                      : "Sélectionnez d'abord une Unité"}
                   </option>
-                ))}
-              </select>
-              {!selectedUnit && (
-                <p className="text-sm text-[#eff0e9] opacity-70 mt-2">
-                  Veuillez d'abord sélectionner une unité
-                </p>
-              )}
-            </div>
+                  {availableModules.map((module) => (
+                    <option key={module} value={module}>
+                      {module.charAt(0).toUpperCase() + module.slice(1)}
+                    </option>
+                  ))}
+                </select>
+                {!selectedUnit && (
+                  <p className="text-sm text-[#eff0e9] opacity-70 mt-2">
+                    Veuillez d'abord sélectionner une unité
+                  </p>
+                )}
+              </div>
+            )}
 
             {/* Course Select - Only show if module has courses */}
             {moduleHasCourses && (
@@ -311,21 +333,25 @@ const Home: React.FC = () => {
               </label>
               <input
                 type="number"
-                min={0}
+                min={1}
                 max={availableQuestionCount > 0 ? availableQuestionCount : 999}
                 value={questionCount}
                 onChange={(e) => {
-                  const value = parseInt(e.target.value) || 0;
+                  const value = parseInt(e.target.value) || 1;
                   const maxValue = availableQuestionCount > 0 ? availableQuestionCount : 999;
-                  setQuestionCount(Math.min(value, maxValue));
+                  setQuestionCount(Math.min(Math.max(1, value), maxValue));
                 }}
-                disabled={!selectedModule}
+                disabled={!selectedModule || availableQuestionCount === 0}
                 className="w-full p-4 bg-[#373734] border-2 border-white/10 rounded-xl font-semibold text-[#e8eade] focus:border-[#c1c2bb] focus:outline-none transition-all disabled:bg-[#222222] disabled:opacity-30 disabled:cursor-not-allowed"
               />
               {selectedModule && availableQuestionCount > 0 ? (
                 <p className="text-sm text-[#eff0e9] opacity-70 mt-2">
                   {availableQuestionCount} {availableQuestionCount === 1 ? 'question disponible' : 'questions disponibles'}
                   {selectedCourse ? ` pour le cours "${selectedCourse}"` : ' pour ce module'}
+                </p>
+              ) : selectedModule && availableQuestionCount === 0 ? (
+                <p className="text-sm text-red-400 mt-2">
+                  Aucune question disponible pour cette sélection
                 </p>
               ) : (
                 <p className="text-sm text-[#eff0e9] opacity-70 mt-2">
@@ -335,7 +361,7 @@ const Home: React.FC = () => {
             </div>
           </div>
 
-          {selectedUnit && selectedModule && (
+          {selectedUnit && selectedModule && availableQuestionCount > 0 && (
             <div className="mt-6 p-4 bg-[#373734] rounded-xl border border-[#c1c2bb]">
               <h3 className="font-semibold text-[#f1f2ec] mb-2">
                 Configuration de Questionnaire
