@@ -961,21 +961,6 @@
   },
   {
     "id": 65,
-    "text": "Cocher le groupe de réponses justes: Parmi les portions du canal déférent :\n1. Portion iliaque\n2. Portion pelvienne\n3. Portion inguinale\n4. Portion supra-vésicale\n5. Portion épididymo-testiculaire",
-    "module": "Anatomie",
-    "options": [
-      {"id":1,"text":"A (1,3,5)"},
-      {"id":2,"text":"B (3,4,5)"},
-      {"id":3,"text":"C (1,2,3)"},
-      {"id":4,"text":"D (2,3,5)"},
-      {"id":5,"text":"E (2,4,5)"}
-    ],
-    "correctOptionIds": [],
-    "Date": "20 Février 2020",
-    "courseName": ["L'Appareil Génital Masculin"]
-  },
-  {
-    "id": 66,
     "text": "Cocher le groupe de réponses justes : Les muscles [du périnée] sont:\n1. Muscles transverses\n2. Muscle sphincter externe de l'anus\n3. Muscles bulbo-spongieux\n4. Muscles élévateurs de l'anus\n5. Muscle sphincter de l'urètre",
     "module": "Anatomie",
     "options": [
@@ -990,7 +975,7 @@
     "courseName": ["Le Périnée"]
   },
   {
-    "id": 67,
+    "id": 66,
     "text": "Cocher le groupe de propositions justes : Le schéma ci-dessous [Coupe du pénis]:\n1. Titre: les enveloppes des testicules\n2. La veine dorsale profonde\n3. Scrotum\n4. Corps caverneux\n5. Corps spongieux",
     "module": "Anatomie",
     "options": [
@@ -1005,7 +990,7 @@
     "courseName": ["L'Appareil Génital Masculin"]
   },
   {
-    "id": 68,
+    "id": 67,
     "text": "Cocher le groupe de propositions justes:\n1. Isthme de la prostate.\n2. Partie prostatique de l'uretère.\n3. Lobe latéral.\n4. Conduit éjaculateur.\n5. Lobe moyen.",
     "module": "Anatomie",
     "options": [
@@ -1020,7 +1005,7 @@
     "courseName": ["L'Appareil Génital Masculin"]
   },
   {
-    "id": 69,
+    "id": 68,
     "text": "Cocher le groupe de réponses justes : concernant l'ovaire:\n1. Le ligament propre de l'ovaire unit l'extrémité supérieure de l'ovaire à l'utérus.\n2. Le ligament suspenseur de l'ovaire est tendu de la paroi lombaire à l'ovaire.\n3. Le ligament tubo-ovarique unit l'extrémité inférieure de l'ovaire au pavillon de la trompe.\n4. Le mésovarium unit l'ovaire au feuillet postérieur du ligament large.\n5. les veines ovariques se terminent à gauche dans la veine cave inférieure.",
     "module": "Anatomie",
     "options": [
@@ -1035,7 +1020,7 @@
     "courseName": ["L'Appareil Génital Féminin"]
   },
   {
-    "id": 70,
+    "id": 69,
     "text": "Cocher le groupe de réponses justes : concernant les glandes génitales masculines annexes:\n1. Les glandes bulbo-urétrales sont entourées du muscle sphincter de l'urètre.\n2. Le bord latéral de la vésicule séminale est longé par l'ampoule du conduit déférent.\n3. La partie inférieure de la face antérieure de la vésicule séminale est séparée du rectum par le septum recto-vésical.\n4. L'axe de la vésicule séminale est vertical lorsque la vessie est distendue.\n5. Le conduit excréteur de la glande bulbo-urétral traverse le fascia supérieur du diaphragme uro-génital pour s'aboucher dans l'urètre spongieux.",
     "module": "Anatomie",
     "options": [
@@ -1050,7 +1035,7 @@
     "courseName": ["L'Appareil Génital Masculin"]
   },
   {
-    "id": 71,
+    "id": 70,
     "text": "Cocher le groupe de réponses justes : concernant l'utérus:\n1. Le ligament rond est tendu de la corne utérine vers la petite lèvre en traversant le canal inguinal.\n2. Ligament utéro-ovarien unit l'angle latéral du corps utérin à l'extrémité utérine de l'ovaire.\n3. Le ligament large est un repli péritonéal tendu de l'utérus à la paroi latérale du pelvis.\n4. Le ligament vésico-utérin est tendu de la partie supra-vaginale du col au sommet de la vessie.\n5. Le ligament utéro-sacral tendu de la partie supra-vaginale du col au sacrum en longeant latéralement le rectum.",
     "module": "Anatomie",
     "options": [
