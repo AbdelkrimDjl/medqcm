@@ -305,7 +305,7 @@ const Home: React.FC = () => {
                 <h3 className="text-base sm:text-lg font-bold flex items-center gap-2 whitespace-nowrap overflow-hidden">
                   <Play className="w-5 h-5 text-purple-600 flex-shrink-0 opacity-80" />
                   <span className="truncate">
-                    Session en cours ({savedQuiz.progress.percent}%)
+                    Session en cours détectée ({savedQuiz.progress.percent}%)
                   </span>
                 </h3>
                 <p className="text-sm opacity-90">
