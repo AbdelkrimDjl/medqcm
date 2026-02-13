@@ -212,7 +212,8 @@ const Quiz: React.FC = () => {
   };
 
   const handleSubmit = () => {
-    localStorage.removeItem(`quiz_progress_${config?.module}_${config?.unit}`);
+    localStorage.removeItem(storageKey);
+    localStorage.removeItem('last_quiz_config');
     setShowResults(true);
   };
 
@@ -260,6 +261,7 @@ const Quiz: React.FC = () => {
 
   if (showResults) {
     const score = calculateScore();
+    localStorage.removeItem(storageKey);
 
 
     return (
@@ -302,10 +304,13 @@ const Quiz: React.FC = () => {
               </div>
             </div>
 
-            
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <button
-                onClick={() => navigate("/")}
+                onClick={() => {
+                  localStorage.removeItem(storageKey);
+                  localStorage.removeItem('last_quiz_config');
+                  navigate("/");
+                }}
                 className="flex-1 py-4 rounded-lg font-semibold text-lg flex items-center justify-center gap-2 transition-all bg-[#faf9f5] text-[#54534f] hover:shadow-lg hover:scale-y-[1.015] hover:scale-x-[1.005] ease-[cubic-bezier(0.165,0.85,0.45,1)] duration-150"
               >
                 <HomeIcon className="w-5 h-5" />
