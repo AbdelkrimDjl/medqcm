@@ -1,7 +1,7 @@
 // Home.tsx
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { Files, BookOpen, Layers, Hash, ArrowRight } from "lucide-react";
+import { Files, BookOpen, Layers, Hash, ArrowRight, Play } from "lucide-react";
 
 interface Question {
   id: number;
@@ -35,6 +35,60 @@ const Home: React.FC = () => {
   const [allData, setAllData] = useState<UnitData[]>([]);
   const [availableQuestionCount, setAvailableQuestionCount] = useState<number>(0);
   const [shouldShowModuleSelect, setShouldShowModuleSelect] = useState<boolean>(true);
+  const [savedQuiz, setSavedQuiz] = useState<{
+    key: string;
+    config: any;
+    progress: {
+      answered: number;
+      total: number;
+      percent: number;
+    };
+  } | null>(null);
+  const storageKey = `quiz_${selectedUnit}_${selectedModule}_${questionCount}`;
+
+  useEffect(() => {
+    const keys = Object.keys(localStorage);
+    // Find the key that starts with quiz_
+    const quizKey = keys.find(key => key.startsWith('quiz_') && !key.includes('fallback'));
+
+    if (quizKey) {
+      const savedDataRaw = localStorage.getItem(quizKey);
+      const backupConfigRaw = localStorage.getItem('last_quiz_config');
+
+      if (savedDataRaw && backupConfigRaw) {
+        try {
+          const parsedData = JSON.parse(savedDataRaw); // Declared here
+          const config = JSON.parse(backupConfigRaw);
+
+          // Use parsedData safely within this block
+          const answeredCount = Object.keys(parsedData.savedAnswers || {}).length;
+          const totalQuestions = config.questionCount || 0;
+          const percentage = totalQuestions > 0
+            ? Math.round((answeredCount / totalQuestions) * 100)
+            : 0;
+
+          setSavedQuiz({
+            key: quizKey,
+            config: config,
+            progress: {
+              answered: answeredCount,
+              total: totalQuestions,
+              percent: percentage
+            }
+          });
+        } catch (error) {
+          console.error("Error parsing saved quiz data:", error);
+        }
+      }
+    }
+  }, []);
+
+  const handleContinueQuiz = () => {
+    if (savedQuiz) {
+      // Navigate using the recovered configuration
+      navigate("/quiz", { state: savedQuiz.config });
+    }
+  };
 
   // Load all JSON files from nested folder structure
   useEffect(() => {
@@ -42,7 +96,7 @@ const Home: React.FC = () => {
       // Use glob pattern that matches both .json and .JSON (case-insensitive)
       const contextLower = import.meta.glob("../data/**/*.json", { eager: true });
       const contextUpper = import.meta.glob("../data/**/*.JSON", { eager: true });
-      
+
       // Merge both contexts
       const context = { ...contextLower, ...contextUpper };
       const unitDataMap: Map<string, UnitData> = new Map();
@@ -89,13 +143,13 @@ const Home: React.FC = () => {
           .map((m) => m.moduleName)
           .sort();
         setAvailableModules(moduleNames);
-        
+
         // Check if we should auto-select the module
         // Auto-select if: only one module AND module name matches unit name
-        const shouldAutoSelect = 
-          moduleNames.length === 1 && 
+        const shouldAutoSelect =
+          moduleNames.length === 1 &&
           moduleNames[0].toLowerCase() === selectedUnit.toLowerCase();
-        
+
         if (shouldAutoSelect) {
           setSelectedModule(moduleNames[0]);
           setShouldShowModuleSelect(false);
@@ -103,7 +157,7 @@ const Home: React.FC = () => {
           setSelectedModule(""); // Reset module selection when unit changes
           setShouldShowModuleSelect(true);
         }
-        
+
         setSelectedCourse(""); // Reset course selection
         // Don't reset availableQuestionCount here - let the next useEffect handle it
       }
@@ -148,12 +202,12 @@ const Home: React.FC = () => {
     }
   }, [selectedUnit, selectedModule, allData]);
 
-// Update available question count and auto-fill the input when filters change
+  // Update available question count and auto-fill the input when filters change
   useEffect(() => {
     // 1. Handle "No Selection" state early
     if (!selectedUnit || !selectedModule) {
       setAvailableQuestionCount(0);
-      setQuestionCount(0); 
+      setQuestionCount(0);
       return;
     }
 
@@ -205,15 +259,13 @@ const Home: React.FC = () => {
         }
 
         const questions = filteredQuestions.slice(0, questionCount);
-
-        const storageKey = `quiz_${selectedUnit}_${selectedModule}_${questionCount}`;
         localStorage.removeItem(storageKey);
 
         navigate("/quiz", {
           state: {
             unit: selectedUnit,
             module: selectedModule,
-            course: selectedCourse || "All Courses",
+            course: selectedCourse || "Tous les Cours",
             questionCount,
             questions,
           },
@@ -244,6 +296,34 @@ const Home: React.FC = () => {
             Désormais, accédez aux examens de votre professeurs et entraînez-vous sur les QCM plus facilement que jamais. Progressez et comprenez chaque concept en profondeur grâce à Gemini AI intégré.
           </p>
         </div>
+
+        {/* Add this inside the main return, before the config card */}
+        {savedQuiz && (
+          <div className="mb-6 animate-fadeIn">
+            <div className="bg-[#212121] rounded-2xl p-6 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4 shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
+              <div className="text-[#eceadd]/70">
+                <h3 className="text-base sm:text-lg font-bold flex items-center gap-2 whitespace-nowrap overflow-hidden">
+                  <Play className="w-5 h-5 text-purple-600 flex-shrink-0 opacity-80" />
+                  <span className="truncate">
+                    Session en cours ({savedQuiz.progress.percent}%)
+                  </span>
+                </h3>
+                <p className="text-sm opacity-90">
+                  {savedQuiz.config.unit} • {savedQuiz.config.module} • {savedQuiz.config.course || "Tous les Cours"}
+                </p>
+              </div>
+
+              <div className="flex gap-2 w-full sm:w-auto">
+                <button
+                  onClick={handleContinueQuiz}
+                  className="flex-1 sm:flex-none px-6 py-2 rounded-lg font-bold transition-all shadow-md bg-[#faf9f5] text-[#54534f] hover:shadow-lg hover:scale-y-[1.015] hover:scale-x-[1.005]"
+                >
+                  Continuer
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
 
         <div className="bg-[#212121] rounded-2xl shadow-2xl p-8 font-normal shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
           <h2 className="text-2xl font-bold text-[#eceadd]/70 mb-6">
@@ -415,5 +495,3 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-
-
