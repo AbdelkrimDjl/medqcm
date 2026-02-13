@@ -107,6 +107,7 @@ const Quiz: React.FC = () => {
         savedIndex: currentQuestionIndex,
         savedConfirmed: Array.from(confirmedAnswers),
         savedFlagged: Array.from(flaggedQuestions),
+        totalInSession: config.questionCount, // Add this line
       };
       // Use the storageKey variable defined at the top of your component
       localStorage.setItem(storageKey, JSON.stringify(stateToSave));
