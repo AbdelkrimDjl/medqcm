@@ -97,6 +97,7 @@ const Quiz: React.FC = () => {
   const [filteredQuestions, setFilteredQuestions] = useState<Question[]>([]);
 
 
+
   // 2. Save state to localStorage whenever it changes
   // Update this block (around line 131)
   useEffect(() => {
@@ -218,6 +219,7 @@ const Quiz: React.FC = () => {
     setShowResults(true);
   };
 
+
   const arraysEqual = (arr1: number[], arr2: number[]): boolean => {
     if (arr1.length !== arr2.length) return false;
     const sorted1 = [...arr1].map(Number).sort((a, b) => a - b);
@@ -238,7 +240,7 @@ const Quiz: React.FC = () => {
     return {
       correct,
       total: totalQuestions,
-      percentage: totalQuestions > 0 ? (correct / totalQuestions) * 100 : 0,
+      percentage: totalQuestions > 0 ? (correct / answeredCount) * 100 : 0,
     };
   };
 
@@ -264,7 +266,6 @@ const Quiz: React.FC = () => {
     const score = calculateScore();
     localStorage.removeItem(storageKey);
 
-
     return (
       <div
         className="min-h-screen p-4 sm:p-6"
@@ -287,13 +288,13 @@ const Quiz: React.FC = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-8">
               <div className="bg-[#373734] rounded-xl p-6 text-center border-2 border-[#c1c2bb]">
                 <div className="text-4xl sm:text-5xl font-bold text-[#eceadd] mb-2">
-                  {score.correct}
+                  {score.correct}/{totalQuestions}
                 </div>
                 <div className="text-sm text-[#eff0e9] opacity-70">Correctes</div>
               </div>
               <div className="bg-[#373734] rounded-xl p-6 text-center border-2 border-[#c1c2bb]">
                 <div className="text-4xl sm:text-5xl font-bold text-[#eceadd] mb-2">
-                  {score.total - score.correct}
+                  {answeredCount - score.correct}/{totalQuestions}
                 </div>
                 <div className="text-sm text-[#eff0e9] opacity-70">Incorrectes</div>
               </div>
@@ -331,6 +332,7 @@ const Quiz: React.FC = () => {
         </div>
       </div>
     );
+
   }
 
   const isCurrentConfirmed = confirmedAnswers.has(currentQuestion.id);
@@ -582,6 +584,8 @@ const Quiz: React.FC = () => {
             </div>
           </div>
         </div>
+
+
 
         {/* Quick Stats */}
         <div className="bg-[#212121] rounded-2xl shadow-2xl p-4 sm:p-6 mt-4 sm:mt-6 shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
