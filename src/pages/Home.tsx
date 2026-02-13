@@ -206,6 +206,9 @@ const Home: React.FC = () => {
 
         const questions = filteredQuestions.slice(0, questionCount);
 
+        const storageKey = `quiz_${selectedUnit}_${selectedModule}_${questionCount}`;
+        localStorage.removeItem(storageKey);
+
         navigate("/quiz", {
           state: {
             unit: selectedUnit,
