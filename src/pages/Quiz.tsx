@@ -27,13 +27,6 @@ export interface Question {
   courseName?: string[];
 }
 
-interface ModuleStat {
-  module: string;
-  total: number;
-  correct: number;
-  accuracy: number;
-}
-
 interface QuizConfig {
   module: string;
   unit: string;
@@ -47,12 +40,35 @@ const Quiz: React.FC = () => {
   const config = location.state as QuizConfig;
   const paginationRef = useRef<HTMLDivElement>(null);
 
+  // 1. Generate a key that includes all filters to avoid mix-ups
+  const getStorageKey = (conf: QuizConfig | null) => {
+    if (!conf) return 'medqcm_fallback_key';
+    // This key changes if they change the Unit, Module, or Course selection
+    return `quiz_${conf.unit}_${conf.module}_${conf.questionCount}`;
+  };
 
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
-  const [answers, setAnswers] = useState<Record<number, number[]>>({});
-  const [flaggedQuestions, setFlaggedQuestions] = useState<Set<number>>(
-    new Set(),
-  );
+  const storageKey = getStorageKey(config);
+
+  // 2. Initialize state with "Lazy Initializers"
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(() => {
+    const saved = localStorage.getItem(storageKey);
+    return saved ? JSON.parse(saved).savedIndex : 0;
+  });
+
+  const [answers, setAnswers] = useState<Record<number, number[]>>(() => {
+    const saved = localStorage.getItem(storageKey);
+    return saved ? JSON.parse(saved).savedAnswers : {};
+  });
+
+  const [flaggedQuestions, setFlaggedQuestions] = useState<Set<number>>(() => {
+    const saved = localStorage.getItem(storageKey);
+    return saved ? new Set(JSON.parse(saved).savedFlagged) : new Set();
+  });
+
+  const [confirmedAnswers, setConfirmedAnswers] = useState<Set<number>>(() => {
+    const saved = localStorage.getItem(storageKey);
+    return saved ? new Set(JSON.parse(saved).savedConfirmed) : new Set();
+  });
 
   const getDateLink = (DateString: string | undefined): string => {
     if (!DateString) return "#";
@@ -79,19 +95,40 @@ const Quiz: React.FC = () => {
 
   const [showResults, setShowResults] = useState<boolean>(false);
   const [filteredQuestions, setFilteredQuestions] = useState<Question[]>([]);
-  const [confirmedAnswers, setConfirmedAnswers] = useState<Set<number>>(new Set());
+
+  // 2. Save state to localStorage whenever it changes
+  // Update this block (around line 131)
+  useEffect(() => {
+    // Only save if we have a config and are NOT on the results page
+    if (config && !showResults) {
+      const stateToSave = {
+        savedAnswers: answers,
+        savedIndex: currentQuestionIndex,
+        savedConfirmed: Array.from(confirmedAnswers),
+        savedFlagged: Array.from(flaggedQuestions),
+      };
+      // Use the storageKey variable defined at the top of your component
+      localStorage.setItem(storageKey, JSON.stringify(stateToSave));
+    }
+  }, [answers, currentQuestionIndex, confirmedAnswers, flaggedQuestions, config, showResults, storageKey]);
 
   useEffect(() => {
-    if (!config || !config.questions || config.questions.length === 0) {
-      navigate("/");
-      return;
+    // If config is missing (on refresh), try to recover it or go home
+    if (!config || !config.questions) {
+      const backupConfig = localStorage.getItem('last_quiz_config');
+      if (backupConfig) {
+        // Logic to restore config if needed, or simply:
+        navigate("/");
+        return;
+      }
     }
 
+    // Save config for recovery
+    localStorage.setItem('last_quiz_config', JSON.stringify(config));
 
+    // Apply the same filtering logic as before
     setFilteredQuestions(config.questions.slice(0, config.questionCount));
-
   }, [config, navigate]);
-
   // Auto-scroll pagination to show current question
   useEffect(() => {
     const topElement = document.getElementById('quiz-top');
@@ -173,6 +210,7 @@ const Quiz: React.FC = () => {
   };
 
   const handleSubmit = () => {
+    localStorage.removeItem(`quiz_progress_${config?.module}_${config?.unit}`);
     setShowResults(true);
   };
 
@@ -200,33 +238,6 @@ const Quiz: React.FC = () => {
     };
   };
 
-  const getModuleBreakdown = (): ModuleStat[] => {
-    const moduleMap: { [module: string]: { total: number; correct: number } } = {};
-
-    filteredQuestions.forEach(q => {
-      const moduleName = q.module || 'Unknown';
-      if (!moduleMap[moduleName]) {
-        moduleMap[moduleName] = { total: 0, correct: 0 };
-      }
-
-      moduleMap[moduleName].total++;
-
-      const userAnswers = answers[q.id] || [];
-      const correctAnswers = (q.correctOptionIds || []).map(Number);
-
-      if (arraysEqual(userAnswers, correctAnswers)) {
-        moduleMap[moduleName].correct++;
-      }
-    });
-
-    return Object.keys(moduleMap).map(module => ({
-      module,
-      total: moduleMap[module].total,
-      correct: moduleMap[module].correct,
-      accuracy: (moduleMap[module].correct / moduleMap[module].total) * 100,
-    }));
-  };
-
   if (!currentQuestion) {
     return (
       <div
@@ -245,7 +256,6 @@ const Quiz: React.FC = () => {
 
   if (showResults) {
     const score = calculateScore();
-    const moduleStats = getModuleBreakdown();
 
     return (
       <div
@@ -284,38 +294,6 @@ const Quiz: React.FC = () => {
                   {score.percentage.toFixed(1)}%
                 </div>
                 <div className="text-sm text-[#eff0e9] opacity-70">Score</div>
-              </div>
-            </div>
-
-            <div className="bg-[#373734] rounded-xl p-6 mb-6 border-2 border-[#c1c2bb]">
-              <h3 className="text-xl font-bold text-[#eceadd] mb-4">
-                Analyse par Module
-              </h3>
-              <div className="space-y-4">
-                {moduleStats.map(stat => (
-                  <div key={stat.module} className="bg-[#212121] rounded-lg p-4 border border-[#c1c2bb] shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
-                    <div className="flex justify-between items-center mb-2">
-                      <span className="font-semibold text-[#f1f2ec]">
-                        {stat.module}
-                      </span>
-                      <span className="text-sm text-[#eff0e9] opacity-70">
-                        {stat.correct}/{stat.total}
-                      </span>
-                    </div>
-                    <div className="w-full bg-[#373734] rounded-full h-2">
-                      <div
-                        className="h-2 rounded-full transition-all duration-500"
-                        style={{
-                          width: `${stat.accuracy}%`,
-                          background: stat.accuracy >= 70 ? '#10b981' : stat.accuracy >= 50 ? '#f59e0b' : '#ef4444'
-                        }}
-                      />
-                    </div>
-                    <div className="text-sm text-[#eff0e9] opacity-70 mt-1">
-                      {stat.accuracy.toFixed(1)}% de précision
-                    </div>
-                  </div>
-                ))}
               </div>
             </div>
 
@@ -664,5 +642,3 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
-
-
