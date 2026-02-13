@@ -853,7 +853,7 @@
   },
   {
     "id": 58,
-    "text": "Devant un hypofonctionnement au cours d'une atteinte primaire :",
+    "text": "Devant un hypofonctionnement au cours d'une atteinte primaire : (Cochez la réponse fausse)",
     "module": "Physiologie",
     "options": [
       {"id":1,"text":"A/ Le taux de l'hormone effectrice est diminué"},
@@ -1288,7 +1288,7 @@
   },
   {
     "id": 87,
-    "text": "L'hypofonctionnement endocrinien au cours d'une atteinte primaire, répond aux propositions suivantes : (Cochez la réponse fausse)",
+    "text": "L'hypofonctionnement endocrinien au cours d'une atteinte primaire, répond aux propositions suivantes :",
     "module": "Physiologie",
     "options": [
       {"id":1,"text":"A. le taux de l'hormone effectrice est élevé"},
