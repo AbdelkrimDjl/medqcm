@@ -2053,5 +2053,485 @@
     "correctOptionIds": [2],
     "Date": "13 Septembre 2022",
     "courseName": ["Mécanismes d’Action des Hormones"]
+  },
+  {
+    "id": 138,
+    "text": "Les effecteurs enzymatiques directs des récepteurs à 7 domaines transmembranaires sont: cocher la réponse exacte:",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. les phosphodiestérases"},
+      {"id":2,"text":"B. les adénylates cyclases"},
+      {"id":3,"text":"C. les phosphorylases kinases"},
+      {"id":4,"text":"D. les guanyl cyclases"},
+      {"id":5,"text":"E. les tyrosines kinases"}
+    ],
+    "correctOptionIds": [2],
+    "Date": "20 Février 2020",
+    "courseName": ["Mécanismes d’Action des Hormones"]
+  },
+  {
+    "id": 139,
+    "text": "Concernant les hormones stéroïdes, quelle est la combinaison exacte\n1-elles dérivent du cholestérol\n2-elles sont stockées dans des inclusions lipidiques dans le cytoplasme\n3-elles circulent librement dans le sang\n4-elles ont des récepteurs intracellulaires\n5-leurs récepteurs sont de nature lipidique",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A"},
+      {"id":2,"text":"B"},
+      {"id":3,"text":"C (1,4)"},
+      {"id":4,"text":"D"},
+      {"id":5,"text":"E (5)"}
+    ],
+    "correctOptionIds": [3],
+    "Date": "20 Février 2020",
+    "courseName": ["Généralités sur les Hormones Stéroïdes"]
+  },
+  {
+    "id": 140,
+    "text": "cocher la proposition fausse parmi les suivantes concernant l'insuline :",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. son récepteur est membranaire"},
+      {"id":2,"text":"B. son récepteur est un tétramère à activité tyrosine kinase"},
+      {"id":3,"text":"C. elle circule liée à l'albumine dans le sang"},
+      {"id":4,"text":"D. elle est stockée dans des vésicules cytoplasmiques"},
+      {"id":5,"text":"E. elle est libérée dans le cytoplasme par phénomène d'exocytose"}
+    ],
+    "correctOptionIds": [3],
+    "Date": "20 Février 2020",
+    "courseName": ["Mécanismes d’Action des Hormones"]
+  },
+  {
+    "id": 141,
+    "text": "Cocher la proposition fausse parmi les suivantes :",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. le complexe hormone-récepteur protège l'hormone contre le catabolisme hépatique"},
+      {"id":2,"text":"B. les récepteurs nicotiniques de l'Acetylcholine sont des canaux ioniques non couplés à la proteine G"},
+      {"id":3,"text":"C. la région centrale des récepteurs intracellulaires permet la fixation de l'hormone sur le HRE"},
+      {"id":4,"text":"D. un récepteur ne reconnait et ne fixe qu'une seule hormone"},
+      {"id":5,"text":"E. l'Aldostérone plasmatique ne provient que de la corticosurrénale"}
+    ],
+    "correctOptionIds": [5],
+    "Date": "20 Février 2020",
+    "courseName": ["Mécanismes d’Action des Hormones"]
+  },
+  {
+    "id": 142,
+    "text": "la post- hypophyse est caractérisée par une seule proposition parmi les suivantes, laquelle ?",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. synthétise, stocke et secrète les neuro-hormones: ADH et Ocytocine"},
+      {"id":2,"text":"B. la libération des neurohormones ADH et ocytocine se fait par exocytose"},
+      {"id":3,"text":"C. secrète des neuro-hormones qui agissent en mode synaptique, autocrine et paracrine"},
+      {"id":4,"text":"D. est une extension de l'hypothalamus dans l'hypophyse constituée des corps cellulaire des neurones hypothalamiques"},
+      {"id":5,"text":"E. formée de 14 noyaux qui contiennent deux types de neurones sécréteurs: parvocelulaires et magnocellulaires"}
+    ],
+    "correctOptionIds": [2],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Post-hypophysaires"]
+  },
+  {
+    "id": 143,
+    "text": "ADH et ocytocine sont: cocher la proposition exacte",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. des nonapeptides possèdant un pont disulfure indispensable à leur fonction biologique"},
+      {"id":2,"text":"B. ne présentent aucune similitude structurale"},
+      {"id":3,"text":"C. secrétées par endocytose"},
+      {"id":4,"text":"D. sont des neuropeptides synthétisées dans la post hypophyse sous forme de pré-pro hormone"},
+      {"id":5,"text":"E. leur maturation s'effectue au cours du transport axonal grâce à des enzymes, les maturases qui coupent avant un doublet d'acides aminés acides"}
+    ],
+    "correctOptionIds": [1],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Post-hypophysaires"]
+  },
+  {
+    "id": 144,
+    "text": "Concernant le diabète insipide: cocher la proposition exacte",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Peut être lié à une hyperproduction d'ADH, ou bien une anomalie dite post récepteur"},
+      {"id":2,"text":"B. Peut être lié à une production insuffisante d'ADH, ou bien une activation du récepteur V1R"},
+      {"id":3,"text":"C. nephrogenique congenital du a une mutation inactivatrice du récepteur V2R qui touche que les garçons"},
+      {"id":4,"text":"D. nephrogenique congenital du a une mutation inactivatrice du gène de l'aquaporine qui touche que les garçons"},
+      {"id":5,"text":"E. neurogenique congenital du a une mutation activatrice du gène d'ADH"}
+    ],
+    "correctOptionIds": [3],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Post-hypophysaires"]
+  },
+  {
+    "id": 145,
+    "text": "Syndrome inapproprié en ADH (SIAD) (cocher la réponse fausse):",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. le sujet atteint souffre d'une hyper production d'ADH ou bien hyper activité du récepteur"},
+      {"id":2,"text":"B. se caractérise par une hyper volémie, hyponatremie, hypo osmolarité plasmatique"},
+      {"id":3,"text":"C. le dosage statique de l'hormone est utile il est souvent supérieur à 20pmol/I"},
+      {"id":4,"text":"D. il est dit primaire par mutation activatrice du récepteur V2R"},
+      {"id":5,"text":"E. dont l'osmolarité urinaire diminue (urine diluée) lors du test de surcharge hydrique"}
+    ],
+    "correctOptionIds": [5],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Post-hypophysaires"]
+  },
+  {
+    "id": 146,
+    "text": "l'ocytocine (réponse fausse)",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. a un effet mécanique sur l'utérus lors du 3eme trimestre, il stimule les contractions musculaires"},
+      {"id":2,"text":"B. stimule l'excrétion lactée et non pas la synthèse du lait par les glandes mammaires"},
+      {"id":3,"text":"C. lors de l'accouchement il stimule la synthèse d'une ocytocine ovarienne qui stimule la synthèse des prostaglandines"},
+      {"id":4,"text":"D. chez l'homme elle a un rôle dans la synthèse des spermatozoïdes"},
+      {"id":5,"text":"E. c'est une hormone antistress, responsable de l'attachement social chez les deux sexes"}
+    ],
+    "correctOptionIds": [4],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Post-hypophysaires"]
+  },
+  {
+    "id": 147,
+    "text": "la GH: (cocher la réponse fausse)",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. présente un dimorphisme sexuel"},
+      {"id":2,"text":"B. Bovine est inactive chez l'homme"},
+      {"id":3,"text":"C. possède un récepteur dimerisé qui utilise la voie de signalisation JACK/STAT"},
+      {"id":4,"text":"D. transporté dans le sang sous forme majoritairement liée à une protéine GHBP qui est le récepteur a GH monomerisé"},
+      {"id":5,"text":"E. Activée par la GHRH, ghreline et inhibéé par la somatostatine SS14"}
+    ],
+    "correctOptionIds": [4],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Hypothalamo-hypophysaires"]
+  },
+  {
+    "id": 148,
+    "text": "A propos de l'IGF1, (cocher la proposition exacte)",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. active la somatostatine SS14 et inhibe la GHRH"},
+      {"id":2,"text":"B. Insulin-like Growth Factor est appelé ainsi pour son homologie structurale avec insuline"},
+      {"id":3,"text":"C. hormone hydrosoluble transportée dans le sang sous forme libre"},
+      {"id":4,"text":"D. IGF1 plasmatique a deux origines: une origine hépatique et les chondrocytes du cartilage de conjugaison"},
+      {"id":5,"text":"E. Dont Le gène qui code pour la IGFBP est inhibé par la GH"}
+    ],
+    "correctOptionIds": [1],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Hypothalamo-hypophysaires"]
+  },
+  {
+    "id": 149,
+    "text": "la prolactine (cocher la réponse fausse)",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. est une hormone de 199 AA à 3 ponts disulfures, possède une grande homologie structurale avec la GH"},
+      {"id":2,"text":"B. possède deux types de récepteurs, PRL-R1, PRL-R2"},
+      {"id":3,"text":"C. dont le rôle chez la femme est uniquement la synthèse du lait, et ne possède aucune action chez l'homme"},
+      {"id":4,"text":"D. est inhibée par la GAP, ce dernier dérive du même précurseur du GnRH, le pré pro GnRH"},
+      {"id":5,"text":"E. est inhibée par la dopamine qui est libérée dans le système porte hypothalamo-hypophysaire et agit comme une hormone et non pas neurotransmetteur"}
+    ],
+    "correctOptionIds": [3],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Hypothalamo-hypophysaires"]
+  },
+  {
+    "id": 150,
+    "text": "le remodelage osseux (réponse fausse)",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. est un processus dynamique qui permet de renouveler la matrice osseuse"},
+      {"id":2,"text":"B. est régulé par des hormones systémiques et des facteurs locaux"},
+      {"id":3,"text":"C. est une succession de résorption suivie de synthèse osseuse"},
+      {"id":4,"text":"D. Dont la synthèse osseuse est assurée par les ostéoblastes et la résorption est assurées par les ostéoclastes"},
+      {"id":5,"text":"E. Dont la synthèse osseuse est assurée par les ostéoclastes et la résorption est assurées par les ostéoblastes"}
+    ],
+    "correctOptionIds": [5],
+    "Date": "20 Février 2020",
+    "courseName": ["Biochimie du Remodelage Osseux"]
+  },
+  {
+    "id": 151,
+    "text": "concernant le système RANK/Ligand/OPG (cocher la réponse fausse)",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. est un médiateur intracellulaire entre ostéoblaste et ostéoclaste"},
+      {"id":2,"text":"B. le RANK est un récepteur exprimé sur les ostéoclastes dont la liaison avec son ligand active la résorption osseuse"},
+      {"id":3,"text":"C. le RANK est récepteur exprimé sur les ostéoblastes dont la liaison avec son ligand active la résorption osseuse"},
+      {"id":4,"text":"D. OPG (osteoprotegenine) est une glycoprotéine produite par les ostéoblastes, elle est dite récepteur piège du RANK ligand"},
+      {"id":5,"text":"E. OPG se fixe sur le même site du récepteur RANK, empêche la liaison ligand-récepteur RANK"}
+    ],
+    "correctOptionIds": [3],
+    "Date": "20 Février 2020",
+    "courseName": ["Biochimie du Remodelage Osseux"]
+  },
+  {
+    "id": 152,
+    "text": "la GAP (GnRH associated hormone) (cocher la réponse fausse)",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. est synthétisée à partir de la pré-pro GnRH"},
+      {"id":2,"text":"B. inhibe la sécrétion de prolactine et active l'axe des gonades"},
+      {"id":3,"text":"C. Active la sécrétion de la prolactine et inhibe l'axe des gonades"},
+      {"id":4,"text":"D. Issu d'une pro hormone après avoir subi l'action des maturases qui clivent la pro hormone en GnRH en N ter et GAP en C ter"},
+      {"id":5,"text":"E. active la sécrétion de la FSH et LH chez l'homme"}
+    ],
+    "correctOptionIds": [3],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Hypothalamo-hypophysaires"]
+  },
+  {
+    "id": 153,
+    "text": "Parmi les propositions suivantes concernant les hormones thyroïdiennes, indiquer celle qui n'est pas exacte ?",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. la T3 circulante est essentiellement d'origine extra-thyroïdienne"},
+      {"id":2,"text":"B. Une carence en iode inhibe la fonction thyroïdienne"},
+      {"id":3,"text":"C. Une surcharge en iode entraine une hyperthyroïdie"},
+      {"id":4,"text":"D. T4 est transportée dans le sang par la thyroglobuline"},
+      {"id":5,"text":"E. dans le syndrome de basse T3, la 3,3',5' tri-iodothyronine est élevée dans le sang"}
+    ],
+    "correctOptionIds": [4],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Thyroïdiennes"]
+  },
+  {
+    "id": 154,
+    "text": "L'hypothyroïdie congénitale est caractérisée par les signes suivants, cocher la réponse fausse ;",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. la glande thyroïde peut être normale"},
+      {"id":2,"text":"B. elle se complique de retard mental"},
+      {"id":3,"text":"C. si le taux de thyroglobuline est nul, cela Indique l'absence de la glande thyroïde"},
+      {"id":4,"text":"D. le dosage de la TSH pose le diagnostic"},
+      {"id":5,"text":"E. le défaut de synthèse de T4 en est la cause principale."}
+    ],
+    "correctOptionIds": [5],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Thyroïdiennes"]
+  },
+  {
+    "id": 155,
+    "text": "La maladie de Basedow est caractérisée par (cocher la réponse exacte):",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. c'est une hypothyroïdie"},
+      {"id":2,"text":"B. le taux de TSH est très élevé"},
+      {"id":3,"text":"C. les anticorps anti-Récepteurs de la TSH elevés inhibent la thyroide"},
+      {"id":4,"text":"D. une baisse de la thermogenèse"},
+      {"id":5,"text":"E. le test à la TRH ne stimule pas l'hypophyse"}
+    ],
+    "correctOptionIds": [5],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Thyroïdiennes"]
+  },
+  {
+    "id": 156,
+    "text": "Cocher la proposition fausse parmi les suivantes [concernant la thyroïde]:",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. la TPO active les 2 premières étapes de la synthèse des hormones thyroïdiennes"},
+      {"id":2,"text":"B. la TSH active la synthèse de la thyroglobuline"},
+      {"id":3,"text":"C. le récepteur de la TSH est intracellulaire"},
+      {"id":4,"text":"D. le myxœdème est caractéristique de l'hypothyroïdie"},
+      {"id":5,"text":"E. une tumeur hypophysaire peut entrainer une hyperthyroïdie"}
+    ],
+    "correctOptionIds": [3],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Thyroïdiennes"]
+  },
+  {
+    "id": 157,
+    "text": "La 18 hydroxylase est nécessaire à la synthèse de :",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Cortisol"},
+      {"id":2,"text":"B. Aldostérone"},
+      {"id":3,"text":"C. Progestérone"},
+      {"id":4,"text":"D. DHEA"},
+      {"id":5,"text":"E. Androstenedione."}
+    ],
+    "correctOptionIds": [2],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Cortico-Surrénaliennes"]
+  },
+  {
+    "id": 158,
+    "text": "La concentration de CBG augmente en cas de: (cocher la réponse juste)",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Syndrome néphrotique"},
+      {"id":2,"text":"B. Insuffisance hépatique"},
+      {"id":3,"text":"C. Grossesse"},
+      {"id":4,"text":"D. Hypothyroïdie"},
+      {"id":5,"text":"E. Alcoolisme"}
+    ],
+    "correctOptionIds": [3],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Cortico-Surrénaliennes"]
+  },
+  {
+    "id": 159,
+    "text": "L'action de cortisol: (cocher la réponse fausse)",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Hyperglycémiant"},
+      {"id":2,"text":"B. Anti-inflammatoire"},
+      {"id":3,"text":"C. Déminéralisation de l'os."},
+      {"id":4,"text":"D. Inhibe l'érythropoïèse"},
+      {"id":5,"text":"E. Augmente l'appétit."}
+    ],
+    "correctOptionIds": [4],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Cortico-Surrénaliennes"]
+  },
+  {
+    "id": 160,
+    "text": "La métopirone inhibe:",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. La 11ẞ hydroxylase"},
+      {"id":2,"text":"B. La 21a hydroxylase"},
+      {"id":3,"text":"C. La 17ẞ hydroxylase"},
+      {"id":4,"text":"D. La 18 hydroxylase"},
+      {"id":5,"text":"E. L'aromatase"}
+    ],
+    "correctOptionIds": [1],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Cortico-Surrénaliennes"]
+  },
+  {
+    "id": 161,
+    "text": "Le syndrome de CONN est défini par un: cocher la proposition exacte",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Hypercorticisme primaire"},
+      {"id":2,"text":"B. Hypocorticisme secondaire"},
+      {"id":3,"text":"C. Hyperaldostéronisme primaire."},
+      {"id":4,"text":"D. Hyperaldostéronisme secondaire"},
+      {"id":5,"text":"E. Hypoaldostéronisme primaire."}
+    ],
+    "correctOptionIds": [3],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Cortico-Surrénaliennes"]
+  },
+  {
+    "id": 162,
+    "text": "Le test a la dexamethasone fort permet un diagnostic différentiel entre :",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Hypercorticisme primaire et l'hypocorticisme secondaire."},
+      {"id":2,"text":"B. Hypercorticisme primaire et l'hyperaldostéronisme primaire."},
+      {"id":3,"text":"C. Hypercorticisme primaire et l'hypocorticisme primaire."},
+      {"id":4,"text":"D. Hyperaldostéronisme primaire et l'hyperaldostéronisme secondaire."},
+      {"id":5,"text":"E. Hypercorticisme primaire et l'hypercorticisme secondaire."}
+    ],
+    "correctOptionIds": [5],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Hormones Cortico-Surrénaliennes"]
+  },
+  {
+    "id": 163,
+    "text": "L'oestrone (E1) est le principal oestrogéne :cocher la réponse juste",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Chez l'homme et la femme ménopausée"},
+      {"id":2,"text":"B. La femme en âge de reproduction."},
+      {"id":3,"text":"C. En cas de grossesse"},
+      {"id":4,"text":"D. En cas d'allaitement"},
+      {"id":5,"text":"E. En période pré-pubertaire."}
+    ],
+    "correctOptionIds": [1],
+    "Date": "20 Février 2020",
+    "courseName": ["Exploration biochimique des Ovaires"]
+  },
+  {
+    "id": 164,
+    "text": "le rôle de la progestérone: (cocher la réponse fausse)",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. transforme la muqueuse utérine en muqueuse sécrétoire"},
+      {"id":2,"text":"B. inhibe les contractions de l'utérus."},
+      {"id":3,"text":"C. Induit la croissance des acini des glandes mammaires"},
+      {"id":4,"text":"D. Entraîne une remontée de la température lors de l'ovulation."},
+      {"id":5,"text":"E. permet l'accroissement du volume sanguin lors de la grossesse."}
+    ],
+    "correctOptionIds": [5],
+    "Date": "20 Février 2020",
+    "courseName": ["Exploration biochimique des Ovaires"]
+  },
+  {
+    "id": 165,
+    "text": "la contraception orale: (cocher la réponse fausse)",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Diminue la sécrétion de FSH et LH."},
+      {"id":2,"text":"B. Inhibe l'ovulation."},
+      {"id":3,"text":"C. Stimule la synthèse des récepteurs de l'ocytocine."},
+      {"id":4,"text":"D. Modifie l'endomètre qui ne permet plus la nidation."},
+      {"id":5,"text":"E. Modifie la glaire cervicale qui devient moins perméable aux spermatozoïdes."}
+    ],
+    "correctOptionIds": [3],
+    "Date": "20 Février 2020",
+    "courseName": ["Exploration Biochimique des Gonades"]
+  },
+  {
+    "id": 166,
+    "text": "L'une des enzymes suivantes de la médullo-surrénale est spécifique: cocher la réponse juste",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. La noradrenaline N-méthyl transférase"},
+      {"id":2,"text":"B. La dopamine  -hydroxylase"},
+      {"id":3,"text":"C. la tyrosine hydroxylase"},
+      {"id":4,"text":"D. la DOPA décarboxylase"},
+      {"id":5,"text":"E. la Phenyl alanine hydroxylase"}
+    ],
+    "correctOptionIds": [1],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Catécholamines"]
+  },
+  {
+    "id": 167,
+    "text": "Les catécholamines sont: Cocher la réponse fausse",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. sont fabriquées dans la médullo-surrénale et le cerveau."},
+      {"id":2,"text":"B. Sont considérées comme hormones et neurohormones"},
+      {"id":3,"text":"C. Sont synthétisées par les cellules chromaffines."},
+      {"id":4,"text":"D. sont dégradées essentiellement par 2 enzymes."},
+      {"id":5,"text":"E. l'adrenaline, la chromogranine, la dopamine et la noradrenaline."}
+    ],
+    "correctOptionIds": [5],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Catécholamines"]
+  },
+  {
+    "id": 168,
+    "text": "Concernant les catécholamines: Cocher la réponse fausse.",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. COMT et MAO sont les seules enzymes de dégradation"},
+      {"id":2,"text":"B. Les HVA (Acide homovanillique) sont les catabolites exclusifs de la dopamine"},
+      {"id":3,"text":"C. Les VMA (Acide vanilmandélique) sont des catabolites communs à la noradrenaline et à l'adrénaline"},
+      {"id":4,"text":"D. L'Adrenaline est 5 à 10 fois plus élevée que la noradrenaline dans le sang"},
+      {"id":5,"text":"E. Chimiquement l'adrénaline est de la noradrénaline methylée."}
+    ],
+    "correctOptionIds": [4],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Catécholamines"]
+  },
+  {
+    "id": 169,
+    "text": "Concernant les catécholamines: Cochez la réponse fausse",
+    "module": "Biochimie",
+    "options": [
+      {"id":1,"text":"A. Leur dosage permet le dépistage et la surveillance des tumeurs neuro-endocriniennes."},
+      {"id":2,"text":"B. Les fibres post synaptiques sympathiques fabriquent de l'adrénaline et de la noradrenaline."},
+      {"id":3,"text":"C. L'adrénaline représente 80% des secrétions de la médullosurrénale"},
+      {"id":4,"text":"D. La Dopamine représente 04% des secrétions de la médullosurrénale"},
+      {"id":5,"text":"E. L'a noradrenaline représente 16% des secrétions de la médullosurrénale"}
+    ],
+    "correctOptionIds": [2],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Catécholamines"]
   }
 ]

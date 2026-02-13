@@ -898,5 +898,170 @@
     "correctOptionIds": [5],
     "Date": "13 Septembre 2022",
     "courseName": ["La Thyroïde"]
+  },
+  {
+    "id": 61,
+    "text": "Cochez la réponse juste :",
+    "module": "Anatomie",
+    "options": [
+      {"id":1,"text":"A. La loge hypophysaire est une loge osseuse appelée selle turcique creusée dans l'os frontal."},
+      {"id":2,"text":"B. L'hypophyse est formée de 2 lobes dont le lobe antérieur plus petit, compris dans la gouttière du lobe postérieur."},
+      {"id":3,"text":"C. Les artères de l'hypophyse proviennent toutes de la carotide externe."},
+      {"id":4,"text":"D. Les seins se situent, en regard de l'espace compris entre la 5ème et la 9ème côte."},
+      {"id":5,"text":"E. La glande mammaire est une glande dont l'unité de base est l'acinus ou alvéole."}
+    ],
+    "correctOptionIds": [5],
+    "Date": "20 Février 2020",
+    "courseName": ["La Glande Hypophyse","La Glande Mammaire"]
+  },
+  {
+    "id": 62,
+    "text": "Cocher la réponse juste :",
+    "module": "Anatomie",
+    "options": [
+      {"id":1,"text":"A. Les surrénales sont situées dans L'espace rétro péritonéal de l'abdomen de part et d'autre de D10."},
+      {"id":2,"text":"B. La glande surrénale est située dans une loge fibreuse qui dépend de la loge rénale."},
+      {"id":3,"text":"C. L'artère surrénale supérieure née de la face latérale de l'aorte."},
+      {"id":4,"text":"D. La Veine surrénale moyenne est la veine principale. Elle se draine à droite, dans la veine rénale."},
+      {"id":5,"text":"E. Les veines de l'hypophyse correspondent à deux systèmes l'un intrinsèque, suivant la tige pituitaire et gagnant la veine cérébrale moyenne."}
+    ],
+    "correctOptionIds": [2],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Glandes Surrénales","La Glande Hypophyse"]
+  },
+  {
+    "id": 63,
+    "text": "Cocher la proposition juste : Les muscles qui convergent vers le centre tendineux [du sein] sont :",
+    "module": "Anatomie",
+    "options": [
+      {"id":1,"text":"A. Le petit pectoral"},
+      {"id":2,"text":"B. L'aponévrose cervicale"},
+      {"id":3,"text":"C. Le rachis thoracique"},
+      {"id":4,"text":"D. Canaux galactophores"},
+      {"id":5,"text":"E. Titre: Structure du sein"}
+    ],
+    "correctOptionIds": [5],
+    "Date": "20 Février 2020",
+    "courseName": ["La Glande Mammaire"]
+  },
+  {
+    "id": 64,
+    "text": "Cocher le groupe de réponses justes: La Thyroïde:\n1. Sa surface est lobulée\n2. Les ligaments latéraux de Gruber fixent l'isthme thyroïdien à la trachée\n3. Le fascia thyroïdien est constitué de deux feuillets\n4. La branche médiale de l'artère thyroïdienne inférieure forme avec son homologue la communicante sous isthmique\n5. Ses lymphatiques se drainent vers les lymphonoeuds prétrachéaux en bas",
+    "module": "Anatomie",
+    "options": [
+      {"id":1,"text":"A (4,5)"},
+      {"id":2,"text":"B (1,4)"},
+      {"id":3,"text":"C (3,4,5)"},
+      {"id":4,"text":"D (1,5)"},
+      {"id":5,"text":"E (1,2,5)"}
+    ],
+    "correctOptionIds": [4],
+    "Date": "20 Février 2020",
+    "courseName": ["La Thyroïde"]
+  },
+  {
+    "id": 65,
+    "text": "Cocher le groupe de réponses justes: Parmi les portions du canal déférent :\n1. Portion iliaque\n2. Portion pelvienne\n3. Portion inguinale\n4. Portion supra-vésicale\n5. Portion épididymo-testiculaire",
+    "module": "Anatomie",
+    "options": [
+      {"id":1,"text":"A (1,3,5)"},
+      {"id":2,"text":"B (3,4,5)"},
+      {"id":3,"text":"C (1,2,3)"},
+      {"id":4,"text":"D (2,3,5)"},
+      {"id":5,"text":"E (2,4,5)"}
+    ],
+    "correctOptionIds": [],
+    "Date": "20 Février 2020",
+    "courseName": ["L'Appareil Génital Masculin"]
+  },
+  {
+    "id": 66,
+    "text": "Cocher le groupe de réponses justes : Les muscles [du périnée] sont:\n1. Muscles transverses\n2. Muscle sphincter externe de l'anus\n3. Muscles bulbo-spongieux\n4. Muscles élévateurs de l'anus\n5. Muscle sphincter de l'urètre",
+    "module": "Anatomie",
+    "options": [
+      {"id":1,"text":"A (1,2,3)"},
+      {"id":2,"text":"B (3,4,5)"},
+      {"id":3,"text":"C (1,2,4)"},
+      {"id":4,"text":"D (2,4,5)"},
+      {"id":5,"text":"E (1,3,4)"}
+    ],
+    "correctOptionIds": [5],
+    "Date": "20 Février 2020",
+    "courseName": ["Le Périnée"]
+  },
+  {
+    "id": 67,
+    "text": "Cocher le groupe de propositions justes : Le schéma ci-dessous [Coupe du pénis]:\n1. Titre: les enveloppes des testicules\n2. La veine dorsale profonde\n3. Scrotum\n4. Corps caverneux\n5. Corps spongieux",
+    "module": "Anatomie",
+    "options": [
+      {"id":1,"text":"A"},
+      {"id":2,"text":"B (4,5)"},
+      {"id":3,"text":"C (1,3)"},
+      {"id":4,"text":"D (2,4)"},
+      {"id":5,"text":"E (1,4,5)"}
+    ],
+    "correctOptionIds": [2],
+    "Date": "20 Février 2020",
+    "courseName": ["L'Appareil Génital Masculin"]
+  },
+  {
+    "id": 68,
+    "text": "Cocher le groupe de propositions justes:\n1. Isthme de la prostate.\n2. Partie prostatique de l'uretère.\n3. Lobe latéral.\n4. Conduit éjaculateur.\n5. Lobe moyen.",
+    "module": "Anatomie",
+    "options": [
+      {"id":1,"text":"A (1,2,4)"},
+      {"id":2,"text":"B (1,3,5)"},
+      {"id":3,"text":"C (1,3)"},
+      {"id":4,"text":"D (1,4)"},
+      {"id":5,"text":"E (1,2,4)"}
+    ],
+    "correctOptionIds": [4],
+    "Date": "20 Février 2020",
+    "courseName": ["L'Appareil Génital Masculin"]
+  },
+  {
+    "id": 69,
+    "text": "Cocher le groupe de réponses justes : concernant l'ovaire:\n1. Le ligament propre de l'ovaire unit l'extrémité supérieure de l'ovaire à l'utérus.\n2. Le ligament suspenseur de l'ovaire est tendu de la paroi lombaire à l'ovaire.\n3. Le ligament tubo-ovarique unit l'extrémité inférieure de l'ovaire au pavillon de la trompe.\n4. Le mésovarium unit l'ovaire au feuillet postérieur du ligament large.\n5. les veines ovariques se terminent à gauche dans la veine cave inférieure.",
+    "module": "Anatomie",
+    "options": [
+      {"id":1,"text":"A (2,3)"},
+      {"id":2,"text":"B (2,4)"},
+      {"id":3,"text":"C (1,3)"},
+      {"id":4,"text":"D (2,4,5)"},
+      {"id":5,"text":"E (1,4,5)"}
+    ],
+    "correctOptionIds": [2],
+    "Date": "20 Février 2020",
+    "courseName": ["L'Appareil Génital Féminin"]
+  },
+  {
+    "id": 70,
+    "text": "Cocher le groupe de réponses justes : concernant les glandes génitales masculines annexes:\n1. Les glandes bulbo-urétrales sont entourées du muscle sphincter de l'urètre.\n2. Le bord latéral de la vésicule séminale est longé par l'ampoule du conduit déférent.\n3. La partie inférieure de la face antérieure de la vésicule séminale est séparée du rectum par le septum recto-vésical.\n4. L'axe de la vésicule séminale est vertical lorsque la vessie est distendue.\n5. Le conduit excréteur de la glande bulbo-urétral traverse le fascia supérieur du diaphragme uro-génital pour s'aboucher dans l'urètre spongieux.",
+    "module": "Anatomie",
+    "options": [
+      {"id":1,"text":"A (1,2,3)"},
+      {"id":2,"text":"B (3,4,5)"},
+      {"id":3,"text":"C (1,3)"},
+      {"id":4,"text":"D (4,5)"},
+      {"id":5,"text":"E (1,4)"}
+    ],
+    "correctOptionIds": [5],
+    "Date": "20 Février 2020",
+    "courseName": ["L'Appareil Génital Masculin"]
+  },
+  {
+    "id": 71,
+    "text": "Cocher le groupe de réponses justes : concernant l'utérus:\n1. Le ligament rond est tendu de la corne utérine vers la petite lèvre en traversant le canal inguinal.\n2. Ligament utéro-ovarien unit l'angle latéral du corps utérin à l'extrémité utérine de l'ovaire.\n3. Le ligament large est un repli péritonéal tendu de l'utérus à la paroi latérale du pelvis.\n4. Le ligament vésico-utérin est tendu de la partie supra-vaginale du col au sommet de la vessie.\n5. Le ligament utéro-sacral tendu de la partie supra-vaginale du col au sacrum en longeant latéralement le rectum.",
+    "module": "Anatomie",
+    "options": [
+      {"id":1,"text":"A (1,2,4)"},
+      {"id":2,"text":"B (2,3,5)"},
+      {"id":3,"text":"C (1,3,5)"},
+      {"id":4,"text":"D (1,3,4)"},
+      {"id":5,"text":"E (2,4,5)"}
+    ],
+    "correctOptionIds": [2],
+    "Date": "20 Février 2020",
+    "courseName": ["L'Appareil Génital Féminin"]
   }
 ]

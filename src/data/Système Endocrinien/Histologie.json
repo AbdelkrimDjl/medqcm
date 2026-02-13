@@ -1412,5 +1412,305 @@
     "correctOptionIds": [4],
     "Date": "07 Juillet 2024",
     "courseName": ["Les Surrénales, Pancréas Endocrine"]
+  },
+  {
+    "id": 96,
+    "text": "Cocher le groupe de réponses justes : concernant l'utérus:\n1. Le ligament rond est tendu de la corne utérine vers la petite lèvre en traversant le canal inguinal.\n2. Ligament utéro-ovarien unit l'angle latéral du corps utérin à l'extrémité utérine de l'ovaire.\n3. Le ligament large est un repli péritonéal tendu de l'utérus à la paroi latérale du pelvis.\n4. Le ligament vésico-utérin est tendu de la partie supra-vaginale du col au sommet de la vessie.\n5. Le ligament utéro-sacral tendu de la partie supra-vaginale du col au sacrum en longeant latéralement le rectum.",
+    "module": "Anatomie",
+    "options": [
+      {"id":1,"text":"A (1,2,4)"},
+      {"id":2,"text":"B (2,3,5)"},
+      {"id":3,"text":"C (1,3,5)"},
+      {"id":4,"text":"D (1,3,4)"},
+      {"id":5,"text":"E (2,4,5)"}
+    ],
+    "correctOptionIds": [2],
+    "Date": "20 Février 2020",
+    "courseName": ["L'Appareil Génital Féminin"]
+  },
+  {
+    "id": 97,
+    "text": "la thyroïde: RF",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. Est une glande endocrine située à la face antérieure du cou"},
+      {"id":2,"text":"b. Formée de 02 lobes réunis par l'isthme"},
+      {"id":3,"text":"c. Est la plus volumineuses des glandes endocrines"},
+      {"id":4,"text":"d. Elle est très peu vascularisée"},
+      {"id":5,"text":"e. Elle produit la calcitonine"}
+    ],
+    "correctOptionIds": [4],
+    "Date": "20 Février 2020",
+    "courseName": ["Le Complex Thyro-parathyroïdien"]
+  },
+  {
+    "id": 98,
+    "text": "la thyroïde: RF",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. Comporte des cellules folliculaires et parafolliculaires"},
+      {"id":2,"text":"b. Enveloppée par une capsule fibreuse mince"},
+      {"id":3,"text":"c. Comporte un stroma riche en capillaires"},
+      {"id":4,"text":"d. Elle produit la parathormone"},
+      {"id":5,"text":"e. Elle élabore les hormones thyroïdiennes iodées"}
+    ],
+    "correctOptionIds": [4],
+    "Date": "20 Février 2020",
+    "courseName": ["Le Complex Thyro-parathyroïdien"]
+  },
+  {
+    "id": 99,
+    "text": "La thyroïde: RF",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. Les follicules les plus volumineux sont les moins actifs"},
+      {"id":2,"text":"b. Les petites vésicules sont très actives"},
+      {"id":3,"text":"c. Le thyréocyte est la cellule thyroïdienne parafolliculaire"},
+      {"id":4,"text":"d. Les cellules claires élaborent la calcitonine"},
+      {"id":5,"text":"e. Chaque follicules est fait de cellules folliculaires et parafolliculaire"}
+    ],
+    "correctOptionIds": [3],
+    "Date": "20 Février 2020",
+    "courseName": ["Le Complex Thyro-parathyroïdien"]
+  },
+  {
+    "id": 100,
+    "text": "Les parathyroïdes : RF",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. formé de cordons cellulaires anastomosés"},
+      {"id":2,"text":"b. comportent un stroma conjonctivo-vasculaire"},
+      {"id":3,"text":"c. comportent des cellules folliculaires, claires et oxyphiles"},
+      {"id":4,"text":"d. les cellules claires secrètent la parathormone"},
+      {"id":5,"text":"e. ses cellules dérivent des cellules principales sombres"}
+    ],
+    "correctOptionIds": [3],
+    "Date": "20 Février 2020",
+    "courseName": ["Le Complex Thyro-parathyroïdien"]
+  },
+  {
+    "id": 101,
+    "text": "Les surrénales : RF",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. sont des glandes exocrines"},
+      {"id":2,"text":"b. situées contre le pôle supérieur des reins"},
+      {"id":3,"text":"c. formées par l'association de 2 glandes endocrines distinctes"},
+      {"id":4,"text":"d. la corticosurrénale est d'origine mésoblastique"},
+      {"id":5,"text":"e. la médullosurrénale est d'origine neurectoblastique"}
+    ],
+    "correctOptionIds": [1],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Surrénales"]
+  },
+  {
+    "id": 102,
+    "text": "les surrénales : RF",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. sont situées contre le pôle supérieur des reins"},
+      {"id":2,"text":"b. la corticosurrénale est à structure trabéculaire orientée"},
+      {"id":3,"text":"c. la corticosurrénale est indispensable à la vie"},
+      {"id":4,"text":"d. assurent la filtration du sang"},
+      {"id":5,"text":"e. la médullosurrénale sécrète les catécholamines"}
+    ],
+    "correctOptionIds": [4],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Surrénales"]
+  },
+  {
+    "id": 103,
+    "text": "les cellules de la zone glomérulée: RF",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. sécrètent les androgènes"},
+      {"id":2,"text":"b. sont petites et ont un noyau rond"},
+      {"id":3,"text":"c. leur cytoplasme est acidophile"},
+      {"id":4,"text":"d. renferment quelques petites gouttelettes lipidiques"},
+      {"id":5,"text":"e. contrôlées par le système rénine-angiotensine."}
+    ],
+    "correctOptionIds": [1],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Surrénales"]
+  },
+  {
+    "id": 104,
+    "text": "la fasciculée : RF",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. est formée de cordons parallèles"},
+      {"id":2,"text":"b. ses cellules comportent de volumineuses vacuoles lipidiques"},
+      {"id":3,"text":"c. sécrète les minéralo-corticoïdes"},
+      {"id":4,"text":"d. contrôlée par l'ACTH adénohypophysaire"},
+      {"id":5,"text":"e. est à sécrétion hyperglycémiante et anti-inflammatoire"}
+    ],
+    "correctOptionIds": [3],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Surrénales"]
+  },
+  {
+    "id": 105,
+    "text": "la réticulée : RF",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. a de petites cellules disposées en réseau"},
+      {"id":2,"text":"b. moins épaisse"},
+      {"id":3,"text":"c. vacuoles lipidiques moindres"},
+      {"id":4,"text":"d. Sécrète les gluco-corticoides"},
+      {"id":5,"text":"e. a des capillaires disposés en réseau"}
+    ],
+    "correctOptionIds": [4],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Surrénales"]
+  },
+  {
+    "id": 106,
+    "text": "la médullosurrénale: RF",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. sécrète les catécholamines"},
+      {"id":2,"text":"b. les cellules rhagiochromes secrètent la Noradrenaline"},
+      {"id":3,"text":"c. les cellules hyalochromes secrètent l'adrenaline"},
+      {"id":4,"text":"d. est périphérique"},
+      {"id":5,"text":"e. est centrale"}
+    ],
+    "correctOptionIds": [4],
+    "Date": "20 Février 2020",
+    "courseName": ["Les Surrénales"]
+  },
+  {
+    "id": 107,
+    "text": "Les îlots de Langerhans: RF",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. sont répartis dans la masse exocrine du pancréas"},
+      {"id":2,"text":"b. sont des plages claires, rondes ou ovales"},
+      {"id":3,"text":"c. sont constitués de cordons cellulaires anastomosés"},
+      {"id":4,"text":"d. sont pauvres en capillaires sanguins"},
+      {"id":5,"text":"e. secrètent le glucagon, l'insuline et d'autres hormones"}
+    ],
+    "correctOptionIds": [4],
+    "Date": "20 Février 2020",
+    "courseName": ["Pancréas Endocrine"]
+  },
+  {
+    "id": 108,
+    "text": "la prostate : RF",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. Glande exocrine entourant la partie initiale de l'urètre"},
+      {"id":2,"text":"b. augmente de taille pendant le cycle menstruel"},
+      {"id":3,"text":"c. Glande tubulo-alvéolaire"},
+      {"id":4,"text":"d. Epithélium simple cubique ou prismatique"},
+      {"id":5,"text":"e. Capsule conjonctive contenant de nombreuses cellules musculaires lisses"}
+    ],
+    "correctOptionIds": [2],
+    "Date": "20 Février 2020",
+    "courseName": ["L’Appareil Génital Masculin"]
+  },
+  {
+    "id": 109,
+    "text": "la vésicule séminale: RF",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. se situe de part et d'autre de l'utérus"},
+      {"id":2,"text":"b. Organes pairs symétriques"},
+      {"id":3,"text":"c. Capsule conjonctive lâche"},
+      {"id":4,"text":"d. long tube très contourné"},
+      {"id":5,"text":"e. la muqueuse forme des replis étroits et ramifiés"}
+    ],
+    "correctOptionIds": [1],
+    "Date": "20 Février 2020",
+    "courseName": ["L’Appareil Génital Masculin"]
+  },
+  {
+    "id": 110,
+    "text": "la vésicule séminale présente: RF",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. un épithélium prismatique pseudostratifié"},
+      {"id":2,"text":"b. un chorion conjonctif riche en fibres élastiques"},
+      {"id":3,"text":"c. une couche mince de cellules musculaires lisses"},
+      {"id":4,"text":"d. capsule conjonctive lâche"},
+      {"id":5,"text":"e. augmente de taille lors de l'ovulation"}
+    ],
+    "correctOptionIds": [5],
+    "Date": "20 Février 2020",
+    "courseName": ["L’Appareil Génital Masculin"]
+  },
+  {
+    "id": 111,
+    "text": "la glande mammaire: RF",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. Glande paire endocrine"},
+      {"id":2,"text":"b. à activité hormono-dépendante"},
+      {"id":3,"text":"c. est tubulo-alvéolaire composée"},
+      {"id":4,"text":"d. Chaque lobe est drainé par un canal excréteur"},
+      {"id":5,"text":"e. Chaque lobe mammaire est divisé en lobules"}
+    ],
+    "correctOptionIds": [1],
+    "Date": "20 Février 2020",
+    "courseName": ["La Glande Mammaire"]
+  },
+  {
+    "id": 112,
+    "text": "Concernant la glande hypophyse, cochez la réponse juste",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. Présente une partie antérieure (neurohypophyse) et une partie postérieure (adénohypophyse)."},
+      {"id":2,"text":"b. Sécrète l'ADH par l'adénohypophyse."},
+      {"id":3,"text":"c. Le plexus porte artériel vascularise la posthypophyse."},
+      {"id":4,"text":"d. Contrôle toutes les glandes endocrines périphériques sauf les parathyroïdes et le pancréas endocrine."},
+      {"id":5,"text":"e. Est d'origine épiblastique uniquement."}
+    ],
+    "correctOptionIds": [4],
+    "Date": "20 Février 2020",
+    "courseName": ["Le Système Endocrinien"]
+  },
+  {
+    "id": 113,
+    "text": "Le tractus tubéro-hypophysaire se termine au niveau:",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. Du lobe antérieur de l'hypophyse"},
+      {"id":2,"text":"b. Du lobe postérieur de l'hypophyse"},
+      {"id":3,"text":"c. Des capillaires du plexus porte secondaire"},
+      {"id":4,"text":"d. Des capillaires du plexus porte primaire"},
+      {"id":5,"text":"e. Du plexus porte primaire et secondaire"}
+    ],
+    "correctOptionIds": [4],
+    "Date": "20 Février 2020",
+    "courseName": ["Le Système Endocrinien"]
+  },
+  {
+    "id": 114,
+    "text": "Concernant le lobe postérieur de l'hypophyse, cochez la réponse juste:",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. Il ne fait pas partie du système endocrinien."},
+      {"id":2,"text":"b. Possède une architecture histologique glandulaire trabéculaire non orienté.."},
+      {"id":3,"text":"c. Possède une architecture histologique nerveuse."},
+      {"id":4,"text":"d. Est d'origine mésenchymateuse."},
+      {"id":5,"text":"e. Secrète des hormones hypophysiotropes inhibitrices."}
+    ],
+    "correctOptionIds": [3],
+    "Date": "20 Février 2020",
+    "courseName": ["Le Système Endocrinien"]
+  },
+  {
+    "id": 115,
+    "text": "la thyroïde: RF",
+    "module": "Histologie",
+    "options": [
+      {"id":1,"text":"a. Comporte des cellules folliculaires uniquement"},
+      {"id":2,"text":"b. Enveloppée par une capsule fibreuse"},
+      {"id":3,"text":"c. très vascularisée"},
+      {"id":4,"text":"d. produit la calcitonine"},
+      {"id":5,"text":"e. Elle élabore les hormones thyroïdiennes iodées"}
+    ],
+    "correctOptionIds": [1],
+    "Date": "20 Février 2020",
+    "courseName": ["Le Complex Thyro-parathyroïdien"]
   }
 ]
