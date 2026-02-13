@@ -58,11 +58,18 @@ const Quiz: React.FC = () => {
     if (!DateString) return "#";
     // 1. Define your specific links here
     const links: Record<string, string> = {
+      // 2ème année Système Endocrinien
       "24 Février 2024": "https://drive.google.com/drive/folders/1abq3-rKIZ172vpCgtGWOvFmuWgCFssjR?usp=drive_link",
       "04 Mai 2025": "https://drive.google.com/file/d/13G53e4NjptfnHrUBNWwdXnrZSIJnEwML/view?usp=sharing",
       "15 Mars 2022": "https://drive.google.com/file/d/1I-o6xQBBJVP2jHu0-ozULY9A4YQET6Ya/view?usp=sharing",
       "05 Mars 2023": "https://drive.google.com/file/d/1HIgHKTGDyheUFbm-CYWtVJwoBPhH7lUY/view?usp=sharing",
-      "16 Mai 2021": "https://drive.google.com/file/d/1Rx32-1cJYzfqz-DztL00cvoWuZ0p8XhY/view?usp=sharing"
+      "16 Mai 2021": "https://drive.google.com/file/d/1Rx32-1cJYzfqz-DztL00cvoWuZ0p8XhY/view?usp=sharing",
+      "13 Septembre 2022": "https://drive.google.com/file/d/14eUdxjGzrv81IlMVJxAWiIipbW_jmokc/view?usp=sharing",
+      "07 Juillet 2024": "https://drive.google.com/drive/folders/1Muv10NYjgUGYL2wN2-oeqMuWCzdIipTO?usp=drive_link",
+      "13 Septembre 2020": "https://drive.google.com/file/d/1XJzzqYKvlu7zxLBCY8Boz8-mQ0ClGGyz/view?usp=sharing",
+      "20 Février 2020": "https://drive.google.com/drive/folders/1Zughhq9CGPoUq1va-xNeE9eoh5s-Gjpk?usp=sharing",
+      // 2ème année Génétique
+      "03 Juillet 2025": "https://drive.google.com/file/d/13Ds66l8MV5V6pLJY4BcdrJqKLylJuBeV/view?usp=sharing"
     };
 
     // 2. Return the specific link, or a fallback (e.g., a Google search) if not found
@@ -657,4 +664,5 @@ const Quiz: React.FC = () => {
 };
 
 export default Quiz;
+
 
