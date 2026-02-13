@@ -252,7 +252,7 @@ const Home: React.FC = () => {
             <div>
               <label className="flex items-center gap-2 text-sm font-semibold text-[#f1f2ec] mb-3">
                 <Layers className="w-5 h-5 text-purple-600 opacity-80" />
-                Sélectionner l'Unité
+                Sélectionnez l'Unité
               </label>
               <select
                 value={selectedUnit}
@@ -273,7 +273,7 @@ const Home: React.FC = () => {
               <div>
                 <label className="flex items-center gap-2 text-sm font-semibold text-[#f1f2ec] mb-3">
                   <BookOpen className="w-5 h-5 text-purple-600 opacity-80" />
-                  Sélectionner le Module
+                  Sélectionnez le Module
                 </label>
                 <select
                   value={selectedModule}
@@ -305,7 +305,7 @@ const Home: React.FC = () => {
               <div>
                 <label className="flex items-center gap-2 text-sm font-semibold text-[#f1f2ec] mb-3">
                   <Files className="w-5 h-5 text-purple-600 opacity-80" />
-                  Sélectionner le Cours (Optionnel)
+                  Sélectionnez le Cours (Optionnel)
                 </label>
                 <select
                   value={selectedCourse}
@@ -403,7 +403,7 @@ const Home: React.FC = () => {
 
         <div className="mt-6 text-center text-[#353533] text-sm">
           <p>
-            Sélectionnez vos préférences ci-dessus pour commencer votre entraînement à l'examen médical.
+            MedQCM — Plateforme d'entraînement pour les étudiants en médecine de Blida
           </p>
         </div>
       </div>
@@ -412,3 +412,4 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
