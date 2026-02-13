@@ -96,6 +96,7 @@ const Quiz: React.FC = () => {
   const [showResults, setShowResults] = useState<boolean>(false);
   const [filteredQuestions, setFilteredQuestions] = useState<Question[]>([]);
 
+
   // 2. Save state to localStorage whenever it changes
   // Update this block (around line 131)
   useEffect(() => {
@@ -129,6 +130,7 @@ const Quiz: React.FC = () => {
     // Apply the same filtering logic as before
     setFilteredQuestions(config.questions.slice(0, config.questionCount));
   }, [config, navigate]);
+
   // Auto-scroll pagination to show current question
   useEffect(() => {
     const topElement = document.getElementById('quiz-top');
@@ -238,6 +240,8 @@ const Quiz: React.FC = () => {
     };
   };
 
+
+
   if (!currentQuestion) {
     return (
       <div
@@ -256,6 +260,7 @@ const Quiz: React.FC = () => {
 
   if (showResults) {
     const score = calculateScore();
+
 
     return (
       <div
@@ -297,6 +302,7 @@ const Quiz: React.FC = () => {
               </div>
             </div>
 
+            
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <button
                 onClick={() => navigate("/")}
