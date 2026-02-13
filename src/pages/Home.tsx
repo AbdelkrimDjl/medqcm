@@ -46,21 +46,23 @@ const Home: React.FC = () => {
   } | null>(null);
   const storageKey = `quiz_${selectedUnit}_${selectedModule}_${questionCount}`;
 
+  // Home.tsx
+
   useEffect(() => {
-    const keys = Object.keys(localStorage);
-    // Find the key that starts with quiz_
-    const quizKey = keys.find(key => key.startsWith('quiz_') && !key.includes('fallback'));
+    const backupConfigRaw = localStorage.getItem('last_quiz_config');
 
-    if (quizKey) {
-      const savedDataRaw = localStorage.getItem(quizKey);
-      const backupConfigRaw = localStorage.getItem('last_quiz_config');
+    if (backupConfigRaw) {
+      try {
+        const config = JSON.parse(backupConfigRaw);
 
-      if (savedDataRaw && backupConfigRaw) {
-        try {
-          const parsedData = JSON.parse(savedDataRaw); // Declared here
-          const config = JSON.parse(backupConfigRaw);
+        // Reconstruct the EXACT key for the last session
+        const lastSessionKey = `quiz_${config.unit}_${config.module}_${config.questionCount}`;
+        const savedDataRaw = localStorage.getItem(lastSessionKey);
 
-          // Use parsedData safely within this block
+        if (savedDataRaw) {
+          const parsedData = JSON.parse(savedDataRaw);
+
+          // Calculate progress based on THIS specific session's answers
           const answeredCount = Object.keys(parsedData.savedAnswers || {}).length;
           const totalQuestions = config.questionCount || 0;
           const percentage = totalQuestions > 0
@@ -68,7 +70,7 @@ const Home: React.FC = () => {
             : 0;
 
           setSavedQuiz({
-            key: quizKey,
+            key: lastSessionKey,
             config: config,
             progress: {
               answered: answeredCount,
@@ -76,9 +78,9 @@ const Home: React.FC = () => {
               percent: percentage
             }
           });
-        } catch (error) {
-          console.error("Error parsing saved quiz data:", error);
         }
+      } catch (error) {
+        console.error("Error parsing saved quiz data:", error);
       }
     }
   }, []);
