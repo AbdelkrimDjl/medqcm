@@ -387,7 +387,7 @@ const Quiz: React.FC = () => {
                 {currentQuestion.courseName && currentQuestion.courseName.map((name, index) => (
                   <div
                     key={index}
-                    className="flex items-center gap-1.5 px-3 py-1.5 bg-[#373734] text-[#eceadd] rounded-full border border-purple-600/30 text-[10px] sm:text-xs font-medium whitespace-nowrap"
+                    className="flex items-center gap-1.5 px-3 py-1.5 bg-[#373734] text-[#eceadd] rounded-full border border-purple-600/30 text-[10px] sm:text-xs font-medium break-words leading-tight"
                   >
                     <span className="w-1.5 h-1.5 rounded-full bg-purple-600 flex-shrink-0"></span>
                     <span>{name}</span>
