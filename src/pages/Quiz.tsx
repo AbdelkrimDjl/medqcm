@@ -261,7 +261,7 @@ const Quiz: React.FC = () => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              const query = `Agis en tant que professeur en ${currentQuestion.module}. Expliquez-moi le texte suivant, extrait d'une question à choix multiples: ${data.text}`;
+              const query = `Agis en tant que professeur en ${currentQuestion.module}, enseignant ${currentQuestion.courseName || currentQuestion.module}. Expliquez-moi le texte suivant, extrait d'une question à choix multiples: ${data.text}`;
               window.open(`https://www.google.com/search?q=${encodeURIComponent(query)}&udm=50`, "_blank");
             }}
             className="inline-flex items-center gap-3 bg-[#1a1a18] border border-purple-500/40 px-6 py-3.5 rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.5),0_0_20px_rgba(147,51,234,0.2)] active:scale-95 transition-transform"
