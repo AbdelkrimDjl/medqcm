@@ -44,6 +44,11 @@ const Quiz: React.FC = () => {
   const config = location.state as QuizConfig;
   const paginationRef = useRef<HTMLDivElement>(null);
 
+  const isTextSelected = () => {
+    const selection = window.getSelection();
+    return selection && selection.toString().length > 0;
+  };
+
   // 1. Generate a key that includes all filters to avoid mix-ups
   const getStorageKey = (conf: QuizConfig | null) => {
     if (!conf) return 'medqcm_fallback_key';
@@ -236,8 +241,9 @@ const Quiz: React.FC = () => {
       };
 
       const handleMouseDown = (e: MouseEvent) => {
-        // Don't hide if clicking inside the menu
-        if ((e.target as HTMLElement).closest('.selection-menu')) return;
+        const target = e.target as HTMLElement;
+        // Don't hide if clicking inside the menu OR if selecting text within an option
+        if (target.closest('.selection-menu') || target.closest('.select-text')) return;
         setIsVisible(false);
       };
 
@@ -574,10 +580,24 @@ const Quiz: React.FC = () => {
               const isCorrect = (currentQuestion.correctOptionIds || []).map(Number).includes(option.id);
 
               return (
-                <button
+                <div
                   key={option.id}
-                  onClick={() => handleSelectOption(option.id)}
-                  className={`w-full p-4 sm:p-5 rounded-lg font-semibold transition-all border-2 text-left ${isSelected && showCorrectAnswer && isCorrect
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => {
+                    // Prevent selection logic if the user is just highlighting text
+                    if (isTextSelected()) return;
+
+                    if (!isCurrentConfirmed) {
+                      handleSelectOption(option.id);
+                    }
+                  }}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      if (!isCurrentConfirmed) handleSelectOption(option.id);
+                    }
+                  }}
+                  className={`w-full p-4 sm:p-5 rounded-lg font-semibold transition-all border-2 text-left select-text ${isSelected && showCorrectAnswer && isCorrect
                     ? "border-green-500 bg-[#373734] text-[#e8eade]"
                     : isSelected && showCorrectAnswer && !isCorrect
                       ? "bg-[#373734] border-red-500 text-[#e8eade]"
@@ -586,11 +606,12 @@ const Quiz: React.FC = () => {
                         : isSelected
                           ? "bg-[#373734] border-purple-600 text-[#e8eade]"
                           : "bg-[#373734] border-[#c1c2bb] text-[#e8eade] hover:border-purple-400"
-                    }`}
-                  disabled={isCurrentConfirmed}
+                    } ${isCurrentConfirmed ? "cursor-default" : "cursor-pointer"}`}
                 >
-                  <div className="flex items-center justify-between gap-2">
-                    <span className="text-sm sm:text-lg flex-1">
+                  <div className="flex items-center justify-between gap-2 pointer-events-none">
+                    {/* pointer-events-none on the wrapper ensures clicks go to the parent, 
+            but the text itself remains selectable because of 'select-text' above */}
+                    <span className="text-sm sm:text-lg flex-1 pointer-events-auto">
                       {option.text}
                     </span>
                     <div className="flex-shrink-0">
@@ -605,7 +626,7 @@ const Quiz: React.FC = () => {
                       )}
                     </div>
                   </div>
-                </button>
+                </div>
               );
             })}
 
