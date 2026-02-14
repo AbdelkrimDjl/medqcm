@@ -9,6 +9,8 @@ import {
   X,
   Home as HomeIcon,
   Calendar,
+  Copy,
+  Sparkles
 } from "lucide-react";
 
 interface Option {
@@ -33,6 +35,8 @@ interface QuizConfig {
   questionCount: number;
   questions: Question[];
 }
+
+// Paste this right before "const Quiz: React.FC = () => {"
 
 const Quiz: React.FC = () => {
   const location = useLocation();
@@ -185,6 +189,135 @@ const Quiz: React.FC = () => {
     const fullQuery = `Agis en tant que professeur en ${currentQuestion.module}. Analyse la question à choix multiple (QCM) suivante et fournis une explication détaillée pour chaque option, identifiant la ou les réponse(s) juste(s).\n"${currentQuestion.text}\nOptions:\n${optionsString}"`;
     const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(fullQuery)}&udm=50`;
     window.open(searchUrl, "_blank");
+  };
+
+  const TextSelectionPopup = () => {
+    const [data, setData] = useState<{ top: number; left: number; text: string } | null>(null);
+    const [isVisible, setIsVisible] = useState(false);
+    const [isInputMode, setIsInputMode] = useState(false);
+    const [customQuery, setCustomQuery] = useState("");
+
+    const hideTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+    const inputRef = useRef<HTMLInputElement>(null);
+
+    useEffect(() => {
+      const handleSelection = () => {
+        if (hideTimeoutRef.current) clearTimeout(hideTimeoutRef.current);
+
+        const selection = window.getSelection();
+        const text = selection?.toString().trim();
+
+        if (text && text.length > 0 && selection && selection.rangeCount > 0) {
+          const range = selection.getRangeAt(0);
+          const rect = range.getBoundingClientRect();
+
+          setIsInputMode(false);
+          setCustomQuery("");
+
+          // Use window.scrollY to make it absolute to the page if needed, 
+          // but since container is 'fixed', rect.top is correct.
+          setData({
+            top: rect.top,
+            left: rect.left + rect.width / 2,
+            text: text
+          });
+
+          // Small delay to let the UI catch up
+          requestAnimationFrame(() => setIsVisible(true));
+        } else {
+          if (document.activeElement !== inputRef.current) {
+            setIsVisible(false);
+            hideTimeoutRef.current = setTimeout(() => {
+              setData(null);
+              setIsInputMode(false);
+            }, 200);
+          }
+        }
+      };
+
+      const handleMouseDown = (e: MouseEvent) => {
+        // Don't hide if clicking inside the menu
+        if ((e.target as HTMLElement).closest('.selection-menu')) return;
+        setIsVisible(false);
+      };
+
+      document.addEventListener("mouseup", handleSelection);
+      document.addEventListener("mousedown", handleMouseDown);
+      return () => {
+        document.removeEventListener("mouseup", handleSelection);
+        document.removeEventListener("mousedown", handleMouseDown);
+      };
+    }, []);
+
+    useEffect(() => {
+      if (isInputMode) setTimeout(() => inputRef.current?.focus(), 50);
+    }, [isInputMode]);
+
+    if (!data) return null;
+
+    return (
+      <div
+        className={`fixed z-[9999] left-0 top-0 pointer-events-none selection-menu transition-all duration-200 ease-out
+        ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
+        style={{
+          // Using transform for the positioning to avoid layout thrashing
+          transform: `translate(${data.left}px, ${data.top}px) translate(-50%, -120%)`,
+        }}
+      >
+        <div className="pointer-events-auto overflow-hidden rounded-xl border border-[#3e3e3a] bg-[#1a1a18] p-1 shadow-2xl transition-all duration-300">
+          {!isInputMode ? (
+            <div className="flex items-center">
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  navigator.clipboard.writeText(data.text);
+                  setIsVisible(false);
+                }}
+                className="flex items-center gap-2 px-3 py-1.5 text-[#eff0e9] hover:bg-[#2d2d2a] rounded-lg text-sm font-medium"
+              >
+                <Copy className="w-4 h-4" /> Copier
+              </button>
+              <div className="h-4 w-px bg-[#3e3e3a] mx-1" />
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setIsInputMode(true);
+                }}
+                className="flex items-center gap-2 px-3 py-1.5 text-[#eff0e9] hover:bg-[#2d2d2a] rounded-lg text-sm font-medium"
+              >
+                <Sparkles className="w-4 h-4 text-purple-400" /> Demander à Gemini
+              </button>
+            </div>
+          ) : (
+            <div className="flex min-w-[240px] max-w-[300px] flex-col gap-3 p-2">
+              <div className="flex flex-row gap-2">
+                <div className="bg-purple-600 w-[2px] self-stretch rounded-full" />
+                <p className="italic text-[#eff0e9]/70 line-clamp-2 text-xs">{data.text}</p>
+              </div>
+              <form
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  window.open(`https://www.google.com/search?q=${encodeURIComponent(`Agis en tant que professeur en ${currentQuestion.module}. ${customQuery} ${data.text}`)}&udm=50`, "_blank");
+                  setIsVisible(false);
+                }}
+                className="relative"
+              >
+                <input
+                  ref={inputRef}
+                  className="w-full border border-[#3e3e3a] bg-transparent px-3 py-2 pr-8 text-sm rounded-md text-[#eff0e9] focus:outline-none focus:ring-1 focus:ring-purple-600"
+                  placeholder="Demander à Gemini"
+                  value={customQuery}
+                  onChange={(e) => setCustomQuery(e.target.value)}
+                />
+                <button type="submit" className="absolute right-2 top-1/2 -translate-y-1/2 text-purple-400">
+                  <Sparkles className="w-4 h-4" />
+                </button>
+              </form>
+            </div>
+          )}
+        </div>
+      </div>
+    );
   };
 
   const handleFlag = () => {
@@ -487,7 +620,7 @@ const Quiz: React.FC = () => {
               </svg>
 
               {/* Changed text-xs to text-sm (or text-base for even larger) */}
-              <span className="text-sm font-bold tracking-wide uppercase">Analyse Google AI</span>
+              <span className="text-sm font-bold tracking-wide uppercase">Analyse Gemini AI</span>
             </button>
           </div>
 
@@ -653,6 +786,7 @@ const Quiz: React.FC = () => {
           background: #c084fc;
         }
       `}</style>
+      <TextSelectionPopup />
     </div>
   );
 };
