@@ -292,7 +292,7 @@ const Home: React.FC = () => {
           <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-purple-500/10 text-purple-600 border border-purple-500/20 mb-4 uppercase tracking-wider">
             Gemini AI intégré
           </span>
-          <h1 className="text-5xl font-extrabold text-[#353533] mb-4 tracking-tight">
+          <h1 className="text-5xl font-bold text-[#353533] mb-4 tracking-tight">
             MedQCM <span className="text-purple-600">—</span> Blida</h1>
           <p className="text-lg text-[#2e302f] max-w-lg mx-auto leading-relaxed opacity-80">
             Désormais, accédez aux examens de votre professeurs et entraînez-vous sur les QCM plus facilement que jamais. Progressez et comprenez chaque concept en profondeur grâce à Gemini AI intégré.
@@ -497,3 +497,4 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
