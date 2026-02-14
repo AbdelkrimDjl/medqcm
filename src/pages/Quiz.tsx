@@ -201,6 +201,7 @@ const Quiz: React.FC = () => {
     const [isVisible, setIsVisible] = useState(false);
     const [isInputMode, setIsInputMode] = useState(false);
     const [customQuery, setCustomQuery] = useState("");
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
     const hideTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
     const inputRef = useRef<HTMLInputElement>(null);
@@ -240,19 +241,8 @@ const Quiz: React.FC = () => {
         }
       };
 
-      const handleMouseDown = (e: MouseEvent) => {
-        const target = e.target as HTMLElement;
-        // Don't hide if clicking inside the menu OR if selecting text within an option
-        if (target.closest('.selection-menu') || target.closest('.select-text')) return;
-        setIsVisible(false);
-      };
-
-      document.addEventListener("mouseup", handleSelection);
-      document.addEventListener("mousedown", handleMouseDown);
-      return () => {
-        document.removeEventListener("mouseup", handleSelection);
-        document.removeEventListener("mousedown", handleMouseDown);
-      };
+      document.addEventListener("selectionchange", handleSelection);
+      return () => document.removeEventListener("selectionchange", handleSelection);
     }, []);
 
     useEffect(() => {
@@ -261,6 +251,29 @@ const Quiz: React.FC = () => {
 
     if (!data) return null;
 
+    // --- MOBILE VIEW: Bottom Dock ---
+    if (isMobile) {
+      return (
+        <div
+          className={`fixed bottom-10 left-0 right-0 z-[10000] flex justify-center px-6 transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] ${isVisible ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-4 scale-95 pointer-events-none'
+            }`}
+        >
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              const query = `Agis en tant que professeur en ${currentQuestion.module}. Explique moi ceci: ${data.text}`;
+              window.open(`https://www.google.com/search?q=${encodeURIComponent(query)}&udm=50`, "_blank");
+            }}
+            className="inline-flex items-center gap-3 bg-[#1a1a18] border border-purple-500/40 px-6 py-3.5 rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.5),0_0_20px_rgba(147,51,234,0.2)] active:scale-95 transition-transform"
+          >
+            <Sparkles className="w-5 h-5 text-purple-400" />
+            <span className="text-[#eff0e9] text-sm font-bold tracking-tight">Demander à Gemini</span>
+          </button>
+        </div>
+      );
+    }
+
+    // --- DESKTOP VIEW: Floating Menu (Your existing code) ---
     return (
       <div
         className={`fixed z-[9999] left-0 top-0 pointer-events-none selection-menu transition-all duration-200 ease-out
