@@ -642,7 +642,7 @@ const Quiz: React.FC = () => {
                 className="flex items-center gap-1 sm:gap-2 px-3 sm:px-6 py-2 sm:py-3 bg-purple-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed text-xs sm:text-base"
               >
                 <span className="hidden sm:inline">Confirmer</span>
-                <span className="sm:hidden">Confirm</span>
+                <span className="sm:hidden">Confirmer</span>
                 <Check className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
             ) : currentQuestionIndex === totalQuestions - 1 ? (
@@ -651,7 +651,7 @@ const Quiz: React.FC = () => {
                 className="flex items-center gap-1 sm:gap-2 px-3 sm:px-6 py-2 sm:py-3 bg-[#faf9f5] text-[#54534f] rounded-lg font-semibold hover:shadow-lg transition-all text-xs sm:text-base hover:scale-y-[1.015] hover:scale-x-[1.005] ease-[cubic-bezier(0.165,0.85,0.45,1)] duration-150"
               >
                 <span className="hidden sm:inline">Soumettre</span>
-                <span className="sm:hidden">Submit</span>
+                <span className="sm:hidden">Soumettre</span>
                 <Check className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
             ) : (
@@ -662,7 +662,7 @@ const Quiz: React.FC = () => {
                 className="flex items-center gap-1 sm:gap-2 px-3 sm:px-6 py-2 sm:py-3 bg-purple-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all text-xs sm:text-base"
               >
                 <span className="hidden sm:inline">Suivant</span>
-                <span className="sm:hidden">Next</span>
+                <span className="sm:hidden">Suivant</span>
                 <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
             )}
