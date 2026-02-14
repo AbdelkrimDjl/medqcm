@@ -199,8 +199,6 @@ const Quiz: React.FC = () => {
   const TextSelectionPopup = () => {
     const [data, setData] = useState<{ top: number; left: number; text: string } | null>(null);
     const [isVisible, setIsVisible] = useState(false);
-    const [isInputMode, setIsInputMode] = useState(false);
-    const [customQuery, setCustomQuery] = useState("");
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
     const hideTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -217,9 +215,6 @@ const Quiz: React.FC = () => {
           const range = selection.getRangeAt(0);
           const rect = range.getBoundingClientRect();
 
-          setIsInputMode(false);
-          setCustomQuery("");
-
           // Use window.scrollY to make it absolute to the page if needed, 
           // but since container is 'fixed', rect.top is correct.
           setData({
@@ -235,7 +230,6 @@ const Quiz: React.FC = () => {
             setIsVisible(false);
             hideTimeoutRef.current = setTimeout(() => {
               setData(null);
-              setIsInputMode(false);
             }, 200);
           }
         }
@@ -244,10 +238,6 @@ const Quiz: React.FC = () => {
       document.addEventListener("selectionchange", handleSelection);
       return () => document.removeEventListener("selectionchange", handleSelection);
     }, []);
-
-    useEffect(() => {
-      if (isInputMode) setTimeout(() => inputRef.current?.focus(), 50);
-    }, [isInputMode]);
 
     if (!data) return null;
 
@@ -284,7 +274,7 @@ const Quiz: React.FC = () => {
         }}
       >
         <div className="pointer-events-auto overflow-hidden rounded-xl border border-[#3e3e3a] bg-[#1a1a18] p-1 shadow-2xl transition-all duration-300">
-          {!isInputMode ? (
+          {(
             <div className="flex items-center">
               <button
                 onClick={(e) => {
@@ -299,39 +289,14 @@ const Quiz: React.FC = () => {
               <div className="h-4 w-px bg-[#3e3e3a] mx-1" />
               <button
                 onClick={(e) => {
-                  e.stopPropagation();
-                  setIsInputMode(true);
+                  e.preventDefault();
+                  const query = `Agis en tant que professeur en ${currentQuestion.module}, enseignant ${currentQuestion.courseName || currentQuestion.module}. Expliquez-moi le texte suivant, extrait d'une question à choix multiples: ${data.text}`;
+                  window.open(`https://www.google.com/search?q=${encodeURIComponent(query)}&udm=50`, "_blank");
                 }}
                 className="flex items-center gap-2 px-3 py-1.5 text-[#eff0e9] hover:bg-[#2d2d2a] rounded-lg text-sm font-medium"
               >
                 <Sparkles className="w-4 h-4 text-purple-400" /> Demander à Gemini
               </button>
-            </div>
-          ) : (
-            <div className="flex min-w-[240px] max-w-[300px] flex-col gap-3 p-2">
-              <div className="flex flex-row gap-2">
-                <div className="bg-purple-600 w-[2px] self-stretch rounded-full" />
-                <p className="italic text-[#eff0e9]/70 line-clamp-2 text-xs">{data.text}</p>
-              </div>
-              <form
-                onSubmit={(e) => {
-                  e.preventDefault();
-                  window.open(`https://www.google.com/search?q=${encodeURIComponent(`Agis en tant que professeur en ${currentQuestion.module}. ${customQuery} ${data.text}`)}&udm=50`, "_blank");
-                  setIsVisible(false);
-                }}
-                className="relative"
-              >
-                <input
-                  ref={inputRef}
-                  className="w-full border border-[#3e3e3a] bg-transparent px-3 py-2 pr-8 text-sm rounded-md text-[#eff0e9] focus:outline-none focus:ring-1 focus:ring-purple-600"
-                  placeholder="Demander à Gemini"
-                  value={customQuery}
-                  onChange={(e) => setCustomQuery(e.target.value)}
-                />
-                <button type="submit" className="absolute right-2 top-1/2 -translate-y-1/2 text-purple-400">
-                  <Sparkles className="w-4 h-4" />
-                </button>
-              </form>
             </div>
           )}
         </div>
